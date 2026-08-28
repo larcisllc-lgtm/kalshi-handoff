@@ -1,0 +1,79 @@
+{
+  "modelo": "TENIS",
+  "fecha": "2026-08-07",
+  "corrida_ts": "2026-08-07T10:22:34-0700",
+  "precios_ts": "2026-08-07T10:22:32-0700",
+  "hash_salida_motor": "7103a582fe8fdd72",
+  "archivo_predicciones": "2026-08-07-tenis.md",
+  "tickers": [
+    "KXWTAMATCH-26AUG06ANNRYB-RYB",
+    "KXATPMATCH-26AUG07MERMIC-MIC"
+  ],
+  "picks": [
+    {
+      "ticker": "KXWTAMATCH-26AUG06ANNRYB-RYB",
+      "lado": "YES Rybakina",
+      "mercado": "ML en vivo",
+      "entrada": 90,
+      "p_mod": 97,
+      "edge": 7,
+      "tp": 97,
+      "stop": 70,
+      "max_pagable": 97,
+      "tamano": 5.75,
+      "razonamiento": "Rybakina vs Li (National Bank Open presented by Rogers) — YES Rybakina a 90c; modelo 97% vs mercado, edge +7c MEDIO",
+      "partido": "Rybakina vs Li (National Bank Open presented by Rogers)",
+      "flags": "POCO-RECORRIDO",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXATPMATCH-26AUG07MERMIC-MIC",
+      "lado": "YES Michelsen",
+      "mercado": "ML en vivo",
+      "entrada": 26,
+      "p_mod": 47,
+      "edge": 21,
+      "tp": 32,
+      "stop": 20,
+      "max_pagable": 47,
+      "tamano": 1.19,
+      "razonamiento": "Michelsen vs Merida (National Bank Open presented by Rogers) — YES Michelsen a 26c; modelo 47% vs mercado, edge +21c ALTO",
+      "partido": "Michelsen vs Merida (National Bank Open presented by Rogers)",
+      "flags": "CONF-BAJA(¼-Kelly)",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXWTAMATCH-26AUG06ANNRYB-RYB",
+      "lado": "YES Rybakina",
+      "mercado": "ML en vivo",
+      "entrada": 90,
+      "p_mod": 97,
+      "edge": 7,
+      "tp": 97,
+      "stop": 70,
+      "max_pagable": 97,
+      "tamano": 5.75,
+      "partido": "Rybakina vs Li (National Bank Open presented by Rogers)",
+      "flags": "POCO-RECORRIDO"
+    },
+    {
+      "ticker": "KXATPMATCH-26AUG07MERMIC-MIC",
+      "lado": "YES Michelsen",
+      "mercado": "ML en vivo",
+      "entrada": 26,
+      "p_mod": 47,
+      "edge": 21,
+      "tp": 32,
+      "stop": 20,
+      "max_pagable": 47,
+      "tamano": 1.19,
+      "partido": "Michelsen vs Merida (National Bank Open presented by Rogers)",
+      "flags": "CONF-BAJA(¼-Kelly)"
+    }
+  ]
+}

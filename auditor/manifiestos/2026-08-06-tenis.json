@@ -1,0 +1,47 @@
+{
+  "modelo": "TENIS",
+  "fecha": "2026-08-06",
+  "corrida_ts": "2026-08-06T09:09:27-0700",
+  "precios_ts": "2026-08-06T09:09:26-0700",
+  "hash_salida_motor": "14a2a40b52ff9162",
+  "archivo_predicciones": "2026-08-06-tenis.md",
+  "tickers": [
+    "KXWTAMATCH-26AUG06GIBALE-ALE"
+  ],
+  "picks": [
+    {
+      "ticker": "KXWTAMATCH-26AUG06GIBALE-ALE",
+      "lado": "NO Alexandrova",
+      "mercado": "ML en vivo",
+      "entrada": 63,
+      "p_mod": 79,
+      "edge": 16,
+      "tp": 77,
+      "stop": 49,
+      "max_pagable": 79,
+      "tamano": 3.51,
+      "razonamiento": "Alexandrova vs Gibson (National Bank Open presented by Rogers) — NO Alexandrova a 63c; modelo 79% vs mercado, edge +16c ALTO",
+      "partido": "Alexandrova vs Gibson (National Bank Open presented by Rogers)",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXWTAMATCH-26AUG06GIBALE-ALE",
+      "lado": "NO Alexandrova",
+      "mercado": "ML en vivo",
+      "entrada": 63,
+      "p_mod": 79,
+      "edge": 16,
+      "tp": 77,
+      "stop": 49,
+      "max_pagable": 79,
+      "tamano": 3.51,
+      "partido": "Alexandrova vs Gibson (National Bank Open presented by Rogers)",
+      "flags": ""
+    }
+  ]
+}

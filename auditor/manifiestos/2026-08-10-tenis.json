@@ -1,0 +1,47 @@
+{
+  "modelo": "TENIS",
+  "fecha": "2026-08-10",
+  "corrida_ts": "2026-08-10T16:33:42-0700",
+  "precios_ts": "2026-08-10T16:33:41-0700",
+  "hash_salida_motor": "c0ac027554e96ae6",
+  "archivo_predicciones": "2026-08-10-tenis.md",
+  "tickers": [
+    "KXWTAMATCH-26AUG10SHNSWI-SWI"
+  ],
+  "picks": [
+    {
+      "ticker": "KXWTAMATCH-26AUG10SHNSWI-SWI",
+      "lado": "YES Swiatek",
+      "mercado": "ML en vivo",
+      "entrada": 87,
+      "p_mod": 97,
+      "edge": 10,
+      "tp": 97,
+      "stop": 68,
+      "max_pagable": 97,
+      "tamano": 6.32,
+      "razonamiento": "Swiatek vs Shnaider (National Bank Open presented by Rogers) — YES Swiatek a 87c; modelo 97% vs mercado, edge +10c MEDIO",
+      "partido": "Swiatek vs Shnaider (National Bank Open presented by Rogers)",
+      "flags": "POCO-RECORRIDO",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXWTAMATCH-26AUG10SHNSWI-SWI",
+      "lado": "YES Swiatek",
+      "mercado": "ML en vivo",
+      "entrada": 87,
+      "p_mod": 97,
+      "edge": 10,
+      "tp": 97,
+      "stop": 68,
+      "max_pagable": 97,
+      "tamano": 6.32,
+      "partido": "Swiatek vs Shnaider (National Bank Open presented by Rogers)",
+      "flags": "POCO-RECORRIDO"
+    }
+  ]
+}

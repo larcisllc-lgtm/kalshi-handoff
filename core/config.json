@@ -1,0 +1,72 @@
+{
+  "_comentario": [
+    "Fuente única de banca, topes y parámetros de riesgo de los 4 motores de Kalshi.",
+    "Antes esto vivía duplicado en 5 archivos: subir de banca obligaba a editar 5 números",
+    "y era fácil que uno quedara desincronizado. Editar AQUÍ cambia los 4 motores.",
+    "La matemática no vive aquí: solo los parámetros."
+  ],
+
+  "banca": {
+    "bankroll": 65.70,
+    "max_trade": 16.42,
+    "max_open": 32.85,
+    "_nota": [
+      "REBASE 2026-08-03: re-anclado al balance real tras el drawdown de 32.1%.",
+      "Conciliación de ese día: $58.6558 cash + $7.04 en la posición viva (ZHEKEC-KEC).",
+      "Topes en la misma proporción de siempre: 25% por trade, 50% abierto.",
+      "max_open es GLOBAL: los 4 modelos comparten ese techo, se verifica en registro.md.",
+      "Al subir de nivel (veredicto ESCALA), la tabla del blueprint es:",
+      "$120 (1/8 K, tope $60) -> $500 (1/4 K, $100) -> $1,500 (1/4 K, $300) -> $3,000 (1/4 K, $600)"
+    ]
+  },
+
+  "modelos": {
+    "MLB": {
+      "kelly_frac": 0.125,
+      "kelly_frac_conf_baja": 0.125,
+      "edge_min": 5,
+      "edge_suspect": 30,
+      "salida": "TP",
+      "max_por_partido": 2,
+      "_nota": "Bajado de 1/2 a 1/8 el 2026-07-29 y SE MANTIENE: el edge sigue sin validar (CLV +4.7c, t=0.79, n=113). La reversión a TP del 2026-08-03 arregló la salida, no la validación."
+    },
+    "TENIS": {
+      "kelly_frac": 0.125,
+      "kelly_frac_conf_baja": 0.0625,
+      "edge_min": 5,
+      "edge_suspect": 30,
+      "salida": "TP",
+      "max_por_partido": 1,
+      "_nota": "1/16 con confianza Baja. En tenis en vivo el TP sí suma (ROI +6.4% vs -1.5% a settlement)."
+    },
+    "SOCCER": {
+      "kelly_frac": 0.125,
+      "kelly_frac_conf_baja": 0.0625,
+      "edge_min": 5,
+      "edge_suspect": 30,
+      "salida": "settlement",
+      "max_por_partido": 1,
+      "_nota": [
+        "BAJADO de 1/2 a 1/8 el 2026-08-14 (Etapa 2). Se había quedado en 1/2 cuando los",
+        "otros tres bajaron el 2026-07-29: era 4x el tamaño de MLB para el modelo con MENOS",
+        "muestra de los cuatro. Misma lógica que los demás: con edge sin validar, 1/2 Kelly",
+        "tiene riesgo de ruina alto. Sube cuando el gate lo autorice.",
+        "Los 3 contratos 1X2 de un partido son UNA tesis: máximo 1 pick."
+      ]
+    },
+    "CLIMA": {
+      "kelly_frac": 0.25,
+      "kelly_frac_conf_baja": 0.125,
+      "edge_min": 7,
+      "edge_suspect": 30,
+      "salida": "settlement",
+      "max_por_partido": 1,
+      "_nota": "Diferencias INTENCIONALES y preservadas: 1/4 Kelly y edge_min 7c (el modelo es más ruidoso, pide más edge que MLB). Máximo 1 pick por ciudad: los buckets son UNA tesis."
+    }
+  },
+
+  "conviction": {
+    "alto_sobre": 15,
+    "_nota": "edge > 15c = ALTO; >= edge_min = MEDIO; debajo = BAJO. Igual en los 4 motores."
+  }
+}
