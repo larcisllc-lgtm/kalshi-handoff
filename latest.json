@@ -1,20 +1,19 @@
 {
-  "generado_ts": "2026-08-28T13:56:44-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-08-28T14:03:55-0700",
+  "motor": "CLIMA",
   "fecha": "2026-08-28",
-  "nota_motor": "historial real negativo: 27W-16L pero PnL neto -$35.40 (measured 2026-08-28); el modelo gana el lado mas veces de las que justifica su propio payoff. Fix de covarianza (Dixon-Coles) no cerro el gap. Filtrar con criterio propio, no asumir que el edge reportado es real.",
   "tickets": [
     {
-      "ticker": "KXMLBTOTAL-26AUG282015PITSTL-8",
-      "mercado": "TOTAL 7.5",
-      "lado": "OVER 7.5",
-      "entrada_sugerida_c": 50,
-      "prob_modelo": 55,
-      "edge_c": 5,
-      "max_pagable_c": 55,
-      "partido": "PIT@STL",
+      "ticker": "KXHIGHDEN-26AUG28-B94.5",
+      "mercado": "94° to 95°",
+      "lado": "NO",
+      "entrada_sugerida_c": 22,
+      "prob_modelo": 45,
+      "edge_c": 23,
+      "max_pagable_c": 45,
+      "partido": "DEN",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.95)"
+      "sharp_nota": "sin sharp aplicable (clima)"
     }
   ]
 }
