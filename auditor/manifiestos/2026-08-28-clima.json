@@ -1,12 +1,147 @@
 {
   "modelo": "CLIMA",
   "fecha": "2026-08-28",
-  "corrida_ts": "2026-08-28T12:38:05-0700",
-  "precios_ts": "2026-08-28T19:38:03+0000",
-  "hash_salida_motor": "5836af8122ce640d",
+  "corrida_ts": "2026-08-28T13:47:39-0700",
+  "precios_ts": "2026-08-28T20:47:31+0000",
+  "hash_salida_motor": "18936a83dfe3d0a3",
   "archivo_predicciones": "2026-08-28-clima.md",
-  "tickers": [],
-  "picks": [],
-  "descartados": [],
-  "candidatos_limpios": []
+  "tickers": [
+    "KXHIGHDEN-26AUG28-B92.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHDEN-26AUG28-B92.5",
+      "lado": "YES",
+      "mercado": "92° to 93°",
+      "entrada": 7,
+      "p_mod": 25,
+      "edge": 18,
+      "tp": 9,
+      "stop": 5,
+      "max_pagable": 25,
+      "tamano": 3.23,
+      "razonamiento": "DEN maxima 2026-08-28 — YES \"92° to 93°\" a 7c; ensemble n=119 media 94.3deg, NWS 95deg, confianza alta; edge +18c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26AUG28-B86.5",
+      "mercado": "86° to 87°",
+      "entrada": 8,
+      "p_mod": 91,
+      "edge": 83,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26AUG28-B88.5",
+      "mercado": "88° to 89°",
+      "entrada": 7,
+      "p_mod": 47,
+      "edge": 40,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26AUG28-T89",
+      "mercado": "90° or above",
+      "entrada": 1,
+      "p_mod": 44,
+      "edge": 43,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHNY-26AUG28-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 1,
+      "p_mod": 34,
+      "edge": 33,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26AUG28-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 1,
+      "p_mod": 48,
+      "edge": 47,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26AUG28-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 1,
+      "p_mod": 84,
+      "edge": 83,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHDEN-26AUG28-B94.5",
+      "mercado": "94° to 95°",
+      "entrada": 28,
+      "p_mod": 45,
+      "edge": 17,
+      "motivo": "correlacion: YES (+18c) es la unica expresion de DEN",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG28-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 1,
+      "p_mod": 56,
+      "edge": 55,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG28-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 1,
+      "p_mod": 23,
+      "edge": 22,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG28-B87.5",
+      "mercado": "87° to 88°",
+      "entrada": 1,
+      "p_mod": 92,
+      "edge": 91,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG28-T83",
+      "mercado": "82° or below",
+      "entrada": 1,
+      "p_mod": 14,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHDEN-26AUG28-B92.5",
+      "lado": "YES",
+      "mercado": "92° to 93°",
+      "entrada": 7,
+      "p_mod": 25,
+      "edge": 18,
+      "tp": 9,
+      "stop": 5,
+      "max_pagable": 25,
+      "tamano": 3.23,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
 }
