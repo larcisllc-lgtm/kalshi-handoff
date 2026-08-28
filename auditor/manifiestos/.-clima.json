@@ -1,0 +1,12 @@
+{
+  "modelo": "CLIMA",
+  "fecha": ".",
+  "corrida_ts": "2026-08-28T13:04:31-0700",
+  "precios_ts": "2026-08-28T20:03:53+0000",
+  "hash_salida_motor": "c71afc8c8b0b51d7",
+  "archivo_predicciones": ".-clima.md",
+  "tickers": [],
+  "picks": [],
+  "descartados": [],
+  "candidatos_limpios": []
+}
