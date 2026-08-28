@@ -18,6 +18,7 @@ Uso:
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.request
@@ -125,6 +126,55 @@ def matchea_evento(evento, away_tok, home_tok):
     return evento.get("away_team") == away_full and evento.get("home_team") == home_full
 
 
+def sharp_market(evento, market_key):
+    """Devuelve la lista de outcomes de Pinnacle para 'spreads' o 'totals', o None."""
+    for bk in evento.get("bookmakers", []):
+        if bk["key"] != "pinnacle":
+            continue
+        for mk in bk.get("markets", []):
+            if mk["key"] == market_key:
+                return mk["outcomes"]
+    return None
+
+
+def sharp_side_spread(evento, away_tok, home_tok, linea, equipo_cubre_tok):
+    """Compara si Pinnacle también da como favorito (a cubrir esa línea) al mismo
+    equipo. En Kalshi 'SPREAD {equipo}-{linea}' significa que {equipo} es el FAVORITO
+    dando esa cantidad de carreras — en Pinnacle eso es point=-linea para ese equipo
+    (favoritos llevan el punto negativo). Devuelve (cubre_segun_pinnacle: bool|None, nota).
+    """
+    outcomes = sharp_market(evento, "spreads")
+    if not outcomes:
+        return None, "sin spreads de Pinnacle"
+    equipo_full = EQUIPO_MLB.get(equipo_cubre_tok)
+    for o in outcomes:
+        if o["name"] != equipo_full:
+            continue
+        if abs(o["point"] - (-linea)) > 0.01:
+            continue
+        otro = next((x for x in outcomes if x["name"] != o["name"]), None)
+        if otro is None:
+            return None, "spread de Pinnacle incompleto"
+        # Precio más bajo entre los dos outcomes = el que el mercado cree más probable.
+        cubre = o["price"] < otro["price"]
+        return cubre, f"Pinnacle {equipo_full} {o['point']:+.1f} price {o['price']}"
+    return None, f"sin línea -{linea} para {equipo_full} en spreads de Pinnacle"
+
+
+def sharp_side_total(evento, linea, es_over):
+    outcomes = sharp_market(evento, "totals")
+    if not outcomes:
+        return None, "sin totals de Pinnacle"
+    over = next((o for o in outcomes if o["name"] == "Over" and abs(o["point"] - linea) < 0.01),
+                None)
+    under = next((o for o in outcomes if o["name"] == "Under" and abs(o["point"] - linea) < 0.01),
+                 None)
+    if over is None or under is None:
+        return None, f"sin línea {linea} en totals de Pinnacle"
+    pasa = (over["price"] < under["price"]) if es_over else (under["price"] < over["price"])
+    return pasa, f"Pinnacle over {over['price']} / under {under['price']}"
+
+
 def cruzar_con_sharp(pick, eventos):
     """True si Pinnacle coincide con el lado que el modelo eligió. False si discrepa
     o no hay dato (sin dato = no nace ticket, no se asume acuerdo por defecto)."""
@@ -135,6 +185,7 @@ def cruzar_con_sharp(pick, eventos):
     ev = next((e for e in eventos if matchea_evento(e, away_tok, home_tok)), None)
     if ev is None:
         return False, "sin evento Pinnacle casado"
+
     if fam == "ML":
         fav = sharp_side_ml(ev, away_tok, home_tok)
         if fav is None:
@@ -146,10 +197,36 @@ def cruzar_con_sharp(pick, eventos):
         if lado_modelo_es_away == fav_es_away:
             return True, f"Pinnacle coincide (favorito {fav})"
         return False, f"Pinnacle discrepa (favorito {fav}, modelo eligió otro lado)"
-    # SPREAD/TOTAL: The Odds API sí trae spreads/totals de Pinnacle, pero casar la línea
-    # exacta de Kalshi contra la línea de Pinnacle es trabajo adicional no resuelto en
-    # esta primera versión. Se deja explícito en vez de fingir un cruce que no se hizo.
-    return False, "SPREAD/TOTAL: cruce de línea Pinnacle pendiente de implementar"
+
+    if fam == "SPREAD":
+        # mercado = "SPREAD {equipo}-{linea}" (ej. "SPREAD LAD-1.5")
+        m = re.match(r"SPREAD\s+([A-Z]+)-(\d+(?:\.\d+)?)", pick["mercado"])
+        if not m:
+            return False, "no se pudo parsear la línea de SPREAD"
+        equipo_tok, linea = m.group(1), float(m.group(2))
+        cubre_modelo = not pick["lado"].startswith("NO")  # "NO cubre" vs "{eq} por X+"
+        cubre_pinnacle, nota = sharp_side_spread(ev, away_tok, home_tok, linea, equipo_tok)
+        if cubre_pinnacle is None:
+            return False, nota
+        if cubre_modelo == cubre_pinnacle:
+            return True, f"Pinnacle coincide ({nota})"
+        return False, f"Pinnacle discrepa ({nota})"
+
+    if fam == "TOTAL":
+        # mercado = "TOTAL {linea}" (ej. "TOTAL 7.5")
+        m = re.match(r"TOTAL\s+(\d+(?:\.\d+)?)", pick["mercado"])
+        if not m:
+            return False, "no se pudo parsear la línea de TOTAL"
+        linea = float(m.group(1))
+        es_over_modelo = pick["lado"].startswith("OVER")
+        pasa_pinnacle, nota = sharp_side_total(ev, linea, es_over_modelo)
+        if pasa_pinnacle is None:
+            return False, nota
+        if pasa_pinnacle:
+            return True, f"Pinnacle coincide ({nota})"
+        return False, f"Pinnacle discrepa ({nota})"
+
+    return False, f"familia de mercado no soportada: {fam}"
 
 
 def construir_ticket(motor, fecha, man, eventos):
