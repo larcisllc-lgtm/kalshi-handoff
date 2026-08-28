@@ -39,7 +39,7 @@ Uso:
 
 NO coloca órdenes. Solo análisis. Requiere Python 3, stdlib, red.
 """
-import sys, os, json, math, urllib.request, statistics, datetime
+import sys, os, json, math, time, urllib.request, statistics, datetime
 from zoneinfo import ZoneInfo
 
 UA = {"User-Agent": "kalshi-weather-analyst larcisllc@gmail.com"}
@@ -109,8 +109,20 @@ BORDE_MAE_RATIO     = 0.5   # distancia al borde de decisión < este × mae de l
                             # probabilidad emitida está sobrevendida (ver borde_cercano).
 
 
-def get(url):
-    return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60))
+def get(url, intentos=3):
+    """Reintenta fallos transitorios de red (visto en el sandbox cloud: 403 de
+    Tunnel connection en llamadas sueltas que al reintentar sí pasan — no es
+    rechazo real de la API, es inestabilidad del proxy de salida)."""
+    ultimo_error = None
+    for i in range(intentos):
+        try:
+            return json.load(
+                urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60))
+        except Exception as e:
+            ultimo_error = e
+            if i < intentos - 1:
+                time.sleep(1.5 * (i + 1))
+    raise ultimo_error
 
 
 def kalshi_series(series):
