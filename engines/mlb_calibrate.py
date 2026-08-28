@@ -30,12 +30,18 @@ Uso:
   python3 mlb_calibrate.py            # 30 días (default), Poisson independiente
   python3 mlb_calibrate.py 14         # ventana corta
   python3 mlb_calibrate.py 30 --csv   # vuelca las predicciones crudas
-  python3 mlb_calibrate.py 30 --rho 0.02   # con corrección de covarianza (joint_matrix)
-  python3 mlb_calibrate.py 30 --rho 0      # grilla conjunta con rho=0 (debe == independiente)
+  python3 mlb_calibrate.py 30 --rho 0.02        # con corrección de covarianza (joint_matrix)
+  python3 mlb_calibrate.py 30 --nbinom-r 8      # binomial negativa (sobredispersión)
+  python3 mlb_calibrate.py 30 --rho 0.02 --nbinom-r 8   # ambas corrECCIONES a la vez
 
---rho barre la causa de fondo documentada en CALIBRACION (mlb_engine.py): compara el gap
-de TOTAL/TT/SPREAD con y sin la corrección de covarianza para encontrar el RHO_MLB que
-mejor cierra el gap, antes de fijarlo en mlb_engine.py.
+--rho: covarianza entre equipos (Dixon-Coles adaptado). Medido 2026-08-28 con rho
+0.02/0.05/0.10/0.20 sobre 14 días: NO cerró el gap (SPREAD empeoró, TOTAL mejoró marginal).
+Descartado como causa dominante.
+
+--nbinom-r: sobredispersión DENTRO de cada equipo — la Poisson individual es más angosta
+que la varianza real de carreras del equipo. r más chico = más ancho. r muy grande
+converge a Poisson pura. Sin calibrar todavía; barrer valores (ej. 4, 8, 15, 30) y
+comparar el gap por mercado antes de fijar NBINOM_R en mlb_engine.py.
 """
 import csv
 import json
@@ -177,7 +183,8 @@ def predecir(g, fecha):
 
     mu_a = ((rs_a + ra_h) / 2) * (pf / 100) * (0.6 * r_h + 0.4 * b_h)
     mu_h = ((rs_h + ra_a) / 2) * (pf / 100) * (0.6 * r_a + 0.4 * b_a)
-    pa, ph = E.pois(mu_a), E.pois(mu_h)
+    pa = E.carreras_dist(mu_a, r=NBINOM_R)
+    ph = E.carreras_dist(mu_h, r=NBINOM_R)
 
     total_real = ra_final + rh_final
     out = []
@@ -229,19 +236,26 @@ def bucket(p):
     return 0.9
 
 
-RHO = None  # None = Poisson independiente (default); set por --rho en main()
+RHO = None         # None = Poisson independiente (default); set por --rho en main()
+NBINOM_R = None    # None = Poisson pura (default); set por --nbinom-r en main()
 
 
 def main():
-    global RHO
+    global RHO, NBINOM_R
     dias = 30
     volcar = "--csv" in sys.argv
     argv = sys.argv[1:]
+    consumidos = set()  # índices de valores pegados a un flag, no cuentan como "días"
     if "--rho" in argv:
         i = argv.index("--rho")
         RHO = float(argv[i + 1])
-    for a in argv:
-        if a.isdigit():
+        consumidos.add(i + 1)
+    if "--nbinom-r" in argv:
+        i = argv.index("--nbinom-r")
+        NBINOM_R = float(argv[i + 1])
+        consumidos.add(i + 1)
+    for idx, a in enumerate(argv):
+        if idx not in consumidos and a.isdigit():
             dias = int(a)
 
     hoy = datetime.now(PT).date()
@@ -249,7 +263,11 @@ def main():
     fin = hoy - timedelta(days=1)
     ini = fin - timedelta(days=dias - 1)
 
-    modo = "Poisson independiente" if RHO is None else f"grilla conjunta rho={RHO}"
+    partes_modo = []
+    partes_modo.append("Poisson independiente" if RHO is None else f"grilla conjunta rho={RHO}")
+    if NBINOM_R is not None:
+        partes_modo.append(f"nbinom r={NBINOM_R}")
+    modo = " + ".join(partes_modo)
     print(f"=== CALIBRACIÓN MLB — {ini} .. {fin} ({dias} días) — {modo} ===")
     print("Pregunta: cuando el modelo dice X%, ¿pasa el X% de las veces?")
     print("Stats point-in-time (corte el día anterior a cada partido).")

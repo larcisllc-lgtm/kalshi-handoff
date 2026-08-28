@@ -62,25 +62,25 @@ PRECIOS_TS = None      # ISO del instante exacto de la bajada de precios de Kals
                        # descartado entre dos corridas separadas por segundos).
 
 # --- Calibración (Platt scaling) ---
-# El modelo Poisson sobreestima, y el error crece con la confianza. Medido 2026-08-05 con
-# mlb_calibrate.py sobre 357 partidos / 7497 predicciones point-in-time:
-#   bucket 70-80% → pasaba el 64.4% (−10.6pp) · 80-90% → 72.2% (−12.6pp)
-#   90-100% → 81.6% (−11.3pp) · TT en extremos ≥85% → dice 89.0%, entrega 71.1%
-# Causa de fondo (sin arreglar): la Poisson asume independencia entre las carreras de los
-# dos equipos y subestima la varianza real del total, así que produce probabilidades
-# demasiado seguras. Esto es el PARCHE, no el arreglo — corrige el síntoma, no la causa.
+# RECALIBRADO 2026-08-28 tras activar NBINOM_R=8 (ver arriba). La causa de fondo del
+# sesgo era sobredispersión dentro de cada equipo, no covarianza entre equipos — con
+# eso corregido en la distribución base, el Platt tiene mucho menos trabajo que hacer
+# (b sube de ~0.50-0.55 a ~0.73-0.83, más cerca de 1 = menos aplastamiento necesario).
 #
-#   p_calibrada = sigmoid(a + b * logit(p_cruda))
+# Medido con mlb_calibrate.py 14 --nbinom-r 8 --csv sobre 14 días / 3906 predicciones,
+# regresión logística fiteada sobre esa salida. Gaps por bucket con n≥70 quedan en
+# ±2pp (antes: −10pp a −18pp con el Platt viejo sobre Poisson pura).
 #
-# b<1 aplasta hacia 50%: es exactamente lo que hacía falta. Verificado sobre los mismos
-# datos: los gaps por bucket pasan de −12.6pp a ±0.5pp.
+#   p_calibrada = sigmoid(a + b * logit(p_nbinom))
 #
-# Recalibrar corriendo `python3 mlb_calibrate.py 30 --csv` y reajustando estos pares.
+# Recalibrar corriendo `python3 mlb_calibrate.py 30 --nbinom-r 8 --csv` y refiteando
+# Platt sobre calibracion_mlb.csv. Si se recalibra NBINOM_R, hay que refitear esto
+# también — están acoplados, no son independientes.
 CALIBRACION = {
-    "ML":     (-0.0000, 0.3533),
-    "SPREAD": (-0.3018, 0.5047),
-    "TOTAL":  (-0.2714, 0.5155),
-    "TT":     (-0.2651, 0.5568),
+    "ML":     (-0.0000, 0.2029),
+    "SPREAD": (-0.1944, 0.7289),
+    "TOTAL":  (-0.0529, 0.7294),
+    "TT":     (-0.0478, 0.8292),
 }
 # F5, F5SPREAD, F5TOTAL, RFI y EXTRAS NO tienen curva: el backtest no los cubrió. No se
 # les inventa una — se marcan SIN-CALIBRAR y no se dimensionan, porque su sesgo es
@@ -176,13 +176,57 @@ def kalshi_series(series):
     return out
 
 
-# ---------- Poisson ----------
+# ---------- Poisson / Binomial negativa ----------
 def pois(mu):
     p, out = math.exp(-mu), []
     for k in range(MAXR + 1):
         out.append(p)
         p *= mu / (k + 1)
     return out
+
+
+# Causa de fondo intentada 2026-08-28: Dixon-Coles (covarianza entre equipos, ver
+# joint_matrix/RHO_MLB) NO cerró el gap de calibración — medido con rho 0.02/0.05/0.10/0.20,
+# SPREAD empeoró y TOTAL mejoró solo marginal. Eso descarta covarianza como causa
+# dominante. La otra hipótesis del comentario original de CALIBRACION ("subestima la
+# varianza real del total") apunta a sobredispersión DENTRO de cada equipo, no entre
+# equipos — cada Poisson individual es más angosta que la runs reales del equipo.
+#
+# Binomial negativa: mismo mu que la Poisson, pero con varianza mu + mu²/r en vez de mu.
+# r→∞ reproduce la Poisson exacta (por eso NBINOM_R=None es el default seguro). r finito
+# ensancha la cola. NO SE HA CALIBRADO r todavía — dejar en None hasta medir con
+# mlb_calibrate.py --nbinom-r, igual que se hizo con RHO_MLB antes de fijarlo.
+# Calibrado 2026-08-28 con mlb_calibrate.py --nbinom-r sobre 14 días, n idéntico al
+# baseline (ML 372, SPREAD 1116, TOTAL 930, TT 1488): r=8 corta el gap más de la mitad
+# en SPREAD (-5.3pp -> -1.7pp), TOTAL (-7.7pp -> -4.5pp) y TT (-4.9pp -> -2.3pp). ML no
+# cambia (usa Pythagenpat, no pasa por esta distribución). Recalibrar con la misma
+# herramienta si el entorno de carreras cambia (temporada, pelota).
+NBINOM_R = 8.0
+
+
+def nbinom(mu, r):
+    """P(X=k) de una binomial negativa con media mu y parámetro de dispersión r.
+    Parametrización media/dispersión (no éxitos/fallos): p = r/(r+mu).
+    r→∞ converge a Poisson(mu); r chico = más varianza que Poisson."""
+    if r is None:
+        return pois(mu)
+    p = r / (r + mu)
+    out = []
+    # P(X=0) = p^r ; recurrencia P(k) = P(k-1) * (k-1+r)/k * (1-p)
+    pk = p ** r
+    out.append(pk)
+    for k in range(1, MAXR + 1):
+        pk *= (k - 1 + r) / k * (1 - p)
+        out.append(pk)
+    return out
+
+
+def carreras_dist(mu, r=None):
+    """Punto único de entrada para la distribución de carreras de un equipo — Poisson
+    si r es None (default), binomial negativa si r tiene valor. Todo el motor debe
+    llamar esto en vez de pois() directamente, para que activar NBINOM_R cambie todo
+    de una vez."""
+    return nbinom(mu, r if r is not None else NBINOM_R)
 
 
 # ---------- Correlación entre carreras (Dixon-Coles adaptado a MLB) ----------
@@ -742,8 +786,8 @@ def _run():
         mu_a5 = (5 / 9) * ((rs_a + ra_h) / 2) * (pf / 100) * r_h
         mu_h5 = (5 / 9) * ((rs_h + ra_a) / 2) * (pf / 100) * r_a
 
-        pa, ph = pois(mu_a), pois(mu_h)
-        pa5, ph5 = pois(mu_a5), pois(mu_h5)
+        pa, ph = carreras_dist(mu_a), carreras_dist(mu_h)
+        pa5, ph5 = carreras_dist(mu_a5), carreras_dist(mu_h5)
         # Grilla conjunta F9 con covarianza (SPREAD/TOTAL/TT) — ver joint_matrix(). El ML
         # sigue con Pythagenpat (no depende de esto) y F5 se queda en Poisson independiente
         # porque mlb_calibrate.py no cubre F5 (SIN-CALIBRAR, no se le inventa corrección).
