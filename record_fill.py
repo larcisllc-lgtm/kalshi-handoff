@@ -107,7 +107,15 @@ def marcar_fills_procesados(dry_run):
     subprocess.run(["git", "-C", REPO, "add", "-A"], check=True)
     subprocess.run(["git", "-C", REPO, "commit", "-m", f"fills procesados {ts}"],
                     check=True)
-    subprocess.run(["git", "-C", REPO, "push", "origin", "HEAD:main"], check=True)
+    for intento in range(3):
+        push = subprocess.run(["git", "-C", REPO, "push", "origin", "HEAD:main"],
+                               capture_output=True, text=True)
+        if push.returncode == 0:
+            break
+        subprocess.run(["git", "-C", REPO, "fetch", "origin", "main"], check=True)
+        subprocess.run(["git", "-C", REPO, "merge", "origin/main", "--no-edit"], check=True)
+    else:
+        raise RuntimeError(f"push falló tras 3 intentos: {push.stderr}")
 
 
 def main():

@@ -207,7 +207,18 @@ def escribir_y_push(motor, fecha, items, dry_run):
         capture_output=True, text=True)
     if result.returncode != 0 and "nothing to commit" not in result.stdout:
         print(result.stdout, result.stderr)
-    subprocess.run(["git", "-C", REPO, "push", "origin", "HEAD:main"], check=True)
+
+    # Dos corridas (Action + rutina cloud, o dos Actions) pueden pushear casi a la vez.
+    # Reintenta con pull+merge en vez de fallar duro a la primera colisión.
+    for intento in range(3):
+        push = subprocess.run(["git", "-C", REPO, "push", "origin", "HEAD:main"],
+                               capture_output=True, text=True)
+        if push.returncode == 0:
+            break
+        subprocess.run(["git", "-C", REPO, "fetch", "origin", "main"], check=True)
+        subprocess.run(["git", "-C", REPO, "merge", "origin/main", "--no-edit"], check=True)
+    else:
+        raise RuntimeError(f"push falló tras 3 intentos: {push.stderr}")
     print(f"\nOK — {len(items)} ticket(s) escritos y empujados a kalshi-handoff.")
 
 

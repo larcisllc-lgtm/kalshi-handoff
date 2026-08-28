@@ -36,4 +36,7 @@ jobs:
           git add auditor/
           git diff --staged --quiet && echo "sin cambios" && exit 0
           git commit -m "clima $(date -u +%Y-%m-%d): corrida Action"
-          git push origin HEAD:main
+          for i in 1 2 3; do
+            git push origin HEAD:main && break
+            git fetch origin main && git merge origin/main --no-edit
+          done
