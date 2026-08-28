@@ -1,0 +1,39 @@
+name: clima-4am
+
+on:
+  schedule:
+    - cron: "3 11 * * *"   # 4:03am PT
+  workflow_dispatch: {}     # permite disparo manual desde GitHub para pruebas
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Correr motor de clima
+        run: |
+          cd engines
+          python3 weather_engine.py --all --emit
+
+      - name: Armar ticket (clima no tiene sharp, pasa directo)
+        run: |
+          git config --global user.name "kalshi-handoff-bot"
+          git config --global user.email "actions@github.com"
+          python3 build_ticket.py clima $(date -u +%Y-%m-%d)
+
+      - name: Commit y push si hubo cambios
+        run: |
+          git add auditor/
+          git diff --staged --quiet && echo "sin cambios" && exit 0
+          git commit -m "clima $(date -u +%Y-%m-%d): corrida Action"
+          git push origin HEAD:main

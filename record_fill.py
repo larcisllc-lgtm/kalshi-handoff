@@ -107,7 +107,7 @@ def marcar_fills_procesados(dry_run):
     subprocess.run(["git", "-C", REPO, "add", "-A"], check=True)
     subprocess.run(["git", "-C", REPO, "commit", "-m", f"fills procesados {ts}"],
                     check=True)
-    subprocess.run(["git", "-C", REPO, "push"], check=True)
+    subprocess.run(["git", "-C", REPO, "push", "origin", "HEAD:main"], check=True)
 
 
 def main():

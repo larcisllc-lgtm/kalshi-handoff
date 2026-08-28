@@ -207,7 +207,7 @@ def escribir_y_push(motor, fecha, items, dry_run):
         capture_output=True, text=True)
     if result.returncode != 0 and "nothing to commit" not in result.stdout:
         print(result.stdout, result.stderr)
-    subprocess.run(["git", "-C", REPO, "push"], check=True)
+    subprocess.run(["git", "-C", REPO, "push", "origin", "HEAD:main"], check=True)
     print(f"\nOK — {len(items)} ticket(s) escritos y empujados a kalshi-handoff.")
 
 

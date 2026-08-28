@@ -1,0 +1,40 @@
+name: mlb-8am-12pm
+
+on:
+  schedule:
+    - cron: "3 15 * * *"   # 8:03am PT
+    - cron: "3 19 * * *"   # 12:03pm PT
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Correr motor de MLB
+        run: |
+          cd engines
+          python3 mlb_engine.py --emit
+
+      - name: Armar ticket (MLB bloqueado del handoff, corre en dry-run automatico)
+        run: |
+          git config --global user.name "kalshi-handoff-bot"
+          git config --global user.email "actions@github.com"
+          python3 build_ticket.py mlb $(date -u +%Y-%m-%d)
+
+      - name: Commit y push si hubo cambios
+        run: |
+          git add auditor/
+          git diff --staged --quiet && echo "sin cambios" && exit 0
+          git commit -m "mlb $(date -u +%Y-%m-%d) $(date -u +%H:%M): corrida Action"
+          git push origin HEAD:main
