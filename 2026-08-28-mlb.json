@@ -1,7 +1,20 @@
 {
-  "generado_ts": "2026-08-28T13:52:30-0700",
+  "generado_ts": "2026-08-28T13:56:44-0700",
   "motor": "MLB",
   "fecha": "2026-08-28",
   "nota_motor": "historial real negativo: 27W-16L pero PnL neto -$35.40 (measured 2026-08-28); el modelo gana el lado mas veces de las que justifica su propio payoff. Fix de covarianza (Dixon-Coles) no cerro el gap. Filtrar con criterio propio, no asumir que el edge reportado es real.",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXMLBTOTAL-26AUG282015PITSTL-8",
+      "mercado": "TOTAL 7.5",
+      "lado": "OVER 7.5",
+      "entrada_sugerida_c": 50,
+      "prob_modelo": 55,
+      "edge_c": 5,
+      "max_pagable_c": 55,
+      "partido": "PIT@STL",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.95)"
+    }
+  ]
 }
