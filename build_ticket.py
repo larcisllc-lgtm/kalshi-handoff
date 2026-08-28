@@ -31,13 +31,12 @@ AUDITOR = os.path.join(REPO, "auditor")
 MANIFIESTOS = os.path.join(AUDITOR, "manifiestos")
 ODDS_KEY_PATH = os.path.join(REPO, "core", "odds_api_key.txt")
 
-# MLB en validación hasta que RHO_MLB esté calibrado y el payout simétrico esté
-# resuelto (ver project_mlb-pnl-negativo-post-platt). Grok rechazó explícitamente
-# recibir el ticket con nota de riesgo "para decidir" — un filtro mecánico no puede
-# usar esa nota, solo agrega ruido. Mientras MLB valida, Kalshi Bot lo ignora en sus
-# ventanas de 8am/12pm (instrucción directa de Grok 2026-08-28); el handoff sigue en
-# dry-run para MLB hasta que pase el gate.
-MOTORES_BLOQUEADOS = {"mlb"}
+# Bloqueo levantado 2026-08-28 (decisión del usuario): MLB llega al ticket real. El
+# modelo fue recalibrado ese mismo día (NBINOM_R=8 + Platt refiteado, ver mlb_engine.py)
+# y todavía no tiene muestra TOMADO real post-recalibración — Grok decide con sus
+# propios filtros de liquidez/precio, sin nota de riesgo adjunta (la rechazó antes por
+# no ser útil para un filtro mecánico).
+MOTORES_BLOQUEADOS = set()
 
 # Cuando MLB se active: solo estos mercados van al handoff (Grok pidió ML/spread/total,
 # no team-total ni F5/RFI/extras).
