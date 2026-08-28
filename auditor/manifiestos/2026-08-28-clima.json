@@ -1,26 +1,26 @@
 {
   "modelo": "CLIMA",
   "fecha": "2026-08-28",
-  "corrida_ts": "2026-08-28T13:47:39-0700",
-  "precios_ts": "2026-08-28T20:47:31+0000",
-  "hash_salida_motor": "18936a83dfe3d0a3",
+  "corrida_ts": "2026-08-28T14:03:55-0700",
+  "precios_ts": "2026-08-28T21:03:49+0000",
+  "hash_salida_motor": "fb399756b18b4dec",
   "archivo_predicciones": "2026-08-28-clima.md",
   "tickers": [
-    "KXHIGHDEN-26AUG28-B92.5"
+    "KXHIGHDEN-26AUG28-B94.5"
   ],
   "picks": [
     {
-      "ticker": "KXHIGHDEN-26AUG28-B92.5",
-      "lado": "YES",
-      "mercado": "92° to 93°",
-      "entrada": 7,
-      "p_mod": 25,
-      "edge": 18,
-      "tp": 9,
-      "stop": 5,
-      "max_pagable": 25,
-      "tamano": 3.23,
-      "razonamiento": "DEN maxima 2026-08-28 — YES \"92° to 93°\" a 7c; ensemble n=119 media 94.3deg, NWS 95deg, confianza alta; edge +18c",
+      "ticker": "KXHIGHDEN-26AUG28-B94.5",
+      "lado": "NO",
+      "mercado": "94° to 95°",
+      "entrada": 22,
+      "p_mod": 45,
+      "edge": 23,
+      "tp": 27,
+      "stop": 17,
+      "max_pagable": 45,
+      "tamano": 4.95,
+      "razonamiento": "DEN maxima 2026-08-28 — NO \"94° to 95°\" a 22c; ensemble n=119 media 94.3deg, NWS 95deg, confianza alta; edge +23c",
       "partido": "DEN",
       "flags": "",
       "motivo_seleccion": "edge",
@@ -31,9 +31,9 @@
     {
       "ticker": "KXHIGHLAX-26AUG28-B86.5",
       "mercado": "86° to 87°",
-      "entrada": 8,
+      "entrada": 7,
       "p_mod": 91,
-      "edge": 83,
+      "edge": 84,
       "motivo": "flag: CONFIANZA-BAJA (edges capados)",
       "partido": "LAX"
     },
@@ -83,12 +83,12 @@
       "partido": "NY"
     },
     {
-      "ticker": "KXHIGHDEN-26AUG28-B94.5",
-      "mercado": "94° to 95°",
-      "entrada": 28,
-      "p_mod": 45,
-      "edge": 17,
-      "motivo": "correlacion: YES (+18c) es la unica expresion de DEN",
+      "ticker": "KXHIGHDEN-26AUG28-B92.5",
+      "mercado": "92° to 93°",
+      "entrada": 1,
+      "p_mod": 25,
+      "edge": 24,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
       "partido": "DEN"
     },
     {
@@ -130,16 +130,16 @@
   ],
   "candidatos_limpios": [
     {
-      "ticker": "KXHIGHDEN-26AUG28-B92.5",
-      "lado": "YES",
-      "mercado": "92° to 93°",
-      "entrada": 7,
-      "p_mod": 25,
-      "edge": 18,
-      "tp": 9,
-      "stop": 5,
-      "max_pagable": 25,
-      "tamano": 3.23,
+      "ticker": "KXHIGHDEN-26AUG28-B94.5",
+      "lado": "NO",
+      "mercado": "94° to 95°",
+      "entrada": 22,
+      "p_mod": 45,
+      "edge": 23,
+      "tp": 27,
+      "stop": 17,
+      "max_pagable": 45,
+      "tamano": 4.95,
       "partido": "DEN",
       "flags": ""
     }
