@@ -1,6 +1,19 @@
 {
-  "generado_ts": "2026-08-28T13:04:48-0700",
+  "generado_ts": "2026-08-28T13:47:39-0700",
   "motor": "CLIMA",
   "fecha": "2026-08-28",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHDEN-26AUG28-B92.5",
+      "mercado": "92° to 93°",
+      "lado": "YES",
+      "entrada_sugerida_c": 7,
+      "prob_modelo": 25,
+      "edge_c": 18,
+      "max_pagable_c": 25,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
