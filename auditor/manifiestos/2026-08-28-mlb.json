@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-08-28",
-  "corrida_ts": "2026-08-28T13:42:08-0700",
-  "precios_ts": "2026-08-28T13:42:00-0700",
-  "hash_salida_motor": "cdcda710d422efaf",
+  "corrida_ts": "2026-08-28T13:52:30-0700",
+  "precios_ts": "2026-08-28T13:52:25-0700",
+  "hash_salida_motor": "1d0487a170a792ad",
   "archivo_predicciones": "2026-08-28-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26AUG281840LADDET-DET3",
@@ -533,6 +533,15 @@
       "partido": "SEA@TOR"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26AUG281915SEATOR-TOR6",
+      "mercado": "TT TOR 5.5",
+      "entrada": 24,
+      "p_mod": 30,
+      "edge": 6,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "SEA@TOR"
+    },
+    {
       "ticker": "KXMLBSPREAD-26AUG281915COLATL-COL3",
       "mercado": "SPREAD COL-2.5",
       "entrada": 16,
@@ -557,6 +566,15 @@
       "p_mod": 51,
       "edge": 6,
       "motivo": "entrada 45¢ bajo el piso de 50¢",
+      "partido": "BOS@NYY"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26AUG281915BOSNYY-BOS3",
+      "mercado": "TT BOS 2.5",
+      "entrada": 59,
+      "p_mod": 65,
+      "edge": 6,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "BOS@NYY"
     },
     {
@@ -623,6 +641,15 @@
       "partido": "SEA@TOR"
     },
     {
+      "ticker": "KXMLBTOTAL-26AUG281915SEATOR-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 25,
+      "p_mod": 30,
+      "edge": 5,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "SEA@TOR"
+    },
+    {
       "ticker": "KXMLBSPREAD-26AUG281915COLATL-COL4",
       "mercado": "SPREAD COL-3.5",
       "entrada": 11,
@@ -666,15 +693,6 @@
       "edge": 5,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "LAD@DET"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26AUG281915BOSNYY-BOS3",
-      "mercado": "TT BOS 2.5",
-      "entrada": 60,
-      "p_mod": 65,
-      "edge": 5,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "BOS@NYY"
     }
   ],
   "candidatos_limpios": [
@@ -693,6 +711,20 @@
       "flags": ""
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26AUG281915BOSNYY-BOS3",
+      "lado": "BOS OVER 2.5",
+      "mercado": "TT BOS 2.5",
+      "entrada": 59,
+      "p_mod": 65,
+      "edge": 6,
+      "tp": 72,
+      "stop": 46,
+      "max_pagable": 65,
+      "tamano": 1.1,
+      "partido": "BOS@NYY",
+      "flags": ""
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26AUG281840LADDET-DET2",
       "lado": "DET OVER 1.5",
       "mercado": "TT DET 1.5",
@@ -704,20 +736,6 @@
       "max_pagable": 77,
       "tamano": 1.47,
       "partido": "LAD@DET",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26AUG281915BOSNYY-BOS3",
-      "lado": "BOS OVER 2.5",
-      "mercado": "TT BOS 2.5",
-      "entrada": 60,
-      "p_mod": 65,
-      "edge": 5,
-      "tp": 73,
-      "stop": 47,
-      "max_pagable": 65,
-      "tamano": 0.93,
-      "partido": "BOS@NYY",
       "flags": ""
     },
     {
