@@ -31,8 +31,9 @@ MANIFIESTOS = os.path.join(AUDITOR, "manifiestos")
 ODDS_KEY_PATH = os.path.join(REPO, "core", "odds_api_key.txt")
 
 # MLB bloqueado del handoff hasta que RHO_MLB esté calibrado y el payout simétrico esté
-# resuelto (ver project_mlb-pnl-negativo-post-platt). CLIMA no tiene ese bloqueo.
-MOTORES_BLOQUEADOS = {"mlb"}
+# Bloqueo levantado 2026-08-28 por decisión del usuario: el ticket lleva la nota de
+# historial negativo y Grok decide con su propio criterio, no se le censura el dato.
+MOTORES_BLOQUEADOS = set()
 
 # Cuando MLB se active: solo estos mercados van al handoff (Grok pidió ML/spread/total,
 # no team-total ni F5/RFI/extras).
@@ -178,12 +179,25 @@ def construir_ticket(motor, fecha, man, eventos):
     return items
 
 
+# Nota que viaja con cada ticket de MLB: el modelo perdió plata con datos reales
+# (27W-16L pero P&L neto −$35.40, ver project_mlb-pnl-negativo-post-platt) y el fix de
+# covarianza (Dixon-Coles) no cerró el gap. No se censura el pick — Grok decide con esto
+# a la vista, igual que con el precio de Pinnacle.
+NOTAS_MOTOR = {
+    "mlb": ("historial real negativo: 27W-16L pero PnL neto -$35.40 (measured "
+            "2026-08-28); el modelo gana el lado mas veces de las que justifica su "
+            "propio payoff. Fix de covarianza (Dixon-Coles) no cerro el gap. Filtrar "
+            "con criterio propio, no asumir que el edge reportado es real."),
+}
+
+
 def escribir_y_push(motor, fecha, items, dry_run):
     ahora = datetime.now(PT)
     payload = {
         "generado_ts": ahora.strftime("%Y-%m-%dT%H:%M:%S%z"),
         "motor": motor.upper(),
         "fecha": fecha,
+        "nota_motor": NOTAS_MOTOR.get(motor),
         "tickets": items,
     }
     if dry_run:
