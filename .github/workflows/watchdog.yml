@@ -23,32 +23,49 @@ jobs:
         run: |
           python3 - <<'PY'
           import glob, json, subprocess
-          from datetime import datetime, timezone
+          from datetime import datetime, timezone, timedelta
+
+          PT = timezone(timedelta(hours=-7))  # PDT (ajustar a -8 en horario estandar)
+          ahora_pt = datetime.now(PT)
+          hoy = ahora_pt.strftime("%Y-%m-%d")
 
           # cada motor escribe su propio archivo fechado (latest.json es compartido y se pisa)
-          # MLB corre 8am/12pm PT -> tolera hasta 6h de atraso
-          # clima corre 4am PT -> tolera hasta 8h de atraso
-          motores = {"mlb": ("mlb.yml", 6), "clima": ("clima.yml", 8)}
+          # horarios_pt: horas del dia (PT) en que el motor DEBE haber corrido ya
+          motores = {
+              "clima": ("clima.yml", [4]),
+              "mlb": ("mlb.yml", [8, 12]),
+          }
 
-          for nombre, (workflow, limite) in motores.items():
-              archivos = sorted(glob.glob(f"*-{nombre}.json"))
+          GRACIA_MIN = 20  # minutos de gracia tras la hora programada antes de considerar atraso
+
+          for nombre, (workflow, horarios_pt) in motores.items():
+              # horas ya programadas para hoy que ya deberian haber corrido (con gracia)
+              vencidas = [h for h in horarios_pt
+                          if ahora_pt >= ahora_pt.replace(hour=h, minute=GRACIA_MIN, second=0, microsecond=0)]
+              if not vencidas:
+                  print(f"{nombre}: aun no llega la hora programada de hoy, nada que revisar")
+                  continue
+
+              archivo_hoy = f"{hoy}-{nombre}.json"
+              archivos = glob.glob(archivo_hoy)
+
               if not archivos:
-                  print(f"{nombre}: SIN ARCHIVOS, disparando {workflow}")
+                  print(f"{nombre}: NO existe {archivo_hoy} y ya paso la hora {vencidas[-1]}:00 PT -> disparando {workflow}")
                   subprocess.run(["gh", "workflow", "run", workflow, "--ref", "main"], check=True)
                   continue
 
-              with open(archivos[-1]) as f:
+              with open(archivo_hoy) as f:
                   data = json.load(f)
 
               ts = data.get("generado_ts")
               gen = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
-              horas = (datetime.now(timezone.utc) - gen).total_seconds() / 3600
+              gen_pt = gen.astimezone(PT)
 
-              print(f"{nombre}: ultimo={archivos[-1]} generado_hace={horas:.1f}h limite={limite}h")
-
-              if horas > limite:
-                  print(f"{nombre}: ATRASADO, disparando {workflow} manualmente")
+              # si la corrida mas reciente de hoy es ANTERIOR a la ultima hora vencida, sigue atrasado
+              ultima_vencida_dt = ahora_pt.replace(hour=vencidas[-1], minute=0, second=0, microsecond=0)
+              if gen_pt < ultima_vencida_dt:
+                  print(f"{nombre}: {archivo_hoy} es de {gen_pt.strftime('%H:%M')} PT, anterior a la corrida de las {vencidas[-1]}:00 -> disparando {workflow}")
                   subprocess.run(["gh", "workflow", "run", workflow, "--ref", "main"], check=True)
               else:
-                  print(f"{nombre}: OK, dentro de la ventana esperada")
+                  print(f"{nombre}: OK, {archivo_hoy} generado a las {gen_pt.strftime('%H:%M')} PT")
           PY
