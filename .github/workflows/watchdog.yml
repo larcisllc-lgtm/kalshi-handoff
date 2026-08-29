@@ -1,0 +1,54 @@
+name: watchdog-cron
+
+on:
+  schedule:
+    - cron: "15 * * * *"   # cada hora, minuto 15
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verificar frescura por motor y relanzar el que se quedó atrás
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          python3 - <<'PY'
+          import glob, json, subprocess
+          from datetime import datetime, timezone
+
+          # cada motor escribe su propio archivo fechado (latest.json es compartido y se pisa)
+          # MLB corre 8am/12pm PT -> tolera hasta 6h de atraso
+          # clima corre 4am PT -> tolera hasta 8h de atraso
+          motores = {"mlb": ("mlb.yml", 6), "clima": ("clima.yml", 8)}
+
+          for nombre, (workflow, limite) in motores.items():
+              archivos = sorted(glob.glob(f"*-{nombre}.json"))
+              if not archivos:
+                  print(f"{nombre}: SIN ARCHIVOS, disparando {workflow}")
+                  subprocess.run(["gh", "workflow", "run", workflow, "--ref", "main"], check=True)
+                  continue
+
+              with open(archivos[-1]) as f:
+                  data = json.load(f)
+
+              ts = data.get("generado_ts")
+              gen = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
+              horas = (datetime.now(timezone.utc) - gen).total_seconds() / 3600
+
+              print(f"{nombre}: ultimo={archivos[-1]} generado_hace={horas:.1f}h limite={limite}h")
+
+              if horas > limite:
+                  print(f"{nombre}: ATRASADO, disparando {workflow} manualmente")
+                  subprocess.run(["gh", "workflow", "run", workflow, "--ref", "main"], check=True)
+              else:
+                  print(f"{nombre}: OK, dentro de la ventana esperada")
+          PY
