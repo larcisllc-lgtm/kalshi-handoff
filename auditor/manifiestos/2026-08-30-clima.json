@@ -1,0 +1,247 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-08-30",
+  "corrida_ts": "2026-08-30T07:28:06-0700",
+  "precios_ts": "2026-08-30T14:27:59+0000",
+  "hash_salida_motor": "f380cb6e3e458e52",
+  "archivo_predicciones": "2026-08-30-clima.md",
+  "tickers": [
+    "KXHIGHMIA-26AUG30-B87.5",
+    "KXHIGHAUS-26AUG30-B98.5",
+    "KXHIGHPHIL-26AUG30-B84.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHMIA-26AUG30-B87.5",
+      "lado": "YES",
+      "mercado": "87° to 88°",
+      "entrada": 4,
+      "p_mod": 14,
+      "edge": 10,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 14,
+      "tamano": 0.89,
+      "razonamiento": "MIA maxima 2026-08-30 — YES \"87° to 88°\" a 4c; ensemble n=119 media 90.2deg, NWS 92deg, confianza media; edge +10c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHAUS-26AUG30-B98.5",
+      "lado": "NO",
+      "mercado": "98° to 99°",
+      "entrada": 62,
+      "p_mod": 78,
+      "edge": 16,
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 78,
+      "tamano": 7.1,
+      "razonamiento": "AUS maxima 2026-08-30 — NO \"98° to 99°\" a 62c; ensemble n=119 media 100.9deg, NWS 99deg, confianza alta; edge +16c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG30-B84.5",
+      "lado": "NO",
+      "mercado": "84° to 85°",
+      "entrada": 76,
+      "p_mod": 94,
+      "edge": 18,
+      "tp": 93,
+      "stop": 59,
+      "max_pagable": 94,
+      "tamano": 6.03,
+      "razonamiento": "PHIL maxima 2026-08-30 — NO \"84° to 85°\" a 76c; ensemble n=119 media 87.6deg, NWS 87deg, confianza media; edge +18c",
+      "partido": "PHIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26AUG30-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 24,
+      "p_mod": 48,
+      "edge": 24,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26AUG30-T83",
+      "mercado": "84° or above",
+      "entrada": 27,
+      "p_mod": 57,
+      "edge": 30,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26AUG30-B86.5",
+      "mercado": "86° to 87°",
+      "entrada": 7,
+      "p_mod": 52,
+      "edge": 45,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26AUG30-B88.5",
+      "mercado": "88° to 89°",
+      "entrada": 1,
+      "p_mod": 15,
+      "edge": 14,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26AUG30-T86",
+      "mercado": "85° or below",
+      "entrada": 7,
+      "p_mod": 67,
+      "edge": 60,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26AUG30-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 18,
+      "p_mod": 43,
+      "edge": 25,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26AUG30-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 2,
+      "p_mod": 41,
+      "edge": 39,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26AUG30-T82",
+      "mercado": "81° or below",
+      "entrada": 19,
+      "p_mod": 86,
+      "edge": 67,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26AUG30-B89.5",
+      "mercado": "89° to 90°",
+      "entrada": 47,
+      "p_mod": 64,
+      "edge": 17,
+      "motivo": "flag: BORDE-CERCANO(0.04°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26AUG30-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 78,
+      "p_mod": 95,
+      "edge": 17,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26AUG30-B89.5",
+      "mercado": "89° to 90°",
+      "entrada": 24,
+      "p_mod": 43,
+      "edge": 19,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26AUG30-B100.5",
+      "mercado": "100° to 101°",
+      "entrada": 43,
+      "p_mod": 56,
+      "edge": 13,
+      "motivo": "flag: BORDE-CERCANO(0.76°-del-corte)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26AUG30-B102.5",
+      "mercado": "102° to 103°",
+      "entrada": 5,
+      "p_mod": 27,
+      "edge": 22,
+      "motivo": "flag: BORDE-CERCANO(0.76°-del-corte)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG30-B88.5",
+      "mercado": "88° to 89°",
+      "entrada": 23,
+      "p_mod": 42,
+      "edge": 19,
+      "motivo": "flag: BORDE-CERCANO(0.07°-del-corte)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG30-B90.5",
+      "mercado": "90° to 91°",
+      "entrada": 1,
+      "p_mod": 9,
+      "edge": 8,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHMIA-26AUG30-B87.5",
+      "lado": "YES",
+      "mercado": "87° to 88°",
+      "entrada": 4,
+      "p_mod": 14,
+      "edge": 10,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 14,
+      "tamano": 0.89,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26AUG30-B98.5",
+      "lado": "NO",
+      "mercado": "98° to 99°",
+      "entrada": 62,
+      "p_mod": 78,
+      "edge": 16,
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 78,
+      "tamano": 7.1,
+      "partido": "AUS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHPHIL-26AUG30-B84.5",
+      "lado": "NO",
+      "mercado": "84° to 85°",
+      "entrada": 76,
+      "p_mod": 94,
+      "edge": 18,
+      "tp": 93,
+      "stop": 59,
+      "max_pagable": 94,
+      "tamano": 6.03,
+      "partido": "PHIL",
+      "flags": ""
+    }
+  ]
+}
