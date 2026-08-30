@@ -1,6 +1,19 @@
 {
-  "generado_ts": "2026-08-30T11:08:24-0700",
+  "generado_ts": "2026-08-30T11:32:48-0700",
   "motor": "MLB",
   "fecha": "2026-08-30",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXMLBSPREAD-26AUG301340LADDET-LAD2",
+      "mercado": "SPREAD LAD-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 56,
+      "prob_modelo": 64,
+      "edge_c": 8,
+      "max_pagable_c": 64,
+      "partido": "LAD@DET",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle Los Angeles Dodgers -1.5 price 2.16)"
+    }
+  ]
 }
