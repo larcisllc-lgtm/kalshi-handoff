@@ -2,7 +2,7 @@ name: watchdog-cron
 
 on:
   schedule:
-    - cron: "15 * * * *"   # cada hora, minuto 15
+    - cron: "*/10 * * * *"   # cada 10 minutos, para adelantarse a las ventanas de lectura de Grok
   workflow_dispatch: {}
 
 permissions:
@@ -30,27 +30,27 @@ jobs:
           hoy = ahora_pt.strftime("%Y-%m-%d")
 
           # cada motor escribe su propio archivo fechado (latest.json es compartido y se pisa)
-          # horarios_pt: horas del dia (PT) en que el motor DEBE haber corrido ya
+          # ventana_inicio_pt: hora en que EMPIEZA la ventana de lectura de Grok para ese
+          # disparo (4am clima: 03:00-05:59; 8am MLB: 07:00-09:59; 12pm MLB: 11:00-13:59).
+          # El archivo debe existir y estar fresco YA cuando arranca la ventana, no despues.
           motores = {
-              "clima": ("clima.yml", [4]),
-              "mlb": ("mlb.yml", [8, 12]),
+              "clima": ("clima.yml", [3]),
+              "mlb": ("mlb.yml", [7, 11]),
           }
 
-          GRACIA_MIN = 20  # minutos de gracia tras la hora programada antes de considerar atraso
-
-          for nombre, (workflow, horarios_pt) in motores.items():
-              # horas ya programadas para hoy que ya deberian haber corrido (con gracia)
-              vencidas = [h for h in horarios_pt
-                          if ahora_pt >= ahora_pt.replace(hour=h, minute=GRACIA_MIN, second=0, microsecond=0)]
-              if not vencidas:
-                  print(f"{nombre}: aun no llega la hora programada de hoy, nada que revisar")
+          for nombre, (workflow, ventanas_inicio_pt) in motores.items():
+              # ventanas cuyo inicio ya llego (Grok ya puede estar leyendo)
+              abiertas = [h for h in ventanas_inicio_pt
+                          if ahora_pt >= ahora_pt.replace(hour=h, minute=0, second=0, microsecond=0)]
+              if not abiertas:
+                  print(f"{nombre}: aun no abre ninguna ventana de hoy, nada que revisar")
                   continue
 
               archivo_hoy = f"{hoy}-{nombre}.json"
               archivos = glob.glob(archivo_hoy)
 
               if not archivos:
-                  print(f"{nombre}: NO existe {archivo_hoy} y ya paso la hora {vencidas[-1]}:00 PT -> disparando {workflow}")
+                  print(f"{nombre}: NO existe {archivo_hoy} y ya abrio la ventana de las {abiertas[-1]}:00 PT -> disparando {workflow}")
                   subprocess.run(["gh", "workflow", "run", workflow, "--ref", "main"], check=True)
                   continue
 
@@ -61,11 +61,12 @@ jobs:
               gen = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
               gen_pt = gen.astimezone(PT)
 
-              # si la corrida mas reciente de hoy es ANTERIOR a la ultima hora vencida, sigue atrasado
-              ultima_vencida_dt = ahora_pt.replace(hour=vencidas[-1], minute=0, second=0, microsecond=0)
-              if gen_pt < ultima_vencida_dt:
-                  print(f"{nombre}: {archivo_hoy} es de {gen_pt.strftime('%H:%M')} PT, anterior a la corrida de las {vencidas[-1]}:00 -> disparando {workflow}")
+              # si el archivo actual es de ANTES de que abriera la ultima ventana vigente,
+              # esta desactualizado para esa lectura de Grok -> hay que regenerarlo
+              ultima_ventana_dt = ahora_pt.replace(hour=abiertas[-1], minute=0, second=0, microsecond=0)
+              if gen_pt < ultima_ventana_dt:
+                  print(f"{nombre}: {archivo_hoy} es de {gen_pt.strftime('%H:%M')} PT, anterior a la ventana de las {abiertas[-1]}:00 -> disparando {workflow}")
                   subprocess.run(["gh", "workflow", "run", workflow, "--ref", "main"], check=True)
               else:
-                  print(f"{nombre}: OK, {archivo_hoy} generado a las {gen_pt.strftime('%H:%M')} PT")
+                  print(f"{nombre}: OK, {archivo_hoy} generado a las {gen_pt.strftime('%H:%M')} PT, dentro de la ventana vigente")
           PY
