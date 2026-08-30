@@ -1,5 +1,10 @@
 {
-  "generado_ts": "2026-08-30T12:08:00-0700",
-  "motor": "MLB",
-  "fills": []
+  "fills": [
+    {
+      "ticker": "KXMLBSPREAD-26AUG301340LADDET-LAD2",
+      "tomado": true,
+      "entrada_real_c": 53,
+      "tamano_usd": 1.06
+    }
+  ]
 }
