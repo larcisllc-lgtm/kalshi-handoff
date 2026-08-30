@@ -280,7 +280,7 @@ def escribir_y_push(motor, fecha, items, dry_run):
     with open(fechado_path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    subprocess.run(["git", "-C", REPO, "add", "latest.json", os.path.basename(fechado_path)],
+    subprocess.run(["git", "-C", REPO, "add", "latest.json", os.path.basename(fechado_path), "auditor/"],
                     check=True)
     result = subprocess.run(
         ["git", "-C", REPO, "commit", "-m", f"{motor}: {fecha} ({len(items)} tickets)"],
