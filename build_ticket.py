@@ -296,7 +296,23 @@ def escribir_y_push(motor, fecha, items, dry_run):
         if push.returncode == 0:
             break
         subprocess.run(["git", "-C", REPO, "fetch", "origin", "main"], check=True)
-        subprocess.run(["git", "-C", REPO, "merge", "origin/main", "--no-edit"], check=True)
+        merge = subprocess.run(["git", "-C", REPO, "merge", "origin/main", "--no-edit"],
+                                capture_output=True, text=True)
+        if merge.returncode != 0:
+            # latest.json/fechado son de esta corrida (fuente de verdad de su propio
+            # motor); registro.md y demás archivos compartidos se resuelven a favor
+            # del remoto para no pisar cambios de otro motor/proceso.
+            subprocess.run(["git", "-C", REPO, "checkout", "--ours",
+                             "latest.json", os.path.basename(fechado_path)], check=True)
+            conflictos = subprocess.run(
+                ["git", "-C", REPO, "diff", "--name-only", "--diff-filter=U"],
+                capture_output=True, text=True).stdout.split()
+            otros = [p for p in conflictos
+                     if p not in ("latest.json", os.path.basename(fechado_path))]
+            if otros:
+                subprocess.run(["git", "-C", REPO, "checkout", "--theirs", *otros], check=True)
+            subprocess.run(["git", "-C", REPO, "add", "-A"], check=True)
+            subprocess.run(["git", "-C", REPO, "commit", "--no-edit"], check=True)
     else:
         raise RuntimeError(f"push falló tras 3 intentos: {push.stderr}")
     print(f"\nOK — {len(items)} ticket(s) escritos y empujados a kalshi-handoff.")
