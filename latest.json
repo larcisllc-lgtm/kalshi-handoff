@@ -1,16 +1,16 @@
 {
-  "generado_ts": "2026-08-31T08:03:35-0700",
+  "generado_ts": "2026-08-31T10:49:25-0700",
   "motor": "CLIMA",
   "fecha": "2026-08-31",
   "tickets": [
     {
       "ticker": "KXHIGHMIA-26AUG31-B93.5",
       "mercado": "93° to 94°",
-      "lado": "NO",
-      "entrada_sugerida_c": 71,
-      "prob_modelo": 84,
-      "edge_c": 13,
-      "max_pagable_c": 84,
+      "lado": "YES",
+      "entrada_sugerida_c": 7,
+      "prob_modelo": 14,
+      "edge_c": 7,
+      "max_pagable_c": 14,
       "partido": "MIA",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
