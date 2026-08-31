@@ -1,10 +1,5 @@
 {
-  "fills": [
-    {
-      "ticker": "KXMLBSPREAD-26AUG301340LADDET-LAD2",
-      "tomado": true,
-      "entrada_real_c": 53,
-      "tamano_usd": 1.06
-    }
-  ]
+  "generado_ts": "2026-08-31T04:12:41-0700",
+  "motor": "CLIMA",
+  "fills": []
 }
