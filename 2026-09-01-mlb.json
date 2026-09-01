@@ -1,0 +1,19 @@
+{
+  "generado_ts": "2026-09-01T07:19:15-0700",
+  "motor": "MLB",
+  "fecha": "2026-09-01",
+  "tickets": [
+    {
+      "ticker": "KXMLBSPREAD-26SEP011840TORCLE-CLE2",
+      "mercado": "SPREAD CLE-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 67,
+      "edge_c": 10,
+      "max_pagable_c": 67,
+      "partido": "TOR@CLE",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle Cleveland Guardians -1.5 price 2.26)"
+    }
+  ]
+}
