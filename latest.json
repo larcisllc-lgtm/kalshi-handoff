@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-01T11:20:07-0700",
+  "generado_ts": "2026-09-01T14:39:44-0700",
   "motor": "MLB",
   "fecha": "2026-09-01",
   "tickets": [
@@ -13,7 +13,7 @@
       "max_pagable_c": 67,
       "partido": "TOR@CLE",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle Cleveland Guardians -1.5 price 2.27)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle Cleveland Guardians -1.5 price 2.26)"
     }
   ]
 }
