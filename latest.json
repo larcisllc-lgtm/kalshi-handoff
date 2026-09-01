@@ -1,55 +1,19 @@
 {
-  "generado_ts": "2026-09-01T08:22:12-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-09-01T11:20:07-0700",
+  "motor": "MLB",
   "fecha": "2026-09-01",
   "tickets": [
     {
-      "ticker": "KXHIGHMIA-26SEP01-B87.5",
-      "mercado": "87° to 88°",
-      "lado": "NO",
-      "entrada_sugerida_c": 83,
-      "prob_modelo": 95,
-      "edge_c": 12,
-      "max_pagable_c": 95,
-      "partido": "MIA",
+      "ticker": "KXMLBSPREAD-26SEP011840TORCLE-CLE2",
+      "mercado": "SPREAD CLE-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 67,
+      "edge_c": 10,
+      "max_pagable_c": 67,
+      "partido": "TOR@CLE",
       "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHDEN-26SEP01-B85.5",
-      "mercado": "85° to 86°",
-      "lado": "NO",
-      "entrada_sugerida_c": 45,
-      "prob_modelo": 72,
-      "edge_c": 27,
-      "max_pagable_c": 72,
-      "partido": "DEN",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHAUS-26SEP01-B102.5",
-      "mercado": "102° to 103°",
-      "lado": "YES",
-      "entrada_sugerida_c": 4,
-      "prob_modelo": 21,
-      "edge_c": 17,
-      "max_pagable_c": 21,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHPHIL-26SEP01-T89",
-      "mercado": "88° or below",
-      "lado": "NO",
-      "entrada_sugerida_c": 86,
-      "prob_modelo": 98,
-      "edge_c": 12,
-      "max_pagable_c": 98,
-      "partido": "PHIL",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle Cleveland Guardians -1.5 price 2.27)"
     }
   ]
 }
