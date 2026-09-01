@@ -1,0 +1,252 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-01",
+  "corrida_ts": "2026-09-01T07:19:18-0700",
+  "precios_ts": "2026-09-01T14:19:10+0000",
+  "hash_salida_motor": "bba5706486e670af",
+  "archivo_predicciones": "2026-09-01-clima.md",
+  "tickers": [
+    "KXHIGHMIA-26SEP01-B93.5",
+    "KXHIGHDEN-26SEP01-B85.5",
+    "KXHIGHAUS-26SEP01-B102.5",
+    "KXHIGHPHIL-26SEP01-T89"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHMIA-26SEP01-B93.5",
+      "lado": "YES",
+      "mercado": "93° to 94°",
+      "entrada": 4,
+      "p_mod": 13,
+      "edge": 9,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 13,
+      "tamano": 0.8,
+      "razonamiento": "MIA maxima 2026-09-01 — YES \"93° to 94°\" a 4c; ensemble n=119 media 90.7deg, NWS 91deg, confianza media; edge +9c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP01-B85.5",
+      "lado": "NO",
+      "mercado": "85° to 86°",
+      "entrada": 45,
+      "p_mod": 72,
+      "edge": 27,
+      "tp": 55,
+      "stop": 35,
+      "max_pagable": 72,
+      "tamano": 8.12,
+      "razonamiento": "DEN maxima 2026-09-01 — NO \"85° to 86°\" a 45c; ensemble n=119 media 84.0deg, NWS 86deg, confianza alta; edge +27c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP01-B102.5",
+      "lado": "YES",
+      "mercado": "102° to 103°",
+      "entrada": 5,
+      "p_mod": 21,
+      "edge": 16,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 21,
+      "tamano": 2.71,
+      "razonamiento": "AUS maxima 2026-09-01 — YES \"102° to 103°\" a 5c; ensemble n=119 media 100.2deg, NWS 98deg, confianza alta; edge +16c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP01-T89",
+      "lado": "NO",
+      "mercado": "88° or below",
+      "entrada": 88,
+      "p_mod": 98,
+      "edge": 10,
+      "tp": 97,
+      "stop": 69,
+      "max_pagable": 98,
+      "tamano": 6.67,
+      "razonamiento": "PHIL maxima 2026-09-01 — NO \"88° or below\" a 88c; ensemble n=119 media 91.5deg, NWS 92deg, confianza media; edge +10c",
+      "partido": "PHIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 4
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP01-B78.5",
+      "mercado": "78° to 79°",
+      "entrada": 9,
+      "p_mod": 22,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP01-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 3,
+      "p_mod": 22,
+      "edge": 19,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP01-T76",
+      "mercado": "75° or below",
+      "entrada": 64,
+      "p_mod": 91,
+      "edge": 27,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP01-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 18,
+      "p_mod": 52,
+      "edge": 34,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP01-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 4,
+      "p_mod": 17,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP01-T83",
+      "mercado": "82° or below",
+      "entrada": 22,
+      "p_mod": 70,
+      "edge": 48,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP01-B87.5",
+      "mercado": "87° to 88°",
+      "entrada": 87,
+      "p_mod": 95,
+      "edge": 8,
+      "motivo": "correlacion: YES (+9c) es la unica expresion de MIA",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP01-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 2,
+      "p_mod": 15,
+      "edge": 13,
+      "motivo": "flag: SIN-RECORRIDO(TP 2¢ = entrada 2¢)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP01-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 12,
+      "p_mod": 55,
+      "edge": 43,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP01-B87.5",
+      "mercado": "87° to 88°",
+      "entrada": 71,
+      "p_mod": 98,
+      "edge": 27,
+      "motivo": "correlacion: NO (+27c) es la unica expresion de DEN",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP01-B98.5",
+      "mercado": "98° to 99°",
+      "entrada": 59,
+      "p_mod": 73,
+      "edge": 14,
+      "motivo": "flag: BORDE-CERCANO(0.74°-del-corte)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP01-B100.5",
+      "mercado": "100° to 101°",
+      "entrada": 44,
+      "p_mod": 56,
+      "edge": 12,
+      "motivo": "flag: BORDE-CERCANO(0.74°-del-corte)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHMIA-26SEP01-B93.5",
+      "lado": "YES",
+      "mercado": "93° to 94°",
+      "entrada": 4,
+      "p_mod": 13,
+      "edge": 9,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 13,
+      "tamano": 0.8,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP01-B85.5",
+      "lado": "NO",
+      "mercado": "85° to 86°",
+      "entrada": 45,
+      "p_mod": 72,
+      "edge": 27,
+      "tp": 55,
+      "stop": 35,
+      "max_pagable": 72,
+      "tamano": 8.12,
+      "partido": "DEN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP01-B102.5",
+      "lado": "YES",
+      "mercado": "102° to 103°",
+      "entrada": 5,
+      "p_mod": 21,
+      "edge": 16,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 21,
+      "tamano": 2.71,
+      "partido": "AUS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP01-T89",
+      "lado": "NO",
+      "mercado": "88° or below",
+      "entrada": 88,
+      "p_mod": 98,
+      "edge": 10,
+      "tp": 97,
+      "stop": 69,
+      "max_pagable": 98,
+      "tamano": 6.67,
+      "partido": "PHIL",
+      "flags": ""
+    }
+  ]
+}
