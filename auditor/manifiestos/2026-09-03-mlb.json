@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-03",
-  "corrida_ts": "2026-09-03T11:28:41-0700",
-  "precios_ts": "2026-09-03T11:28:37-0700",
-  "hash_salida_motor": "3563fb0121069d05",
+  "corrida_ts": "2026-09-03T14:36:10-0700",
+  "precios_ts": "2026-09-03T14:36:07-0700",
+  "hash_salida_motor": "7d2e0037b5d326ac",
   "archivo_predicciones": "2026-09-03-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL3"
@@ -31,29 +31,29 @@
     {
       "ticker": "KXMLBGAME-26SEP032210STLLAD-STL",
       "mercado": "ML",
-      "entrada": 28,
+      "entrada": 27,
       "p_mod": 49,
-      "edge": 21,
-      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "edge": 22,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "STL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL5",
+      "mercado": "TT STL 4.5",
+      "entrada": 25,
+      "p_mod": 42,
+      "edge": 17,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
       "partido": "STL@LAD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL4",
       "mercado": "TT STL 3.5",
-      "entrada": 37,
-      "p_mod": 55,
-      "edge": 18,
-      "motivo": "entrada 37¢ bajo el piso de 50¢",
-      "partido": "STL@LAD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH4",
-      "mercado": "TT ATH 3.5",
       "entrada": 38,
       "p_mod": 55,
       "edge": 17,
       "motivo": "entrada 38¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
+      "partido": "STL@LAD"
     },
     {
       "ticker": "KXMLBGAME-26SEP032140ATHSEA-ATH",
@@ -65,12 +65,21 @@
       "partido": "ATH@SEA"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL5",
-      "mercado": "TT STL 4.5",
-      "entrada": 26,
-      "p_mod": 42,
-      "edge": 16,
-      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH4",
+      "mercado": "TT ATH 3.5",
+      "entrada": 40,
+      "p_mod": 55,
+      "edge": 15,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL6",
+      "mercado": "TT STL 5.5",
+      "entrada": 16,
+      "p_mod": 31,
+      "edge": 15,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
       "partido": "STL@LAD"
     },
     {
@@ -81,15 +90,6 @@
       "edge": 14,
       "motivo": "entrada 28¢ bajo el piso de 50¢",
       "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL6",
-      "mercado": "TT STL 5.5",
-      "entrada": 17,
-      "p_mod": 31,
-      "edge": 14,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "STL@LAD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH3",
@@ -103,20 +103,11 @@
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH6",
       "mercado": "TT ATH 5.5",
-      "entrada": 18,
+      "entrada": 19,
       "p_mod": 31,
-      "edge": 13,
-      "motivo": "entrada 18¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL7",
-      "mercado": "TT STL 6.5",
-      "entrada": 10,
-      "p_mod": 22,
       "edge": 12,
-      "motivo": "entrada 10¢ bajo el piso de 50¢",
-      "partido": "STL@LAD"
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL2",
@@ -128,39 +119,48 @@
       "partido": "STL@LAD"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 22,
-      "p_mod": 33,
+      "ticker": "KXMLBTOTAL-26SEP031940MIAKC-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 26,
+      "p_mod": 37,
       "edge": 11,
-      "motivo": "entrada 22¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "MIA@KC"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH7",
-      "mercado": "TT ATH 6.5",
+      "ticker": "KXMLBSPREAD-26SEP032210STLLAD-LAD2",
+      "mercado": "SPREAD LAD-1.5",
+      "entrada": 44,
+      "p_mod": 55,
+      "edge": 11,
+      "motivo": "entrada 44¢ bajo el piso de 50¢",
+      "partido": "STL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL7",
+      "mercado": "TT STL 6.5",
       "entrada": 11,
       "p_mod": 22,
       "edge": 11,
       "motivo": "entrada 11¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
+      "partido": "STL@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH2",
-      "mercado": "TT ATH 1.5",
-      "entrada": 72,
-      "p_mod": 83,
-      "edge": 11,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP031940MIAKC-7",
-      "mercado": "TOTAL 6.5",
-      "entrada": 27,
-      "p_mod": 37,
+      "ticker": "KXMLBTOTAL-26SEP031915MILCHC-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 24,
+      "p_mod": 34,
       "edge": 10,
-      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "MIL@CHC"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP031940MIAKC-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 11,
+      "p_mod": 21,
+      "edge": 10,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
       "partido": "MIA@KC"
     },
     {
@@ -170,15 +170,6 @@
       "p_mod": 27,
       "edge": 10,
       "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-10",
-      "mercado": "TOTAL 9.5",
-      "entrada": 29,
-      "p_mod": 39,
-      "edge": 10,
-      "motivo": "entrada 29¢ bajo el piso de 50¢",
       "partido": "ATH@SEA"
     },
     {
@@ -200,22 +191,22 @@
       "partido": "STL@LAD"
     },
     {
-      "ticker": "KXMLBSPREAD-26SEP032210STLLAD-LAD2",
-      "mercado": "SPREAD LAD-1.5",
-      "entrada": 45,
-      "p_mod": 55,
+      "ticker": "KXMLBTOTAL-26SEP032210STLLAD-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 20,
+      "p_mod": 30,
       "edge": 10,
-      "motivo": "entrada 45¢ bajo el piso de 50¢",
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
       "partido": "STL@LAD"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP031915MILCHC-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 25,
-      "p_mod": 34,
-      "edge": 9,
-      "motivo": "entrada 25¢ bajo el piso de 50¢",
-      "partido": "MIL@CHC"
+      "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH2",
+      "mercado": "TT ATH 1.5",
+      "entrada": 73,
+      "p_mod": 83,
+      "edge": 10,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "ATH@SEA"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP031940MIAKC-9",
@@ -227,13 +218,31 @@
       "partido": "MIA@KC"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP031940MIAKC-5",
-      "mercado": "TOTAL 4.5",
-      "entrada": 12,
-      "p_mod": 21,
+      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 24,
+      "p_mod": 33,
       "edge": 9,
-      "motivo": "entrada 12¢ bajo el piso de 50¢",
-      "partido": "MIA@KC"
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 30,
+      "p_mod": 39,
+      "edge": 9,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH7",
+      "mercado": "TT ATH 6.5",
+      "entrada": 13,
+      "p_mod": 22,
+      "edge": 9,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP032210STLLAD-13",
@@ -245,12 +254,12 @@
       "partido": "STL@LAD"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP032210STLLAD-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 21,
-      "p_mod": 30,
+      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL8",
+      "mercado": "TT STL 7.5",
+      "entrada": 6,
+      "p_mod": 15,
       "edge": 9,
-      "motivo": "entrada 21¢ bajo el piso de 50¢",
+      "motivo": "entrada 6¢ bajo el piso de 50¢",
       "partido": "STL@LAD"
     },
     {
@@ -260,6 +269,15 @@
       "p_mod": 28,
       "edge": 8,
       "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "partido": "MIL@CHC"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP031915MILCHC-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 32,
+      "p_mod": 40,
+      "edge": 8,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
       "partido": "MIL@CHC"
     },
     {
@@ -281,21 +299,21 @@
       "partido": "MIA@KC"
     },
     {
+      "ticker": "KXMLBSPREAD-26SEP032140ATHSEA-ATH3",
+      "mercado": "SPREAD ATH-2.5",
+      "entrada": 16,
+      "p_mod": 24,
+      "edge": 8,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
       "ticker": "KXMLBSPREAD-26SEP032140ATHSEA-ATH2",
       "mercado": "SPREAD ATH-1.5",
       "entrada": 24,
       "p_mod": 32,
       "edge": 8,
       "motivo": "entrada 24¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 39,
-      "p_mod": 47,
-      "edge": 8,
-      "motivo": "entrada 39¢ bajo el piso de 50¢",
       "partido": "ATH@SEA"
     },
     {
@@ -335,24 +353,6 @@
       "partido": "STL@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-STL8",
-      "mercado": "TT STL 7.5",
-      "entrada": 7,
-      "p_mod": 15,
-      "edge": 8,
-      "motivo": "entrada 7¢ bajo el piso de 50¢",
-      "partido": "STL@LAD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP031915MILCHC-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 33,
-      "p_mod": 40,
-      "edge": 7,
-      "motivo": "entrada 33¢ bajo el piso de 50¢",
-      "partido": "MIL@CHC"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP031915MILCHC-10",
       "mercado": "TOTAL 9.5",
       "entrada": 39,
@@ -362,40 +362,40 @@
       "partido": "MIL@CHC"
     },
     {
-      "ticker": "KXMLBSPREAD-26SEP032140ATHSEA-ATH3",
-      "mercado": "SPREAD ATH-2.5",
-      "entrada": 17,
-      "p_mod": 24,
+      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 40,
+      "p_mod": 47,
       "edge": 7,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
       "partido": "ATH@SEA"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 47,
-      "p_mod": 54,
+      "ticker": "KXMLBTEAMTOTAL-26SEP031940MIAKC-MIA6",
+      "mercado": "TT MIA 5.5",
+      "entrada": 63,
+      "p_mod": 70,
       "edge": 7,
-      "motivo": "entrada 47¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIA@KC"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL7",
-      "mercado": "TT MIL 6.5",
-      "entrada": 24,
-      "p_mod": 30,
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL6",
+      "mercado": "TT BAL 5.5",
+      "entrada": 27,
+      "p_mod": 33,
       "edge": 6,
-      "motivo": "entrada 24¢ bajo el piso de 50¢",
-      "partido": "MIL@CHC"
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "BOS@BAL"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL6",
-      "mercado": "TT MIL 5.5",
-      "entrada": 34,
-      "p_mod": 40,
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL5",
+      "mercado": "TT BAL 4.5",
+      "entrada": 38,
+      "p_mod": 44,
       "edge": 6,
-      "motivo": "entrada 34¢ bajo el piso de 50¢",
-      "partido": "MIL@CHC"
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "partido": "BOS@BAL"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-CHC6",
@@ -425,6 +425,15 @@
       "partido": "ATH@SEA"
     },
     {
+      "ticker": "KXMLBTOTAL-26SEP032140ATHSEA-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 48,
+      "p_mod": 54,
+      "edge": 6,
+      "motivo": "entrada 48¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
       "ticker": "KXMLBTOTAL-26SEP032210STLLAD-9",
       "mercado": "TOTAL 8.5",
       "entrada": 44,
@@ -448,32 +457,14 @@
       "entrada": 52,
       "p_mod": 58,
       "edge": 6,
-      "motivo": "correlación: TT MIA 6.5 (+6¢) ganó el cupo de MIA@KC",
+      "motivo": "correlación: TT MIA 5.5 (+7¢) ganó el cupo de MIA@KC",
       "partido": "MIA@KC"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL4",
-      "mercado": "TT MIL 3.5",
-      "entrada": 58,
-      "p_mod": 64,
-      "edge": 6,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "MIL@CHC"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP031940MIAKC-MIA7",
       "mercado": "TT MIA 6.5",
       "entrada": 73,
       "p_mod": 79,
-      "edge": 6,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "MIA@KC"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031940MIAKC-MIA6",
-      "mercado": "TT MIA 5.5",
-      "entrada": 64,
-      "p_mod": 70,
       "edge": 6,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "MIA@KC"
@@ -497,30 +488,21 @@
       "partido": "BOS@BAL"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL8",
+      "mercado": "TT BAL 7.5",
+      "entrada": 11,
+      "p_mod": 16,
+      "edge": 5,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
+      "partido": "BOS@BAL"
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL7",
       "mercado": "TT BAL 6.5",
       "entrada": 18,
       "p_mod": 23,
       "edge": 5,
       "motivo": "entrada 18¢ bajo el piso de 50¢",
-      "partido": "BOS@BAL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL6",
-      "mercado": "TT BAL 5.5",
-      "entrada": 28,
-      "p_mod": 33,
-      "edge": 5,
-      "motivo": "entrada 28¢ bajo el piso de 50¢",
-      "partido": "BOS@BAL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL5",
-      "mercado": "TT BAL 4.5",
-      "entrada": 39,
-      "p_mod": 44,
-      "edge": 5,
-      "motivo": "entrada 39¢ bajo el piso de 50¢",
       "partido": "BOS@BAL"
     },
     {
@@ -533,12 +515,39 @@
       "partido": "MIL@CHC"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL7",
+      "mercado": "TT MIL 6.5",
+      "entrada": 25,
+      "p_mod": 30,
+      "edge": 5,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "MIL@CHC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL6",
+      "mercado": "TT MIL 5.5",
+      "entrada": 35,
+      "p_mod": 40,
+      "edge": 5,
+      "motivo": "entrada 35¢ bajo el piso de 50¢",
+      "partido": "MIL@CHC"
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL5",
       "mercado": "TT MIL 4.5",
       "entrada": 47,
       "p_mod": 52,
       "edge": 5,
       "motivo": "entrada 47¢ bajo el piso de 50¢",
+      "partido": "MIL@CHC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-CHC7",
+      "mercado": "TT CHC 6.5",
+      "entrada": 19,
+      "p_mod": 24,
+      "edge": 5,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
       "partido": "MIL@CHC"
     },
     {
@@ -557,6 +566,15 @@
       "p_mod": 13,
       "edge": 5,
       "motivo": "entrada 8¢ bajo el piso de 50¢",
+      "partido": "MIA@KC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031940MIAKC-MIA3",
+      "mercado": "TT MIA 2.5",
+      "entrada": 26,
+      "p_mod": 31,
+      "edge": 5,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
       "partido": "MIA@KC"
     },
     {
@@ -587,6 +605,24 @@
       "partido": "TB@TEX"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP032005TBTEX-TEX6",
+      "mercado": "TT TEX 5.5",
+      "entrada": 23,
+      "p_mod": 28,
+      "edge": 5,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP032210STLLAD-LAD4",
+      "mercado": "TT LAD 3.5",
+      "entrada": 32,
+      "p_mod": 37,
+      "edge": 5,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "STL@LAD"
+    },
+    {
       "ticker": "KXMLBTOTAL-26SEP032210STLLAD-8",
       "mercado": "TOTAL 7.5",
       "entrada": 52,
@@ -601,7 +637,7 @@
       "entrada": 62,
       "p_mod": 67,
       "edge": 5,
-      "motivo": "correlación: TT MIA 6.5 (+6¢) ganó el cupo de MIA@KC",
+      "motivo": "correlación: TT MIA 5.5 (+7¢) ganó el cupo de MIA@KC",
       "partido": "MIA@KC"
     },
     {
@@ -610,17 +646,8 @@
       "entrada": 55,
       "p_mod": 60,
       "edge": 5,
-      "motivo": "correlación: TT MIA 6.5 (+6¢) ganó el cupo de MIA@KC",
+      "motivo": "correlación: TT MIA 5.5 (+7¢) ganó el cupo de MIA@KC",
       "partido": "MIA@KC"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL3",
-      "mercado": "TT MIL 2.5",
-      "entrada": 72,
-      "p_mod": 77,
-      "edge": 5,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "MIL@CHC"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP031915BOSBAL-BAL4",
@@ -630,6 +657,24 @@
       "edge": 5,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "BOS@BAL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL4",
+      "mercado": "TT MIL 3.5",
+      "entrada": 59,
+      "p_mod": 64,
+      "edge": 5,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIL@CHC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-CHC4",
+      "mercado": "TT CHC 3.5",
+      "entrada": 53,
+      "p_mod": 58,
+      "edge": 5,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIL@CHC"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP032005TBTEX-TB5",
@@ -688,28 +733,28 @@
       "ticker": "KXMLBTEAMTOTAL-26SEP032140ATHSEA-ATH2",
       "lado": "ATH OVER 1.5",
       "mercado": "TT ATH 1.5",
-      "entrada": 72,
+      "entrada": 73,
       "p_mod": 83,
-      "edge": 11,
-      "tp": 88,
-      "stop": 56,
+      "edge": 10,
+      "tp": 89,
+      "stop": 57,
       "max_pagable": 83,
-      "tamano": 3.27,
+      "tamano": 3.09,
       "partido": "ATH@SEA",
       "flags": ""
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL4",
-      "lado": "MIL OVER 3.5",
-      "mercado": "TT MIL 3.5",
-      "entrada": 58,
-      "p_mod": 64,
-      "edge": 6,
-      "tp": 71,
-      "stop": 45,
-      "max_pagable": 64,
-      "tamano": 1.18,
-      "partido": "MIL@CHC",
+      "ticker": "KXMLBTEAMTOTAL-26SEP031940MIAKC-MIA6",
+      "lado": "MIA UNDER (NO)",
+      "mercado": "TT MIA 5.5",
+      "entrada": 63,
+      "p_mod": 70,
+      "edge": 7,
+      "tp": 77,
+      "stop": 49,
+      "max_pagable": 70,
+      "tamano": 1.52,
+      "partido": "MIA@KC",
       "flags": ""
     },
     {
@@ -723,20 +768,6 @@
       "stop": 57,
       "max_pagable": 79,
       "tamano": 1.82,
-      "partido": "MIA@KC",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031940MIAKC-MIA6",
-      "lado": "MIA UNDER (NO)",
-      "mercado": "TT MIA 5.5",
-      "entrada": 64,
-      "p_mod": 70,
-      "edge": 6,
-      "tp": 78,
-      "stop": 50,
-      "max_pagable": 70,
-      "tamano": 1.33,
       "partido": "MIA@KC",
       "flags": ""
     },
@@ -783,16 +814,30 @@
       "flags": ""
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL3",
-      "lado": "MIL OVER 2.5",
-      "mercado": "TT MIL 2.5",
-      "entrada": 72,
-      "p_mod": 77,
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-MIL4",
+      "lado": "MIL OVER 3.5",
+      "mercado": "TT MIL 3.5",
+      "entrada": 59,
+      "p_mod": 64,
       "edge": 5,
-      "tp": 88,
-      "stop": 56,
-      "max_pagable": 77,
-      "tamano": 1.36,
+      "tp": 72,
+      "stop": 46,
+      "max_pagable": 64,
+      "tamano": 1.01,
+      "partido": "MIL@CHC",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP031915MILCHC-CHC4",
+      "lado": "CHC OVER 3.5",
+      "mercado": "TT CHC 3.5",
+      "entrada": 53,
+      "p_mod": 58,
+      "edge": 5,
+      "tp": 65,
+      "stop": 41,
+      "max_pagable": 58,
+      "tamano": 0.85,
       "partido": "MIL@CHC",
       "flags": ""
     },
