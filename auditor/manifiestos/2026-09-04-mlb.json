@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-04",
-  "corrida_ts": "2026-09-04T11:05:29-0700",
-  "precios_ts": "2026-09-04T11:05:21-0700",
-  "hash_salida_motor": "175278b4af4177b7",
+  "corrida_ts": "2026-09-04T11:15:22-0700",
+  "precios_ts": "2026-09-04T11:15:13-0700",
+  "hash_salida_motor": "a2314024802d0aae",
   "archivo_predicciones": "2026-09-04-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT5"
@@ -40,10 +40,19 @@
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT4",
       "mercado": "TT PIT 3.5",
-      "entrada": 37,
+      "entrada": 36,
       "p_mod": 53,
+      "edge": 17,
+      "motivo": "entrada 36¢ bajo el piso de 50¢",
+      "partido": "LAA@PIT"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT6",
+      "mercado": "TT PIT 5.5",
+      "entrada": 62,
+      "p_mod": 78,
       "edge": 16,
-      "motivo": "entrada 37¢ bajo el piso de 50¢",
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "LAA@PIT"
     },
     {
@@ -56,6 +65,15 @@
       "partido": "LAA@PIT"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT3",
+      "mercado": "TT PIT 2.5",
+      "entrada": 23,
+      "p_mod": 38,
+      "edge": 15,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "LAA@PIT"
+    },
+    {
       "ticker": "KXMLBGAME-26SEP042210ATHSEA-ATH",
       "mercado": "ML",
       "entrada": 34,
@@ -63,24 +81,6 @@
       "edge": 15,
       "motivo": "entrada 34¢ bajo el piso de 50¢",
       "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT6",
-      "mercado": "TT PIT 5.5",
-      "entrada": 63,
-      "p_mod": 78,
-      "edge": 15,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "LAA@PIT"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT3",
-      "mercado": "TT PIT 2.5",
-      "entrada": 24,
-      "p_mod": 38,
-      "edge": 14,
-      "motivo": "entrada 24¢ bajo el piso de 50¢",
-      "partido": "LAA@PIT"
     },
     {
       "ticker": "KXMLBSPREAD-26SEP041845LAAPIT-LAA3",
@@ -119,24 +119,6 @@
       "partido": "CHC@MIA"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH5",
-      "mercado": "TT ATH 4.5",
-      "entrada": 25,
-      "p_mod": 38,
-      "edge": 13,
-      "motivo": "flag: LIQUIDEZ-BAJA",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH4",
-      "mercado": "TT ATH 3.5",
-      "entrada": 38,
-      "p_mod": 51,
-      "edge": 13,
-      "motivo": "flag: LIQUIDEZ-BAJA",
-      "partido": "ATH@SEA"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH3",
       "mercado": "TT ATH 2.5",
       "entrada": 53,
@@ -171,6 +153,33 @@
       "edge": 12,
       "motivo": "entrada 44¢ bajo el piso de 50¢",
       "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH5",
+      "mercado": "TT ATH 4.5",
+      "entrada": 26,
+      "p_mod": 38,
+      "edge": 12,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH4",
+      "mercado": "TT ATH 3.5",
+      "entrada": 39,
+      "p_mod": 51,
+      "edge": 12,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT7",
+      "mercado": "TT PIT 6.5",
+      "entrada": 73,
+      "p_mod": 85,
+      "edge": 12,
+      "motivo": "correlación: TT PIT 4.5 (+17¢) ganó el cupo de LAA@PIT",
+      "partido": "LAA@PIT"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP042040STLCOL-COL6",
@@ -276,15 +285,6 @@
       "mercado": "SPREAD PIT-2.5",
       "entrada": 66,
       "p_mod": 77,
-      "edge": 11,
-      "motivo": "correlación: TT PIT 4.5 (+17¢) ganó el cupo de LAA@PIT",
-      "partido": "LAA@PIT"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT7",
-      "mercado": "TT PIT 6.5",
-      "entrada": 74,
-      "p_mod": 85,
       "edge": 11,
       "motivo": "correlación: TT PIT 4.5 (+17¢) ganó el cupo de LAA@PIT",
       "partido": "LAA@PIT"
@@ -524,6 +524,15 @@
       "partido": "ATH@SEA"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH7",
+      "mercado": "TT ATH 6.5",
+      "entrada": 10,
+      "p_mod": 19,
+      "edge": 9,
+      "motivo": "flag: LIQUIDEZ-BAJA",
+      "partido": "ATH@SEA"
+    },
+    {
       "ticker": "KXMLBSPREAD-26SEP041845LAAPIT-PIT4",
       "mercado": "SPREAD PIT-3.5",
       "entrada": 75,
@@ -614,13 +623,13 @@
       "partido": "STL@COL"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH7",
-      "mercado": "TT ATH 6.5",
-      "entrada": 11,
-      "p_mod": 19,
+      "ticker": "KXMLBTOTAL-26SEP042140NYYSD-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 40,
+      "p_mod": 48,
       "edge": 8,
-      "motivo": "entrada 11¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "NYY@SD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-LAA3",
@@ -695,24 +704,6 @@
       "partido": "MIN@CWS"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP042140NYYSD-7",
-      "mercado": "TOTAL 6.5",
-      "entrada": 41,
-      "p_mod": 48,
-      "edge": 7,
-      "motivo": "entrada 41¢ bajo el piso de 50¢",
-      "partido": "NYY@SD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP042140NYYSD-6",
-      "mercado": "TOTAL 5.5",
-      "entrada": 32,
-      "p_mod": 39,
-      "edge": 7,
-      "motivo": "entrada 32¢ bajo el piso de 50¢",
-      "partido": "NYY@SD"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP042040STLCOL-12",
       "mercado": "TOTAL 11.5",
       "entrada": 52,
@@ -740,6 +731,15 @@
       "partido": "WSH@LAD"
     },
     {
+      "ticker": "KXMLBTOTAL-26SEP041840ATLPHI-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 32,
+      "p_mod": 38,
+      "edge": 6,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
       "ticker": "KXMLBTOTAL-26SEP041840ATLPHI-8",
       "mercado": "TOTAL 7.5",
       "entrada": 40,
@@ -747,6 +747,15 @@
       "edge": 6,
       "motivo": "entrada 40¢ bajo el piso de 50¢",
       "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP041845LAAPIT-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 42,
+      "p_mod": 48,
+      "edge": 6,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "LAA@PIT"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP041845LAAPIT-6",
@@ -792,6 +801,15 @@
       "edge": 6,
       "motivo": "entrada 10¢ bajo el piso de 50¢",
       "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP042140NYYSD-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 33,
+      "p_mod": 39,
+      "edge": 6,
+      "motivo": "entrada 33¢ bajo el piso de 50¢",
+      "partido": "NYY@SD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP042210WSHLAD-WSH5",
@@ -848,6 +866,15 @@
       "partido": "ATH@SEA"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH8",
+      "mercado": "TT ATH 7.5",
+      "entrada": 6,
+      "p_mod": 12,
+      "edge": 6,
+      "motivo": "flag: LIQUIDEZ-BAJA",
+      "partido": "ATH@SEA"
+    },
+    {
       "ticker": "KXMLBTOTAL-26SEP041845LAAPIT-9",
       "mercado": "TOTAL 8.5",
       "entrada": 50,
@@ -873,15 +900,6 @@
       "edge": 6,
       "motivo": "correlación: TT COL 5.5 (+12¢) ganó el cupo de STL@COL",
       "partido": "STL@COL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP041840ATLPHI-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 33,
-      "p_mod": 38,
-      "edge": 5,
-      "motivo": "entrada 33¢ bajo el piso de 50¢",
-      "partido": "ATL@PHI"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP041840ATLPHI-12",
@@ -918,15 +936,6 @@
       "edge": 5,
       "motivo": "entrada 44¢ bajo el piso de 50¢",
       "partido": "ATL@PHI"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP041845LAAPIT-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 43,
-      "p_mod": 48,
-      "edge": 5,
-      "motivo": "entrada 43¢ bajo el piso de 50¢",
-      "partido": "LAA@PIT"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-LAA8",
@@ -1064,15 +1073,6 @@
       "partido": "ATH@SEA"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP042210ATHSEA-ATH8",
-      "mercado": "TT ATH 7.5",
-      "entrada": 7,
-      "p_mod": 12,
-      "edge": 5,
-      "motivo": "entrada 7¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP041905BOSBAL-8",
       "mercado": "TOTAL 7.5",
       "entrada": 56,
@@ -1128,13 +1128,13 @@
       "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT6",
       "lado": "PIT UNDER (NO)",
       "mercado": "TT PIT 5.5",
-      "entrada": 63,
+      "entrada": 62,
       "p_mod": 78,
-      "edge": 15,
-      "tp": 77,
-      "stop": 49,
+      "edge": 16,
+      "tp": 76,
+      "stop": 48,
       "max_pagable": 78,
-      "tamano": 3.22,
+      "tamano": 3.36,
       "partido": "LAA@PIT",
       "flags": ""
     },
@@ -1149,6 +1149,20 @@
       "stop": 43,
       "max_pagable": 68,
       "tamano": 2.39,
+      "partido": "LAA@PIT",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT7",
+      "lado": "PIT UNDER (NO)",
+      "mercado": "TT PIT 6.5",
+      "entrada": 73,
+      "p_mod": 85,
+      "edge": 12,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 85,
+      "tamano": 3.8,
       "partido": "LAA@PIT",
       "flags": ""
     },
@@ -1177,20 +1191,6 @@
       "stop": 51,
       "max_pagable": 77,
       "tamano": 2.54,
-      "partido": "LAA@PIT",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP041845LAAPIT-PIT7",
-      "lado": "PIT UNDER (NO)",
-      "mercado": "TT PIT 6.5",
-      "entrada": 74,
-      "p_mod": 85,
-      "edge": 11,
-      "tp": 90,
-      "stop": 58,
-      "max_pagable": 85,
-      "tamano": 3.63,
       "partido": "LAA@PIT",
       "flags": ""
     },
