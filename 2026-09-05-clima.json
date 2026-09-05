@@ -1,40 +1,16 @@
 {
-  "generado_ts": "2026-09-05T05:01:47-0700",
+  "generado_ts": "2026-09-05T06:39:00-0700",
   "motor": "CLIMA",
   "fecha": "2026-09-05",
   "tickets": [
     {
-      "ticker": "KXHIGHCHI-26SEP05-B85.5",
-      "mercado": "85° to 86°",
-      "lado": "NO",
-      "entrada_sugerida_c": 84,
-      "prob_modelo": 94,
-      "edge_c": 10,
-      "max_pagable_c": 94,
-      "partido": "CHI",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHMIA-26SEP05-B88.5",
-      "mercado": "88° to 89°",
+      "ticker": "KXHIGHDEN-26SEP05-B89.5",
+      "mercado": "89° to 90°",
       "lado": "YES",
-      "entrada_sugerida_c": 8,
-      "prob_modelo": 20,
-      "edge_c": 12,
-      "max_pagable_c": 20,
-      "partido": "MIA",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHDEN-26SEP05-B93.5",
-      "mercado": "93° to 94°",
-      "lado": "NO",
-      "entrada_sugerida_c": 54,
-      "prob_modelo": 82,
-      "edge_c": 28,
-      "max_pagable_c": 82,
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 25,
+      "edge_c": 22,
+      "max_pagable_c": 25,
       "partido": "DEN",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
