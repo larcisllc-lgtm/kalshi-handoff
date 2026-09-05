@@ -1,0 +1,157 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-05",
+  "corrida_ts": "2026-09-05T05:01:47-0700",
+  "precios_ts": "2026-09-05T12:00:37+0000",
+  "hash_salida_motor": "2e85fd4de6a75e5e",
+  "archivo_predicciones": "2026-09-05-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26SEP05-B85.5",
+    "KXHIGHMIA-26SEP05-B88.5",
+    "KXHIGHDEN-26SEP05-B93.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26SEP05-B85.5",
+      "lado": "NO",
+      "mercado": "85° to 86°",
+      "entrada": 84,
+      "p_mod": 94,
+      "edge": 10,
+      "tp": 97,
+      "stop": 66,
+      "max_pagable": 94,
+      "tamano": 9.8,
+      "razonamiento": "CHI maxima 2026-09-05 — NO \"85° to 86°\" a 84c; ensemble n=119 media 82.2deg, NWS 82deg, confianza alta; edge +10c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP05-B88.5",
+      "lado": "YES",
+      "mercado": "88° to 89°",
+      "entrada": 8,
+      "p_mod": 20,
+      "edge": 12,
+      "tp": 10,
+      "stop": 6,
+      "max_pagable": 20,
+      "tamano": 1.1,
+      "razonamiento": "MIA maxima 2026-09-05 — YES \"88° to 89°\" a 8c; ensemble n=119 media 90.6deg, NWS 90deg, confianza media; edge +12c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP05-B93.5",
+      "lado": "NO",
+      "mercado": "93° to 94°",
+      "entrada": 54,
+      "p_mod": 82,
+      "edge": 28,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 82,
+      "tamano": 9.87,
+      "razonamiento": "DEN maxima 2026-09-05 — NO \"93° to 94°\" a 54c; ensemble n=119 media 91.2deg, NWS 93deg, confianza alta; edge +28c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHCHI-26SEP05-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 50,
+      "p_mod": 68,
+      "edge": 18,
+      "motivo": "flag: BORDE-CERCANO(0.40°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP05-T83",
+      "mercado": "82° or below",
+      "entrada": 30,
+      "p_mod": 62,
+      "edge": 32,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP05-B90.5",
+      "mercado": "90° to 91°",
+      "entrada": 32,
+      "p_mod": 50,
+      "edge": 18,
+      "motivo": "flag: BORDE-CERCANO(0.84°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP05-B92.5",
+      "mercado": "92° to 93°",
+      "entrada": 48,
+      "p_mod": 75,
+      "edge": 27,
+      "motivo": "flag: BORDE-CERCANO(0.84°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP05-B89.5",
+      "mercado": "89° to 90°",
+      "entrada": 6,
+      "p_mod": 25,
+      "edge": 19,
+      "motivo": "correlacion: NO (+28c) es la unica expresion de DEN",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26SEP05-B85.5",
+      "lado": "NO",
+      "mercado": "85° to 86°",
+      "entrada": 84,
+      "p_mod": 94,
+      "edge": 10,
+      "tp": 97,
+      "stop": 66,
+      "max_pagable": 94,
+      "tamano": 9.8,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP05-B88.5",
+      "lado": "YES",
+      "mercado": "88° to 89°",
+      "entrada": 8,
+      "p_mod": 20,
+      "edge": 12,
+      "tp": 10,
+      "stop": 6,
+      "max_pagable": 20,
+      "tamano": 1.1,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP05-B93.5",
+      "lado": "NO",
+      "mercado": "93° to 94°",
+      "entrada": 54,
+      "p_mod": 82,
+      "edge": 28,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 82,
+      "tamano": 9.87,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
