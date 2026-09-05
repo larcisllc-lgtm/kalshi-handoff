@@ -1,0 +1,1912 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-09-05",
+  "corrida_ts": "2026-09-05T07:47:39-0700",
+  "precios_ts": "2026-09-05T07:47:28-0700",
+  "hash_salida_motor": "2ca9dbd1b839decf",
+  "archivo_predicciones": "2026-09-05-mlb.md",
+  "tickers": [
+    "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH3",
+    "KXMLBTOTAL-26SEP051910MINCWS-8"
+  ],
+  "picks": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH3",
+      "lado": "ATH OVER 2.5",
+      "mercado": "TT ATH 2.5",
+      "entrada": 55,
+      "p_mod": 75,
+      "edge": 20,
+      "tp": 67,
+      "stop": 43,
+      "max_pagable": 75,
+      "tamano": 3.58,
+      "razonamiento": "ATH@SEA 6:40 PM PT — TT ATH 2.5 ATH OVER 2.5; modelo 75% vs ask 55¢, edge +20¢ ALTO",
+      "partido": "ATH@SEA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-8",
+      "lado": "OVER 7.5",
+      "mercado": "TOTAL 7.5",
+      "entrada": 56,
+      "p_mod": 63,
+      "edge": 7,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 63,
+      "tamano": 1.22,
+      "razonamiento": "MIN@CWS 4:10 PM PT — TOTAL 7.5 OVER 7.5; modelo 63% vs ask 56¢, edge +7¢ MEDIO",
+      "partido": "MIN@CWS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH5",
+      "mercado": "TT ATH 4.5",
+      "entrada": 27,
+      "p_mod": 49,
+      "edge": 22,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH4",
+      "mercado": "TT ATH 3.5",
+      "entrada": 40,
+      "p_mod": 61,
+      "edge": 21,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH6",
+      "mercado": "TT ATH 5.5",
+      "entrada": 18,
+      "p_mod": 37,
+      "edge": 19,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP052140ATHSEA-ATH",
+      "mercado": "ML",
+      "entrada": 32,
+      "p_mod": 50,
+      "edge": 18,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP052110WSHLAD-WSH",
+      "mercado": "ML",
+      "entrada": 34,
+      "p_mod": 51,
+      "edge": 17,
+      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH7",
+      "mercado": "TT ATH 6.5",
+      "entrada": 12,
+      "p_mod": 28,
+      "edge": 16,
+      "motivo": "entrada 12¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 27,
+      "p_mod": 42,
+      "edge": 15,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-14",
+      "mercado": "TOTAL 13.5",
+      "entrada": 20,
+      "p_mod": 34,
+      "edge": 14,
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 31,
+      "p_mod": 45,
+      "edge": 14,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 21,
+      "p_mod": 35,
+      "edge": 14,
+      "motivo": "entrada 21¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 34,
+      "p_mod": 48,
+      "edge": 14,
+      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH2",
+      "mercado": "TT ATH 1.5",
+      "entrada": 73,
+      "p_mod": 87,
+      "edge": 14,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 26,
+      "p_mod": 39,
+      "edge": 13,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH4",
+      "mercado": "TT WSH 3.5",
+      "entrada": 39,
+      "p_mod": 52,
+      "edge": 13,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 17,
+      "p_mod": 30,
+      "edge": 13,
+      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 50,
+      "p_mod": 63,
+      "edge": 13,
+      "motivo": "correlación: TT ATH 2.5 (+20¢) ganó el cupo de ATH@SEA",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 39,
+      "p_mod": 51,
+      "edge": 12,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 25,
+      "p_mod": 37,
+      "edge": 12,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH5",
+      "mercado": "TT WSH 4.5",
+      "entrada": 27,
+      "p_mod": 39,
+      "edge": 12,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 43,
+      "p_mod": 55,
+      "edge": 12,
+      "motivo": "entrada 43¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH8",
+      "mercado": "TT ATH 7.5",
+      "entrada": 8,
+      "p_mod": 20,
+      "edge": 12,
+      "motivo": "entrada 8¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051805ATLPHI-ATL",
+      "mercado": "ML",
+      "entrada": 41,
+      "p_mod": 52,
+      "edge": 11,
+      "motivo": "entrada 41¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 46,
+      "p_mod": 57,
+      "edge": 11,
+      "motivo": "entrada 46¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN5",
+      "mercado": "TT CIN 4.5",
+      "entrada": 41,
+      "p_mod": 52,
+      "edge": 11,
+      "motivo": "entrada 41¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 41,
+      "p_mod": 52,
+      "edge": 11,
+      "motivo": "entrada 41¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 19,
+      "p_mod": 30,
+      "edge": 11,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 24,
+      "p_mod": 35,
+      "edge": 11,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-WSH2",
+      "mercado": "SPREAD WSH-1.5",
+      "entrada": 23,
+      "p_mod": 34,
+      "edge": 11,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH3",
+      "mercado": "TT WSH 2.5",
+      "entrada": 55,
+      "p_mod": 66,
+      "edge": 11,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051840LAAPIT-LAA",
+      "mercado": "ML",
+      "entrada": 37,
+      "p_mod": 47,
+      "edge": 10,
+      "motivo": "entrada 37¢ bajo el piso de 50¢",
+      "partido": "LAA@PIT"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN7",
+      "mercado": "TT CIN 6.5",
+      "entrada": 20,
+      "p_mod": 30,
+      "edge": 10,
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 34,
+      "p_mod": 44,
+      "edge": 10,
+      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 15,
+      "p_mod": 25,
+      "edge": 10,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB4",
+      "mercado": "TT TB 3.5",
+      "entrada": 47,
+      "p_mod": 57,
+      "edge": 10,
+      "motivo": "entrada 47¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 32,
+      "p_mod": 42,
+      "edge": 10,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 38,
+      "p_mod": 48,
+      "edge": 10,
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-WSH3",
+      "mercado": "SPREAD WSH-2.5",
+      "entrada": 16,
+      "p_mod": 26,
+      "edge": 10,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH6",
+      "mercado": "TT WSH 5.5",
+      "entrada": 18,
+      "p_mod": 28,
+      "edge": 10,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD4",
+      "mercado": "TT LAD 3.5",
+      "entrada": 40,
+      "p_mod": 50,
+      "edge": 10,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052140ATHSEA-ATH2",
+      "mercado": "SPREAD ATH-1.5",
+      "entrada": 22,
+      "p_mod": 32,
+      "edge": 10,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH2",
+      "mercado": "TT WSH 1.5",
+      "entrada": 71,
+      "p_mod": 81,
+      "edge": 10,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL4",
+      "mercado": "TT ATL 3.5",
+      "entrada": 50,
+      "p_mod": 60,
+      "edge": 10,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN4",
+      "mercado": "TT CIN 3.5",
+      "entrada": 54,
+      "p_mod": 64,
+      "edge": 10,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN8",
+      "mercado": "TT CIN 7.5",
+      "entrada": 13,
+      "p_mod": 22,
+      "edge": 9,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN6",
+      "mercado": "TT CIN 5.5",
+      "entrada": 31,
+      "p_mod": 40,
+      "edge": 9,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 21,
+      "p_mod": 30,
+      "edge": 9,
+      "motivo": "entrada 21¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB5",
+      "mercado": "TT TB 4.5",
+      "entrada": 35,
+      "p_mod": 44,
+      "edge": 9,
+      "motivo": "entrada 35¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-WSH4",
+      "mercado": "SPREAD WSH-3.5",
+      "entrada": 10,
+      "p_mod": 19,
+      "edge": 9,
+      "motivo": "entrada 10¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD3",
+      "mercado": "TT LAD 2.5",
+      "entrada": 26,
+      "p_mod": 35,
+      "edge": 9,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052140ATHSEA-ATH3",
+      "mercado": "SPREAD ATH-2.5",
+      "entrada": 16,
+      "p_mod": 25,
+      "edge": 9,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD5",
+      "mercado": "TT LAD 4.5",
+      "entrada": 54,
+      "p_mod": 63,
+      "edge": 9,
+      "motivo": "correlación: TT WSH 2.5 (+11¢) ganó el cupo de WSH@LAD",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL3",
+      "mercado": "TT ATL 2.5",
+      "entrada": 64,
+      "p_mod": 73,
+      "edge": 9,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN3",
+      "mercado": "TT CIN 2.5",
+      "entrada": 68,
+      "p_mod": 77,
+      "edge": 9,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051610SFNYM-SF",
+      "mercado": "ML",
+      "entrada": 40,
+      "p_mod": 48,
+      "edge": 8,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "SF@NYM"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP051805ATLPHI-ATL4",
+      "mercado": "SPREAD ATL-3.5",
+      "entrada": 15,
+      "p_mod": 23,
+      "edge": 8,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP051805ATLPHI-ATL3",
+      "mercado": "SPREAD ATL-2.5",
+      "entrada": 22,
+      "p_mod": 30,
+      "edge": 8,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-PHI4",
+      "mercado": "TT PHI 3.5",
+      "entrada": 40,
+      "p_mod": 48,
+      "edge": 8,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL6",
+      "mercado": "TT ATL 5.5",
+      "entrada": 28,
+      "p_mod": 36,
+      "edge": 8,
+      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL5",
+      "mercado": "TT ATL 4.5",
+      "entrada": 39,
+      "p_mod": 47,
+      "edge": 8,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051915AZHOU-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 30,
+      "p_mod": 38,
+      "edge": 8,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052010STLCOL-16",
+      "mercado": "TOTAL 15.5",
+      "entrada": 19,
+      "p_mod": 27,
+      "edge": 8,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
+      "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH7",
+      "mercado": "TT WSH 6.5",
+      "entrada": 11,
+      "p_mod": 19,
+      "edge": 8,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052140ATHSEA-ATH4",
+      "mercado": "SPREAD ATH-3.5",
+      "entrada": 11,
+      "p_mod": 19,
+      "edge": 8,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-LAD2",
+      "mercado": "SPREAD LAD-1.5",
+      "entrada": 54,
+      "p_mod": 62,
+      "edge": 8,
+      "motivo": "correlación: TT WSH 2.5 (+11¢) ganó el cupo de WSH@LAD",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD6",
+      "mercado": "TT LAD 5.5",
+      "entrada": 66,
+      "p_mod": 74,
+      "edge": 8,
+      "motivo": "correlación: TT WSH 2.5 (+11¢) ganó el cupo de WSH@LAD",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB3",
+      "mercado": "TT TB 2.5",
+      "entrada": 63,
+      "p_mod": 71,
+      "edge": 8,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP051805ATLPHI-ATL2",
+      "mercado": "SPREAD ATL-1.5",
+      "entrada": 31,
+      "p_mod": 38,
+      "edge": 7,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051810DETCLE-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 41,
+      "p_mod": 48,
+      "edge": 7,
+      "motivo": "entrada 41¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL6",
+      "mercado": "TT MIL 5.5",
+      "entrada": 45,
+      "p_mod": 52,
+      "edge": 7,
+      "motivo": "entrada 45¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB6",
+      "mercado": "TT TB 5.5",
+      "entrada": 25,
+      "p_mod": 32,
+      "edge": 7,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910TORKC-14",
+      "mercado": "TOTAL 13.5",
+      "entrada": 22,
+      "p_mod": 29,
+      "edge": 7,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 48,
+      "p_mod": 55,
+      "edge": 7,
+      "motivo": "entrada 48¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN6",
+      "mercado": "TT MIN 5.5",
+      "entrada": 32,
+      "p_mod": 39,
+      "edge": 7,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-CWS7",
+      "mercado": "TT CWS 6.5",
+      "entrada": 21,
+      "p_mod": 28,
+      "edge": 7,
+      "motivo": "entrada 21¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051915AZHOU-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 14,
+      "p_mod": 21,
+      "edge": 7,
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD7",
+      "mercado": "TT LAD 6.5",
+      "entrada": 76,
+      "p_mod": 83,
+      "edge": 7,
+      "motivo": "correlación: TT WSH 2.5 (+11¢) ganó el cupo de WSH@LAD",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 57,
+      "p_mod": 64,
+      "edge": 7,
+      "motivo": "correlación: TT CIN 3.5 (+10¢) ganó el cupo de MIL@CIN",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL5",
+      "mercado": "TT MIL 4.5",
+      "entrada": 56,
+      "p_mod": 63,
+      "edge": 7,
+      "motivo": "correlación: TT CIN 3.5 (+10¢) ganó el cupo de MIL@CIN",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN3",
+      "mercado": "TT MIN 2.5",
+      "entrada": 69,
+      "p_mod": 76,
+      "edge": 7,
+      "motivo": "correlación: TOTAL 7.5 (+7¢) ganó el cupo de MIN@CWS",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN4",
+      "mercado": "TT MIN 3.5",
+      "entrada": 56,
+      "p_mod": 63,
+      "edge": 7,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-PHI3",
+      "mercado": "TT PHI 2.5",
+      "entrada": 27,
+      "p_mod": 33,
+      "edge": 6,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL7",
+      "mercado": "TT ATL 6.5",
+      "entrada": 20,
+      "p_mod": 26,
+      "edge": 6,
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051810DETCLE-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 27,
+      "p_mod": 33,
+      "edge": 6,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051840MILCIN-CIN",
+      "mercado": "ML",
+      "entrada": 42,
+      "p_mod": 48,
+      "edge": 6,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL8",
+      "mercado": "TT MIL 7.5",
+      "entrada": 27,
+      "p_mod": 33,
+      "edge": 6,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL7",
+      "mercado": "TT MIL 6.5",
+      "entrada": 36,
+      "p_mod": 42,
+      "edge": 6,
+      "motivo": "entrada 36¢ bajo el piso de 50¢",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB7",
+      "mercado": "TT TB 6.5",
+      "entrada": 17,
+      "p_mod": 23,
+      "edge": 6,
+      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910TORKC-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 29,
+      "p_mod": 35,
+      "edge": 6,
+      "motivo": "entrada 29¢ bajo el piso de 50¢",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910TORKC-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 34,
+      "p_mod": 40,
+      "edge": 6,
+      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN8",
+      "mercado": "TT MIN 7.5",
+      "entrada": 15,
+      "p_mod": 21,
+      "edge": 6,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN7",
+      "mercado": "TT MIN 6.5",
+      "entrada": 23,
+      "p_mod": 29,
+      "edge": 6,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN5",
+      "mercado": "TT MIN 4.5",
+      "entrada": 44,
+      "p_mod": 50,
+      "edge": 6,
+      "motivo": "entrada 44¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-CWS8",
+      "mercado": "TT CWS 7.5",
+      "entrada": 14,
+      "p_mod": 20,
+      "edge": 6,
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-CWS6",
+      "mercado": "TT CWS 5.5",
+      "entrada": 32,
+      "p_mod": 38,
+      "edge": 6,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051915AZHOU-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 48,
+      "p_mod": 54,
+      "edge": 6,
+      "motivo": "entrada 48¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051915AZHOU-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 23,
+      "p_mod": 29,
+      "edge": 6,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052010STLCOL-15",
+      "mercado": "TOTAL 14.5",
+      "entrada": 25,
+      "p_mod": 31,
+      "edge": 6,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052010STLCOL-COL8",
+      "mercado": "TT COL 7.5",
+      "entrada": 24,
+      "p_mod": 30,
+      "edge": 6,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052140ATHSEA-SEA2",
+      "mercado": "SPREAD SEA-1.5",
+      "entrada": 50,
+      "p_mod": 56,
+      "edge": 6,
+      "motivo": "correlación: TT ATH 2.5 (+20¢) ganó el cupo de ATH@SEA",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 64,
+      "p_mod": 70,
+      "edge": 6,
+      "motivo": "correlación: TT ATH 2.5 (+20¢) ganó el cupo de ATH@SEA",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-LAD3",
+      "mercado": "SPREAD LAD-2.5",
+      "entrada": 65,
+      "p_mod": 71,
+      "edge": 6,
+      "motivo": "correlación: TT WSH 2.5 (+11¢) ganó el cupo de WSH@LAD",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-PHI5",
+      "mercado": "TT PHI 4.5",
+      "entrada": 55,
+      "p_mod": 61,
+      "edge": 6,
+      "motivo": "correlación: TT ATL 3.5 (+10¢) ganó el cupo de ATL@PHI",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL2",
+      "mercado": "TT ATL 1.5",
+      "entrada": 80,
+      "p_mod": 86,
+      "edge": 6,
+      "motivo": "correlación: TT ATL 3.5 (+10¢) ganó el cupo de ATL@PHI",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 65,
+      "p_mod": 71,
+      "edge": 6,
+      "motivo": "correlación: TT CIN 3.5 (+10¢) ganó el cupo de MIL@CIN",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 63,
+      "p_mod": 69,
+      "edge": 6,
+      "motivo": "correlación: TT TB 2.5 (+8¢) ganó el cupo de TB@TEX",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-CWS4",
+      "mercado": "TT CWS 3.5",
+      "entrada": 56,
+      "p_mod": 62,
+      "edge": 6,
+      "motivo": "correlación: TOTAL 7.5 (+7¢) ganó el cupo de MIN@CWS",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 54,
+      "p_mod": 60,
+      "edge": 6,
+      "motivo": "cupo de TOTAL: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910TORKC-TOR5",
+      "mercado": "TT TOR 4.5",
+      "entrada": 52,
+      "p_mod": 58,
+      "edge": 6,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051915AZHOU-HOU5",
+      "mercado": "TT HOU 4.5",
+      "entrada": 57,
+      "p_mod": 63,
+      "edge": 6,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP051610CHCMIA-MIA4",
+      "mercado": "SPREAD MIA-3.5",
+      "entrada": 13,
+      "p_mod": 18,
+      "edge": 5,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "CHC@MIA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051610CHCMIA-MIA7",
+      "mercado": "TT MIA 6.5",
+      "entrada": 17,
+      "p_mod": 22,
+      "edge": 5,
+      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "partido": "CHC@MIA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051610CHCMIA-MIA6",
+      "mercado": "TT MIA 5.5",
+      "entrada": 26,
+      "p_mod": 31,
+      "edge": 5,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "CHC@MIA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL8",
+      "mercado": "TT ATL 7.5",
+      "entrada": 13,
+      "p_mod": 18,
+      "edge": 5,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051810DETCLE-DET",
+      "mercado": "ML",
+      "entrada": 42,
+      "p_mod": 47,
+      "edge": 5,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051810DETCLE-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 35,
+      "p_mod": 40,
+      "edge": 5,
+      "motivo": "entrada 35¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051810DETCLE-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 16,
+      "p_mod": 21,
+      "edge": 5,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051810DETCLE-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 22,
+      "p_mod": 27,
+      "edge": 5,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051810DETCLE-CLE7",
+      "mercado": "TT CLE 6.5",
+      "entrada": 18,
+      "p_mod": 23,
+      "edge": 5,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051810DETCLE-CLE6",
+      "mercado": "TT CLE 5.5",
+      "entrada": 27,
+      "p_mod": 32,
+      "edge": 5,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051810DETCLE-CLE5",
+      "mercado": "TT CLE 4.5",
+      "entrada": 39,
+      "p_mod": 44,
+      "edge": 5,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "DET@CLE"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840LAAPIT-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 18,
+      "p_mod": 23,
+      "edge": 5,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "LAA@PIT"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TEX5",
+      "mercado": "TT TEX 4.5",
+      "entrada": 31,
+      "p_mod": 36,
+      "edge": 5,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TEX4",
+      "mercado": "TT TEX 3.5",
+      "entrada": 44,
+      "p_mod": 49,
+      "edge": 5,
+      "motivo": "entrada 44¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB8",
+      "mercado": "TT TB 7.5",
+      "entrada": 11,
+      "p_mod": 16,
+      "edge": 5,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910TORKC-TOR8",
+      "mercado": "TT TOR 7.5",
+      "entrada": 24,
+      "p_mod": 29,
+      "edge": 5,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910TORKC-TOR6",
+      "mercado": "TT TOR 5.5",
+      "entrada": 42,
+      "p_mod": 47,
+      "edge": 5,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-CWS5",
+      "mercado": "TT CWS 4.5",
+      "entrada": 44,
+      "p_mod": 49,
+      "edge": 5,
+      "motivo": "entrada 44¢ bajo el piso de 50¢",
+      "partido": "MIN@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051915AZHOU-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 41,
+      "p_mod": 46,
+      "edge": 5,
+      "motivo": "entrada 41¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051915AZHOU-HOU4",
+      "mercado": "TT HOU 3.5",
+      "entrada": 45,
+      "p_mod": 50,
+      "edge": 5,
+      "motivo": "entrada 45¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051915AZHOU-HOU3",
+      "mercado": "TT HOU 2.5",
+      "entrada": 30,
+      "p_mod": 35,
+      "edge": 5,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP051915NYYSD-NYY",
+      "mercado": "ML",
+      "entrada": 46,
+      "p_mod": 51,
+      "edge": 5,
+      "motivo": "entrada 46¢ bajo el piso de 50¢",
+      "partido": "NYY@SD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052010STLCOL-COL4",
+      "mercado": "SPREAD COL-3.5",
+      "entrada": 17,
+      "p_mod": 22,
+      "edge": 5,
+      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052010STLCOL-14",
+      "mercado": "TOTAL 13.5",
+      "entrada": 31,
+      "p_mod": 36,
+      "edge": 5,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052010STLCOL-COL7",
+      "mercado": "TT COL 6.5",
+      "entrada": 34,
+      "p_mod": 39,
+      "edge": 5,
+      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "partido": "STL@COL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH8",
+      "mercado": "TT WSH 7.5",
+      "entrada": 7,
+      "p_mod": 12,
+      "edge": 5,
+      "motivo": "entrada 7¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD8",
+      "mercado": "TT LAD 7.5",
+      "entrada": 84,
+      "p_mod": 89,
+      "edge": 5,
+      "motivo": "flag: POCO-RECORRIDO",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD2",
+      "mercado": "TT LAD 1.5",
+      "entrada": 15,
+      "p_mod": 20,
+      "edge": 5,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 73,
+      "p_mod": 78,
+      "edge": 5,
+      "motivo": "correlación: TT ATH 2.5 (+20¢) ganó el cupo de ATH@SEA",
+      "partido": "ATH@SEA"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-LAD4",
+      "mercado": "SPREAD LAD-3.5",
+      "entrada": 74,
+      "p_mod": 79,
+      "edge": 5,
+      "motivo": "correlación: TT WSH 2.5 (+11¢) ganó el cupo de WSH@LAD",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP051805ATLPHI-PHI2",
+      "mercado": "SPREAD PHI-1.5",
+      "entrada": 60,
+      "p_mod": 65,
+      "edge": 5,
+      "motivo": "correlación: TT ATL 3.5 (+10¢) ganó el cupo de ATL@PHI",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-PHI6",
+      "mercado": "TT PHI 5.5",
+      "entrada": 67,
+      "p_mod": 72,
+      "edge": 5,
+      "motivo": "correlación: TT ATL 3.5 (+10¢) ganó el cupo de ATL@PHI",
+      "partido": "ATL@PHI"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL4",
+      "mercado": "TT MIL 3.5",
+      "entrada": 69,
+      "p_mod": 74,
+      "edge": 5,
+      "motivo": "correlación: TT CIN 3.5 (+10¢) ganó el cupo de MIL@CIN",
+      "partido": "MIL@CIN"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB2",
+      "mercado": "TT TB 1.5",
+      "entrada": 79,
+      "p_mod": 84,
+      "edge": 5,
+      "motivo": "correlación: TT TB 2.5 (+8¢) ganó el cupo de TB@TEX",
+      "partido": "TB@TEX"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910TORKC-TOR4",
+      "mercado": "TT TOR 3.5",
+      "entrada": 65,
+      "p_mod": 70,
+      "edge": 5,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "TOR@KC"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051915AZHOU-HOU6",
+      "mercado": "TT HOU 5.5",
+      "entrada": 69,
+      "p_mod": 74,
+      "edge": 5,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "AZ@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051610CHCMIA-MIA4",
+      "mercado": "TT MIA 3.5",
+      "entrada": 50,
+      "p_mod": 55,
+      "edge": 5,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "CHC@MIA"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH3",
+      "lado": "ATH OVER 2.5",
+      "mercado": "TT ATH 2.5",
+      "entrada": 55,
+      "p_mod": 75,
+      "edge": 20,
+      "tp": 67,
+      "stop": 43,
+      "max_pagable": 75,
+      "tamano": 3.58,
+      "partido": "ATH@SEA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052140ATHSEA-ATH2",
+      "lado": "ATH OVER 1.5",
+      "mercado": "TT ATH 1.5",
+      "entrada": 73,
+      "p_mod": 87,
+      "edge": 14,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 87,
+      "tamano": 4.16,
+      "partido": "ATH@SEA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-8",
+      "lado": "OVER 7.5",
+      "mercado": "TOTAL 7.5",
+      "entrada": 50,
+      "p_mod": 63,
+      "edge": 13,
+      "tp": 61,
+      "stop": 39,
+      "max_pagable": 63,
+      "tamano": 2.07,
+      "partido": "ATH@SEA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH3",
+      "lado": "WSH OVER 2.5",
+      "mercado": "TT WSH 2.5",
+      "entrada": 55,
+      "p_mod": 66,
+      "edge": 11,
+      "tp": 67,
+      "stop": 43,
+      "max_pagable": 66,
+      "tamano": 2.09,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL4",
+      "lado": "ATL OVER 3.5",
+      "mercado": "TT ATL 3.5",
+      "entrada": 50,
+      "p_mod": 60,
+      "edge": 10,
+      "tp": 61,
+      "stop": 39,
+      "max_pagable": 60,
+      "tamano": 1.6,
+      "partido": "ATL@PHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN4",
+      "lado": "CIN OVER 3.5",
+      "mercado": "TT CIN 3.5",
+      "entrada": 54,
+      "p_mod": 64,
+      "edge": 10,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 64,
+      "tamano": 1.79,
+      "partido": "MIL@CIN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-WSH2",
+      "lado": "WSH OVER 1.5",
+      "mercado": "TT WSH 1.5",
+      "entrada": 71,
+      "p_mod": 81,
+      "edge": 10,
+      "tp": 87,
+      "stop": 55,
+      "max_pagable": 81,
+      "tamano": 2.88,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL3",
+      "lado": "ATL OVER 2.5",
+      "mercado": "TT ATL 2.5",
+      "entrada": 64,
+      "p_mod": 73,
+      "edge": 9,
+      "tp": 78,
+      "stop": 50,
+      "max_pagable": 73,
+      "tamano": 2.1,
+      "partido": "ATL@PHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-CIN3",
+      "lado": "CIN OVER 2.5",
+      "mercado": "TT CIN 2.5",
+      "entrada": 68,
+      "p_mod": 77,
+      "edge": 9,
+      "tp": 83,
+      "stop": 53,
+      "max_pagable": 77,
+      "tamano": 2.22,
+      "partido": "MIL@CIN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD5",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 4.5",
+      "entrada": 54,
+      "p_mod": 63,
+      "edge": 9,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 63,
+      "tamano": 1.61,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB3",
+      "lado": "TB OVER 2.5",
+      "mercado": "TT TB 2.5",
+      "entrada": 63,
+      "p_mod": 71,
+      "edge": 8,
+      "tp": 77,
+      "stop": 49,
+      "max_pagable": 71,
+      "tamano": 1.71,
+      "partido": "TB@TEX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-LAD2",
+      "lado": "NO cubre",
+      "mercado": "SPREAD LAD-1.5",
+      "entrada": 54,
+      "p_mod": 62,
+      "edge": 8,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 62,
+      "tamano": 1.44,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD6",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 5.5",
+      "entrada": 66,
+      "p_mod": 74,
+      "edge": 8,
+      "tp": 81,
+      "stop": 51,
+      "max_pagable": 74,
+      "tamano": 1.96,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-9",
+      "lado": "OVER 8.5",
+      "mercado": "TOTAL 8.5",
+      "entrada": 57,
+      "p_mod": 64,
+      "edge": 7,
+      "tp": 70,
+      "stop": 44,
+      "max_pagable": 64,
+      "tamano": 1.29,
+      "partido": "MIL@CIN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL5",
+      "lado": "MIL OVER 4.5",
+      "mercado": "TT MIL 4.5",
+      "entrada": 56,
+      "p_mod": 63,
+      "edge": 7,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 63,
+      "tamano": 1.31,
+      "partido": "MIL@CIN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051910MINCWS-8",
+      "lado": "OVER 7.5",
+      "mercado": "TOTAL 7.5",
+      "entrada": 56,
+      "p_mod": 63,
+      "edge": 7,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 63,
+      "tamano": 1.22,
+      "partido": "MIN@CWS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN4",
+      "lado": "MIN OVER 3.5",
+      "mercado": "TT MIN 3.5",
+      "entrada": 56,
+      "p_mod": 63,
+      "edge": 7,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 63,
+      "tamano": 1.26,
+      "partido": "MIN@CWS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-MIN3",
+      "lado": "MIN OVER 2.5",
+      "mercado": "TT MIN 2.5",
+      "entrada": 69,
+      "p_mod": 76,
+      "edge": 7,
+      "tp": 84,
+      "stop": 54,
+      "max_pagable": 76,
+      "tamano": 1.76,
+      "partido": "MIN@CWS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP052110WSHLAD-LAD7",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 6.5",
+      "entrada": 76,
+      "p_mod": 83,
+      "edge": 7,
+      "tp": 93,
+      "stop": 59,
+      "max_pagable": 83,
+      "tamano": 2.28,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-PHI5",
+      "lado": "PHI UNDER (NO)",
+      "mercado": "TT PHI 4.5",
+      "entrada": 55,
+      "p_mod": 61,
+      "edge": 6,
+      "tp": 67,
+      "stop": 43,
+      "max_pagable": 61,
+      "tamano": 1.09,
+      "partido": "ATL@PHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-ATL2",
+      "lado": "ATL OVER 1.5",
+      "mercado": "TT ATL 1.5",
+      "entrada": 80,
+      "p_mod": 86,
+      "edge": 6,
+      "tp": 97,
+      "stop": 62,
+      "max_pagable": 86,
+      "tamano": 2.37,
+      "partido": "ATL@PHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051840MILCIN-8",
+      "lado": "OVER 7.5",
+      "mercado": "TOTAL 7.5",
+      "entrada": 65,
+      "p_mod": 71,
+      "edge": 6,
+      "tp": 79,
+      "stop": 51,
+      "max_pagable": 71,
+      "tamano": 1.3,
+      "partido": "MIL@CIN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-7",
+      "lado": "OVER 6.5",
+      "mercado": "TOTAL 6.5",
+      "entrada": 54,
+      "p_mod": 60,
+      "edge": 6,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 60,
+      "tamano": 1.07,
+      "partido": "TB@TEX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP051905TBTEX-6",
+      "lado": "OVER 5.5",
+      "mercado": "TOTAL 5.5",
+      "entrada": 63,
+      "p_mod": 69,
+      "edge": 6,
+      "tp": 77,
+      "stop": 49,
+      "max_pagable": 69,
+      "tamano": 1.23,
+      "partido": "TB@TEX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910TORKC-TOR5",
+      "lado": "TOR OVER 4.5",
+      "mercado": "TT TOR 4.5",
+      "entrada": 52,
+      "p_mod": 58,
+      "edge": 6,
+      "tp": 63,
+      "stop": 41,
+      "max_pagable": 58,
+      "tamano": 1.08,
+      "partido": "TOR@KC",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910MINCWS-CWS4",
+      "lado": "CWS OVER 3.5",
+      "mercado": "TT CWS 3.5",
+      "entrada": 56,
+      "p_mod": 62,
+      "edge": 6,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 62,
+      "tamano": 1.11,
+      "partido": "MIN@CWS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051915AZHOU-HOU5",
+      "lado": "HOU UNDER (NO)",
+      "mercado": "TT HOU 4.5",
+      "entrada": 57,
+      "p_mod": 63,
+      "edge": 6,
+      "tp": 70,
+      "stop": 44,
+      "max_pagable": 63,
+      "tamano": 1.2,
+      "partido": "AZ@HOU",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-LAD3",
+      "lado": "NO cubre",
+      "mercado": "SPREAD LAD-2.5",
+      "entrada": 65,
+      "p_mod": 71,
+      "edge": 6,
+      "tp": 79,
+      "stop": 51,
+      "max_pagable": 71,
+      "tamano": 1.42,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052140ATHSEA-SEA2",
+      "lado": "NO cubre",
+      "mercado": "SPREAD SEA-1.5",
+      "entrada": 50,
+      "p_mod": 56,
+      "edge": 6,
+      "tp": 61,
+      "stop": 39,
+      "max_pagable": 56,
+      "tamano": 1.03,
+      "partido": "ATH@SEA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-7",
+      "lado": "OVER 6.5",
+      "mercado": "TOTAL 6.5",
+      "entrada": 64,
+      "p_mod": 70,
+      "edge": 6,
+      "tp": 78,
+      "stop": 50,
+      "max_pagable": 70,
+      "tamano": 1.41,
+      "partido": "ATH@SEA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051610CHCMIA-MIA4",
+      "lado": "MIA OVER 3.5",
+      "mercado": "TT MIA 3.5",
+      "entrada": 50,
+      "p_mod": 55,
+      "edge": 5,
+      "tp": 61,
+      "stop": 39,
+      "max_pagable": 55,
+      "tamano": 0.8,
+      "partido": "CHC@MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP051805ATLPHI-PHI2",
+      "lado": "NO cubre",
+      "mercado": "SPREAD PHI-1.5",
+      "entrada": 60,
+      "p_mod": 65,
+      "edge": 5,
+      "tp": 73,
+      "stop": 47,
+      "max_pagable": 65,
+      "tamano": 1.1,
+      "partido": "ATL@PHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051805ATLPHI-PHI6",
+      "lado": "PHI UNDER (NO)",
+      "mercado": "TT PHI 5.5",
+      "entrada": 67,
+      "p_mod": 72,
+      "edge": 5,
+      "tp": 82,
+      "stop": 52,
+      "max_pagable": 72,
+      "tamano": 1.29,
+      "partido": "ATL@PHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051840MILCIN-MIL4",
+      "lado": "MIL OVER 3.5",
+      "mercado": "TT MIL 3.5",
+      "entrada": 69,
+      "p_mod": 74,
+      "edge": 5,
+      "tp": 84,
+      "stop": 54,
+      "max_pagable": 74,
+      "tamano": 1.31,
+      "partido": "MIL@CIN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051905TBTEX-TB2",
+      "lado": "TB OVER 1.5",
+      "mercado": "TT TB 1.5",
+      "entrada": 79,
+      "p_mod": 84,
+      "edge": 5,
+      "tp": 96,
+      "stop": 62,
+      "max_pagable": 84,
+      "tamano": 2.0,
+      "partido": "TB@TEX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051910TORKC-TOR4",
+      "lado": "TOR OVER 3.5",
+      "mercado": "TT TOR 3.5",
+      "entrada": 65,
+      "p_mod": 70,
+      "edge": 5,
+      "tp": 79,
+      "stop": 51,
+      "max_pagable": 70,
+      "tamano": 1.16,
+      "partido": "TOR@KC",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP051915AZHOU-HOU6",
+      "lado": "HOU UNDER (NO)",
+      "mercado": "TT HOU 5.5",
+      "entrada": 69,
+      "p_mod": 74,
+      "edge": 5,
+      "tp": 84,
+      "stop": 54,
+      "max_pagable": 74,
+      "tamano": 1.41,
+      "partido": "AZ@HOU",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP052110WSHLAD-LAD4",
+      "lado": "NO cubre",
+      "mercado": "SPREAD LAD-3.5",
+      "entrada": 74,
+      "p_mod": 79,
+      "edge": 5,
+      "tp": 90,
+      "stop": 58,
+      "max_pagable": 79,
+      "tamano": 1.54,
+      "partido": "WSH@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP052140ATHSEA-6",
+      "lado": "OVER 5.5",
+      "mercado": "TOTAL 5.5",
+      "entrada": 73,
+      "p_mod": 78,
+      "edge": 5,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 78,
+      "tamano": 1.39,
+      "partido": "ATH@SEA",
+      "flags": ""
+    }
+  ]
+}
