@@ -1,28 +1,28 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-06",
-  "corrida_ts": "2026-09-06T12:12:47-0700",
-  "precios_ts": "2026-09-06T12:12:43-0700",
-  "hash_salida_motor": "c6b98dba6bf3deda",
+  "corrida_ts": "2026-09-06T14:09:26-0700",
+  "precios_ts": "2026-09-06T14:09:24-0700",
+  "hash_salida_motor": "5ef35743dd899c8a",
   "archivo_predicciones": "2026-09-06-mlb.md",
   "tickers": [
-    "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH3",
+    "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH3",
     "KXMLBSPREAD-26SEP062210WSHLAD-LAD2"
   ],
   "picks": [
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH3",
-      "lado": "ATH OVER 2.5",
-      "mercado": "TT ATH 2.5",
-      "entrada": 55,
-      "p_mod": 69,
+      "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH3",
+      "lado": "WSH OVER 2.5",
+      "mercado": "TT WSH 2.5",
+      "entrada": 62,
+      "p_mod": 76,
       "edge": 14,
-      "tp": 67,
-      "stop": 43,
-      "max_pagable": 69,
-      "tamano": 2.51,
-      "razonamiento": "ATH@SEA 1:10 PM PT — TT ATH 2.5 ATH OVER 2.5; modelo 69% vs ask 55¢, edge +14¢ MEDIO",
-      "partido": "ATH@SEA",
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 76,
+      "tamano": 2.97,
+      "razonamiento": "WSH@LAD 7:10 PM PT — TT WSH 2.5 WSH OVER 2.5; modelo 76% vs ask 62¢, edge +14¢ MEDIO",
+      "partido": "WSH@LAD",
       "flags": "",
       "motivo_seleccion": "edge",
       "idx": 1
@@ -56,15 +56,6 @@
       "partido": "WSH@LAD"
     },
     {
-      "ticker": "KXMLBSPREAD-26SEP062210WSHLAD-WSH3",
-      "mercado": "SPREAD WSH-2.5",
-      "entrada": 17,
-      "p_mod": 33,
-      "edge": 16,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "WSH@LAD"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH5",
       "mercado": "TT WSH 4.5",
       "entrada": 34,
@@ -80,6 +71,15 @@
       "p_mod": 63,
       "edge": 16,
       "motivo": "entrada 47¢ bajo el piso de 50¢",
+      "partido": "WSH@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP062210WSHLAD-WSH3",
+      "mercado": "SPREAD WSH-2.5",
+      "entrada": 18,
+      "p_mod": 33,
+      "edge": 15,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
       "partido": "WSH@LAD"
     },
     {
@@ -101,15 +101,6 @@
       "partido": "WSH@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH4",
-      "mercado": "TT ATH 3.5",
-      "entrada": 40,
-      "p_mod": 54,
-      "edge": 14,
-      "motivo": "entrada 40¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
       "ticker": "KXMLBSPREAD-26SEP062210WSHLAD-WSH4",
       "mercado": "SPREAD WSH-3.5",
       "entrada": 12,
@@ -119,94 +110,13 @@
       "partido": "WSH@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH3",
-      "mercado": "TT WSH 2.5",
-      "entrada": 62,
-      "p_mod": 76,
-      "edge": 14,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "WSH@LAD"
-    },
-    {
-      "ticker": "KXMLBGAME-26SEP061610ATHSEA-ATH",
-      "mercado": "ML",
-      "entrada": 36,
-      "p_mod": 49,
-      "edge": 13,
-      "motivo": "entrada 36¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 17,
-      "p_mod": 30,
-      "edge": 13,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 23,
-      "p_mod": 36,
-      "edge": 13,
-      "motivo": "entrada 23¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-10",
-      "mercado": "TOTAL 9.5",
-      "entrada": 29,
-      "p_mod": 42,
-      "edge": 13,
-      "motivo": "entrada 29¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH5",
-      "mercado": "TT ATH 4.5",
-      "entrada": 28,
-      "p_mod": 41,
-      "edge": 13,
-      "motivo": "entrada 28¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH6",
-      "mercado": "TT ATH 5.5",
-      "entrada": 18,
-      "p_mod": 30,
-      "edge": 12,
-      "motivo": "entrada 18¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH7",
       "mercado": "TT WSH 6.5",
-      "entrada": 17,
+      "entrada": 16,
       "p_mod": 29,
-      "edge": 12,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "edge": 13,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
       "partido": "WSH@LAD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 38,
-      "p_mod": 49,
-      "edge": 11,
-      "motivo": "entrada 38¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 46,
-      "p_mod": 57,
-      "edge": 11,
-      "motivo": "entrada 46¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-LAD4",
@@ -254,24 +164,6 @@
       "partido": "WSH@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH2",
-      "mercado": "TT ATH 1.5",
-      "entrada": 73,
-      "p_mod": 83,
-      "edge": 10,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH7",
-      "mercado": "TT ATH 6.5",
-      "entrada": 12,
-      "p_mod": 21,
-      "edge": 9,
-      "motivo": "entrada 12¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH2",
       "mercado": "TT WSH 1.5",
       "entrada": 78,
@@ -317,15 +209,6 @@
       "partido": "WSH@LAD"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-7",
-      "mercado": "TOTAL 6.5",
-      "entrada": 58,
-      "p_mod": 65,
-      "edge": 7,
-      "motivo": "correlación: TT ATH 2.5 (+14¢) ganó el cupo de ATH@SEA",
-      "partido": "ATH@SEA"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-LAD7",
       "mercado": "TT LAD 6.5",
       "entrada": 75,
@@ -333,69 +216,6 @@
       "edge": 7,
       "motivo": "correlación: TT WSH 2.5 (+14¢) ganó el cupo de WSH@LAD",
       "partido": "WSH@LAD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH8",
-      "mercado": "TT ATH 7.5",
-      "entrada": 8,
-      "p_mod": 14,
-      "edge": 6,
-      "motivo": "entrada 8¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-6",
-      "mercado": "TOTAL 5.5",
-      "entrada": 67,
-      "p_mod": 73,
-      "edge": 6,
-      "motivo": "correlación: TT ATH 2.5 (+14¢) ganó el cupo de ATH@SEA",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBSPREAD-26SEP061610ATHSEA-ATH4",
-      "mercado": "SPREAD ATH-3.5",
-      "entrada": 11,
-      "p_mod": 16,
-      "edge": 5,
-      "motivo": "entrada 11¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBSPREAD-26SEP061610ATHSEA-ATH3",
-      "mercado": "SPREAD ATH-2.5",
-      "entrada": 17,
-      "p_mod": 22,
-      "edge": 5,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-SEA7",
-      "mercado": "TT SEA 6.5",
-      "entrada": 22,
-      "p_mod": 27,
-      "edge": 5,
-      "motivo": "entrada 22¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-SEA6",
-      "mercado": "TT SEA 5.5",
-      "entrada": 32,
-      "p_mod": 37,
-      "edge": 5,
-      "motivo": "entrada 32¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-SEA5",
-      "mercado": "TT SEA 4.5",
-      "entrada": 43,
-      "p_mod": 48,
-      "edge": 5,
-      "motivo": "entrada 43¢ bajo el piso de 50¢",
-      "partido": "ATH@SEA"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP061820MINCWS-12",
@@ -426,20 +246,6 @@
     }
   ],
   "candidatos_limpios": [
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH3",
-      "lado": "ATH OVER 2.5",
-      "mercado": "TT ATH 2.5",
-      "entrada": 55,
-      "p_mod": 69,
-      "edge": 14,
-      "tp": 67,
-      "stop": 43,
-      "max_pagable": 69,
-      "tamano": 2.51,
-      "partido": "ATH@SEA",
-      "flags": ""
-    },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-WSH3",
       "lado": "WSH OVER 2.5",
@@ -480,20 +286,6 @@
       "max_pagable": 62,
       "tamano": 1.83,
       "partido": "WSH@LAD",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP061610ATHSEA-ATH2",
-      "lado": "ATH OVER 1.5",
-      "mercado": "TT ATH 1.5",
-      "entrada": 73,
-      "p_mod": 83,
-      "edge": 10,
-      "tp": 89,
-      "stop": 57,
-      "max_pagable": 83,
-      "tamano": 2.98,
-      "partido": "ATH@SEA",
       "flags": ""
     },
     {
@@ -553,20 +345,6 @@
       "flags": ""
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-7",
-      "lado": "OVER 6.5",
-      "mercado": "TOTAL 6.5",
-      "entrada": 58,
-      "p_mod": 65,
-      "edge": 7,
-      "tp": 71,
-      "stop": 45,
-      "max_pagable": 65,
-      "tamano": 1.38,
-      "partido": "ATH@SEA",
-      "flags": ""
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP062210WSHLAD-LAD7",
       "lado": "LAD UNDER (NO)",
       "mercado": "TT LAD 6.5",
@@ -578,20 +356,6 @@
       "max_pagable": 82,
       "tamano": 2.23,
       "partido": "WSH@LAD",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP061610ATHSEA-6",
-      "lado": "OVER 5.5",
-      "mercado": "TOTAL 5.5",
-      "entrada": 67,
-      "p_mod": 73,
-      "edge": 6,
-      "tp": 82,
-      "stop": 52,
-      "max_pagable": 73,
-      "tamano": 1.53,
-      "partido": "ATH@SEA",
       "flags": ""
     }
   ]
