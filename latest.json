@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-06T10:34:51-0700",
+  "generado_ts": "2026-09-06T12:12:47-0700",
   "motor": "MLB",
   "fecha": "2026-09-06",
   "tickets": [
@@ -13,7 +13,7 @@
       "max_pagable_c": 68,
       "partido": "WSH@LAD",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle Los Angeles Dodgers -1.5 price 2.16)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle Los Angeles Dodgers -1.5 price 2.15)"
     }
   ]
 }
