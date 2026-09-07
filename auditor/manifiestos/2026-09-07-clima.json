@@ -1,0 +1,175 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-07",
+  "corrida_ts": "2026-09-07T03:12:39-0700",
+  "precios_ts": "2026-09-07T10:12:32+0000",
+  "hash_salida_motor": "ef81c4a8f35505d6",
+  "archivo_predicciones": "2026-09-07-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26SEP07-B78.5",
+    "KXHIGHMIA-26SEP07-B88.5",
+    "KXHIGHAUS-26SEP07-B95.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26SEP07-B78.5",
+      "lado": "YES",
+      "mercado": "78° to 79°",
+      "entrada": 33,
+      "p_mod": 57,
+      "edge": 24,
+      "tp": 40,
+      "stop": 26,
+      "max_pagable": 57,
+      "tamano": 5.81,
+      "razonamiento": "CHI maxima 2026-09-07 — YES \"78° to 79°\" a 33c; ensemble n=119 media 79.1deg, NWS 79deg, confianza alta; edge +24c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP07-B88.5",
+      "lado": "YES",
+      "mercado": "88° to 89°",
+      "entrada": 5,
+      "p_mod": 20,
+      "edge": 15,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 20,
+      "tamano": 1.29,
+      "razonamiento": "MIA maxima 2026-09-07 — YES \"88° to 89°\" a 5c; ensemble n=119 media 90.8deg, NWS 91deg, confianza media; edge +15c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP07-B95.5",
+      "lado": "YES",
+      "mercado": "95° to 96°",
+      "entrada": 5,
+      "p_mod": 14,
+      "edge": 9,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 14,
+      "tamano": 1.6,
+      "razonamiento": "AUS maxima 2026-09-07 — YES \"95° to 96°\" a 5c; ensemble n=119 media 98.2deg, NWS 98deg, confianza alta; edge +9c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP07-T83",
+      "mercado": "84° or above",
+      "entrada": 19,
+      "p_mod": 27,
+      "edge": 8,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP07-B76.5",
+      "mercado": "76° to 77°",
+      "entrada": 3,
+      "p_mod": 10,
+      "edge": 7,
+      "motivo": "correlacion: YES (+24c) es la unica expresion de CHI",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP07-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 40,
+      "p_mod": 74,
+      "edge": 34,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP07-B90.5",
+      "mercado": "90° to 91°",
+      "entrada": 23,
+      "p_mod": 34,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.14°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP07-B92.5",
+      "mercado": "92° to 93°",
+      "entrada": 41,
+      "p_mod": 56,
+      "edge": 15,
+      "motivo": "flag: BORDE-CERCANO(0.14°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP07-T93",
+      "mercado": "94° or above",
+      "entrada": 84,
+      "p_mod": 99,
+      "edge": 15,
+      "motivo": "correlacion: YES (+15c) es la unica expresion de MIA",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP07-B99.5",
+      "mercado": "99° to 100°",
+      "entrada": 36,
+      "p_mod": 59,
+      "edge": 23,
+      "motivo": "flag: BORDE-CERCANO(0.04°-del-corte)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26SEP07-B78.5",
+      "lado": "YES",
+      "mercado": "78° to 79°",
+      "entrada": 33,
+      "p_mod": 57,
+      "edge": 24,
+      "tp": 40,
+      "stop": 26,
+      "max_pagable": 57,
+      "tamano": 5.81,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP07-B88.5",
+      "lado": "YES",
+      "mercado": "88° to 89°",
+      "entrada": 5,
+      "p_mod": 20,
+      "edge": 15,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 20,
+      "tamano": 1.29,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP07-B95.5",
+      "lado": "YES",
+      "mercado": "95° to 96°",
+      "entrada": 5,
+      "p_mod": 14,
+      "edge": 9,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 14,
+      "tamano": 1.6,
+      "partido": "AUS",
+      "flags": ""
+    }
+  ]
+}
