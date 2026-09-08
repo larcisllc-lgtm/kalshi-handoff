@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-08T11:28:43-0700",
+  "generado_ts": "2026-09-08T14:42:38-0700",
   "motor": "MLB",
   "fecha": "2026-09-08",
   "tickets": [
@@ -14,6 +14,18 @@
       "partido": "STL@SF",
       "sharp_ok": true,
       "sharp_nota": "Pinnacle coincide (Pinnacle over 1.88 / under 2.01)"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP082140TEXSEA-SEA2",
+      "mercado": "SPREAD SEA-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 63,
+      "prob_modelo": 69,
+      "edge_c": 6,
+      "max_pagable_c": 69,
+      "partido": "TEX@SEA",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle Seattle Mariners -1.5 price 2.63)"
     }
   ]
 }
