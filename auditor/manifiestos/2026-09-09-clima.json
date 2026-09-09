@@ -1,0 +1,170 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-09",
+  "corrida_ts": "2026-09-09T06:54:23-0700",
+  "precios_ts": "2026-09-09T13:53:14+0000",
+  "hash_salida_motor": "23015076da34ed04",
+  "archivo_predicciones": "2026-09-09-clima.md",
+  "tickers": [
+    "KXHIGHNY-26SEP09-T84",
+    "KXHIGHMIA-26SEP09-B87.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHNY-26SEP09-T84",
+      "lado": "NO",
+      "mercado": "83° or below",
+      "entrada": 48,
+      "p_mod": 71,
+      "edge": 23,
+      "tp": 59,
+      "stop": 37,
+      "max_pagable": 71,
+      "tamano": 7.27,
+      "razonamiento": "NY maxima 2026-09-09 — NO \"83° or below\" a 48c; ensemble n=119 media 84.1deg, NWS 86deg, confianza alta; edge +23c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B87.5",
+      "lado": "YES",
+      "mercado": "87° to 88°",
+      "entrada": 10,
+      "p_mod": 22,
+      "edge": 12,
+      "tp": 12,
+      "stop": 8,
+      "max_pagable": 22,
+      "tamano": 1.1,
+      "razonamiento": "MIA maxima 2026-09-09 — YES \"87° to 88°\" a 10c; ensemble n=119 media 89.6deg, NWS 90deg, confianza media; edge +12c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP09-T92",
+      "mercado": "93° or above",
+      "entrada": 89,
+      "p_mod": 96,
+      "edge": 7,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP09-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 51,
+      "p_mod": 72,
+      "edge": 21,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP09-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 20,
+      "p_mod": 52,
+      "edge": 32,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP09-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 5,
+      "p_mod": 16,
+      "edge": 11,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP09-T80",
+      "mercado": "79° or below",
+      "entrada": 77,
+      "p_mod": 98,
+      "edge": 21,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP09-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 43,
+      "p_mod": 53,
+      "edge": 10,
+      "motivo": "correlacion: NO (+23c) es la unica expresion de NY",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP09-B86.5",
+      "mercado": "86° to 87°",
+      "entrada": 6,
+      "p_mod": 18,
+      "edge": 12,
+      "motivo": "correlacion: NO (+23c) es la unica expresion de NY",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B91.5",
+      "mercado": "91° to 92°",
+      "entrada": 55,
+      "p_mod": 71,
+      "edge": 16,
+      "motivo": "flag: BORDE-CERCANO(0.74°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-B96.5",
+      "mercado": "96° to 97°",
+      "entrada": 5,
+      "p_mod": 28,
+      "edge": 23,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP09-B100.5",
+      "mercado": "100° to 101°",
+      "entrada": 55,
+      "p_mod": 82,
+      "edge": 27,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHNY-26SEP09-T84",
+      "lado": "NO",
+      "mercado": "83° or below",
+      "entrada": 48,
+      "p_mod": 71,
+      "edge": 23,
+      "tp": 59,
+      "stop": 37,
+      "max_pagable": 71,
+      "tamano": 7.27,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP09-B87.5",
+      "lado": "YES",
+      "mercado": "87° to 88°",
+      "entrada": 10,
+      "p_mod": 22,
+      "edge": 12,
+      "tp": 12,
+      "stop": 8,
+      "max_pagable": 22,
+      "tamano": 1.1,
+      "partido": "MIA",
+      "flags": ""
+    }
+  ]
+}
