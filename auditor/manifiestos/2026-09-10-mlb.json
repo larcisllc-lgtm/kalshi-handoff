@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-10",
-  "corrida_ts": "2026-09-10T10:08:37-0700",
-  "precios_ts": "2026-09-10T10:08:35-0700",
-  "hash_salida_motor": "e975252314a4d755",
+  "corrida_ts": "2026-09-10T11:16:34-0700",
+  "precios_ts": "2026-09-10T11:16:31-0700",
+  "hash_salida_motor": "9b370dfe8bf0efd5",
   "archivo_predicciones": "2026-09-10-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX3"
@@ -65,24 +65,6 @@
       "partido": "TEX@SEA"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX5",
-      "mercado": "TT TEX 4.5",
-      "entrada": 30,
-      "p_mod": 43,
-      "edge": 13,
-      "motivo": "entrada 30¢ bajo el piso de 50¢",
-      "partido": "TEX@SEA"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX4",
-      "mercado": "TT TEX 3.5",
-      "entrada": 43,
-      "p_mod": 56,
-      "edge": 13,
-      "motivo": "entrada 43¢ bajo el piso de 50¢",
-      "partido": "TEX@SEA"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP101610TEXSEA-9",
       "mercado": "TOTAL 8.5",
       "entrada": 33,
@@ -101,12 +83,30 @@
       "partido": "TEX@SEA"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX5",
+      "mercado": "TT TEX 4.5",
+      "entrada": 31,
+      "p_mod": 43,
+      "edge": 12,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "TEX@SEA"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX4",
+      "mercado": "TT TEX 3.5",
+      "entrada": 44,
+      "p_mod": 56,
+      "edge": 12,
+      "motivo": "entrada 44¢ bajo el piso de 50¢",
+      "partido": "TEX@SEA"
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX6",
       "mercado": "TT TEX 5.5",
-      "entrada": 22,
+      "entrada": 21,
       "p_mod": 32,
-      "edge": 10,
-      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "edge": 11,
+      "motivo": "entrada 21¢ bajo el piso de 50¢",
       "partido": "TEX@SEA"
     },
     {
@@ -121,9 +121,9 @@
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX2",
       "mercado": "TT TEX 1.5",
-      "entrada": 75,
+      "entrada": 76,
       "p_mod": 84,
-      "edge": 9,
+      "edge": 8,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "TEX@SEA"
     },
@@ -210,13 +210,13 @@
       "ticker": "KXMLBTEAMTOTAL-26SEP101610TEXSEA-TEX2",
       "lado": "TEX OVER 1.5",
       "mercado": "TT TEX 1.5",
-      "entrada": 75,
+      "entrada": 76,
       "p_mod": 84,
-      "edge": 9,
-      "tp": 92,
-      "stop": 58,
+      "edge": 8,
+      "tp": 93,
+      "stop": 59,
       "max_pagable": 84,
-      "tamano": 2.85,
+      "tamano": 2.63,
       "partido": "TEX@SEA",
       "flags": ""
     },
