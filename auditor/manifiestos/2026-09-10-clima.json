@@ -1,0 +1,161 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-10",
+  "corrida_ts": "2026-09-10T06:31:57-0700",
+  "precios_ts": "2026-09-10T13:31:52+0000",
+  "hash_salida_motor": "cebcfab4543dac45",
+  "archivo_predicciones": "2026-09-10-clima.md",
+  "tickers": [
+    "KXHIGHMIA-26SEP10-B92.5",
+    "KXHIGHDEN-26SEP10-B88.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHMIA-26SEP10-B92.5",
+      "lado": "NO",
+      "mercado": "92° to 93°",
+      "entrada": 71,
+      "p_mod": 93,
+      "edge": 22,
+      "tp": 87,
+      "stop": 55,
+      "max_pagable": 93,
+      "tamano": 6.24,
+      "razonamiento": "MIA maxima 2026-09-10 — NO \"92° to 93°\" a 71c; ensemble n=119 media 89.3deg, NWS 91deg, confianza media; edge +22c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP10-B88.5",
+      "lado": "NO",
+      "mercado": "88° to 89°",
+      "entrada": 31,
+      "p_mod": 44,
+      "edge": 13,
+      "tp": 38,
+      "stop": 24,
+      "max_pagable": 44,
+      "tamano": 3.14,
+      "razonamiento": "DEN maxima 2026-09-10 — NO \"88° to 89°\" a 31c; ensemble n=119 media 88.1deg, NWS 88deg, confianza alta; edge +13c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP10-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 1,
+      "p_mod": 34,
+      "edge": 33,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP10-B87.5",
+      "mercado": "87° to 88°",
+      "entrada": 2,
+      "p_mod": 26,
+      "edge": 24,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP10-B89.5",
+      "mercado": "89° to 90°",
+      "entrada": 9,
+      "p_mod": 33,
+      "edge": 24,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP10-T90",
+      "mercado": "91° or above",
+      "entrada": 9,
+      "p_mod": 94,
+      "edge": 85,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP10-B86.5",
+      "mercado": "86° to 87°",
+      "entrada": 1,
+      "p_mod": 10,
+      "edge": 9,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP10-B88.5",
+      "mercado": "88° to 89°",
+      "entrada": 30,
+      "p_mod": 50,
+      "edge": 20,
+      "motivo": "flag: BORDE-CERCANO(0.54°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP10-B90.5",
+      "mercado": "90° to 91°",
+      "entrada": 58,
+      "p_mod": 68,
+      "edge": 10,
+      "motivo": "flag: BORDE-CERCANO(0.54°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP10-B86.5",
+      "mercado": "86° to 87°",
+      "entrada": 18,
+      "p_mod": 26,
+      "edge": 8,
+      "motivo": "correlacion: NO (+13c) es la unica expresion de DEN",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP10-B88.5",
+      "mercado": "88° to 89°",
+      "entrada": 57,
+      "p_mod": 70,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHMIA-26SEP10-B92.5",
+      "lado": "NO",
+      "mercado": "92° to 93°",
+      "entrada": 71,
+      "p_mod": 93,
+      "edge": 22,
+      "tp": 87,
+      "stop": 55,
+      "max_pagable": 93,
+      "tamano": 6.24,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP10-B88.5",
+      "lado": "NO",
+      "mercado": "88° to 89°",
+      "entrada": 31,
+      "p_mod": 44,
+      "edge": 13,
+      "tp": 38,
+      "stop": 24,
+      "max_pagable": 44,
+      "tamano": 3.14,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
