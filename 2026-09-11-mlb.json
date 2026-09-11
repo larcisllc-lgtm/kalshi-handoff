@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-11T11:20:52-0700",
+  "generado_ts": "2026-09-11T14:36:42-0700",
   "motor": "MLB",
   "fecha": "2026-09-11",
   "tickets": [
@@ -13,19 +13,19 @@
       "max_pagable_c": 67,
       "partido": "SD@SF",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle San Diego Padres -1.5 price 2.22)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle San Diego Padres -1.5 price 2.23)"
     },
     {
       "ticker": "KXMLBSPREAD-26SEP112140SEAATH-SEA2",
       "mercado": "SPREAD SEA-1.5",
       "lado": "NO cubre",
-      "entrada_sugerida_c": 52,
+      "entrada_sugerida_c": 51,
       "prob_modelo": 60,
-      "edge_c": 8,
+      "edge_c": 9,
       "max_pagable_c": 60,
       "partido": "SEA@ATH",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle Seattle Mariners -1.5 price 2.0)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle Seattle Mariners -1.5 price 1.99)"
     }
   ]
 }
