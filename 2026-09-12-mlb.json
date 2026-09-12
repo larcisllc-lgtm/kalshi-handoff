@@ -1,19 +1,19 @@
 {
-  "generado_ts": "2026-09-12T11:24:29-0700",
+  "generado_ts": "2026-09-12T14:19:09-0700",
   "motor": "MLB",
   "fecha": "2026-09-12",
   "tickets": [
     {
-      "ticker": "KXMLBSPREAD-26SEP121610KCBOS-BOS2",
-      "mercado": "SPREAD BOS-1.5",
-      "lado": "NO cubre",
+      "ticker": "KXMLBTOTAL-26SEP121910CINMIL-9",
+      "mercado": "TOTAL 8.5",
+      "lado": "OVER 8.5",
       "entrada_sugerida_c": 52,
-      "prob_modelo": 60,
-      "edge_c": 8,
-      "max_pagable_c": 60,
-      "partido": "KC@BOS",
+      "prob_modelo": 62,
+      "edge_c": 10,
+      "max_pagable_c": 62,
+      "partido": "CIN@MIL",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle Boston Red Sox -1.5 price 2.04)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.85 / under 2.05)"
     }
   ]
 }
