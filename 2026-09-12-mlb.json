@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-12T09:13:22-0700",
+  "generado_ts": "2026-09-12T10:43:42-0700",
   "motor": "MLB",
   "fecha": "2026-09-12",
   "tickets": [
@@ -13,7 +13,19 @@
       "max_pagable_c": 62,
       "partido": "PHI@ATL",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 2.02 / under 1.87)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 2.03 / under 1.86)"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26SEP121610KCBOS-BOS2",
+      "mercado": "SPREAD BOS-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 52,
+      "prob_modelo": 60,
+      "edge_c": 8,
+      "max_pagable_c": 60,
+      "partido": "KC@BOS",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle Boston Red Sox -1.5 price 2.04)"
     }
   ]
 }
