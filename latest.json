@@ -1,20 +1,8 @@
 {
-  "generado_ts": "2026-09-12T10:43:42-0700",
+  "generado_ts": "2026-09-12T11:24:29-0700",
   "motor": "MLB",
   "fecha": "2026-09-12",
   "tickets": [
-    {
-      "ticker": "KXMLBTOTAL-26SEP121915PHIATL-9",
-      "mercado": "TOTAL 8.5",
-      "lado": "UNDER 8.5 (NO)",
-      "entrada_sugerida_c": 53,
-      "prob_modelo": 62,
-      "edge_c": 9,
-      "max_pagable_c": 62,
-      "partido": "PHI@ATL",
-      "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 2.03 / under 1.86)"
-    },
     {
       "ticker": "KXMLBSPREAD-26SEP121610KCBOS-BOS2",
       "mercado": "SPREAD BOS-1.5",
