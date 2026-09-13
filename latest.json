@@ -1,41 +1,29 @@
 {
-  "generado_ts": "2026-09-13T06:55:02-0700",
+  "generado_ts": "2026-09-13T07:47:05-0700",
   "motor": "CLIMA",
   "fecha": "2026-09-13",
   "tickets": [
     {
-      "ticker": "KXHIGHNY-26SEP13-B78.5",
-      "mercado": "78° to 79°",
-      "lado": "NO",
-      "entrada_sugerida_c": 53,
-      "prob_modelo": 74,
-      "edge_c": 21,
-      "max_pagable_c": 74,
-      "partido": "NY",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
       "ticker": "KXHIGHMIA-26SEP13-T92",
       "mercado": "93° or above",
       "lado": "NO",
-      "entrada_sugerida_c": 72,
+      "entrada_sugerida_c": 70,
       "prob_modelo": 89,
-      "edge_c": 17,
+      "edge_c": 19,
       "max_pagable_c": 89,
       "partido": "MIA",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     },
     {
-      "ticker": "KXHIGHDEN-26SEP13-B91.5",
-      "mercado": "91° to 92°",
-      "lado": "YES",
-      "entrada_sugerida_c": 18,
-      "prob_modelo": 33,
-      "edge_c": 15,
-      "max_pagable_c": 33,
-      "partido": "DEN",
+      "ticker": "KXHIGHPHIL-26SEP13-B80.5",
+      "mercado": "80° to 81°",
+      "lado": "NO",
+      "entrada_sugerida_c": 93,
+      "prob_modelo": 100,
+      "edge_c": 7,
+      "max_pagable_c": 100,
+      "partido": "PHIL",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
