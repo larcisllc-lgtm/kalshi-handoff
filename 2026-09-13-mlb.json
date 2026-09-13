@@ -1,6 +1,19 @@
 {
-  "generado_ts": "2026-09-13T10:07:36-0700",
+  "generado_ts": "2026-09-13T11:03:19-0700",
   "motor": "MLB",
   "fecha": "2026-09-13",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXMLBSPREAD-26SEP131605SEAATH-SEA2",
+      "mercado": "SPREAD SEA-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 65,
+      "edge_c": 8,
+      "max_pagable_c": 65,
+      "partido": "SEA@ATH",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle Seattle Mariners -1.5 price 2.23)"
+    }
+  ]
 }
