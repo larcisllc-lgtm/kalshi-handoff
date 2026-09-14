@@ -1,0 +1,166 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-14",
+  "corrida_ts": "2026-09-14T06:06:16-0700",
+  "precios_ts": "2026-09-14T13:06:11+0000",
+  "hash_salida_motor": "b2e2254ed2add242",
+  "archivo_predicciones": "2026-09-14-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26SEP14-B72.5",
+    "KXHIGHNY-26SEP14-B76.5",
+    "KXHIGHAUS-26SEP14-B97.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26SEP14-B72.5",
+      "lado": "NO",
+      "mercado": "72° to 73°",
+      "entrada": 73,
+      "p_mod": 87,
+      "edge": 14,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 87,
+      "tamano": 8.26,
+      "razonamiento": "CHI maxima 2026-09-14 — NO \"72° to 73°\" a 73c; ensemble n=119 media 74.9deg, NWS 74deg, confianza alta; edge +14c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP14-B76.5",
+      "lado": "NO",
+      "mercado": "76° to 77°",
+      "entrada": 72,
+      "p_mod": 88,
+      "edge": 16,
+      "tp": 88,
+      "stop": 56,
+      "max_pagable": 88,
+      "tamano": 9.37,
+      "razonamiento": "NY maxima 2026-09-14 — NO \"76° to 77°\" a 72c; ensemble n=119 media 73.9deg, NWS 75deg, confianza alta; edge +16c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP14-B97.5",
+      "lado": "YES",
+      "mercado": "97° to 98°",
+      "entrada": 3,
+      "p_mod": 28,
+      "edge": 25,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 28,
+      "tamano": 4.32,
+      "razonamiento": "AUS maxima 2026-09-14 — YES \"97° to 98°\" a 3c; ensemble n=119 media 99.3deg, NWS 100deg, confianza alta; edge +25c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP14-B77.5",
+      "mercado": "77° to 78°",
+      "entrada": 8,
+      "p_mod": 42,
+      "edge": 34,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP14-B79.5",
+      "mercado": "79° to 80°",
+      "entrada": 49,
+      "p_mod": 82,
+      "edge": 33,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP14-B76.5",
+      "mercado": "76° to 77°",
+      "entrada": 11,
+      "p_mod": 25,
+      "edge": 14,
+      "motivo": "flag: BORDE-CERCANO(0.70°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP14-B74.5",
+      "mercado": "74° to 75°",
+      "entrada": 28,
+      "p_mod": 68,
+      "edge": 40,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP14-T74",
+      "mercado": "73° or below",
+      "entrada": 1,
+      "p_mod": 55,
+      "edge": 54,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP14-B101.5",
+      "mercado": "101° to 102°",
+      "entrada": 44,
+      "p_mod": 74,
+      "edge": 30,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26SEP14-B72.5",
+      "lado": "NO",
+      "mercado": "72° to 73°",
+      "entrada": 73,
+      "p_mod": 87,
+      "edge": 14,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 87,
+      "tamano": 8.26,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP14-B76.5",
+      "lado": "NO",
+      "mercado": "76° to 77°",
+      "entrada": 72,
+      "p_mod": 88,
+      "edge": 16,
+      "tp": 88,
+      "stop": 56,
+      "max_pagable": 88,
+      "tamano": 9.37,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP14-B97.5",
+      "lado": "YES",
+      "mercado": "97° to 98°",
+      "entrada": 3,
+      "p_mod": 28,
+      "edge": 25,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 28,
+      "tamano": 4.32,
+      "partido": "AUS",
+      "flags": ""
+    }
+  ]
+}
