@@ -1,19 +1,43 @@
 {
-  "generado_ts": "2026-09-15T07:40:27-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-09-15T08:26:47-0700",
+  "motor": "CLIMA",
   "fecha": "2026-09-15",
   "tickets": [
     {
-      "ticker": "KXMLBSPREAD-26SEP152138SEALAA-SEA2",
-      "mercado": "SPREAD SEA-1.5",
-      "lado": "NO cubre",
-      "entrada_sugerida_c": 53,
-      "prob_modelo": 65,
-      "edge_c": 12,
-      "max_pagable_c": 65,
-      "partido": "SEA@LAA",
+      "ticker": "KXHIGHMIA-26SEP15-B88.5",
+      "mercado": "88° to 89°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 13,
+      "edge_c": 10,
+      "max_pagable_c": 13,
+      "partido": "MIA",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle Seattle Mariners -1.5 price 2.04)"
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP15-B104.5",
+      "mercado": "104° to 105°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 12,
+      "edge_c": 8,
+      "max_pagable_c": 12,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP15-B75.5",
+      "mercado": "75° to 76°",
+      "lado": "NO",
+      "entrada_sugerida_c": 83,
+      "prob_modelo": 97,
+      "edge_c": 14,
+      "max_pagable_c": 97,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
     }
   ]
 }
