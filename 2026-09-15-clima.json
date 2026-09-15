@@ -1,0 +1,31 @@
+{
+  "generado_ts": "2026-09-15T07:39:47-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-09-15",
+  "tickets": [
+    {
+      "ticker": "KXHIGHAUS-26SEP15-B104.5",
+      "mercado": "104° to 105°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 19,
+      "edge_c": 15,
+      "max_pagable_c": 19,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP15-B75.5",
+      "mercado": "75° to 76°",
+      "lado": "NO",
+      "entrada_sugerida_c": 81,
+      "prob_modelo": 97,
+      "edge_c": 16,
+      "max_pagable_c": 97,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
