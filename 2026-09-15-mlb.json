@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-15T11:51:47-0700",
+  "generado_ts": "2026-09-15T15:00:06-0700",
   "motor": "MLB",
   "fecha": "2026-09-15",
   "tickets": [
@@ -19,13 +19,13 @@
       "ticker": "KXMLBTOTAL-26SEP151840LADCIN-9",
       "mercado": "TOTAL 8.5",
       "lado": "OVER 8.5",
-      "entrada_sugerida_c": 52,
+      "entrada_sugerida_c": 51,
       "prob_modelo": 60,
-      "edge_c": 8,
+      "edge_c": 9,
       "max_pagable_c": 60,
       "partido": "LAD@CIN",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.95)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.9 / under 1.99)"
     }
   ]
 }
