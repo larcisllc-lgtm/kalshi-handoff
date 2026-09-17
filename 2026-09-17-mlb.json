@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-17T08:01:26-0700",
+  "generado_ts": "2026-09-17T11:55:24-0700",
   "motor": "MLB",
   "fecha": "2026-09-17",
   "tickets": [
@@ -13,7 +13,7 @@
       "max_pagable_c": 63,
       "partido": "DET@CWS",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.97 / under 1.92)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 2.0 / under 1.89)"
     }
   ]
 }

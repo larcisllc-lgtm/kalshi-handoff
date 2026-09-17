@@ -1,31 +1,19 @@
 {
-  "generado_ts": "2026-09-17T08:25:06-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-09-17T11:55:24-0700",
+  "motor": "MLB",
   "fecha": "2026-09-17",
   "tickets": [
     {
-      "ticker": "KXHIGHLAX-26SEP17-B77.5",
-      "mercado": "77° to 78°",
-      "lado": "NO",
-      "entrada_sugerida_c": 50,
-      "prob_modelo": 68,
-      "edge_c": 18,
-      "max_pagable_c": 68,
-      "partido": "LAX",
+      "ticker": "KXMLBTOTAL-26SEP171940DETCWS-9",
+      "mercado": "TOTAL 8.5",
+      "lado": "UNDER 8.5 (NO)",
+      "entrada_sugerida_c": 51,
+      "prob_modelo": 63,
+      "edge_c": 12,
+      "max_pagable_c": 63,
+      "partido": "DET@CWS",
       "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHMIA-26SEP17-B84.5",
-      "mercado": "84° to 85°",
-      "lado": "NO",
-      "entrada_sugerida_c": 74,
-      "prob_modelo": 95,
-      "edge_c": 21,
-      "max_pagable_c": 95,
-      "partido": "MIA",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 2.0 / under 1.89)"
     }
   ]
 }
