@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-17T03:13:30-0700",
+  "generado_ts": "2026-09-17T08:25:06-0700",
   "motor": "CLIMA",
   "fecha": "2026-09-17",
   "tickets": [
@@ -7,23 +7,23 @@
       "ticker": "KXHIGHLAX-26SEP17-B77.5",
       "mercado": "77° to 78°",
       "lado": "NO",
-      "entrada_sugerida_c": 58,
-      "prob_modelo": 69,
-      "edge_c": 11,
-      "max_pagable_c": 69,
+      "entrada_sugerida_c": 50,
+      "prob_modelo": 68,
+      "edge_c": 18,
+      "max_pagable_c": 68,
       "partido": "LAX",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     },
     {
-      "ticker": "KXHIGHAUS-26SEP17-B99.5",
-      "mercado": "99° to 100°",
+      "ticker": "KXHIGHMIA-26SEP17-B84.5",
+      "mercado": "84° to 85°",
       "lado": "NO",
-      "entrada_sugerida_c": 70,
-      "prob_modelo": 88,
-      "edge_c": 18,
-      "max_pagable_c": 88,
-      "partido": "AUS",
+      "entrada_sugerida_c": 74,
+      "prob_modelo": 95,
+      "edge_c": 21,
+      "max_pagable_c": 95,
+      "partido": "MIA",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
