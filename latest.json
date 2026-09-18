@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-09-18T11:16:32-0700",
+  "generado_ts": "2026-09-18T14:31:26-0700",
   "motor": "MLB",
   "fecha": "2026-09-18",
-  "tickets": [
-    {
-      "ticker": "KXMLBTOTAL-26SEP181840CHCCIN-9",
-      "mercado": "TOTAL 8.5",
-      "lado": "OVER 8.5",
-      "entrada_sugerida_c": 51,
-      "prob_modelo": 59,
-      "edge_c": 8,
-      "max_pagable_c": 59,
-      "partido": "CHC@CIN",
-      "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.96)"
-    }
-  ]
+  "tickets": []
 }
