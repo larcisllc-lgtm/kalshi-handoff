@@ -1,0 +1,225 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-18",
+  "corrida_ts": "2026-09-18T04:43:54-0700",
+  "precios_ts": "2026-09-18T11:43:47+0000",
+  "hash_salida_motor": "962b9b96a72572e9",
+  "archivo_predicciones": "2026-09-18-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26SEP18-B78.5",
+    "KXHIGHCHI-26SEP18-B70.5",
+    "KXHIGHNY-26SEP18-T80",
+    "KXHIGHMIA-26SEP18-B91.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26SEP18-B78.5",
+      "lado": "NO",
+      "mercado": "78° to 79°",
+      "entrada": 51,
+      "p_mod": 62,
+      "edge": 11,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 62,
+      "tamano": 3.73,
+      "razonamiento": "LAX maxima 2026-09-18 — NO \"78° to 79°\" a 51c; ensemble n=119 media 77.0deg, NWS 78deg, confianza alta; edge +11c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP18-B70.5",
+      "lado": "NO",
+      "mercado": "70° to 71°",
+      "entrada": 81,
+      "p_mod": 93,
+      "edge": 12,
+      "tp": 97,
+      "stop": 63,
+      "max_pagable": 93,
+      "tamano": 10.55,
+      "razonamiento": "CHI maxima 2026-09-18 — NO \"70° to 71°\" a 81c; ensemble n=119 media 73.5deg, NWS 72deg, confianza alta; edge +12c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP18-T80",
+      "lado": "NO",
+      "mercado": "79° or below",
+      "entrada": 89,
+      "p_mod": 96,
+      "edge": 7,
+      "tp": 97,
+      "stop": 69,
+      "max_pagable": 96,
+      "tamano": 10.88,
+      "razonamiento": "NY maxima 2026-09-18 — NO \"79° or below\" a 89c; ensemble n=119 media 81.7deg, NWS 81deg, confianza alta; edge +7c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP18-B91.5",
+      "lado": "NO",
+      "mercado": "91° to 92°",
+      "entrada": 71,
+      "p_mod": 99,
+      "edge": 28,
+      "tp": 87,
+      "stop": 55,
+      "max_pagable": 99,
+      "tamano": 7.85,
+      "razonamiento": "MIA maxima 2026-09-18 — NO \"91° to 92°\" a 71c; ensemble n=119 media 87.7deg, NWS 88deg, confianza media; edge +28c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 4
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP18-B74.5",
+      "mercado": "74° to 75°",
+      "entrada": 4,
+      "p_mod": 38,
+      "edge": 34,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP18-B76.5",
+      "mercado": "76° to 77°",
+      "entrada": 65,
+      "p_mod": 79,
+      "edge": 14,
+      "motivo": "flag: BORDE-CERCANO(0.59°-del-corte)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP18-T79",
+      "mercado": "80° or above",
+      "entrada": 86,
+      "p_mod": 97,
+      "edge": 11,
+      "motivo": "correlacion: NO (+11c) es la unica expresion de LAX",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP18-B72.5",
+      "mercado": "72° to 73°",
+      "entrada": 47,
+      "p_mod": 58,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.00°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP18-B74.5",
+      "mercado": "74° to 75°",
+      "entrada": 17,
+      "p_mod": 42,
+      "edge": 25,
+      "motivo": "flag: BORDE-CERCANO(0.00°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP18-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 40,
+      "p_mod": 51,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.19°-del-corte)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP18-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 2,
+      "p_mod": 9,
+      "edge": 7,
+      "motivo": "flag: SIN-RECORRIDO(TP 2¢ = entrada 2¢)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP18-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 9,
+      "p_mod": 21,
+      "edge": 12,
+      "motivo": "correlacion: NO (+28c) es la unica expresion de MIA",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP18-B87.5",
+      "mercado": "87° to 88°",
+      "entrada": 22,
+      "p_mod": 42,
+      "edge": 20,
+      "motivo": "flag: BORDE-CERCANO(0.74°-del-corte)",
+      "partido": "MIA"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26SEP18-B78.5",
+      "lado": "NO",
+      "mercado": "78° to 79°",
+      "entrada": 51,
+      "p_mod": 62,
+      "edge": 11,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 62,
+      "tamano": 3.73,
+      "partido": "LAX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHCHI-26SEP18-B70.5",
+      "lado": "NO",
+      "mercado": "70° to 71°",
+      "entrada": 81,
+      "p_mod": 93,
+      "edge": 12,
+      "tp": 97,
+      "stop": 63,
+      "max_pagable": 93,
+      "tamano": 10.55,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP18-T80",
+      "lado": "NO",
+      "mercado": "79° or below",
+      "entrada": 89,
+      "p_mod": 96,
+      "edge": 7,
+      "tp": 97,
+      "stop": 69,
+      "max_pagable": 96,
+      "tamano": 10.88,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP18-B91.5",
+      "lado": "NO",
+      "mercado": "91° to 92°",
+      "entrada": 71,
+      "p_mod": 99,
+      "edge": 28,
+      "tp": 87,
+      "stop": 55,
+      "max_pagable": 99,
+      "tamano": 7.85,
+      "partido": "MIA",
+      "flags": ""
+    }
+  ]
+}
