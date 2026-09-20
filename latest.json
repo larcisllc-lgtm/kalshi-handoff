@@ -1,31 +1,6 @@
 {
-  "generado_ts": "2026-09-20T07:42:21-0700",
+  "generado_ts": "2026-09-20T11:09:56-0700",
   "motor": "MLB",
   "fecha": "2026-09-20",
-  "tickets": [
-    {
-      "ticker": "KXMLBSPREAD-26SEP201310PHINYM-PHI2",
-      "mercado": "SPREAD PHI-1.5",
-      "lado": "NO cubre",
-      "entrada_sugerida_c": 54,
-      "prob_modelo": 69,
-      "edge_c": 15,
-      "max_pagable_c": 69,
-      "partido": "PHI@NYM",
-      "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle Philadelphia Phillies -1.5 price 2.14)"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP201335KCPIT-9",
-      "mercado": "TOTAL 8.5",
-      "lado": "UNDER 8.5 (NO)",
-      "entrada_sugerida_c": 52,
-      "prob_modelo": 64,
-      "edge_c": 12,
-      "max_pagable_c": 64,
-      "partido": "KC@PIT",
-      "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.97 / under 1.92)"
-    }
-  ]
+  "tickets": []
 }
