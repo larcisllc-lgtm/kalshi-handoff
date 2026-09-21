@@ -1,0 +1,179 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-09-21",
+  "corrida_ts": "2026-09-21T07:10:48-0700",
+  "precios_ts": "2026-09-21T07:10:47-0700",
+  "hash_salida_motor": "4abbd94697e02413",
+  "archivo_predicciones": "2026-09-21-mlb.md",
+  "tickers": [
+    "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR4"
+  ],
+  "picks": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR4",
+      "lado": "TOR OVER 3.5",
+      "mercado": "TT TOR 3.5",
+      "entrada": 53,
+      "p_mod": 59,
+      "edge": 6,
+      "tp": 65,
+      "stop": 41,
+      "max_pagable": 59,
+      "tamano": 0.98,
+      "razonamiento": "TOR@BAL 3:35 PM PT — TT TOR 3.5 TOR OVER 3.5; modelo 59% vs ask 53¢, edge +6¢ MEDIO",
+      "partido": "TOR@BAL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 22,
+      "p_mod": 31,
+      "edge": 9,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 19,
+      "p_mod": 27,
+      "edge": 8,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 18,
+      "p_mod": 25,
+      "edge": 7,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 30,
+      "p_mod": 37,
+      "edge": 7,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 34,
+      "p_mod": 40,
+      "edge": 6,
+      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211840WSHDET-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 18,
+      "p_mod": 24,
+      "edge": 6,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "WSH@DET"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211840WSHDET-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 23,
+      "p_mod": 29,
+      "edge": 6,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "WSH@DET"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 37,
+      "p_mod": 43,
+      "edge": 6,
+      "motivo": "entrada 37¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 28,
+      "p_mod": 33,
+      "edge": 5,
+      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBGAME-26SEP211840WSHDET-WSH",
+      "mercado": "ML",
+      "entrada": 45,
+      "p_mod": 50,
+      "edge": 5,
+      "motivo": "entrada 45¢ bajo el piso de 50¢",
+      "partido": "WSH@DET"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP212145MINSF-SF7",
+      "mercado": "TT SF 6.5",
+      "entrada": 20,
+      "p_mod": 25,
+      "edge": 5,
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP212145MINSF-SF6",
+      "mercado": "TT SF 5.5",
+      "entrada": 29,
+      "p_mod": 34,
+      "edge": 5,
+      "motivo": "entrada 29¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP212145MINSF-SF4",
+      "mercado": "TT SF 3.5",
+      "entrada": 53,
+      "p_mod": 58,
+      "edge": 5,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIN@SF"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR4",
+      "lado": "TOR OVER 3.5",
+      "mercado": "TT TOR 3.5",
+      "entrada": 53,
+      "p_mod": 59,
+      "edge": 6,
+      "tp": 65,
+      "stop": 41,
+      "max_pagable": 59,
+      "tamano": 0.98,
+      "partido": "TOR@BAL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP212145MINSF-SF4",
+      "lado": "SF OVER 3.5",
+      "mercado": "TT SF 3.5",
+      "entrada": 53,
+      "p_mod": 58,
+      "edge": 5,
+      "tp": 65,
+      "stop": 41,
+      "max_pagable": 58,
+      "tamano": 0.93,
+      "partido": "MIN@SF",
+      "flags": ""
+    }
+  ]
+}
