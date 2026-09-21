@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-21",
-  "corrida_ts": "2026-09-21T07:10:48-0700",
-  "precios_ts": "2026-09-21T07:10:47-0700",
-  "hash_salida_motor": "4abbd94697e02413",
+  "corrida_ts": "2026-09-21T12:29:05-0700",
+  "precios_ts": "2026-09-21T12:29:03-0700",
+  "hash_salida_motor": "e91efa33ade9195b",
   "archivo_predicciones": "2026-09-21-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR4"
@@ -29,58 +29,76 @@
   ],
   "descartados": [
     {
-      "ticker": "KXMLBTOTAL-26SEP212145MINSF-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 22,
-      "p_mod": 31,
-      "edge": 9,
-      "motivo": "entrada 22¢ bajo el piso de 50¢",
-      "partido": "MIN@SF"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP211835TORBAL-12",
       "mercado": "TOTAL 11.5",
-      "entrada": 19,
-      "p_mod": 27,
-      "edge": 8,
-      "motivo": "entrada 19¢ bajo el piso de 50¢",
-      "partido": "TOR@BAL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP212145MINSF-13",
-      "mercado": "TOTAL 12.5",
       "entrada": 18,
-      "p_mod": 25,
-      "edge": 7,
+      "p_mod": 27,
+      "edge": 9,
       "motivo": "entrada 18¢ bajo el piso de 50¢",
-      "partido": "MIN@SF"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP212145MINSF-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 30,
-      "p_mod": 37,
-      "edge": 7,
-      "motivo": "entrada 30¢ bajo el piso de 50¢",
-      "partido": "MIN@SF"
+      "partido": "TOR@BAL"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP211835TORBAL-10",
       "mercado": "TOTAL 9.5",
-      "entrada": 34,
+      "entrada": 31,
       "p_mod": 40,
-      "edge": 6,
-      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "edge": 9,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
       "partido": "TOR@BAL"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP211840WSHDET-13",
-      "mercado": "TOTAL 12.5",
-      "entrada": 18,
-      "p_mod": 24,
+      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 25,
+      "p_mod": 33,
+      "edge": 8,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 23,
+      "p_mod": 31,
+      "edge": 8,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP212145MINSF-SF5",
+      "mercado": "TT SF 4.5",
+      "entrada": 38,
+      "p_mod": 45,
+      "edge": 7,
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 49,
+      "p_mod": 55,
       "edge": 6,
-      "motivo": "entrada 18¢ bajo el piso de 50¢",
-      "partido": "WSH@DET"
+      "motivo": "entrada 49¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR6",
+      "mercado": "TT TOR 5.5",
+      "entrada": 28,
+      "p_mod": 34,
+      "edge": 6,
+      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR5",
+      "mercado": "TT TOR 4.5",
+      "entrada": 40,
+      "p_mod": 46,
+      "edge": 6,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP211840WSHDET-12",
@@ -92,21 +110,39 @@
       "partido": "WSH@DET"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP212145MINSF-10",
-      "mercado": "TOTAL 9.5",
-      "entrada": 37,
-      "p_mod": 43,
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-13",
+      "mercado": "TOTAL 12.5",
+      "entrada": 19,
+      "p_mod": 25,
       "edge": 6,
-      "motivo": "entrada 37¢ bajo el piso de 50¢",
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
       "partido": "MIN@SF"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-11",
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-11",
       "mercado": "TOTAL 10.5",
-      "entrada": 28,
-      "p_mod": 33,
+      "entrada": 31,
+      "p_mod": 37,
+      "edge": 6,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP211835TORBAL-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 42,
+      "p_mod": 47,
       "edge": 5,
-      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "TOR@BAL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP211835TORBAL-TOR7",
+      "mercado": "TT TOR 6.5",
+      "entrada": 20,
+      "p_mod": 25,
+      "edge": 5,
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
       "partido": "TOR@BAL"
     },
     {
@@ -117,6 +153,15 @@
       "edge": 5,
       "motivo": "entrada 45¢ bajo el piso de 50¢",
       "partido": "WSH@DET"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26SEP212145MINSF-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 38,
+      "p_mod": 43,
+      "edge": 5,
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "partido": "MIN@SF"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP212145MINSF-SF7",
