@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-22T08:43:42-0700",
+  "generado_ts": "2026-09-22T11:43:04-0700",
   "motor": "MLB",
   "fecha": "2026-09-22",
   "tickets": [
@@ -13,7 +13,7 @@
       "max_pagable_c": 72,
       "partido": "MIA@CHC",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.85 / under 2.05)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.88 / under 2.0)"
     }
   ]
 }
