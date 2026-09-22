@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-22T11:43:04-0700",
+  "generado_ts": "2026-09-22T14:53:37-0700",
   "motor": "MLB",
   "fecha": "2026-09-22",
   "tickets": [
@@ -7,13 +7,13 @@
       "ticker": "KXMLBTOTAL-26SEP221940MIACHC-7",
       "mercado": "TOTAL 6.5",
       "lado": "OVER 6.5",
-      "entrada_sugerida_c": 53,
+      "entrada_sugerida_c": 52,
       "prob_modelo": 72,
-      "edge_c": 19,
+      "edge_c": 20,
       "max_pagable_c": 72,
       "partido": "MIA@CHC",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.88 / under 2.0)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.89 / under 2.0)"
     }
   ]
 }
