@@ -1,0 +1,198 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-09-22",
+  "corrida_ts": "2026-09-22T04:42:42-0700",
+  "precios_ts": "2026-09-22T11:42:35+0000",
+  "hash_salida_motor": "86fe774f6699730e",
+  "archivo_predicciones": "2026-09-22-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26SEP22-B79.5",
+    "KXHIGHMIA-26SEP22-B89.5",
+    "KXHIGHDEN-26SEP22-B79.5",
+    "KXHIGHAUS-26SEP22-B101.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26SEP22-B79.5",
+      "lado": "YES",
+      "mercado": "79° to 80°",
+      "entrada": 19,
+      "p_mod": 31,
+      "edge": 12,
+      "tp": 23,
+      "stop": 15,
+      "max_pagable": 31,
+      "tamano": 2.52,
+      "razonamiento": "LAX maxima 2026-09-22 — YES \"79° to 80°\" a 19c; ensemble n=119 media 77.5deg, NWS 77deg, confianza alta; edge +12c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP22-B89.5",
+      "lado": "NO",
+      "mercado": "89° to 90°",
+      "entrada": 75,
+      "p_mod": 92,
+      "edge": 17,
+      "tp": 92,
+      "stop": 58,
+      "max_pagable": 92,
+      "tamano": 5.57,
+      "razonamiento": "MIA maxima 2026-09-22 — NO \"89° to 90°\" a 75c; ensemble n=119 media 86.5deg, NWS 88deg, confianza media; edge +17c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP22-B79.5",
+      "lado": "YES",
+      "mercado": "79° to 80°",
+      "entrada": 5,
+      "p_mod": 15,
+      "edge": 10,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 15,
+      "tamano": 1.72,
+      "razonamiento": "DEN maxima 2026-09-22 — YES \"79° to 80°\" a 5c; ensemble n=119 media 81.9deg, NWS 81deg, confianza alta; edge +10c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP22-B101.5",
+      "lado": "YES",
+      "mercado": "101° to 102°",
+      "entrada": 7,
+      "p_mod": 21,
+      "edge": 14,
+      "tp": 9,
+      "stop": 5,
+      "max_pagable": 21,
+      "tamano": 2.44,
+      "razonamiento": "AUS maxima 2026-09-22 — YES \"101° to 102°\" a 7c; ensemble n=119 media 99.2deg, NWS 100deg, confianza alta; edge +14c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 4
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26SEP22-B75.5",
+      "mercado": "75° to 76°",
+      "entrada": 27,
+      "p_mod": 43,
+      "edge": 16,
+      "motivo": "flag: BORDE-CERCANO(0.01°-del-corte)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26SEP22-B77.5",
+      "mercado": "77° to 78°",
+      "entrada": 46,
+      "p_mod": 79,
+      "edge": 33,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP22-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 24,
+      "p_mod": 52,
+      "edge": 28,
+      "motivo": "flag: BORDE-CERCANO(0.44°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP22-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 33,
+      "p_mod": 48,
+      "edge": 15,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP22-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 46,
+      "p_mod": 66,
+      "edge": 20,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP22-B97.5",
+      "mercado": "97° to 98°",
+      "entrada": 57,
+      "p_mod": 72,
+      "edge": 15,
+      "motivo": "flag: BORDE-CERCANO(0.84°-del-corte)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26SEP22-B79.5",
+      "lado": "YES",
+      "mercado": "79° to 80°",
+      "entrada": 19,
+      "p_mod": 31,
+      "edge": 12,
+      "tp": 23,
+      "stop": 15,
+      "max_pagable": 31,
+      "tamano": 2.52,
+      "partido": "LAX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26SEP22-B89.5",
+      "lado": "NO",
+      "mercado": "89° to 90°",
+      "entrada": 75,
+      "p_mod": 92,
+      "edge": 17,
+      "tp": 92,
+      "stop": 58,
+      "max_pagable": 92,
+      "tamano": 5.57,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP22-B79.5",
+      "lado": "YES",
+      "mercado": "79° to 80°",
+      "entrada": 5,
+      "p_mod": 15,
+      "edge": 10,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 15,
+      "tamano": 1.72,
+      "partido": "DEN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP22-B101.5",
+      "lado": "YES",
+      "mercado": "101° to 102°",
+      "entrada": 7,
+      "p_mod": 21,
+      "edge": 14,
+      "tp": 9,
+      "stop": 5,
+      "max_pagable": 21,
+      "tamano": 2.44,
+      "partido": "AUS",
+      "flags": ""
+    }
+  ]
+}
