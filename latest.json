@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-09-23T11:57:32-0700",
+  "generado_ts": "2026-09-23T15:08:12-0700",
   "motor": "MLB",
   "fecha": "2026-09-23",
-  "tickets": [
-    {
-      "ticker": "KXMLBTOTAL-26SEP231905TBNYY-7",
-      "mercado": "TOTAL 6.5",
-      "lado": "OVER 6.5",
-      "entrada_sugerida_c": 50,
-      "prob_modelo": 67,
-      "edge_c": 17,
-      "max_pagable_c": 67,
-      "partido": "TB@NYY",
-      "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.96)"
-    }
-  ]
+  "tickets": []
 }
