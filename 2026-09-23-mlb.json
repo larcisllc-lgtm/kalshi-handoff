@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-09-23T07:31:01-0700",
+  "generado_ts": "2026-09-23T11:35:06-0700",
   "motor": "MLB",
   "fecha": "2026-09-23",
   "tickets": [
@@ -8,12 +8,12 @@
       "mercado": "TOTAL 6.5",
       "lado": "OVER 6.5",
       "entrada_sugerida_c": 50,
-      "prob_modelo": 71,
-      "edge_c": 21,
-      "max_pagable_c": 71,
+      "prob_modelo": 67,
+      "edge_c": 17,
+      "max_pagable_c": 67,
       "partido": "TB@NYY",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.95)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.96)"
     }
   ]
 }
