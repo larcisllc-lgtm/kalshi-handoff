@@ -1,17 +1,29 @@
 {
-  "generado_ts": "2026-09-23T07:30:55-0700",
+  "generado_ts": "2026-09-23T08:16:09-0700",
   "motor": "CLIMA",
   "fecha": "2026-09-23",
   "tickets": [
     {
-      "ticker": "KXHIGHNY-26SEP23-B69.5",
-      "mercado": "69° to 70°",
+      "ticker": "KXHIGHNY-26SEP23-B67.5",
+      "mercado": "67° to 68°",
       "lado": "NO",
-      "entrada_sugerida_c": 77,
-      "prob_modelo": 94,
-      "edge_c": 17,
-      "max_pagable_c": 94,
+      "entrada_sugerida_c": 43,
+      "prob_modelo": 66,
+      "edge_c": 23,
+      "max_pagable_c": 66,
       "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP23-B100.5",
+      "mercado": "100° to 101°",
+      "lado": "NO",
+      "entrada_sugerida_c": 66,
+      "prob_modelo": 80,
+      "edge_c": 14,
+      "max_pagable_c": 80,
+      "partido": "AUS",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
