@@ -1,0 +1,19 @@
+{
+  "generado_ts": "2026-09-23T07:30:55-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-09-23",
+  "tickets": [
+    {
+      "ticker": "KXHIGHNY-26SEP23-B69.5",
+      "mercado": "69° to 70°",
+      "lado": "NO",
+      "entrada_sugerida_c": 77,
+      "prob_modelo": 94,
+      "edge_c": 17,
+      "max_pagable_c": 94,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
