@@ -1,17 +1,65 @@
 {
-  "generado_ts": "2026-09-24T06:42:07-0700",
+  "generado_ts": "2026-09-24T08:41:20-0700",
   "motor": "CLIMA",
   "fecha": "2026-09-24",
   "tickets": [
     {
+      "ticker": "KXHIGHCHI-26SEP24-B70.5",
+      "mercado": "70° to 71°",
+      "lado": "YES",
+      "entrada_sugerida_c": 16,
+      "prob_modelo": 28,
+      "edge_c": 12,
+      "max_pagable_c": 28,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP24-B68.5",
+      "mercado": "68° to 69°",
+      "lado": "NO",
+      "entrada_sugerida_c": 81,
+      "prob_modelo": 88,
+      "edge_c": 7,
+      "max_pagable_c": 88,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
       "ticker": "KXHIGHMIA-26SEP24-T91",
       "mercado": "92° or above",
       "lado": "NO",
-      "entrada_sugerida_c": 62,
-      "prob_modelo": 80,
-      "edge_c": 18,
-      "max_pagable_c": 80,
+      "entrada_sugerida_c": 64,
+      "prob_modelo": 76,
+      "edge_c": 12,
+      "max_pagable_c": 76,
       "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP24-T96",
+      "mercado": "95° or below",
+      "lado": "YES",
+      "entrada_sugerida_c": 8,
+      "prob_modelo": 24,
+      "edge_c": 16,
+      "max_pagable_c": 24,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26SEP24-B69.5",
+      "mercado": "69° to 70°",
+      "lado": "NO",
+      "entrada_sugerida_c": 73,
+      "prob_modelo": 84,
+      "edge_c": 11,
+      "max_pagable_c": 84,
+      "partido": "PHIL",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
