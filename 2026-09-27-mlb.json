@@ -1,6 +1,19 @@
 {
-  "generado_ts": "2026-09-27T08:21:00-0700",
+  "generado_ts": "2026-09-27T11:57:29-0700",
   "motor": "MLB",
   "fecha": "2026-09-27",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXMLBSPREAD-26SEP271510AZSD-AZ2",
+      "mercado": "SPREAD AZ-1.5",
+      "lado": "NO cubre",
+      "entrada_sugerida_c": 54,
+      "prob_modelo": 59,
+      "edge_c": 5,
+      "max_pagable_c": 59,
+      "partido": "AZ@SD",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle Arizona Diamondbacks -1.5 price 2.1)"
+    }
+  ]
 }
