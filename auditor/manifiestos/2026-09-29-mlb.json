@@ -1,27 +1,27 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-29",
-  "corrida_ts": "2026-09-29T09:08:23-0700",
-  "precios_ts": "2026-09-29T09:08:20-0700",
-  "hash_salida_motor": "b934b81d72dab7bd",
+  "corrida_ts": "2026-09-29T12:55:15-0700",
+  "precios_ts": "2026-09-29T12:55:12-0700",
+  "hash_salida_motor": "e5f00f4ce8875345",
   "archivo_predicciones": "2026-09-29-mlb.md",
   "tickers": [
-    "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU5"
+    "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY3"
   ],
   "picks": [
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU5",
-      "lado": "HOU UNDER (NO)",
-      "mercado": "TT HOU 4.5",
-      "entrada": 57,
-      "p_mod": 65,
+      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY3",
+      "lado": "NYY OVER 2.5",
+      "mercado": "TT NYY 2.5",
+      "entrada": 58,
+      "p_mod": 66,
       "edge": 8,
-      "tp": 70,
-      "stop": 44,
-      "max_pagable": 65,
-      "tamano": 1.53,
-      "razonamiento": "CWS@HOU 2:00 PM PT — TT HOU 4.5 HOU UNDER (NO); modelo 65% vs ask 57¢, edge +8¢ MEDIO",
-      "partido": "CWS@HOU",
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 66,
+      "tamano": 1.54,
+      "razonamiento": "BOS@NYY 5:00 PM PT — TT NYY 2.5 NYY OVER 2.5; modelo 66% vs ask 58¢, edge +8¢ MEDIO",
+      "partido": "BOS@NYY",
       "flags": "",
       "motivo_seleccion": "edge",
       "idx": 1
@@ -29,39 +29,21 @@
   ],
   "descartados": [
     {
-      "ticker": "KXMLBGAME-26SEP291400PHIATL-PHI",
-      "mercado": "ML",
-      "entrada": 37,
-      "p_mod": 50,
-      "edge": 13,
-      "motivo": "entrada 37¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI5",
-      "mercado": "TT PHI 4.5",
-      "entrada": 24,
-      "p_mod": 32,
-      "edge": 8,
-      "motivo": "entrada 24¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU4",
-      "mercado": "TT HOU 3.5",
-      "entrada": 44,
-      "p_mod": 52,
-      "edge": 8,
-      "motivo": "entrada 44¢ bajo el piso de 50¢",
-      "partido": "CWS@HOU"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY5",
       "mercado": "TT NYY 4.5",
       "entrada": 30,
       "p_mod": 38,
       "edge": 8,
       "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "BOS@NYY"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY4",
+      "mercado": "TT NYY 3.5",
+      "entrada": 43,
+      "p_mod": 51,
+      "edge": 8,
+      "motivo": "entrada 43¢ bajo el piso de 50¢",
       "partido": "BOS@NYY"
     },
     {
@@ -74,15 +56,6 @@
       "partido": "CHC@SD"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP292200CHCSD-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 24,
-      "p_mod": 32,
-      "edge": 8,
-      "motivo": "entrada 24¢ bajo el piso de 50¢",
-      "partido": "CHC@SD"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP292200CHCSD-10",
       "mercado": "TOTAL 9.5",
       "entrada": 30,
@@ -92,21 +65,30 @@
       "partido": "CHC@SD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI4",
-      "mercado": "TT PHI 3.5",
-      "entrada": 38,
-      "p_mod": 45,
-      "edge": 7,
-      "motivo": "entrada 38¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP291700CWSHOU-5",
       "mercado": "TOTAL 4.5",
       "entrada": 16,
       "p_mod": 23,
       "edge": 7,
       "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "CWS@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU4",
+      "mercado": "TT HOU 3.5",
+      "entrada": 45,
+      "p_mod": 52,
+      "edge": 7,
+      "motivo": "entrada 45¢ bajo el piso de 50¢",
+      "partido": "CWS@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU3",
+      "mercado": "TT HOU 2.5",
+      "entrada": 29,
+      "p_mod": 36,
+      "edge": 7,
+      "motivo": "entrada 29¢ bajo el piso de 50¢",
       "partido": "CWS@HOU"
     },
     {
@@ -119,13 +101,22 @@
       "partido": "BOS@NYY"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY4",
-      "mercado": "TT NYY 3.5",
-      "entrada": 44,
-      "p_mod": 51,
+      "ticker": "KXMLBTOTAL-26SEP292200CHCSD-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 25,
+      "p_mod": 32,
       "edge": 7,
-      "motivo": "entrada 44¢ bajo el piso de 50¢",
-      "partido": "BOS@NYY"
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "CHC@SD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP292200CHCSD-SD7",
+      "mercado": "TT SD 6.5",
+      "entrada": 17,
+      "p_mod": 24,
+      "edge": 7,
+      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "partido": "CHC@SD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP292200CHCSD-SD6",
@@ -137,13 +128,13 @@
       "partido": "CHC@SD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI3",
-      "mercado": "TT PHI 2.5",
-      "entrada": 53,
-      "p_mod": 60,
+      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU5",
+      "mercado": "TT HOU 4.5",
+      "entrada": 58,
+      "p_mod": 65,
       "edge": 7,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "PHI@ATL"
+      "partido": "CWS@HOU"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP291700CWSHOU-7",
@@ -152,15 +143,6 @@
       "p_mod": 40,
       "edge": 6,
       "motivo": "entrada 34¢ bajo el piso de 50¢",
-      "partido": "CWS@HOU"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU3",
-      "mercado": "TT HOU 2.5",
-      "entrada": 30,
-      "p_mod": 36,
-      "edge": 6,
-      "motivo": "entrada 30¢ bajo el piso de 50¢",
       "partido": "CWS@HOU"
     },
     {
@@ -200,12 +182,21 @@
       "partido": "BOS@NYY"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP292200CHCSD-SD7",
-      "mercado": "TT SD 6.5",
-      "entrada": 18,
-      "p_mod": 24,
+      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY7",
+      "mercado": "TT NYY 6.5",
+      "entrada": 12,
+      "p_mod": 18,
       "edge": 6,
-      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "motivo": "entrada 12¢ bajo el piso de 50¢",
+      "partido": "BOS@NYY"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP292200CHCSD-SD8",
+      "mercado": "TT SD 7.5",
+      "entrada": 11,
+      "p_mod": 17,
+      "edge": 6,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
       "partido": "CHC@SD"
     },
     {
@@ -225,51 +216,6 @@
       "edge": 6,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "CWS@HOU"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI2",
-      "mercado": "TT PHI 1.5",
-      "entrada": 71,
-      "p_mod": 77,
-      "edge": 6,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY3",
-      "mercado": "TT NYY 2.5",
-      "entrada": 60,
-      "p_mod": 66,
-      "edge": 6,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "BOS@NYY"
-    },
-    {
-      "ticker": "KXMLBSPREAD-26SEP291400PHIATL-PHI4",
-      "mercado": "SPREAD PHI-3.5",
-      "entrada": 10,
-      "p_mod": 15,
-      "edge": 5,
-      "motivo": "entrada 10¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBSPREAD-26SEP291400PHIATL-PHI3",
-      "mercado": "SPREAD PHI-2.5",
-      "entrada": 17,
-      "p_mod": 22,
-      "edge": 5,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI6",
-      "mercado": "TT PHI 5.5",
-      "entrada": 16,
-      "p_mod": 21,
-      "edge": 5,
-      "motivo": "entrada 16¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
     },
     {
       "ticker": "KXMLBGAME-26SEP291700CWSHOU-CWS",
@@ -296,6 +242,15 @@
       "p_mod": 15,
       "edge": 5,
       "motivo": "entrada 10¢ bajo el piso de 50¢",
+      "partido": "CWS@HOU"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU2",
+      "mercado": "TT HOU 1.5",
+      "entrada": 16,
+      "p_mod": 21,
+      "edge": 5,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
       "partido": "CWS@HOU"
     },
     {
@@ -326,15 +281,6 @@
       "partido": "BOS@NYY"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY7",
-      "mercado": "TT NYY 6.5",
-      "entrada": 13,
-      "p_mod": 18,
-      "edge": 5,
-      "motivo": "entrada 13¢ bajo el piso de 50¢",
-      "partido": "BOS@NYY"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP292200CHCSD-9",
       "mercado": "TOTAL 8.5",
       "entrada": 40,
@@ -344,22 +290,13 @@
       "partido": "CHC@SD"
     },
     {
-      "ticker": "KXMLBTOTAL-26SEP292200CHCSD-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 48,
-      "p_mod": 53,
+      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY2",
+      "mercado": "TT NYY 1.5",
+      "entrada": 76,
+      "p_mod": 81,
       "edge": 5,
-      "motivo": "entrada 48¢ bajo el piso de 50¢",
-      "partido": "CHC@SD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP292200CHCSD-SD8",
-      "mercado": "TT SD 7.5",
-      "entrada": 12,
-      "p_mod": 17,
-      "edge": 5,
-      "motivo": "entrada 12¢ bajo el piso de 50¢",
-      "partido": "CHC@SD"
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "BOS@NYY"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26SEP292200CHCSD-SD4",
@@ -373,45 +310,31 @@
   ],
   "candidatos_limpios": [
     {
+      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY3",
+      "lado": "NYY OVER 2.5",
+      "mercado": "TT NYY 2.5",
+      "entrada": 58,
+      "p_mod": 66,
+      "edge": 8,
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 66,
+      "tamano": 1.54,
+      "partido": "BOS@NYY",
+      "flags": ""
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26SEP291700CWSHOU-HOU5",
       "lado": "HOU UNDER (NO)",
       "mercado": "TT HOU 4.5",
-      "entrada": 57,
+      "entrada": 58,
       "p_mod": 65,
-      "edge": 8,
-      "tp": 70,
-      "stop": 44,
-      "max_pagable": 65,
-      "tamano": 1.53,
-      "partido": "CWS@HOU",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI3",
-      "lado": "PHI OVER 2.5",
-      "mercado": "TT PHI 2.5",
-      "entrada": 53,
-      "p_mod": 60,
       "edge": 7,
-      "tp": 65,
-      "stop": 41,
-      "max_pagable": 60,
-      "tamano": 1.27,
-      "partido": "PHI@ATL",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP291400PHIATL-PHI2",
-      "lado": "PHI OVER 1.5",
-      "mercado": "TT PHI 1.5",
-      "entrada": 71,
-      "p_mod": 77,
-      "edge": 6,
-      "tp": 87,
-      "stop": 55,
-      "max_pagable": 77,
-      "tamano": 1.62,
-      "partido": "PHI@ATL",
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 65,
+      "tamano": 1.37,
+      "partido": "CWS@HOU",
       "flags": ""
     },
     {
@@ -429,16 +352,16 @@
       "flags": ""
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY3",
-      "lado": "NYY OVER 2.5",
-      "mercado": "TT NYY 2.5",
-      "entrada": 60,
-      "p_mod": 66,
-      "edge": 6,
-      "tp": 73,
-      "stop": 47,
-      "max_pagable": 66,
-      "tamano": 1.21,
+      "ticker": "KXMLBTEAMTOTAL-26SEP292000BOSNYY-NYY2",
+      "lado": "NYY OVER 1.5",
+      "mercado": "TT NYY 1.5",
+      "entrada": 76,
+      "p_mod": 81,
+      "edge": 5,
+      "tp": 93,
+      "stop": 59,
+      "max_pagable": 81,
+      "tamano": 1.64,
       "partido": "BOS@NYY",
       "flags": ""
     },
