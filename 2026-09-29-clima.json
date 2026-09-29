@@ -1,0 +1,43 @@
+{
+  "generado_ts": "2026-09-29T09:08:24-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-09-29",
+  "tickets": [
+    {
+      "ticker": "KXHIGHMIA-26SEP29-B87.5",
+      "mercado": "87° to 88°",
+      "lado": "YES",
+      "entrada_sugerida_c": 5,
+      "prob_modelo": 13,
+      "edge_c": 8,
+      "max_pagable_c": 13,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26SEP29-B69.5",
+      "mercado": "69° to 70°",
+      "lado": "YES",
+      "entrada_sugerida_c": 40,
+      "prob_modelo": 51,
+      "edge_c": 11,
+      "max_pagable_c": 51,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26SEP29-B97.5",
+      "mercado": "97° to 98°",
+      "lado": "NO",
+      "entrada_sugerida_c": 77,
+      "prob_modelo": 88,
+      "edge_c": 11,
+      "max_pagable_c": 88,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
