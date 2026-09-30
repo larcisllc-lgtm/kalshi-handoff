@@ -1,6 +1,31 @@
 {
-  "generado_ts": "2026-09-30T09:22:34-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-09-30T09:38:16-0700",
+  "motor": "CLIMA",
   "fecha": "2026-09-30",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHCHI-26SEP30-B71.5",
+      "mercado": "71° to 72°",
+      "lado": "NO",
+      "entrada_sugerida_c": 87,
+      "prob_modelo": 97,
+      "edge_c": 10,
+      "max_pagable_c": 97,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26SEP30-B74.5",
+      "mercado": "74° to 75°",
+      "lado": "YES",
+      "entrada_sugerida_c": 28,
+      "prob_modelo": 46,
+      "edge_c": 18,
+      "max_pagable_c": 46,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
