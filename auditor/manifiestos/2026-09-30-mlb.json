@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-09-30",
-  "corrida_ts": "2026-09-30T12:54:55-0700",
-  "precios_ts": "2026-09-30T12:54:52-0700",
-  "hash_salida_motor": "ec96aafe3dd3aee1",
+  "corrida_ts": "2026-09-30T15:52:52-0700",
+  "precios_ts": "2026-09-30T15:52:50-0700",
+  "hash_salida_motor": "1c5245f2cd809dee",
   "archivo_predicciones": "2026-09-30-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26SEP302200CHCSD-SD4"
@@ -47,30 +47,30 @@
       "partido": "CHC@SD"
     },
     {
-      "ticker": "KXMLBGAME-26SEP301700CWSHOU-CWS",
-      "mercado": "ML",
-      "entrada": 42,
-      "p_mod": 50,
-      "edge": 8,
-      "motivo": "entrada 42¢ bajo el piso de 50¢",
-      "partido": "CWS@HOU"
-    },
-    {
       "ticker": "KXMLBTOTAL-26SEP302200CHCSD-11",
       "mercado": "TOTAL 10.5",
-      "entrada": 24,
+      "entrada": 23,
       "p_mod": 32,
-      "edge": 8,
-      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "edge": 9,
+      "motivo": "entrada 23¢ bajo el piso de 50¢",
       "partido": "CHC@SD"
     },
     {
       "ticker": "KXMLBTOTAL-26SEP302200CHCSD-10",
       "mercado": "TOTAL 9.5",
-      "entrada": 30,
+      "entrada": 29,
       "p_mod": 38,
-      "edge": 8,
-      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "edge": 9,
+      "motivo": "entrada 29¢ bajo el piso de 50¢",
+      "partido": "CHC@SD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26SEP302200CHCSD-SD7",
+      "mercado": "TT SD 6.5",
+      "entrada": 18,
+      "p_mod": 27,
+      "edge": 9,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
       "partido": "CHC@SD"
     },
     {
@@ -80,15 +80,6 @@
       "p_mod": 20,
       "edge": 8,
       "motivo": "entrada 12¢ bajo el piso de 50¢",
-      "partido": "CHC@SD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP302200CHCSD-SD7",
-      "mercado": "TT SD 6.5",
-      "entrada": 19,
-      "p_mod": 27,
-      "edge": 8,
-      "motivo": "entrada 19¢ bajo el piso de 50¢",
       "partido": "CHC@SD"
     },
     {
@@ -128,42 +119,6 @@
       "partido": "CHC@SD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26SEP301700CWSHOU-CWS3",
-      "mercado": "TT CWS 2.5",
-      "entrada": 62,
-      "p_mod": 68,
-      "edge": 6,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "CWS@HOU"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP301700CWSHOU-CWS6",
-      "mercado": "TT CWS 5.5",
-      "entrada": 24,
-      "p_mod": 29,
-      "edge": 5,
-      "motivo": "entrada 24¢ bajo el piso de 50¢",
-      "partido": "CWS@HOU"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP301700CWSHOU-CWS4",
-      "mercado": "TT CWS 3.5",
-      "entrada": 48,
-      "p_mod": 53,
-      "edge": 5,
-      "motivo": "entrada 48¢ bajo el piso de 50¢",
-      "partido": "CWS@HOU"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26SEP302000BOSNYY-3",
-      "mercado": "TOTAL 2.5",
-      "entrada": 7,
-      "p_mod": 12,
-      "edge": 5,
-      "motivo": "entrada 7¢ bajo el piso de 50¢",
-      "partido": "BOS@NYY"
-    },
-    {
       "ticker": "KXMLBSPREAD-26SEP302200CHCSD-SD3",
       "mercado": "SPREAD SD-2.5",
       "entrada": 28,
@@ -195,20 +150,6 @@
       "max_pagable": 61,
       "tamano": 1.26,
       "partido": "CHC@SD",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26SEP301700CWSHOU-CWS3",
-      "lado": "CWS OVER 2.5",
-      "mercado": "TT CWS 2.5",
-      "entrada": 62,
-      "p_mod": 68,
-      "edge": 6,
-      "tp": 76,
-      "stop": 48,
-      "max_pagable": 68,
-      "tamano": 1.23,
-      "partido": "CWS@HOU",
       "flags": ""
     },
     {
