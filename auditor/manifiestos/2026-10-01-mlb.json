@@ -1,26 +1,26 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-01",
-  "corrida_ts": "2026-10-01T13:16:59-0700",
-  "precios_ts": "2026-10-01T13:16:58-0700",
-  "hash_salida_motor": "55c1e882e2def883",
+  "corrida_ts": "2026-10-01T16:02:19-0700",
+  "precios_ts": "2026-10-01T16:02:19-0700",
+  "hash_salida_motor": "91ae14e17a4bae14",
   "archivo_predicciones": "2026-10-01-mlb.md",
   "tickers": [
-    "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI6"
+    "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI5"
   ],
   "picks": [
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI6",
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI5",
       "lado": "PHI UNDER (NO)",
-      "mercado": "TT PHI 5.5",
-      "entrada": 73,
-      "p_mod": 80,
+      "mercado": "TT PHI 4.5",
+      "entrada": 63,
+      "p_mod": 70,
       "edge": 7,
-      "tp": 89,
-      "stop": 57,
-      "max_pagable": 80,
-      "tamano": 2.25,
-      "razonamiento": "PHI@ATL 5:00 PM PT — TT PHI 5.5 PHI UNDER (NO); modelo 80% vs ask 73¢, edge +7¢ MEDIO",
+      "tp": 77,
+      "stop": 49,
+      "max_pagable": 70,
+      "tamano": 1.59,
+      "razonamiento": "PHI@ATL 5:00 PM PT — TT PHI 4.5 PHI UNDER (NO); modelo 70% vs ask 63¢, edge +7¢ MEDIO",
       "partido": "PHI@ATL",
       "flags": "",
       "motivo_seleccion": "edge",
@@ -29,12 +29,12 @@
   ],
   "descartados": [
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI4",
-      "mercado": "TT PHI 3.5",
-      "entrada": 48,
-      "p_mod": 57,
-      "edge": 9,
-      "motivo": "entrada 48¢ bajo el piso de 50¢",
+      "ticker": "KXMLBSPREAD-26OCT011400PHIATL-ATL4",
+      "mercado": "SPREAD ATL-3.5",
+      "entrada": 14,
+      "p_mod": 22,
+      "edge": 8,
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
       "partido": "PHI@ATL"
     },
     {
@@ -47,12 +47,12 @@
       "partido": "PHI@ATL"
     },
     {
-      "ticker": "KXMLBSPREAD-26OCT011400PHIATL-ATL4",
-      "mercado": "SPREAD ATL-3.5",
-      "entrada": 15,
-      "p_mod": 22,
-      "edge": 7,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI4",
+      "mercado": "TT PHI 3.5",
+      "entrada": 49,
+      "p_mod": 57,
+      "edge": 8,
+      "motivo": "entrada 49¢ bajo el piso de 50¢",
       "partido": "PHI@ATL"
     },
     {
@@ -65,6 +65,15 @@
       "partido": "PHI@ATL"
     },
     {
+      "ticker": "KXMLBTOTAL-26OCT011400PHIATL-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 19,
+      "p_mod": 26,
+      "edge": 7,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
+      "partido": "PHI@ATL"
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI3",
       "mercado": "TT PHI 2.5",
       "entrada": 34,
@@ -74,30 +83,12 @@
       "partido": "PHI@ATL"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI5",
-      "mercado": "TT PHI 4.5",
-      "entrada": 63,
-      "p_mod": 70,
-      "edge": 7,
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI6",
+      "mercado": "TT PHI 5.5",
+      "entrada": 74,
+      "p_mod": 80,
+      "edge": 6,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT011400PHIATL-5",
-      "mercado": "TOTAL 4.5",
-      "entrada": 20,
-      "p_mod": 26,
-      "edge": 6,
-      "motivo": "entrada 20¢ bajo el piso de 50¢",
-      "partido": "PHI@ATL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI7",
-      "mercado": "TT PHI 6.5",
-      "entrada": 82,
-      "p_mod": 88,
-      "edge": 6,
-      "motivo": "flag: POCO-RECORRIDO",
       "partido": "PHI@ATL"
     },
     {
@@ -110,12 +101,39 @@
       "partido": "PHI@ATL"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI8",
-      "mercado": "TT PHI 7.5",
-      "entrada": 88,
-      "p_mod": 93,
+      "ticker": "KXMLBTOTAL-26OCT011400PHIATL-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 30,
+      "p_mod": 35,
+      "edge": 5,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "PHI@ATL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT011400PHIATL-3",
+      "mercado": "TOTAL 2.5",
+      "entrada": 5,
+      "p_mod": 10,
+      "edge": 5,
+      "motivo": "entrada 5¢ bajo el piso de 50¢",
+      "partido": "PHI@ATL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI7",
+      "mercado": "TT PHI 6.5",
+      "entrada": 83,
+      "p_mod": 88,
       "edge": 5,
       "motivo": "flag: POCO-RECORRIDO",
+      "partido": "PHI@ATL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI2",
+      "mercado": "TT PHI 1.5",
+      "entrada": 19,
+      "p_mod": 24,
+      "edge": 5,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
       "partido": "PHI@ATL"
     },
     {
@@ -125,6 +143,15 @@
       "p_mod": 14,
       "edge": 5,
       "motivo": "entrada 9¢ bajo el piso de 50¢",
+      "partido": "PHI@ATL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-ATL7",
+      "mercado": "TT ATL 6.5",
+      "entrada": 15,
+      "p_mod": 20,
+      "edge": 5,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
       "partido": "PHI@ATL"
     },
     {
@@ -139,20 +166,6 @@
   ],
   "candidatos_limpios": [
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI6",
-      "lado": "PHI UNDER (NO)",
-      "mercado": "TT PHI 5.5",
-      "entrada": 73,
-      "p_mod": 80,
-      "edge": 7,
-      "tp": 89,
-      "stop": 57,
-      "max_pagable": 80,
-      "tamano": 2.25,
-      "partido": "PHI@ATL",
-      "flags": ""
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI5",
       "lado": "PHI UNDER (NO)",
       "mercado": "TT PHI 4.5",
@@ -163,6 +176,20 @@
       "stop": 49,
       "max_pagable": 70,
       "tamano": 1.59,
+      "partido": "PHI@ATL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT011400PHIATL-PHI6",
+      "lado": "PHI UNDER (NO)",
+      "mercado": "TT PHI 5.5",
+      "entrada": 74,
+      "p_mod": 80,
+      "edge": 6,
+      "tp": 90,
+      "stop": 58,
+      "max_pagable": 80,
+      "tamano": 2.02,
       "partido": "PHI@ATL",
       "flags": ""
     }
