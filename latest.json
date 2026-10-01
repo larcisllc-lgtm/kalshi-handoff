@@ -1,16 +1,28 @@
 {
-  "generado_ts": "2026-10-01T05:12:55-0700",
+  "generado_ts": "2026-10-01T10:14:20-0700",
   "motor": "CLIMA",
   "fecha": "2026-10-01",
   "tickets": [
     {
-      "ticker": "KXHIGHDEN-26OCT01-B72.5",
-      "mercado": "72° to 73°",
+      "ticker": "KXHIGHCHI-26OCT01-B73.5",
+      "mercado": "73° to 74°",
+      "lado": "YES",
+      "entrada_sugerida_c": 31,
+      "prob_modelo": 54,
+      "edge_c": 23,
+      "max_pagable_c": 54,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT01-B70.5",
+      "mercado": "70° to 71°",
       "lado": "NO",
-      "entrada_sugerida_c": 80,
-      "prob_modelo": 98,
-      "edge_c": 18,
-      "max_pagable_c": 98,
+      "entrada_sugerida_c": 53,
+      "prob_modelo": 72,
+      "edge_c": 19,
+      "max_pagable_c": 72,
       "partido": "DEN",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
@@ -18,11 +30,11 @@
     {
       "ticker": "KXHIGHPHIL-26OCT01-B84.5",
       "mercado": "84° to 85°",
-      "lado": "NO",
-      "entrada_sugerida_c": 69,
-      "prob_modelo": 83,
-      "edge_c": 14,
-      "max_pagable_c": 83,
+      "lado": "YES",
+      "entrada_sugerida_c": 8,
+      "prob_modelo": 17,
+      "edge_c": 9,
+      "max_pagable_c": 17,
       "partido": "PHIL",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
