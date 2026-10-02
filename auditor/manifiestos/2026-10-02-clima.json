@@ -1,0 +1,193 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-02",
+  "corrida_ts": "2026-10-02T07:05:19-0700",
+  "precios_ts": "2026-10-02T14:05:12+0000",
+  "hash_salida_motor": "6952f3fcdb135d3d",
+  "archivo_predicciones": "2026-10-02-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26OCT02-B67.5",
+    "KXHIGHNY-26OCT02-B83.5",
+    "KXHIGHDEN-26OCT02-B83.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26OCT02-B67.5",
+      "lado": "YES",
+      "mercado": "67° to 68°",
+      "entrada": 8,
+      "p_mod": 25,
+      "edge": 17,
+      "tp": 10,
+      "stop": 6,
+      "max_pagable": 25,
+      "tamano": 3.06,
+      "razonamiento": "CHI maxima 2026-10-02 — YES \"67° to 68°\" a 8c; ensemble n=119 media 65.4deg, NWS 63deg, confianza alta; edge +17c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT02-B83.5",
+      "lado": "NO",
+      "mercado": "83° to 84°",
+      "entrada": 47,
+      "p_mod": 55,
+      "edge": 8,
+      "tp": 57,
+      "stop": 37,
+      "max_pagable": 55,
+      "tamano": 2.58,
+      "razonamiento": "NY maxima 2026-10-02 — NO \"83° to 84°\" a 47c; ensemble n=119 media 83.2deg, NWS 82deg, confianza alta; edge +8c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT02-B83.5",
+      "lado": "NO",
+      "mercado": "83° to 84°",
+      "entrada": 54,
+      "p_mod": 69,
+      "edge": 15,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 69,
+      "tamano": 5.29,
+      "razonamiento": "DEN maxima 2026-10-02 — NO \"83° to 84°\" a 54c; ensemble n=119 media 82.0deg, NWS 79deg, confianza alta; edge +15c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26OCT02-B85.5",
+      "mercado": "85° to 86°",
+      "entrada": 78,
+      "p_mod": 100,
+      "edge": 22,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT02-B87.5",
+      "mercado": "87° to 88°",
+      "entrada": 66,
+      "p_mod": 95,
+      "edge": 29,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT02-B89.5",
+      "mercado": "89° to 90°",
+      "entrada": 19,
+      "p_mod": 51,
+      "edge": 32,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT02-B91.5",
+      "mercado": "91° to 92°",
+      "entrada": 7,
+      "p_mod": 14,
+      "edge": 7,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT02-T92",
+      "mercado": "93° or above",
+      "entrada": 10,
+      "p_mod": 29,
+      "edge": 19,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT02-T85",
+      "mercado": "84° or below",
+      "entrada": 90,
+      "p_mod": 100,
+      "edge": 10,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT02-B65.5",
+      "mercado": "65° to 66°",
+      "entrada": 51,
+      "p_mod": 59,
+      "edge": 8,
+      "motivo": "correlacion: YES (+17c) es la unica expresion de CHI",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT02-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 42,
+      "p_mod": 52,
+      "edge": 10,
+      "motivo": "correlacion: NO (+15c) es la unica expresion de DEN",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT02-B78.5",
+      "mercado": "78° to 79°",
+      "entrada": 22,
+      "p_mod": 40,
+      "edge": 18,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26OCT02-B67.5",
+      "lado": "YES",
+      "mercado": "67° to 68°",
+      "entrada": 8,
+      "p_mod": 25,
+      "edge": 17,
+      "tp": 10,
+      "stop": 6,
+      "max_pagable": 25,
+      "tamano": 3.06,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT02-B83.5",
+      "lado": "NO",
+      "mercado": "83° to 84°",
+      "entrada": 47,
+      "p_mod": 55,
+      "edge": 8,
+      "tp": 57,
+      "stop": 37,
+      "max_pagable": 55,
+      "tamano": 2.58,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT02-B83.5",
+      "lado": "NO",
+      "mercado": "83° to 84°",
+      "entrada": 54,
+      "p_mod": 69,
+      "edge": 15,
+      "tp": 66,
+      "stop": 42,
+      "max_pagable": 69,
+      "tamano": 5.29,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
