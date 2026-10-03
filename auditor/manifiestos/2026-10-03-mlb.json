@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-03",
-  "corrida_ts": "2026-10-03T11:37:59-0700",
-  "precios_ts": "2026-10-03T11:37:57-0700",
-  "hash_salida_motor": "39d2b22de320152a",
+  "corrida_ts": "2026-10-03T15:04:10-0700",
+  "precios_ts": "2026-10-03T15:04:09-0700",
+  "hash_salida_motor": "feece1c394300948",
   "archivo_predicciones": "2026-10-03-mlb.md",
   "tickers": [
     "KXMLBTOTAL-26OCT032030SDMIL-7",
@@ -47,6 +47,15 @@
   ],
   "descartados": [
     {
+      "ticker": "KXMLBTOTAL-26OCT032030SDMIL-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 14,
+      "p_mod": 37,
+      "edge": 23,
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
+      "partido": "SD@MIL"
+    },
+    {
       "ticker": "KXMLBTOTAL-26OCT032030SDMIL-11",
       "mercado": "TOTAL 10.5",
       "entrada": 20,
@@ -62,15 +71,6 @@
       "p_mod": 49,
       "edge": 23,
       "motivo": "entrada 26¢ bajo el piso de 50¢",
-      "partido": "SD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT032030SDMIL-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 15,
-      "p_mod": 37,
-      "edge": 22,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
       "partido": "SD@MIL"
     },
     {
@@ -92,21 +92,21 @@
       "partido": "SD@MIL"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL6",
+      "mercado": "TT MIL 5.5",
+      "entrada": 30,
+      "p_mod": 49,
+      "edge": 19,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "SD@MIL"
+    },
+    {
       "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL7",
       "mercado": "TT MIL 6.5",
       "entrada": 21,
       "p_mod": 39,
       "edge": 18,
       "motivo": "entrada 21¢ bajo el piso de 50¢",
-      "partido": "SD@MIL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL6",
-      "mercado": "TT MIL 5.5",
-      "entrada": 31,
-      "p_mod": 49,
-      "edge": 18,
-      "motivo": "entrada 31¢ bajo el piso de 50¢",
       "partido": "SD@MIL"
     },
     {
@@ -137,13 +137,13 @@
       "partido": "SD@MIL"
     },
     {
-      "ticker": "KXMLBGAME-26OCT031600ATLLAD-ATL",
-      "mercado": "ML",
-      "entrada": 33,
-      "p_mod": 48,
-      "edge": 15,
-      "motivo": "entrada 33¢ bajo el piso de 50¢",
-      "partido": "ATL@LAD"
+      "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL4",
+      "mercado": "TT MIL 3.5",
+      "entrada": 56,
+      "p_mod": 72,
+      "edge": 16,
+      "motivo": "correlación: TOTAL 6.5 (+16¢) ganó el cupo de SD@MIL",
+      "partido": "SD@MIL"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-SD5",
@@ -159,15 +159,6 @@
       "mercado": "TOTAL 5.5",
       "entrada": 63,
       "p_mod": 78,
-      "edge": 15,
-      "motivo": "correlación: TOTAL 6.5 (+16¢) ganó el cupo de SD@MIL",
-      "partido": "SD@MIL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL4",
-      "mercado": "TT MIL 3.5",
-      "entrada": 57,
-      "p_mod": 72,
       "edge": 15,
       "motivo": "correlación: TOTAL 6.5 (+16¢) ganó el cupo de SD@MIL",
       "partido": "SD@MIL"
@@ -209,12 +200,12 @@
       "partido": "SD@MIL"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT031830NYYTB-10",
-      "mercado": "TOTAL 9.5",
-      "entrada": 25,
-      "p_mod": 37,
+      "ticker": "KXMLBTEAMTOTAL-26OCT031830NYYTB-TB7",
+      "mercado": "TT TB 6.5",
+      "entrada": 15,
+      "p_mod": 27,
       "edge": 12,
-      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
       "partido": "NYY@TB"
     },
     {
@@ -236,21 +227,21 @@
       "partido": "SD@MIL"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT031830NYYTB-TB7",
-      "mercado": "TT TB 6.5",
-      "entrada": 16,
-      "p_mod": 27,
+      "ticker": "KXMLBTOTAL-26OCT031830NYYTB-12",
+      "mercado": "TOTAL 11.5",
+      "entrada": 14,
+      "p_mod": 25,
       "edge": 11,
-      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
       "partido": "NYY@TB"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT031830NYYTB-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 15,
-      "p_mod": 25,
-      "edge": 10,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTOTAL-26OCT031830NYYTB-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 26,
+      "p_mod": 37,
+      "edge": 11,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
       "partido": "NYY@TB"
     },
     {
@@ -272,21 +263,12 @@
       "partido": "SD@MIL"
     },
     {
-      "ticker": "KXMLBSPREAD-26OCT031830NYYTB-TB4",
-      "mercado": "SPREAD TB-3.5",
-      "entrada": 17,
-      "p_mod": 26,
+      "ticker": "KXMLBTOTAL-26OCT031830NYYTB-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 35,
+      "p_mod": 44,
       "edge": 9,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "NYY@TB"
-    },
-    {
-      "ticker": "KXMLBSPREAD-26OCT031830NYYTB-TB3",
-      "mercado": "SPREAD TB-2.5",
-      "entrada": 25,
-      "p_mod": 34,
-      "edge": 9,
-      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "motivo": "entrada 35¢ bajo el piso de 50¢",
       "partido": "NYY@TB"
     },
     {
@@ -317,31 +299,40 @@
       "partido": "NYY@TB"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT031600ATLLAD-5",
-      "mercado": "TOTAL 4.5",
-      "entrada": 15,
-      "p_mod": 23,
-      "edge": 8,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
-      "partido": "ATL@LAD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT031830NYYTB-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 36,
-      "p_mod": 44,
-      "edge": 8,
-      "motivo": "entrada 36¢ bajo el piso de 50¢",
-      "partido": "NYY@TB"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26OCT031830NYYTB-TB3",
       "mercado": "TT TB 2.5",
-      "entrada": 66,
+      "entrada": 65,
       "p_mod": 74,
-      "edge": 8,
+      "edge": 9,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "NYY@TB"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT031830NYYTB-TB4",
+      "mercado": "SPREAD TB-3.5",
+      "entrada": 18,
+      "p_mod": 26,
+      "edge": 8,
+      "motivo": "entrada 18¢ bajo el piso de 50¢",
+      "partido": "NYY@TB"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT031830NYYTB-TB3",
+      "mercado": "SPREAD TB-2.5",
+      "entrada": 26,
+      "p_mod": 34,
+      "edge": 8,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "NYY@TB"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT032030SDMIL-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 77,
+      "p_mod": 85,
+      "edge": 8,
+      "motivo": "correlación: TOTAL 6.5 (+16¢) ganó el cupo de SD@MIL",
+      "partido": "SD@MIL"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-SD8",
@@ -351,24 +342,6 @@
       "edge": 7,
       "motivo": "entrada 6¢ bajo el piso de 50¢",
       "partido": "SD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT032030SDMIL-5",
-      "mercado": "TOTAL 4.5",
-      "entrada": 78,
-      "p_mod": 85,
-      "edge": 7,
-      "motivo": "correlación: TOTAL 6.5 (+16¢) ganó el cupo de SD@MIL",
-      "partido": "SD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT031600ATLLAD-7",
-      "mercado": "TOTAL 6.5",
-      "entrada": 33,
-      "p_mod": 39,
-      "edge": 6,
-      "motivo": "entrada 33¢ bajo el piso de 50¢",
-      "partido": "ATL@LAD"
     },
     {
       "ticker": "KXMLBSPREAD-26OCT032030SDMIL-MIL4",
@@ -396,33 +369,6 @@
       "edge": 6,
       "motivo": "flag: POCO-RECORRIDO",
       "partido": "SD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT031600ATLLAD-6",
-      "mercado": "TOTAL 5.5",
-      "entrada": 26,
-      "p_mod": 31,
-      "edge": 5,
-      "motivo": "entrada 26¢ bajo el piso de 50¢",
-      "partido": "ATL@LAD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT031600ATLLAD-LAD5",
-      "mercado": "TT LAD 4.5",
-      "entrada": 48,
-      "p_mod": 53,
-      "edge": 5,
-      "motivo": "entrada 48¢ bajo el piso de 50¢",
-      "partido": "ATL@LAD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT031600ATLLAD-LAD4",
-      "mercado": "TT LAD 3.5",
-      "entrada": 35,
-      "p_mod": 40,
-      "edge": 5,
-      "motivo": "entrada 35¢ bajo el piso de 50¢",
-      "partido": "ATL@LAD"
     },
     {
       "ticker": "KXMLBSPREAD-26OCT031830NYYTB-TB2",
@@ -473,6 +419,20 @@
       "flags": ""
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL4",
+      "lado": "MIL OVER 3.5",
+      "mercado": "TT MIL 3.5",
+      "entrada": 56,
+      "p_mod": 72,
+      "edge": 16,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 72,
+      "tamano": 2.93,
+      "partido": "SD@MIL",
+      "flags": ""
+    },
+    {
       "ticker": "KXMLBTOTAL-26OCT032030SDMIL-6",
       "lado": "OVER 5.5",
       "mercado": "TOTAL 5.5",
@@ -483,20 +443,6 @@
       "stop": 49,
       "max_pagable": 78,
       "tamano": 3.4,
-      "partido": "SD@MIL",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT032030SDMIL-MIL4",
-      "lado": "MIL OVER 3.5",
-      "mercado": "TT MIL 3.5",
-      "entrada": 57,
-      "p_mod": 72,
-      "edge": 15,
-      "tp": 70,
-      "stop": 44,
-      "max_pagable": 72,
-      "tamano": 2.81,
       "partido": "SD@MIL",
       "flags": ""
     },
@@ -532,13 +478,13 @@
       "ticker": "KXMLBTEAMTOTAL-26OCT031830NYYTB-TB3",
       "lado": "TB OVER 2.5",
       "mercado": "TT TB 2.5",
-      "entrada": 66,
+      "entrada": 65,
       "p_mod": 74,
-      "edge": 8,
-      "tp": 81,
+      "edge": 9,
+      "tp": 79,
       "stop": 51,
       "max_pagable": 74,
-      "tamano": 1.94,
+      "tamano": 2.12,
       "partido": "NYY@TB",
       "flags": ""
     },
@@ -546,13 +492,13 @@
       "ticker": "KXMLBTOTAL-26OCT032030SDMIL-5",
       "lado": "OVER 4.5",
       "mercado": "TOTAL 4.5",
-      "entrada": 78,
+      "entrada": 77,
       "p_mod": 85,
-      "edge": 7,
-      "tp": 95,
-      "stop": 61,
+      "edge": 8,
+      "tp": 94,
+      "stop": 60,
       "max_pagable": 85,
-      "tamano": 2.64,
+      "tamano": 2.88,
       "partido": "SD@MIL",
       "flags": ""
     }
