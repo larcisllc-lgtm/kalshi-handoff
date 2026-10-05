@@ -1,0 +1,19 @@
+{
+  "generado_ts": "2026-10-05T08:53:54-0700",
+  "motor": "MLB",
+  "fecha": "2026-10-05",
+  "tickets": [
+    {
+      "ticker": "KXMLBTOTAL-26OCT051700CWSCLE-7",
+      "mercado": "TOTAL 6.5",
+      "lado": "OVER 6.5",
+      "entrada_sugerida_c": 51,
+      "prob_modelo": 67,
+      "edge_c": 16,
+      "max_pagable_c": 67,
+      "partido": "CWS@CLE",
+      "sharp_ok": true,
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.9 / under 1.99)"
+    }
+  ]
+}
