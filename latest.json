@@ -1,43 +1,6 @@
 {
-  "generado_ts": "2026-10-05T12:34:33-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-05T14:56:24-0700",
+  "motor": "MLB",
   "fecha": "2026-10-05",
-  "tickets": [
-    {
-      "ticker": "KXHIGHMIA-26OCT05-B91.5",
-      "mercado": "91° to 92°",
-      "lado": "YES",
-      "entrada_sugerida_c": 5,
-      "prob_modelo": 16,
-      "edge_c": 11,
-      "max_pagable_c": 16,
-      "partido": "MIA",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHDEN-26OCT05-B87.5",
-      "mercado": "87° to 88°",
-      "lado": "NO",
-      "entrada_sugerida_c": 25,
-      "prob_modelo": 47,
-      "edge_c": 22,
-      "max_pagable_c": 47,
-      "partido": "DEN",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHAUS-26OCT05-B87.5",
-      "mercado": "87° to 88°",
-      "lado": "NO",
-      "entrada_sugerida_c": 54,
-      "prob_modelo": 80,
-      "edge_c": 26,
-      "max_pagable_c": 80,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
