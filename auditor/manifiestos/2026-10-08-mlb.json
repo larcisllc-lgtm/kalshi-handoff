@@ -1,29 +1,67 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-08",
-  "corrida_ts": "2026-10-08T13:38:02-0700",
-  "precios_ts": "2026-10-08T13:38:01-0700",
-  "hash_salida_motor": "b9aa0988b303db02",
+  "corrida_ts": "2026-10-08T16:42:03-0700",
+  "precios_ts": "2026-10-08T16:42:02-0700",
+  "hash_salida_motor": "97e34620317757f2",
   "archivo_predicciones": "2026-10-08-mlb.md",
-  "tickers": [],
-  "picks": [],
+  "tickers": [
+    "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS3"
+  ],
+  "picks": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS3",
+      "lado": "CWS OVER 2.5",
+      "mercado": "TT CWS 2.5",
+      "entrada": 62,
+      "p_mod": 67,
+      "edge": 5,
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 67,
+      "tamano": 1.12,
+      "razonamiento": "CLE@CWS 5:00 PM PT — TT CWS 2.5 CWS OVER 2.5; modelo 67% vs ask 62¢, edge +5¢ MEDIO",
+      "partido": "CLE@CWS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
   "descartados": [
     {
       "ticker": "KXMLBTOTAL-26OCT081700CLECWS-10",
       "mercado": "TOTAL 9.5",
-      "entrada": 28,
+      "entrada": 27,
       "p_mod": 38,
-      "edge": 10,
-      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "edge": 11,
+      "motivo": "entrada 27¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
       "ticker": "KXMLBTOTAL-26OCT081700CLECWS-12",
       "mercado": "TOTAL 11.5",
-      "entrada": 16,
+      "entrada": 15,
       "p_mod": 25,
+      "edge": 10,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "CLE@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 22,
+      "p_mod": 31,
       "edge": 9,
-      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
+      "partido": "CLE@CWS"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 37,
+      "p_mod": 45,
+      "edge": 8,
+      "motivo": "entrada 37¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
@@ -36,21 +74,21 @@
       "partido": "CLE@CWS"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 23,
-      "p_mod": 31,
-      "edge": 8,
-      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS5",
+      "mercado": "TT CWS 4.5",
+      "entrada": 32,
+      "p_mod": 39,
+      "edge": 7,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 38,
-      "p_mod": 45,
+      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS4",
+      "mercado": "TT CWS 3.5",
+      "entrada": 46,
+      "p_mod": 53,
       "edge": 7,
-      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "motivo": "entrada 46¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
@@ -72,23 +110,29 @@
       "partido": "CLE@CWS"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS5",
-      "mercado": "TT CWS 4.5",
-      "entrada": 33,
-      "p_mod": 39,
-      "edge": 6,
-      "motivo": "entrada 33¢ bajo el piso de 50¢",
-      "partido": "CLE@CWS"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS4",
-      "mercado": "TT CWS 3.5",
-      "entrada": 47,
-      "p_mod": 53,
-      "edge": 6,
-      "motivo": "entrada 47¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CLE5",
+      "mercado": "TT CLE 4.5",
+      "entrada": 37,
+      "p_mod": 42,
+      "edge": 5,
+      "motivo": "entrada 37¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     }
   ],
-  "candidatos_limpios": []
+  "candidatos_limpios": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS3",
+      "lado": "CWS OVER 2.5",
+      "mercado": "TT CWS 2.5",
+      "entrada": 62,
+      "p_mod": 67,
+      "edge": 5,
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 67,
+      "tamano": 1.12,
+      "partido": "CLE@CWS",
+      "flags": ""
+    }
+  ]
 }
