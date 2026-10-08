@@ -1,13 +1,22 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-08",
-  "corrida_ts": "2026-10-08T09:52:37-0700",
-  "precios_ts": "2026-10-08T09:52:36-0700",
-  "hash_salida_motor": "a540a2cd01928fb8",
+  "corrida_ts": "2026-10-08T13:38:02-0700",
+  "precios_ts": "2026-10-08T13:38:01-0700",
+  "hash_salida_motor": "b9aa0988b303db02",
   "archivo_predicciones": "2026-10-08-mlb.md",
   "tickers": [],
   "picks": [],
   "descartados": [
+    {
+      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 28,
+      "p_mod": 38,
+      "edge": 10,
+      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "partido": "CLE@CWS"
+    },
     {
       "ticker": "KXMLBTOTAL-26OCT081700CLECWS-12",
       "mercado": "TOTAL 11.5",
@@ -18,12 +27,12 @@
       "partido": "CLE@CWS"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-10",
-      "mercado": "TOTAL 9.5",
-      "entrada": 29,
-      "p_mod": 38,
-      "edge": 9,
-      "motivo": "entrada 29¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 45,
+      "p_mod": 53,
+      "edge": 8,
+      "motivo": "entrada 45¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
@@ -36,48 +45,48 @@
       "partido": "CLE@CWS"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT081700CLECWS-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 46,
-      "p_mod": 53,
-      "edge": 7,
-      "motivo": "entrada 46¢ bajo el piso de 50¢",
-      "partido": "CLE@CWS"
-    },
-    {
       "ticker": "KXMLBTOTAL-26OCT081700CLECWS-9",
       "mercado": "TOTAL 8.5",
-      "entrada": 39,
+      "entrada": 38,
       "p_mod": 45,
-      "edge": 6,
-      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "edge": 7,
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS7",
       "mercado": "TT CWS 6.5",
-      "entrada": 15,
+      "entrada": 14,
       "p_mod": 20,
-      "edge": 5,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "edge": 6,
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
+      "partido": "CLE@CWS"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS6",
+      "mercado": "TT CWS 5.5",
+      "entrada": 22,
+      "p_mod": 28,
+      "edge": 6,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS5",
       "mercado": "TT CWS 4.5",
-      "entrada": 34,
+      "entrada": 33,
       "p_mod": 39,
-      "edge": 5,
-      "motivo": "entrada 34¢ bajo el piso de 50¢",
+      "edge": 6,
+      "motivo": "entrada 33¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT081700CLECWS-CWS4",
       "mercado": "TT CWS 3.5",
-      "entrada": 48,
+      "entrada": 47,
       "p_mod": 53,
-      "edge": 5,
-      "motivo": "entrada 48¢ bajo el piso de 50¢",
+      "edge": 6,
+      "motivo": "entrada 47¢ bajo el piso de 50¢",
       "partido": "CLE@CWS"
     }
   ],
