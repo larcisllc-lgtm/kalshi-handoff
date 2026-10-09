@@ -1,43 +1,6 @@
 {
-  "generado_ts": "2026-10-09T10:16:49-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-09T12:42:12-0700",
+  "motor": "MLB",
   "fecha": "2026-10-09",
-  "tickets": [
-    {
-      "ticker": "KXHIGHNY-26OCT09-B73.5",
-      "mercado": "73° to 74°",
-      "lado": "YES",
-      "entrada_sugerida_c": 3,
-      "prob_modelo": 24,
-      "edge_c": 21,
-      "max_pagable_c": 24,
-      "partido": "NY",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHDEN-26OCT09-B88.5",
-      "mercado": "88° to 89°",
-      "lado": "NO",
-      "entrada_sugerida_c": 82,
-      "prob_modelo": 95,
-      "edge_c": 13,
-      "max_pagable_c": 95,
-      "partido": "DEN",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHPHIL-26OCT09-T77",
-      "mercado": "78° or above",
-      "lado": "NO",
-      "entrada_sugerida_c": 77,
-      "prob_modelo": 92,
-      "edge_c": 15,
-      "max_pagable_c": 92,
-      "partido": "PHIL",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
