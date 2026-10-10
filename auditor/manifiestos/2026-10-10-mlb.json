@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-10",
-  "corrida_ts": "2026-10-10T08:15:18-0700",
-  "precios_ts": "2026-10-10T08:15:17-0700",
-  "hash_salida_motor": "6b467e6a3d0e39ce",
+  "corrida_ts": "2026-10-10T12:12:44-0700",
+  "precios_ts": "2026-10-10T12:12:43-0700",
+  "hash_salida_motor": "2542670500394c1f",
   "archivo_predicciones": "2026-10-10-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT102000CWSCLE-CWS3"
@@ -74,6 +74,15 @@
       "partido": "CWS@CLE"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26OCT102000CWSCLE-CWS6",
+      "mercado": "TT CWS 5.5",
+      "entrada": 24,
+      "p_mod": 32,
+      "edge": 8,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
+      "partido": "CWS@CLE"
+    },
+    {
       "ticker": "KXMLBGAME-26OCT102000CWSCLE-CWS",
       "mercado": "ML",
       "entrada": 44,
@@ -101,12 +110,12 @@
       "partido": "CWS@CLE"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT102000CWSCLE-CWS6",
-      "mercado": "TT CWS 5.5",
-      "entrada": 25,
-      "p_mod": 32,
+      "ticker": "KXMLBTEAMTOTAL-26OCT102000CWSCLE-CWS7",
+      "mercado": "TT CWS 6.5",
+      "entrada": 16,
+      "p_mod": 23,
       "edge": 7,
-      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
       "partido": "CWS@CLE"
     },
     {
@@ -116,15 +125,6 @@
       "p_mod": 84,
       "edge": 7,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "CWS@CLE"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT102000CWSCLE-CWS7",
-      "mercado": "TT CWS 6.5",
-      "entrada": 17,
-      "p_mod": 23,
-      "edge": 6,
-      "motivo": "entrada 17¢ bajo el piso de 50¢",
       "partido": "CWS@CLE"
     },
     {
