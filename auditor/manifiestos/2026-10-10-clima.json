@@ -1,0 +1,175 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-10",
+  "corrida_ts": "2026-10-10T08:15:24-0700",
+  "precios_ts": "2026-10-10T15:15:18+0000",
+  "hash_salida_motor": "d2c3f5e83c13850a",
+  "archivo_predicciones": "2026-10-10-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26OCT10-B81.5",
+    "KXHIGHDEN-26OCT10-B84.5",
+    "KXHIGHAUS-26OCT10-B91.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26OCT10-B81.5",
+      "lado": "NO",
+      "mercado": "81° to 82°",
+      "entrada": 60,
+      "p_mod": 87,
+      "edge": 27,
+      "tp": 73,
+      "stop": 47,
+      "max_pagable": 87,
+      "tamano": 11.22,
+      "razonamiento": "CHI maxima 2026-10-10 — NO \"81° to 82°\" a 60c; ensemble n=119 media 79.2deg, NWS 80deg, confianza alta; edge +27c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT10-B84.5",
+      "lado": "NO",
+      "mercado": "84° to 85°",
+      "entrada": 61,
+      "p_mod": 81,
+      "edge": 20,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 81,
+      "tamano": 8.61,
+      "razonamiento": "DEN maxima 2026-10-10 — NO \"84° to 85°\" a 61c; ensemble n=119 media 82.4deg, NWS 84deg, confianza alta; edge +20c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT10-B91.5",
+      "lado": "NO",
+      "mercado": "91° to 92°",
+      "entrada": 30,
+      "p_mod": 59,
+      "edge": 29,
+      "tp": 37,
+      "stop": 23,
+      "max_pagable": 59,
+      "tamano": 6.83,
+      "razonamiento": "AUS maxima 2026-10-10 — NO \"91° to 92°\" a 30c; ensemble n=119 media 91.5deg, NWS 92deg, confianza alta; edge +29c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHCHI-26OCT10-B77.5",
+      "mercado": "77° to 78°",
+      "entrada": 4,
+      "p_mod": 29,
+      "edge": 25,
+      "motivo": "flag: BORDE-CERCANO(0.60°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT10-B79.5",
+      "mercado": "79° to 80°",
+      "entrada": 11,
+      "p_mod": 55,
+      "edge": 44,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT10-T82",
+      "mercado": "83° or above",
+      "entrada": 55,
+      "p_mod": 98,
+      "edge": 43,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT10-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 4,
+      "p_mod": 22,
+      "edge": 18,
+      "motivo": "correlacion: NO (+20c) es la unica expresion de DEN",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT10-T91",
+      "mercado": "90° or below",
+      "entrada": 3,
+      "p_mod": 30,
+      "edge": 27,
+      "motivo": "correlacion: NO (+29c) es la unica expresion de AUS",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT10-B72.5",
+      "mercado": "72° to 73°",
+      "entrada": 23,
+      "p_mod": 44,
+      "edge": 21,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT10-B74.5",
+      "mercado": "74° to 75°",
+      "entrada": 35,
+      "p_mod": 59,
+      "edge": 24,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26OCT10-B81.5",
+      "lado": "NO",
+      "mercado": "81° to 82°",
+      "entrada": 60,
+      "p_mod": 87,
+      "edge": 27,
+      "tp": 73,
+      "stop": 47,
+      "max_pagable": 87,
+      "tamano": 11.22,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT10-B84.5",
+      "lado": "NO",
+      "mercado": "84° to 85°",
+      "entrada": 61,
+      "p_mod": 81,
+      "edge": 20,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 81,
+      "tamano": 8.61,
+      "partido": "DEN",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT10-B91.5",
+      "lado": "NO",
+      "mercado": "91° to 92°",
+      "entrada": 30,
+      "p_mod": 59,
+      "edge": 29,
+      "tp": 37,
+      "stop": 23,
+      "max_pagable": 59,
+      "tamano": 6.83,
+      "partido": "AUS",
+      "flags": ""
+    }
+  ]
+}
