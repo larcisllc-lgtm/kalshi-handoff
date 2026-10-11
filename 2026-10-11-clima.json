@@ -1,0 +1,43 @@
+{
+  "generado_ts": "2026-10-11T07:03:57-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-10-11",
+  "tickets": [
+    {
+      "ticker": "KXHIGHCHI-26OCT11-B79.5",
+      "mercado": "79° to 80°",
+      "lado": "NO",
+      "entrada_sugerida_c": 78,
+      "prob_modelo": 99,
+      "edge_c": 21,
+      "max_pagable_c": 99,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT11-B93.5",
+      "mercado": "93° to 94°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 13,
+      "edge_c": 10,
+      "max_pagable_c": 13,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT11-B64.5",
+      "mercado": "64° to 65°",
+      "lado": "NO",
+      "entrada_sugerida_c": 83,
+      "prob_modelo": 98,
+      "edge_c": 15,
+      "max_pagable_c": 98,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
