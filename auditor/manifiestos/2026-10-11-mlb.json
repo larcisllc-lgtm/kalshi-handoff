@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-11",
-  "corrida_ts": "2026-10-11T11:47:35-0700",
-  "precios_ts": "2026-10-11T11:47:34-0700",
-  "hash_salida_motor": "e3e8ba323ef2c2de",
+  "corrida_ts": "2026-10-11T12:26:55-0700",
+  "precios_ts": "2026-10-11T12:26:53-0700",
+  "hash_salida_motor": "fcfcb28c1fc65393",
   "archivo_predicciones": "2026-10-11-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT112000LADMIL-MIL3"
@@ -31,10 +31,10 @@
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT112000LADMIL-MIL5",
       "mercado": "TT MIL 4.5",
-      "entrada": 26,
+      "entrada": 25,
       "p_mod": 44,
-      "edge": 18,
-      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "edge": 19,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
       "partido": "LAD@MIL"
     },
     {
