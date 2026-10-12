@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-12",
-  "corrida_ts": "2026-10-12T10:09:27-0700",
-  "precios_ts": "2026-10-12T10:09:25-0700",
-  "hash_salida_motor": "f502e009a62502e9",
+  "corrida_ts": "2026-10-12T15:27:31-0700",
+  "precios_ts": "2026-10-12T15:27:30-0700",
+  "hash_salida_motor": "1d51d0947354ff10",
   "archivo_predicciones": "2026-10-12-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE3"
@@ -13,14 +13,14 @@
       "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE3",
       "lado": "CLE OVER 2.5",
       "mercado": "TT CLE 2.5",
-      "entrada": 55,
+      "entrada": 54,
       "p_mod": 62,
-      "edge": 7,
-      "tp": 67,
-      "stop": 43,
+      "edge": 8,
+      "tp": 66,
+      "stop": 42,
       "max_pagable": 62,
-      "tamano": 1.22,
-      "razonamiento": "CLE@TB 5:00 PM PT — TT CLE 2.5 CLE OVER 2.5; modelo 62% vs ask 55¢, edge +7¢ MEDIO",
+      "tamano": 1.37,
+      "razonamiento": "CLE@TB 5:00 PM PT — TT CLE 2.5 CLE OVER 2.5; modelo 62% vs ask 54¢, edge +8¢ MEDIO",
       "partido": "CLE@TB",
       "flags": "",
       "motivo_seleccion": "edge",
@@ -38,49 +38,13 @@
       "partido": "CLE@TB"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT121700LADMIL-10",
-      "mercado": "TOTAL 9.5",
-      "entrada": 26,
-      "p_mod": 34,
+      "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE5",
+      "mercado": "TT CLE 4.5",
+      "entrada": 25,
+      "p_mod": 33,
       "edge": 8,
-      "motivo": "entrada 26¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT121700LADMIL-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 42,
-      "p_mod": 49,
-      "edge": 7,
-      "motivo": "entrada 42¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT121700LADMIL-12",
-      "mercado": "TOTAL 11.5",
-      "entrada": 15,
-      "p_mod": 22,
-      "edge": 7,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT121700LADMIL-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 20,
-      "p_mod": 27,
-      "edge": 7,
-      "motivo": "entrada 20¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT121700LADMIL-MIL4",
-      "mercado": "TT MIL 3.5",
-      "entrada": 41,
-      "p_mod": 48,
-      "edge": 7,
-      "motivo": "entrada 41¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE4",
@@ -92,39 +56,12 @@
       "partido": "CLE@TB"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT121700LADMIL-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 35,
-      "p_mod": 41,
-      "edge": 6,
-      "motivo": "entrada 35¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT121700LADMIL-MIL6",
-      "mercado": "TT MIL 5.5",
-      "entrada": 18,
-      "p_mod": 24,
-      "edge": 6,
-      "motivo": "entrada 18¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
-    },
-    {
       "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE6",
       "mercado": "TT CLE 5.5",
       "entrada": 17,
       "p_mod": 23,
       "edge": 6,
       "motivo": "entrada 17¢ bajo el piso de 50¢",
-      "partido": "CLE@TB"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE5",
-      "mercado": "TT CLE 4.5",
-      "entrada": 27,
-      "p_mod": 33,
-      "edge": 6,
-      "motivo": "entrada 27¢ bajo el piso de 50¢",
       "partido": "CLE@TB"
     },
     {
@@ -137,22 +74,13 @@
       "partido": "CLE@TB"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT121700LADMIL-MIL3",
-      "mercado": "TT MIL 2.5",
-      "entrada": 57,
-      "p_mod": 63,
-      "edge": 6,
-      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
-      "partido": "LAD@MIL"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT121700LADMIL-MIL5",
-      "mercado": "TT MIL 4.5",
-      "entrada": 29,
-      "p_mod": 34,
+      "ticker": "KXMLBTOTAL-26OCT122000CLETB-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 40,
+      "p_mod": 45,
       "edge": 5,
-      "motivo": "entrada 29¢ bajo el piso de 50¢",
-      "partido": "LAD@MIL"
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
     },
     {
       "ticker": "KXMLBTOTAL-26OCT122000CLETB-12",
@@ -180,6 +108,15 @@
       "edge": 5,
       "motivo": "entrada 25¢ bajo el piso de 50¢",
       "partido": "CLE@TB"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE7",
+      "mercado": "TT CLE 6.5",
+      "entrada": 10,
+      "p_mod": 15,
+      "edge": 5,
+      "motivo": "entrada 10¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
     }
   ],
   "candidatos_limpios": [
@@ -187,28 +124,14 @@
       "ticker": "KXMLBTEAMTOTAL-26OCT122000CLETB-CLE3",
       "lado": "CLE OVER 2.5",
       "mercado": "TT CLE 2.5",
-      "entrada": 55,
+      "entrada": 54,
       "p_mod": 62,
-      "edge": 7,
-      "tp": 67,
-      "stop": 43,
+      "edge": 8,
+      "tp": 66,
+      "stop": 42,
       "max_pagable": 62,
-      "tamano": 1.22,
+      "tamano": 1.37,
       "partido": "CLE@TB",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT121700LADMIL-MIL3",
-      "lado": "MIL OVER 2.5",
-      "mercado": "TT MIL 2.5",
-      "entrada": 57,
-      "p_mod": 63,
-      "edge": 6,
-      "tp": 70,
-      "stop": 44,
-      "max_pagable": 63,
-      "tamano": 1.1,
-      "partido": "LAD@MIL",
       "flags": ""
     },
     {
