@@ -1,9 +1,9 @@
 {
   "modelo": "CLIMA",
   "fecha": "2026-10-12",
-  "corrida_ts": "2026-10-12T10:14:06-0700",
-  "precios_ts": "2026-10-12T17:09:23+0000",
-  "hash_salida_motor": "60a809603d6c0a0b",
+  "corrida_ts": "2026-10-12T13:10:12-0700",
+  "precios_ts": "2026-10-12T20:05:30+0000",
+  "hash_salida_motor": "f2e492aba6b6ebd2",
   "archivo_predicciones": "2026-10-12-clima.md",
   "tickers": [],
   "picks": [],
