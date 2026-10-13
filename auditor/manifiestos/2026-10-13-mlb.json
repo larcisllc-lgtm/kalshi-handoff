@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-13",
-  "corrida_ts": "2026-10-13T11:19:24-0700",
-  "precios_ts": "2026-10-13T11:19:23-0700",
-  "hash_salida_motor": "241779edf024a345",
+  "corrida_ts": "2026-10-13T13:35:23-0700",
+  "precios_ts": "2026-10-13T13:35:22-0700",
+  "hash_salida_motor": "8e7ebf5f1832c981",
   "archivo_predicciones": "2026-10-13-mlb.md",
   "tickers": [],
   "picks": [],
@@ -36,6 +36,15 @@
       "partido": "CLE@TB"
     },
     {
+      "ticker": "KXMLBTOTAL-26OCT132000CLETB-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 41,
+      "p_mod": 47,
+      "edge": 6,
+      "motivo": "entrada 41¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
+    },
+    {
       "ticker": "KXMLBTOTAL-26OCT132000CLETB-11",
       "mercado": "TOTAL 10.5",
       "entrada": 20,
@@ -45,12 +54,12 @@
       "partido": "CLE@TB"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT132000CLETB-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 42,
-      "p_mod": 47,
+      "ticker": "KXMLBTEAMTOTAL-26OCT132000CLETB-CLE4",
+      "mercado": "TT CLE 3.5",
+      "entrada": 43,
+      "p_mod": 48,
       "edge": 5,
-      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "motivo": "entrada 43¢ bajo el piso de 50¢",
       "partido": "CLE@TB"
     }
   ],
