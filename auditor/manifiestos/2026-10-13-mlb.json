@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-13",
-  "corrida_ts": "2026-10-13T13:35:23-0700",
-  "precios_ts": "2026-10-13T13:35:22-0700",
-  "hash_salida_motor": "8e7ebf5f1832c981",
+  "corrida_ts": "2026-10-13T16:13:12-0700",
+  "precios_ts": "2026-10-13T16:13:12-0700",
+  "hash_salida_motor": "756206572c566427",
   "archivo_predicciones": "2026-10-13-mlb.md",
   "tickers": [],
   "picks": [],
@@ -11,10 +11,37 @@
     {
       "ticker": "KXMLBTOTAL-26OCT132000CLETB-12",
       "mercado": "TOTAL 11.5",
-      "entrada": 14,
+      "entrada": 13,
       "p_mod": 21,
+      "edge": 8,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT132000CLETB-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 33,
+      "p_mod": 40,
       "edge": 7,
-      "motivo": "entrada 14¢ bajo el piso de 50¢",
+      "motivo": "entrada 33¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT132000CLETB-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 40,
+      "p_mod": 47,
+      "edge": 7,
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT132000CLETB-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 19,
+      "p_mod": 26,
+      "edge": 7,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
       "partido": "CLE@TB"
     },
     {
@@ -27,30 +54,12 @@
       "partido": "CLE@TB"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT132000CLETB-9",
-      "mercado": "TOTAL 8.5",
-      "entrada": 34,
-      "p_mod": 40,
-      "edge": 6,
-      "motivo": "entrada 34¢ bajo el piso de 50¢",
-      "partido": "CLE@TB"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT132000CLETB-8",
-      "mercado": "TOTAL 7.5",
-      "entrada": 41,
-      "p_mod": 47,
-      "edge": 6,
-      "motivo": "entrada 41¢ bajo el piso de 50¢",
-      "partido": "CLE@TB"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT132000CLETB-11",
-      "mercado": "TOTAL 10.5",
-      "entrada": 20,
-      "p_mod": 26,
-      "edge": 6,
-      "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "ticker": "KXMLBTEAMTOTAL-26OCT132000CLETB-TB6",
+      "mercado": "TT TB 5.5",
+      "entrada": 22,
+      "p_mod": 27,
+      "edge": 5,
+      "motivo": "entrada 22¢ bajo el piso de 50¢",
       "partido": "CLE@TB"
     },
     {
