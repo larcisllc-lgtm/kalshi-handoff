@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-14",
-  "corrida_ts": "2026-10-14T10:12:02-0700",
-  "precios_ts": "2026-10-14T10:12:01-0700",
-  "hash_salida_motor": "d1c36b923f839a7d",
+  "corrida_ts": "2026-10-14T12:15:44-0700",
+  "precios_ts": "2026-10-14T12:15:44-0700",
+  "hash_salida_motor": "cf3ed56f28a7129a",
   "archivo_predicciones": "2026-10-14-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD5"
@@ -29,21 +29,21 @@
   ],
   "descartados": [
     {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD4",
+      "mercado": "TT LAD 3.5",
+      "entrada": 42,
+      "p_mod": 55,
+      "edge": 13,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
       "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
       "mercado": "ML",
       "entrada": 39,
       "p_mod": 51,
       "edge": 12,
       "motivo": "entrada 39¢ bajo el piso de 50¢",
-      "partido": "MIL@LAD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD4",
-      "mercado": "TT LAD 3.5",
-      "entrada": 43,
-      "p_mod": 55,
-      "edge": 12,
-      "motivo": "entrada 43¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     },
     {
@@ -83,21 +83,21 @@
       "partido": "MIL@LAD"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD2",
+      "mercado": "TT LAD 1.5",
+      "entrada": 15,
+      "p_mod": 23,
+      "edge": 8,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
       "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL3",
       "mercado": "SPREAD MIL-2.5",
       "entrada": 19,
       "p_mod": 26,
       "edge": 7,
       "motivo": "entrada 19¢ bajo el piso de 50¢",
-      "partido": "MIL@LAD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-7",
-      "mercado": "TOTAL 6.5",
-      "entrada": 39,
-      "p_mod": 46,
-      "edge": 7,
-      "motivo": "entrada 39¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     },
     {
@@ -110,24 +110,6 @@
       "partido": "MIL@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD2",
-      "mercado": "TT LAD 1.5",
-      "entrada": 16,
-      "p_mod": 23,
-      "edge": 7,
-      "motivo": "entrada 16¢ bajo el piso de 50¢",
-      "partido": "MIL@LAD"
-    },
-    {
-      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL4",
-      "mercado": "SPREAD MIL-3.5",
-      "entrada": 12,
-      "p_mod": 18,
-      "edge": 6,
-      "motivo": "entrada 12¢ bajo el piso de 50¢",
-      "partido": "MIL@LAD"
-    },
-    {
       "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL2",
       "mercado": "SPREAD MIL-1.5",
       "entrada": 28,
@@ -137,21 +119,12 @@
       "partido": "MIL@LAD"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-6",
-      "mercado": "TOTAL 5.5",
-      "entrada": 31,
-      "p_mod": 37,
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 40,
+      "p_mod": 46,
       "edge": 6,
-      "motivo": "entrada 31¢ bajo el piso de 50¢",
-      "partido": "MIL@LAD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-4",
-      "mercado": "TOTAL 3.5",
-      "entrada": 13,
-      "p_mod": 19,
-      "edge": 6,
-      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "motivo": "entrada 40¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     },
     {
@@ -164,12 +137,48 @@
       "partido": "MIL@LAD"
     },
     {
+      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL4",
+      "mercado": "SPREAD MIL-3.5",
+      "entrada": 13,
+      "p_mod": 18,
+      "edge": 5,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 32,
+      "p_mod": 37,
+      "edge": 5,
+      "motivo": "entrada 32¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-4",
+      "mercado": "TOTAL 3.5",
+      "entrada": 14,
+      "p_mod": 19,
+      "edge": 5,
+      "motivo": "entrada 14¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
       "ticker": "KXMLBTOTAL-26OCT142000MILLAD-3",
       "mercado": "TOTAL 2.5",
       "entrada": 6,
       "p_mod": 11,
       "edge": 5,
       "motivo": "entrada 6¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-MIL4",
+      "mercado": "TT MIL 3.5",
+      "entrada": 43,
+      "p_mod": 48,
+      "edge": 5,
+      "motivo": "entrada 43¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     }
   ],
