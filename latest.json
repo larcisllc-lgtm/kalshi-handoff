@@ -1,43 +1,6 @@
 {
-  "generado_ts": "2026-10-14T08:41:45-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-14T10:12:02-0700",
+  "motor": "MLB",
   "fecha": "2026-10-14",
-  "tickets": [
-    {
-      "ticker": "KXHIGHLAX-26OCT14-B76.5",
-      "mercado": "76° to 77°",
-      "lado": "YES",
-      "entrada_sugerida_c": 11,
-      "prob_modelo": 30,
-      "edge_c": 19,
-      "max_pagable_c": 30,
-      "partido": "LAX",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHNY-26OCT14-T78",
-      "mercado": "77° or below",
-      "lado": "NO",
-      "entrada_sugerida_c": 45,
-      "prob_modelo": 67,
-      "edge_c": 22,
-      "max_pagable_c": 67,
-      "partido": "NY",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHAUS-26OCT14-B95.5",
-      "mercado": "95° to 96°",
-      "lado": "NO",
-      "entrada_sugerida_c": 56,
-      "prob_modelo": 83,
-      "edge_c": 27,
-      "max_pagable_c": 83,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }

@@ -1,0 +1,234 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-10-14",
+  "corrida_ts": "2026-10-14T10:12:02-0700",
+  "precios_ts": "2026-10-14T10:12:01-0700",
+  "hash_salida_motor": "d1c36b923f839a7d",
+  "archivo_predicciones": "2026-10-14-mlb.md",
+  "tickers": [
+    "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD5",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 4.5",
+      "entrada": 56,
+      "p_mod": 69,
+      "edge": 13,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 69,
+      "tamano": 2.39,
+      "razonamiento": "MIL@LAD 5:00 PM PT — TT LAD 4.5 LAD UNDER (NO); modelo 69% vs ask 56¢, edge +13¢ MEDIO",
+      "partido": "MIL@LAD",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXMLBGAME-26OCT142000MILLAD-MIL",
+      "mercado": "ML",
+      "entrada": 39,
+      "p_mod": 51,
+      "edge": 12,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD4",
+      "mercado": "TT LAD 3.5",
+      "entrada": 43,
+      "p_mod": 55,
+      "edge": 12,
+      "motivo": "entrada 43¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD3",
+      "mercado": "TT LAD 2.5",
+      "entrada": 28,
+      "p_mod": 40,
+      "edge": 12,
+      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD6",
+      "mercado": "TT LAD 5.5",
+      "entrada": 68,
+      "p_mod": 79,
+      "edge": 11,
+      "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD7",
+      "mercado": "TT LAD 6.5",
+      "entrada": 78,
+      "p_mod": 87,
+      "edge": 9,
+      "motivo": "correlación: TT LAD 4.5 (+13¢) ganó el cupo de MIL@LAD",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 20,
+      "p_mod": 28,
+      "edge": 8,
+      "motivo": "entrada 20¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL3",
+      "mercado": "SPREAD MIL-2.5",
+      "entrada": 19,
+      "p_mod": 26,
+      "edge": 7,
+      "motivo": "entrada 19¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-7",
+      "mercado": "TOTAL 6.5",
+      "entrada": 39,
+      "p_mod": 46,
+      "edge": 7,
+      "motivo": "entrada 39¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD8",
+      "mercado": "TT LAD 7.5",
+      "entrada": 85,
+      "p_mod": 92,
+      "edge": 7,
+      "motivo": "flag: POCO-RECORRIDO",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD2",
+      "mercado": "TT LAD 1.5",
+      "entrada": 16,
+      "p_mod": 23,
+      "edge": 7,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL4",
+      "mercado": "SPREAD MIL-3.5",
+      "entrada": 12,
+      "p_mod": 18,
+      "edge": 6,
+      "motivo": "entrada 12¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-MIL2",
+      "mercado": "SPREAD MIL-1.5",
+      "entrada": 28,
+      "p_mod": 34,
+      "edge": 6,
+      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 31,
+      "p_mod": 37,
+      "edge": 6,
+      "motivo": "entrada 31¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-4",
+      "mercado": "TOTAL 3.5",
+      "entrada": 13,
+      "p_mod": 19,
+      "edge": 6,
+      "motivo": "entrada 13¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-LAD2",
+      "mercado": "SPREAD LAD-1.5",
+      "entrada": 58,
+      "p_mod": 64,
+      "edge": 6,
+      "motivo": "correlación: TT LAD 4.5 (+13¢) ganó el cupo de MIL@LAD",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-3",
+      "mercado": "TOTAL 2.5",
+      "entrada": 6,
+      "p_mod": 11,
+      "edge": 5,
+      "motivo": "entrada 6¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD5",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 4.5",
+      "entrada": 56,
+      "p_mod": 69,
+      "edge": 13,
+      "tp": 68,
+      "stop": 44,
+      "max_pagable": 69,
+      "tamano": 2.39,
+      "partido": "MIL@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD6",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 5.5",
+      "entrada": 68,
+      "p_mod": 79,
+      "edge": 11,
+      "tp": 83,
+      "stop": 53,
+      "max_pagable": 79,
+      "tamano": 2.89,
+      "partido": "MIL@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD7",
+      "lado": "LAD UNDER (NO)",
+      "mercado": "TT LAD 6.5",
+      "entrada": 78,
+      "p_mod": 87,
+      "edge": 9,
+      "tp": 95,
+      "stop": 61,
+      "max_pagable": 87,
+      "tamano": 3.31,
+      "partido": "MIL@LAD",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBSPREAD-26OCT142000MILLAD-LAD2",
+      "lado": "NO cubre",
+      "mercado": "SPREAD LAD-1.5",
+      "entrada": 58,
+      "p_mod": 64,
+      "edge": 6,
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 64,
+      "tamano": 1.2,
+      "partido": "MIL@LAD",
+      "flags": ""
+    }
+  ]
+}
