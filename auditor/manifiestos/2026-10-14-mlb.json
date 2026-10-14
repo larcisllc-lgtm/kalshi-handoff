@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-14",
-  "corrida_ts": "2026-10-14T12:15:44-0700",
-  "precios_ts": "2026-10-14T12:15:44-0700",
-  "hash_salida_motor": "cf3ed56f28a7129a",
+  "corrida_ts": "2026-10-14T15:08:06-0700",
+  "precios_ts": "2026-10-14T15:08:05-0700",
+  "hash_salida_motor": "9ce3027e0c686bcd",
   "archivo_predicciones": "2026-10-14-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD5"
@@ -49,46 +49,28 @@
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD3",
       "mercado": "TT LAD 2.5",
-      "entrada": 28,
+      "entrada": 29,
       "p_mod": 40,
-      "edge": 12,
-      "motivo": "entrada 28¢ bajo el piso de 50¢",
+      "edge": 11,
+      "motivo": "entrada 29¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD6",
       "mercado": "TT LAD 5.5",
-      "entrada": 68,
+      "entrada": 69,
       "p_mod": 79,
-      "edge": 11,
+      "edge": 10,
       "motivo": "cupo de TT: máximo 1/jornada (mercado delgado, sin salida al TP)",
       "partido": "MIL@LAD"
     },
     {
       "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD7",
       "mercado": "TT LAD 6.5",
-      "entrada": 78,
+      "entrada": 79,
       "p_mod": 87,
-      "edge": 9,
+      "edge": 8,
       "motivo": "correlación: TT LAD 4.5 (+13¢) ganó el cupo de MIL@LAD",
-      "partido": "MIL@LAD"
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-5",
-      "mercado": "TOTAL 4.5",
-      "entrada": 20,
-      "p_mod": 28,
-      "edge": 8,
-      "motivo": "entrada 20¢ bajo el piso de 50¢",
-      "partido": "MIL@LAD"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD2",
-      "mercado": "TT LAD 1.5",
-      "entrada": 15,
-      "p_mod": 23,
-      "edge": 8,
-      "motivo": "entrada 15¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     },
     {
@@ -101,12 +83,21 @@
       "partido": "MIL@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD8",
-      "mercado": "TT LAD 7.5",
-      "entrada": 85,
-      "p_mod": 92,
+      "ticker": "KXMLBTOTAL-26OCT142000MILLAD-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 21,
+      "p_mod": 28,
       "edge": 7,
-      "motivo": "flag: POCO-RECORRIDO",
+      "motivo": "entrada 21¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD2",
+      "mercado": "TT LAD 1.5",
+      "entrada": 16,
+      "p_mod": 23,
+      "edge": 7,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     },
     {
@@ -125,6 +116,24 @@
       "p_mod": 46,
       "edge": 6,
       "motivo": "entrada 40¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-MIL4",
+      "mercado": "TT MIL 3.5",
+      "entrada": 42,
+      "p_mod": 48,
+      "edge": 6,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "MIL@LAD"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD8",
+      "mercado": "TT LAD 7.5",
+      "entrada": 86,
+      "p_mod": 92,
+      "edge": 6,
+      "motivo": "flag: POCO-RECORRIDO",
       "partido": "MIL@LAD"
     },
     {
@@ -173,12 +182,12 @@
       "partido": "MIL@LAD"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-MIL4",
-      "mercado": "TT MIL 3.5",
-      "entrada": 43,
-      "p_mod": 48,
+      "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-MIL5",
+      "mercado": "TT MIL 4.5",
+      "entrada": 30,
+      "p_mod": 35,
       "edge": 5,
-      "motivo": "entrada 43¢ bajo el piso de 50¢",
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
       "partido": "MIL@LAD"
     }
   ],
@@ -201,13 +210,13 @@
       "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD6",
       "lado": "LAD UNDER (NO)",
       "mercado": "TT LAD 5.5",
-      "entrada": 68,
+      "entrada": 69,
       "p_mod": 79,
-      "edge": 11,
-      "tp": 83,
-      "stop": 53,
+      "edge": 10,
+      "tp": 84,
+      "stop": 54,
       "max_pagable": 79,
-      "tamano": 2.89,
+      "tamano": 2.71,
       "partido": "MIL@LAD",
       "flags": ""
     },
@@ -215,13 +224,13 @@
       "ticker": "KXMLBTEAMTOTAL-26OCT142000MILLAD-LAD7",
       "lado": "LAD UNDER (NO)",
       "mercado": "TT LAD 6.5",
-      "entrada": 78,
+      "entrada": 79,
       "p_mod": 87,
-      "edge": 9,
-      "tp": 95,
-      "stop": 61,
+      "edge": 8,
+      "tp": 96,
+      "stop": 62,
       "max_pagable": 87,
-      "tamano": 3.31,
+      "tamano": 3.08,
       "partido": "MIL@LAD",
       "flags": ""
     },
