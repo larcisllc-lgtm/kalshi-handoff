@@ -1,6 +1,31 @@
 {
-  "generado_ts": "2026-10-16T07:17:33-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-10-16T08:09:05-0700",
+  "motor": "CLIMA",
   "fecha": "2026-10-16",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHNY-26OCT16-B77.5",
+      "mercado": "77° to 78°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 26,
+      "edge_c": 23,
+      "max_pagable_c": 26,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT16-B78.5",
+      "mercado": "78° to 79°",
+      "lado": "NO",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 82,
+      "edge_c": 25,
+      "max_pagable_c": 82,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
