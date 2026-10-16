@@ -1,13 +1,13 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-16",
-  "corrida_ts": "2026-10-16T11:07:19-0700",
-  "precios_ts": "2026-10-16T11:07:17-0700",
-  "hash_salida_motor": "6327380016b94f6b",
+  "corrida_ts": "2026-10-16T11:43:49-0700",
+  "precios_ts": "2026-10-16T11:43:48-0700",
+  "hash_salida_motor": "52a049d29208cc03",
   "archivo_predicciones": "2026-10-16-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT161800TBCLE-CLE3",
-    "KXMLBTOTAL-26OCT161800TBCLE-6"
+    "KXMLBTOTAL-26OCT161800TBCLE-7"
   ],
   "picks": [
     {
@@ -28,17 +28,17 @@
       "idx": 1
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT161800TBCLE-6",
-      "lado": "OVER 5.5",
-      "mercado": "TOTAL 5.5",
-      "entrada": 60,
-      "p_mod": 72,
+      "ticker": "KXMLBTOTAL-26OCT161800TBCLE-7",
+      "lado": "OVER 6.5",
+      "mercado": "TOTAL 6.5",
+      "entrada": 51,
+      "p_mod": 63,
       "edge": 12,
-      "tp": 73,
-      "stop": 47,
-      "max_pagable": 72,
-      "tamano": 2.39,
-      "razonamiento": "TB@CLE 5:00 PM PT — TOTAL 5.5 OVER 5.5; modelo 72% vs ask 60¢, edge +12¢ MEDIO",
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 63,
+      "tamano": 2.08,
+      "razonamiento": "TB@CLE 5:00 PM PT — TOTAL 6.5 OVER 6.5; modelo 63% vs ask 51¢, edge +12¢ MEDIO",
       "partido": "TB@CLE",
       "flags": "",
       "motivo_seleccion": "edge",
@@ -74,6 +74,15 @@
       "partido": "TB@CLE"
     },
     {
+      "ticker": "KXMLBTEAMTOTAL-26OCT161800TBCLE-CLE7",
+      "mercado": "TT CLE 6.5",
+      "entrada": 12,
+      "p_mod": 30,
+      "edge": 18,
+      "motivo": "entrada 12¢ bajo el piso de 50¢",
+      "partido": "TB@CLE"
+    },
+    {
       "ticker": "KXMLBTOTAL-26OCT161800TBCLE-9",
       "mercado": "TOTAL 8.5",
       "entrada": 31,
@@ -89,15 +98,6 @@
       "p_mod": 40,
       "edge": 17,
       "motivo": "entrada 23¢ bajo el piso de 50¢",
-      "partido": "TB@CLE"
-    },
-    {
-      "ticker": "KXMLBTEAMTOTAL-26OCT161800TBCLE-CLE7",
-      "mercado": "TT CLE 6.5",
-      "entrada": 13,
-      "p_mod": 30,
-      "edge": 17,
-      "motivo": "entrada 13¢ bajo el piso de 50¢",
       "partido": "TB@CLE"
     },
     {
@@ -155,20 +155,20 @@
       "partido": "TB@CLE"
     },
     {
-      "ticker": "KXMLBTEAMTOTAL-26OCT161800TBCLE-CLE2",
-      "mercado": "TT CLE 1.5",
-      "entrada": 76,
-      "p_mod": 88,
+      "ticker": "KXMLBTOTAL-26OCT161800TBCLE-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 60,
+      "p_mod": 72,
       "edge": 12,
       "motivo": "correlación: TT CLE 2.5 (+17¢) ganó el cupo de TB@CLE",
       "partido": "TB@CLE"
     },
     {
-      "ticker": "KXMLBTOTAL-26OCT161800TBCLE-7",
-      "mercado": "TOTAL 6.5",
-      "entrada": 52,
-      "p_mod": 63,
-      "edge": 11,
+      "ticker": "KXMLBTEAMTOTAL-26OCT161800TBCLE-CLE2",
+      "mercado": "TT CLE 1.5",
+      "entrada": 76,
+      "p_mod": 88,
+      "edge": 12,
       "motivo": "correlación: TT CLE 2.5 (+17¢) ganó el cupo de TB@CLE",
       "partido": "TB@CLE"
     },
@@ -207,6 +207,20 @@
       "flags": ""
     },
     {
+      "ticker": "KXMLBTOTAL-26OCT161800TBCLE-7",
+      "lado": "OVER 6.5",
+      "mercado": "TOTAL 6.5",
+      "entrada": 51,
+      "p_mod": 63,
+      "edge": 12,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 63,
+      "tamano": 2.08,
+      "partido": "TB@CLE",
+      "flags": ""
+    },
+    {
       "ticker": "KXMLBTOTAL-26OCT161800TBCLE-6",
       "lado": "OVER 5.5",
       "mercado": "TOTAL 5.5",
@@ -231,20 +245,6 @@
       "stop": 59,
       "max_pagable": 88,
       "tamano": 3.99,
-      "partido": "TB@CLE",
-      "flags": ""
-    },
-    {
-      "ticker": "KXMLBTOTAL-26OCT161800TBCLE-7",
-      "lado": "OVER 6.5",
-      "mercado": "TOTAL 6.5",
-      "entrada": 52,
-      "p_mod": 63,
-      "edge": 11,
-      "tp": 63,
-      "stop": 41,
-      "max_pagable": 63,
-      "tamano": 1.96,
       "partido": "TB@CLE",
       "flags": ""
     },
