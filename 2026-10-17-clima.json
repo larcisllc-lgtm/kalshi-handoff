@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-10-17T06:14:26-0700",
+  "generado_ts": "2026-10-17T07:02:06-0700",
   "motor": "CLIMA",
   "fecha": "2026-10-17",
   "tickets": [
@@ -7,9 +7,9 @@
       "ticker": "KXHIGHDEN-26OCT17-B79.5",
       "mercado": "79° to 80°",
       "lado": "NO",
-      "entrada_sugerida_c": 79,
+      "entrada_sugerida_c": 75,
       "prob_modelo": 92,
-      "edge_c": 13,
+      "edge_c": 17,
       "max_pagable_c": 92,
       "partido": "DEN",
       "sharp_ok": true,
