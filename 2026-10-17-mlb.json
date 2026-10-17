@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-10-17T11:39:22-0700",
+  "generado_ts": "2026-10-17T14:20:38-0700",
   "motor": "MLB",
   "fecha": "2026-10-17",
   "tickets": [
@@ -13,7 +13,7 @@
       "max_pagable_c": 58,
       "partido": "TB@CLE",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.92 / under 1.97)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.92 / under 1.96)"
     }
   ]
 }
