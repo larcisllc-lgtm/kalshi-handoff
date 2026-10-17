@@ -1,31 +1,19 @@
 {
-  "generado_ts": "2026-10-17T07:02:06-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-17T09:26:04-0700",
+  "motor": "MLB",
   "fecha": "2026-10-17",
   "tickets": [
     {
-      "ticker": "KXHIGHDEN-26OCT17-B79.5",
-      "mercado": "79° to 80°",
-      "lado": "NO",
-      "entrada_sugerida_c": 75,
-      "prob_modelo": 92,
-      "edge_c": 17,
-      "max_pagable_c": 92,
-      "partido": "DEN",
+      "ticker": "KXMLBTOTAL-26OCT172000TBCLE-7",
+      "mercado": "TOTAL 6.5",
+      "lado": "OVER 6.5",
+      "entrada_sugerida_c": 51,
+      "prob_modelo": 58,
+      "edge_c": 7,
+      "max_pagable_c": 58,
+      "partido": "TB@CLE",
       "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHAUS-26OCT17-B66.5",
-      "mercado": "66° to 67°",
-      "lado": "YES",
-      "entrada_sugerida_c": 4,
-      "prob_modelo": 13,
-      "edge_c": 9,
-      "max_pagable_c": 13,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.92 / under 1.97)"
     }
   ]
 }
