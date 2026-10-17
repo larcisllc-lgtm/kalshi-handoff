@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-10-17T09:26:04-0700",
+  "generado_ts": "2026-10-17T10:49:29-0700",
   "motor": "MLB",
   "fecha": "2026-10-17",
   "tickets": [
@@ -7,9 +7,9 @@
       "ticker": "KXMLBTOTAL-26OCT172000TBCLE-7",
       "mercado": "TOTAL 6.5",
       "lado": "OVER 6.5",
-      "entrada_sugerida_c": 51,
+      "entrada_sugerida_c": 52,
       "prob_modelo": 58,
-      "edge_c": 7,
+      "edge_c": 6,
       "max_pagable_c": 58,
       "partido": "TB@CLE",
       "sharp_ok": true,
