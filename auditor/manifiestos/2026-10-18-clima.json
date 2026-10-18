@@ -1,0 +1,252 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-18",
+  "corrida_ts": "2026-10-18T06:13:55-0700",
+  "precios_ts": "2026-10-18T13:13:48+0000",
+  "hash_salida_motor": "de417ea22d660107",
+  "archivo_predicciones": "2026-10-18-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26OCT18-B65.5",
+    "KXHIGHMIA-26OCT18-B86.5",
+    "KXHIGHAUS-26OCT18-B71.5",
+    "KXHIGHPHIL-26OCT18-B62.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26OCT18-B65.5",
+      "lado": "NO",
+      "mercado": "65° to 66°",
+      "entrada": 86,
+      "p_mod": 94,
+      "edge": 8,
+      "tp": 97,
+      "stop": 67,
+      "max_pagable": 94,
+      "tamano": 9.83,
+      "razonamiento": "CHI maxima 2026-10-18 — NO \"65° to 66°\" a 86c; ensemble n=119 media 62.3deg, NWS 62deg, confianza alta; edge +8c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT18-B86.5",
+      "lado": "YES",
+      "mercado": "86° to 87°",
+      "entrada": 3,
+      "p_mod": 16,
+      "edge": 13,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 16,
+      "tamano": 1.06,
+      "razonamiento": "MIA maxima 2026-10-18 — YES \"86° to 87°\" a 3c; ensemble n=119 media 84.2deg, NWS 82deg, confianza media; edge +13c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT18-B71.5",
+      "lado": "YES",
+      "mercado": "71° to 72°",
+      "entrada": 3,
+      "p_mod": 19,
+      "edge": 16,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 19,
+      "tamano": 2.67,
+      "razonamiento": "AUS maxima 2026-10-18 — YES \"71° to 72°\" a 3c; ensemble n=119 media 73.7deg, NWS 75deg, confianza alta; edge +16c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT18-B62.5",
+      "lado": "NO",
+      "mercado": "62° to 63°",
+      "entrada": 58,
+      "p_mod": 82,
+      "edge": 24,
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 82,
+      "tamano": 4.77,
+      "razonamiento": "PHIL maxima 2026-10-18 — NO \"62° to 63°\" a 58c; ensemble n=119 media 60.5deg, NWS 59deg, confianza media; edge +24c",
+      "partido": "PHIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 4
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26OCT18-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 2,
+      "p_mod": 23,
+      "edge": 21,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT18-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 10,
+      "p_mod": 35,
+      "edge": 25,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT18-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 61,
+      "p_mod": 69,
+      "edge": 8,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT18-T85",
+      "mercado": "86° or above",
+      "entrada": 52,
+      "p_mod": 88,
+      "edge": 36,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT18-B61.5",
+      "mercado": "61° to 62°",
+      "entrada": 12,
+      "p_mod": 46,
+      "edge": 34,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT18-B63.5",
+      "mercado": "63° to 64°",
+      "entrada": 32,
+      "p_mod": 61,
+      "edge": 29,
+      "motivo": "flag: BORDE-CERCANO(0.30°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT18-T61",
+      "mercado": "60° or below",
+      "entrada": 2,
+      "p_mod": 9,
+      "edge": 7,
+      "motivo": "flag: SIN-RECORRIDO(TP 2¢ = entrada 2¢)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT18-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 85,
+      "p_mod": 96,
+      "edge": 11,
+      "motivo": "correlacion: YES (+13c) es la unica expresion de MIA",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT18-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 46,
+      "p_mod": 69,
+      "edge": 23,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT18-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 24,
+      "p_mod": 48,
+      "edge": 24,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT18-B75.5",
+      "mercado": "75° to 76°",
+      "entrada": 50,
+      "p_mod": 74,
+      "edge": 24,
+      "motivo": "flag: BORDE-CERCANO(0.76°-del-corte)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT18-B58.5",
+      "mercado": "58° to 59°",
+      "entrada": 7,
+      "p_mod": 23,
+      "edge": 16,
+      "motivo": "flag: BORDE-CERCANO(0.77°-del-corte)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26OCT18-B65.5",
+      "lado": "NO",
+      "mercado": "65° to 66°",
+      "entrada": 86,
+      "p_mod": 94,
+      "edge": 8,
+      "tp": 97,
+      "stop": 67,
+      "max_pagable": 94,
+      "tamano": 9.83,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT18-B86.5",
+      "lado": "YES",
+      "mercado": "86° to 87°",
+      "entrada": 3,
+      "p_mod": 16,
+      "edge": 13,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 16,
+      "tamano": 1.06,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT18-B71.5",
+      "lado": "YES",
+      "mercado": "71° to 72°",
+      "entrada": 3,
+      "p_mod": 19,
+      "edge": 16,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 19,
+      "tamano": 2.67,
+      "partido": "AUS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT18-B62.5",
+      "lado": "NO",
+      "mercado": "62° to 63°",
+      "entrada": 58,
+      "p_mod": 82,
+      "edge": 24,
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 82,
+      "tamano": 4.77,
+      "partido": "PHIL",
+      "flags": ""
+    }
+  ]
+}
