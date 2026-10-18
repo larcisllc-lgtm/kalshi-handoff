@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-18",
-  "corrida_ts": "2026-10-18T11:52:29-0700",
-  "precios_ts": "2026-10-18T11:52:29-0700",
-  "hash_salida_motor": "136f2519feae78ab",
+  "corrida_ts": "2026-10-18T14:20:24-0700",
+  "precios_ts": "2026-10-18T14:20:24-0700",
+  "hash_salida_motor": "a8e324eb16a9ece0",
   "archivo_predicciones": "2026-10-18-mlb.md",
   "tickers": [],
   "picks": [],
