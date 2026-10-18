@@ -1,31 +1,6 @@
 {
-  "generado_ts": "2026-10-18T07:15:44-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-18T09:33:21-0700",
+  "motor": "MLB",
   "fecha": "2026-10-18",
-  "tickets": [
-    {
-      "ticker": "KXHIGHCHI-26OCT18-B65.5",
-      "mercado": "65° to 66°",
-      "lado": "NO",
-      "entrada_sugerida_c": 83,
-      "prob_modelo": 94,
-      "edge_c": 11,
-      "max_pagable_c": 94,
-      "partido": "CHI",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHMIA-26OCT18-B86.5",
-      "mercado": "86° to 87°",
-      "lado": "YES",
-      "entrada_sugerida_c": 4,
-      "prob_modelo": 16,
-      "edge_c": 12,
-      "max_pagable_c": 16,
-      "partido": "MIA",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
