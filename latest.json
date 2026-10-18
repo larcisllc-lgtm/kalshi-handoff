@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-10-18T06:13:55-0700",
+  "generado_ts": "2026-10-18T07:15:44-0700",
   "motor": "CLIMA",
   "fecha": "2026-10-18",
   "tickets": [
@@ -7,9 +7,9 @@
       "ticker": "KXHIGHCHI-26OCT18-B65.5",
       "mercado": "65° to 66°",
       "lado": "NO",
-      "entrada_sugerida_c": 86,
+      "entrada_sugerida_c": 83,
       "prob_modelo": 94,
-      "edge_c": 8,
+      "edge_c": 11,
       "max_pagable_c": 94,
       "partido": "CHI",
       "sharp_ok": true,
@@ -19,35 +19,11 @@
       "ticker": "KXHIGHMIA-26OCT18-B86.5",
       "mercado": "86° to 87°",
       "lado": "YES",
-      "entrada_sugerida_c": 3,
+      "entrada_sugerida_c": 4,
       "prob_modelo": 16,
-      "edge_c": 13,
+      "edge_c": 12,
       "max_pagable_c": 16,
       "partido": "MIA",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHAUS-26OCT18-B71.5",
-      "mercado": "71° to 72°",
-      "lado": "YES",
-      "entrada_sugerida_c": 3,
-      "prob_modelo": 19,
-      "edge_c": 16,
-      "max_pagable_c": 19,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHPHIL-26OCT18-B62.5",
-      "mercado": "62° to 63°",
-      "lado": "NO",
-      "entrada_sugerida_c": 58,
-      "prob_modelo": 82,
-      "edge_c": 24,
-      "max_pagable_c": 82,
-      "partido": "PHIL",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
