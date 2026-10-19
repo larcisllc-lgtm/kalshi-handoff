@@ -1,0 +1,31 @@
+{
+  "generado_ts": "2026-10-19T05:57:22-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-10-19",
+  "tickets": [
+    {
+      "ticker": "KXHIGHNY-26OCT19-B64.5",
+      "mercado": "64° to 65°",
+      "lado": "YES",
+      "entrada_sugerida_c": 8,
+      "prob_modelo": 15,
+      "edge_c": 7,
+      "max_pagable_c": 15,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT19-B71.5",
+      "mercado": "71° to 72°",
+      "lado": "NO",
+      "entrada_sugerida_c": 61,
+      "prob_modelo": 76,
+      "edge_c": 15,
+      "max_pagable_c": 76,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}

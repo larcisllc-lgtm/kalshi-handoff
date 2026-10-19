@@ -1,0 +1,116 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-19",
+  "corrida_ts": "2026-10-19T05:57:22-0700",
+  "precios_ts": "2026-10-19T12:57:15+0000",
+  "hash_salida_motor": "16b21894ab0f666f",
+  "archivo_predicciones": "2026-10-19-clima.md",
+  "tickers": [
+    "KXHIGHNY-26OCT19-B64.5",
+    "KXHIGHDEN-26OCT19-B71.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHNY-26OCT19-B64.5",
+      "lado": "YES",
+      "mercado": "64° to 65°",
+      "entrada": 8,
+      "p_mod": 15,
+      "edge": 7,
+      "tp": 10,
+      "stop": 6,
+      "max_pagable": 15,
+      "tamano": 1.32,
+      "razonamiento": "NY maxima 2026-10-19 — YES \"64° to 65°\" a 8c; ensemble n=119 media 62.3deg, NWS 64deg, confianza alta; edge +7c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT19-B71.5",
+      "lado": "NO",
+      "mercado": "71° to 72°",
+      "entrada": 61,
+      "p_mod": 76,
+      "edge": 15,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 76,
+      "tamano": 6.38,
+      "razonamiento": "DEN maxima 2026-10-19 — NO \"71° to 72°\" a 61c; ensemble n=119 media 69.5deg, NWS 69deg, confianza alta; edge +15c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHDEN-26OCT19-B67.5",
+      "mercado": "67° to 68°",
+      "entrada": 13,
+      "p_mod": 21,
+      "edge": 8,
+      "motivo": "correlacion: NO (+15c) es la unica expresion de DEN",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT19-B76.5",
+      "mercado": "76° to 77°",
+      "entrada": 4,
+      "p_mod": 38,
+      "edge": 34,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT19-B80.5",
+      "mercado": "80° to 81°",
+      "entrada": 49,
+      "p_mod": 88,
+      "edge": 39,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT19-T76",
+      "mercado": "75° or below",
+      "entrada": 1,
+      "p_mod": 10,
+      "edge": 9,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "AUS"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHNY-26OCT19-B64.5",
+      "lado": "YES",
+      "mercado": "64° to 65°",
+      "entrada": 8,
+      "p_mod": 15,
+      "edge": 7,
+      "tp": 10,
+      "stop": 6,
+      "max_pagable": 15,
+      "tamano": 1.32,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT19-B71.5",
+      "lado": "NO",
+      "mercado": "71° to 72°",
+      "entrada": 61,
+      "p_mod": 76,
+      "edge": 15,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 76,
+      "tamano": 6.38,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
