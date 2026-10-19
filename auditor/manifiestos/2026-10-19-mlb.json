@@ -1,0 +1,22 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-10-19",
+  "corrida_ts": "2026-10-19T11:56:58-0700",
+  "precios_ts": "2026-10-19T11:56:58-0700",
+  "hash_salida_motor": "3e4e417205cf3a39",
+  "archivo_predicciones": "2026-10-19-mlb.md",
+  "tickers": [],
+  "picks": [],
+  "descartados": [
+    {
+      "ticker": "KXMLBGAME-26OCT192008CLETB-CLE",
+      "mercado": "ML",
+      "entrada": 42,
+      "p_mod": 50,
+      "edge": 8,
+      "motivo": "entrada 42¢ bajo el piso de 50¢",
+      "partido": "CLE@TB"
+    }
+  ],
+  "candidatos_limpios": []
+}
