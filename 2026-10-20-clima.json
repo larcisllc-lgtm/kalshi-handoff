@@ -1,0 +1,67 @@
+{
+  "generado_ts": "2026-10-20T04:25:31-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-10-20",
+  "tickets": [
+    {
+      "ticker": "KXHIGHCHI-26OCT20-B65.5",
+      "mercado": "65° to 66°",
+      "lado": "YES",
+      "entrada_sugerida_c": 7,
+      "prob_modelo": 17,
+      "edge_c": 10,
+      "max_pagable_c": 17,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT20-B69.5",
+      "mercado": "69° to 70°",
+      "lado": "NO",
+      "entrada_sugerida_c": 73,
+      "prob_modelo": 93,
+      "edge_c": 20,
+      "max_pagable_c": 93,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT20-B81.5",
+      "mercado": "81° to 82°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 13,
+      "edge_c": 10,
+      "max_pagable_c": 13,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT20-T70",
+      "mercado": "69° or below",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 11,
+      "edge_c": 8,
+      "max_pagable_c": 11,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT20-B85.5",
+      "mercado": "85° to 86°",
+      "lado": "NO",
+      "entrada_sugerida_c": 67,
+      "prob_modelo": 84,
+      "edge_c": 17,
+      "max_pagable_c": 84,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
