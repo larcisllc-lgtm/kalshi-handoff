@@ -1,6 +1,67 @@
 {
-  "generado_ts": "2026-10-21T08:33:08-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-10-21T08:48:30-0700",
+  "motor": "CLIMA",
   "fecha": "2026-10-21",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHLAX-26OCT21-B73.5",
+      "mercado": "73° to 74°",
+      "lado": "NO",
+      "entrada_sugerida_c": 49,
+      "prob_modelo": 77,
+      "edge_c": 28,
+      "max_pagable_c": 77,
+      "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT21-B74.5",
+      "mercado": "74° to 75°",
+      "lado": "NO",
+      "entrada_sugerida_c": 90,
+      "prob_modelo": 100,
+      "edge_c": 10,
+      "max_pagable_c": 100,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT21-B59.5",
+      "mercado": "59° to 60°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 14,
+      "edge_c": 10,
+      "max_pagable_c": 14,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT21-B87.5",
+      "mercado": "87° to 88°",
+      "lado": "YES",
+      "entrada_sugerida_c": 6,
+      "prob_modelo": 16,
+      "edge_c": 10,
+      "max_pagable_c": 16,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT21-T68",
+      "mercado": "69° or above",
+      "lado": "NO",
+      "entrada_sugerida_c": 89,
+      "prob_modelo": 99,
+      "edge_c": 10,
+      "max_pagable_c": 99,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
