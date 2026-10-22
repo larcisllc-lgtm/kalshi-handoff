@@ -1,6 +1,55 @@
 {
-  "generado_ts": "2026-10-22T08:34:51-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-10-22T08:46:21-0700",
+  "motor": "CLIMA",
   "fecha": "2026-10-22",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHLAX-26OCT22-T71",
+      "mercado": "72° or above",
+      "lado": "NO",
+      "entrada_sugerida_c": 81,
+      "prob_modelo": 99,
+      "edge_c": 18,
+      "max_pagable_c": 99,
+      "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT22-B65.5",
+      "mercado": "65° to 66°",
+      "lado": "NO",
+      "entrada_sugerida_c": 35,
+      "prob_modelo": 57,
+      "edge_c": 22,
+      "max_pagable_c": 57,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT22-B80.5",
+      "mercado": "80° to 81°",
+      "lado": "NO",
+      "entrada_sugerida_c": 80,
+      "prob_modelo": 88,
+      "edge_c": 8,
+      "max_pagable_c": 88,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT22-B88.5",
+      "mercado": "88° to 89°",
+      "lado": "YES",
+      "entrada_sugerida_c": 14,
+      "prob_modelo": 22,
+      "edge_c": 8,
+      "max_pagable_c": 22,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
