@@ -1,19 +1,31 @@
 {
-  "generado_ts": "2026-10-23T08:19:40-0700",
-  "motor": "MLB",
+  "generado_ts": "2026-10-23T08:37:15-0700",
+  "motor": "CLIMA",
   "fecha": "2026-10-23",
   "tickets": [
     {
-      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-7",
-      "mercado": "TOTAL 6.5",
-      "lado": "OVER 6.5",
-      "entrada_sugerida_c": 51,
-      "prob_modelo": 63,
+      "ticker": "KXHIGHLAX-26OCT23-B73.5",
+      "mercado": "73° to 74°",
+      "lado": "NO",
+      "entrada_sugerida_c": 80,
+      "prob_modelo": 92,
       "edge_c": 12,
-      "max_pagable_c": 63,
-      "partido": "TB@MIL",
+      "max_pagable_c": 92,
+      "partido": "LAX",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.91 / under 1.98)"
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT23-B85.5",
+      "mercado": "85° to 86°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 12,
+      "edge_c": 8,
+      "max_pagable_c": 12,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
     }
   ]
 }

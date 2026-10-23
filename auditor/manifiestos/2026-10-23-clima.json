@@ -1,30 +1,48 @@
 {
   "modelo": "CLIMA",
   "fecha": "2026-10-23",
-  "corrida_ts": "2026-10-23T03:27:41-0700",
-  "precios_ts": "2026-10-23T10:27:34+0000",
-  "hash_salida_motor": "7afd0000d54940a3",
+  "corrida_ts": "2026-10-23T08:37:15-0700",
+  "precios_ts": "2026-10-23T15:37:09+0000",
+  "hash_salida_motor": "910b411c21e0162a",
   "archivo_predicciones": "2026-10-23-clima.md",
   "tickers": [
-    "KXHIGHLAX-26OCT23-B73.5"
+    "KXHIGHLAX-26OCT23-B73.5",
+    "KXHIGHMIA-26OCT23-B85.5"
   ],
   "picks": [
     {
       "ticker": "KXHIGHLAX-26OCT23-B73.5",
       "lado": "NO",
       "mercado": "73° to 74°",
-      "entrada": 73,
+      "entrada": 80,
       "p_mod": 92,
-      "edge": 19,
-      "tp": 89,
-      "stop": 57,
+      "edge": 12,
+      "tp": 97,
+      "stop": 62,
       "max_pagable": 92,
-      "tamano": 11.39,
-      "razonamiento": "LAX maxima 2026-10-23 — NO \"73° to 74°\" a 73c; ensemble n=119 media 70.1deg, NWS 70deg, confianza alta; edge +19c",
+      "tamano": 10.0,
+      "razonamiento": "LAX maxima 2026-10-23 — NO \"73° to 74°\" a 80c; ensemble n=119 media 70.0deg, NWS 70deg, confianza alta; edge +12c",
       "partido": "LAX",
       "flags": "",
       "motivo_seleccion": "edge",
       "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT23-B85.5",
+      "lado": "YES",
+      "mercado": "85° to 86°",
+      "entrada": 4,
+      "p_mod": 12,
+      "edge": 8,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 12,
+      "tamano": 0.7,
+      "razonamiento": "MIA maxima 2026-10-23 — YES \"85° to 86°\" a 4c; ensemble n=119 media 82.8deg, NWS 84deg, confianza media; edge +8c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
     }
   ],
   "descartados": [
@@ -40,20 +58,38 @@
     {
       "ticker": "KXHIGHLAX-26OCT23-B69.5",
       "mercado": "69° to 70°",
-      "entrada": 10,
+      "entrada": 15,
       "p_mod": 40,
-      "edge": 30,
-      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "edge": 25,
+      "motivo": "flag: BORDE-CERCANO(0.21°-del-corte)",
       "partido": "LAX"
     },
     {
       "ticker": "KXHIGHLAX-26OCT23-B71.5",
       "mercado": "71° to 72°",
-      "entrada": 43,
-      "p_mod": 69,
-      "edge": 26,
-      "motivo": "flag: BORDE-CERCANO(0.51°-del-corte)",
+      "entrada": 38,
+      "p_mod": 68,
+      "edge": 30,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
       "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT23-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 50,
+      "p_mod": 67,
+      "edge": 17,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT23-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 38,
+      "p_mod": 49,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "MIA"
     }
   ],
   "candidatos_limpios": [
@@ -61,14 +97,28 @@
       "ticker": "KXHIGHLAX-26OCT23-B73.5",
       "lado": "NO",
       "mercado": "73° to 74°",
-      "entrada": 73,
+      "entrada": 80,
       "p_mod": 92,
-      "edge": 19,
-      "tp": 89,
-      "stop": 57,
+      "edge": 12,
+      "tp": 97,
+      "stop": 62,
       "max_pagable": 92,
-      "tamano": 11.39,
+      "tamano": 10.0,
       "partido": "LAX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT23-B85.5",
+      "lado": "YES",
+      "mercado": "85° to 86°",
+      "entrada": 4,
+      "p_mod": 12,
+      "edge": 8,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 12,
+      "tamano": 0.7,
+      "partido": "MIA",
       "flags": ""
     }
   ]

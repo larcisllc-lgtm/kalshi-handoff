@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-10-23T03:27:41-0700",
+  "generado_ts": "2026-10-23T08:37:15-0700",
   "motor": "CLIMA",
   "fecha": "2026-10-23",
   "tickets": [
@@ -7,11 +7,23 @@
       "ticker": "KXHIGHLAX-26OCT23-B73.5",
       "mercado": "73° to 74°",
       "lado": "NO",
-      "entrada_sugerida_c": 73,
+      "entrada_sugerida_c": 80,
       "prob_modelo": 92,
-      "edge_c": 19,
+      "edge_c": 12,
       "max_pagable_c": 92,
       "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT23-B85.5",
+      "mercado": "85° to 86°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 12,
+      "edge_c": 8,
+      "max_pagable_c": 12,
+      "partido": "MIA",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
