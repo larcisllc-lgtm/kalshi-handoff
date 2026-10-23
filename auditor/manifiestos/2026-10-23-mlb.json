@@ -1,0 +1,330 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-10-23",
+  "corrida_ts": "2026-10-23T08:19:39-0700",
+  "precios_ts": "2026-10-23T08:19:38-0700",
+  "hash_salida_motor": "fa8ac3ba4ffe9293",
+  "archivo_predicciones": "2026-10-23-mlb.md",
+  "tickers": [
+    "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB3",
+    "KXMLBTOTAL-26OCT232000TBMIL-7"
+  ],
+  "picks": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB3",
+      "lado": "TB OVER 2.5",
+      "mercado": "TT TB 2.5",
+      "entrada": 51,
+      "p_mod": 64,
+      "edge": 13,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 64,
+      "tamano": 2.23,
+      "razonamiento": "TB@MIL 5:00 PM PT — TT TB 2.5 TB OVER 2.5; modelo 64% vs ask 51¢, edge +13¢ MEDIO",
+      "partido": "TB@MIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-7",
+      "lado": "OVER 6.5",
+      "mercado": "TOTAL 6.5",
+      "entrada": 51,
+      "p_mod": 63,
+      "edge": 12,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 63,
+      "tamano": 1.98,
+      "razonamiento": "TB@MIL 5:00 PM PT — TOTAL 6.5 OVER 6.5; modelo 63% vs ask 51¢, edge +12¢ MEDIO",
+      "partido": "TB@MIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-10",
+      "mercado": "TOTAL 9.5",
+      "entrada": 21,
+      "p_mod": 40,
+      "edge": 19,
+      "motivo": "entrada 21¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-9",
+      "mercado": "TOTAL 8.5",
+      "entrada": 30,
+      "p_mod": 47,
+      "edge": 17,
+      "motivo": "entrada 30¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-8",
+      "mercado": "TOTAL 7.5",
+      "entrada": 38,
+      "p_mod": 55,
+      "edge": 17,
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-11",
+      "mercado": "TOTAL 10.5",
+      "entrada": 17,
+      "p_mod": 33,
+      "edge": 16,
+      "motivo": "entrada 17¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB4",
+      "mercado": "TT TB 3.5",
+      "entrada": 36,
+      "p_mod": 49,
+      "edge": 13,
+      "motivo": "entrada 36¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL5",
+      "mercado": "TT MIL 4.5",
+      "entrada": 36,
+      "p_mod": 48,
+      "edge": 12,
+      "motivo": "entrada 36¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB2",
+      "mercado": "TT TB 1.5",
+      "entrada": 68,
+      "p_mod": 80,
+      "edge": 12,
+      "motivo": "correlación: TT TB 2.5 (+13¢) ganó el cupo de TB@MIL",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB5",
+      "mercado": "TT TB 4.5",
+      "entrada": 25,
+      "p_mod": 36,
+      "edge": 11,
+      "motivo": "entrada 25¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL7",
+      "mercado": "TT MIL 6.5",
+      "entrada": 16,
+      "p_mod": 27,
+      "edge": 11,
+      "motivo": "entrada 16¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL6",
+      "mercado": "TT MIL 5.5",
+      "entrada": 26,
+      "p_mod": 37,
+      "edge": 11,
+      "motivo": "entrada 26¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBGAME-26OCT232000TBMIL-TB",
+      "mercado": "ML",
+      "entrada": 38,
+      "p_mod": 48,
+      "edge": 10,
+      "motivo": "entrada 38¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB6",
+      "mercado": "TT TB 5.5",
+      "entrada": 15,
+      "p_mod": 25,
+      "edge": 10,
+      "motivo": "entrada 15¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-6",
+      "mercado": "TOTAL 5.5",
+      "entrada": 61,
+      "p_mod": 71,
+      "edge": 10,
+      "motivo": "correlación: TT TB 2.5 (+13¢) ganó el cupo de TB@MIL",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL4",
+      "mercado": "TT MIL 3.5",
+      "entrada": 51,
+      "p_mod": 61,
+      "edge": 10,
+      "motivo": "correlación: TT TB 2.5 (+13¢) ganó el cupo de TB@MIL",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL8",
+      "mercado": "TT MIL 7.5",
+      "entrada": 11,
+      "p_mod": 20,
+      "edge": 9,
+      "motivo": "entrada 11¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB7",
+      "mercado": "TT TB 6.5",
+      "entrada": 10,
+      "p_mod": 17,
+      "edge": 7,
+      "motivo": "entrada 10¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL3",
+      "mercado": "TT MIL 2.5",
+      "entrada": 67,
+      "p_mod": 74,
+      "edge": 7,
+      "motivo": "correlación: TT TB 2.5 (+13¢) ganó el cupo de TB@MIL",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-4",
+      "mercado": "TOTAL 3.5",
+      "entrada": 82,
+      "p_mod": 87,
+      "edge": 5,
+      "motivo": "flag: POCO-RECORRIDO",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB8",
+      "mercado": "TT TB 7.5",
+      "entrada": 6,
+      "p_mod": 11,
+      "edge": 5,
+      "motivo": "entrada 6¢ bajo el piso de 50¢",
+      "partido": "TB@MIL"
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 74,
+      "p_mod": 79,
+      "edge": 5,
+      "motivo": "correlación: TT TB 2.5 (+13¢) ganó el cupo de TB@MIL",
+      "partido": "TB@MIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB3",
+      "lado": "TB OVER 2.5",
+      "mercado": "TT TB 2.5",
+      "entrada": 51,
+      "p_mod": 64,
+      "edge": 13,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 64,
+      "tamano": 2.23,
+      "partido": "TB@MIL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-7",
+      "lado": "OVER 6.5",
+      "mercado": "TOTAL 6.5",
+      "entrada": 51,
+      "p_mod": 63,
+      "edge": 12,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 63,
+      "tamano": 1.98,
+      "partido": "TB@MIL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-TB2",
+      "lado": "TB OVER 1.5",
+      "mercado": "TT TB 1.5",
+      "entrada": 68,
+      "p_mod": 80,
+      "edge": 12,
+      "tp": 83,
+      "stop": 53,
+      "max_pagable": 80,
+      "tamano": 3.0,
+      "partido": "TB@MIL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-6",
+      "lado": "OVER 5.5",
+      "mercado": "TOTAL 5.5",
+      "entrada": 61,
+      "p_mod": 71,
+      "edge": 10,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 71,
+      "tamano": 2.13,
+      "partido": "TB@MIL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL4",
+      "lado": "MIL OVER 3.5",
+      "mercado": "TT MIL 3.5",
+      "entrada": 51,
+      "p_mod": 61,
+      "edge": 10,
+      "tp": 62,
+      "stop": 40,
+      "max_pagable": 61,
+      "tamano": 1.71,
+      "partido": "TB@MIL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT232000TBMIL-MIL3",
+      "lado": "MIL OVER 2.5",
+      "mercado": "TT MIL 2.5",
+      "entrada": 67,
+      "p_mod": 74,
+      "edge": 7,
+      "tp": 82,
+      "stop": 52,
+      "max_pagable": 74,
+      "tamano": 1.84,
+      "partido": "TB@MIL",
+      "flags": ""
+    },
+    {
+      "ticker": "KXMLBTOTAL-26OCT232000TBMIL-5",
+      "lado": "OVER 4.5",
+      "mercado": "TOTAL 4.5",
+      "entrada": 74,
+      "p_mod": 79,
+      "edge": 5,
+      "tp": 90,
+      "stop": 58,
+      "max_pagable": 79,
+      "tamano": 1.65,
+      "partido": "TB@MIL",
+      "flags": ""
+    }
+  ]
+}
