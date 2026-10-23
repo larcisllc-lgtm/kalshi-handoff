@@ -1,5 +1,5 @@
 {
-  "generado_ts": "2026-10-23T08:19:40-0700",
+  "generado_ts": "2026-10-23T12:02:10-0700",
   "motor": "MLB",
   "fecha": "2026-10-23",
   "tickets": [
@@ -13,7 +13,7 @@
       "max_pagable_c": 63,
       "partido": "TB@MIL",
       "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.91 / under 1.98)"
+      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.9 / under 1.98)"
     }
   ]
 }
