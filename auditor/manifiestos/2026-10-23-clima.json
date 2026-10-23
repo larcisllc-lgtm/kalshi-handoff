@@ -1,0 +1,75 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-23",
+  "corrida_ts": "2026-10-23T03:27:41-0700",
+  "precios_ts": "2026-10-23T10:27:34+0000",
+  "hash_salida_motor": "7afd0000d54940a3",
+  "archivo_predicciones": "2026-10-23-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26OCT23-B73.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26OCT23-B73.5",
+      "lado": "NO",
+      "mercado": "73° to 74°",
+      "entrada": 73,
+      "p_mod": 92,
+      "edge": 19,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 92,
+      "tamano": 11.39,
+      "razonamiento": "LAX maxima 2026-10-23 — NO \"73° to 74°\" a 73c; ensemble n=119 media 70.1deg, NWS 70deg, confianza alta; edge +19c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26OCT23-B67.5",
+      "mercado": "67° to 68°",
+      "entrada": 1,
+      "p_mod": 17,
+      "edge": 16,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT23-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 10,
+      "p_mod": 40,
+      "edge": 30,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT23-B71.5",
+      "mercado": "71° to 72°",
+      "entrada": 43,
+      "p_mod": 69,
+      "edge": 26,
+      "motivo": "flag: BORDE-CERCANO(0.51°-del-corte)",
+      "partido": "LAX"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26OCT23-B73.5",
+      "lado": "NO",
+      "mercado": "73° to 74°",
+      "entrada": 73,
+      "p_mod": 92,
+      "edge": 19,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 92,
+      "tamano": 11.39,
+      "partido": "LAX",
+      "flags": ""
+    }
+  ]
+}

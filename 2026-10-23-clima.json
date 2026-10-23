@@ -1,0 +1,19 @@
+{
+  "generado_ts": "2026-10-23T03:27:41-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-10-23",
+  "tickets": [
+    {
+      "ticker": "KXHIGHLAX-26OCT23-B73.5",
+      "mercado": "73° to 74°",
+      "lado": "NO",
+      "entrada_sugerida_c": 73,
+      "prob_modelo": 92,
+      "edge_c": 19,
+      "max_pagable_c": 92,
+      "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
