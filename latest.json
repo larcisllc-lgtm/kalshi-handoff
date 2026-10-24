@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-10-24T11:01:22-0700",
+  "generado_ts": "2026-10-24T14:27:04-0700",
   "motor": "MLB",
   "fecha": "2026-10-24",
-  "tickets": [
-    {
-      "ticker": "KXMLBTOTAL-26OCT242000TBMIL-7",
-      "mercado": "TOTAL 6.5",
-      "lado": "OVER 6.5",
-      "entrada_sugerida_c": 50,
-      "prob_modelo": 65,
-      "edge_c": 15,
-      "max_pagable_c": 65,
-      "partido": "TB@MIL",
-      "sharp_ok": true,
-      "sharp_nota": "Pinnacle coincide (Pinnacle over 1.93 / under 1.96)"
-    }
-  ]
+  "tickets": []
 }
