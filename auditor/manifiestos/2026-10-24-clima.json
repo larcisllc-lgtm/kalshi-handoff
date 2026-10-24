@@ -1,0 +1,184 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-24",
+  "corrida_ts": "2026-10-24T06:26:31-0700",
+  "precios_ts": "2026-10-24T13:26:26+0000",
+  "hash_salida_motor": "d0b2a439465e30a8",
+  "archivo_predicciones": "2026-10-24-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26OCT24-B72.5",
+    "KXHIGHNY-26OCT24-B61.5",
+    "KXHIGHMIA-26OCT24-B86.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26OCT24-B72.5",
+      "lado": "NO",
+      "mercado": "72° to 73°",
+      "entrada": 73,
+      "p_mod": 92,
+      "edge": 19,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 92,
+      "tamano": 11.81,
+      "razonamiento": "CHI maxima 2026-10-24 — NO \"72° to 73°\" a 73c; ensemble n=119 media 69.5deg, NWS 70deg, confianza alta; edge +19c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT24-B61.5",
+      "lado": "NO",
+      "mercado": "61° to 62°",
+      "entrada": 28,
+      "p_mod": 51,
+      "edge": 23,
+      "tp": 34,
+      "stop": 22,
+      "max_pagable": 51,
+      "tamano": 5.14,
+      "razonamiento": "NY maxima 2026-10-24 — NO \"61° to 62°\" a 28c; ensemble n=119 media 61.2deg, NWS 61deg, confianza alta; edge +23c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT24-B86.5",
+      "lado": "YES",
+      "mercado": "86° to 87°",
+      "entrada": 5,
+      "p_mod": 20,
+      "edge": 15,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 20,
+      "tamano": 1.33,
+      "razonamiento": "MIA maxima 2026-10-24 — YES \"86° to 87°\" a 5c; ensemble n=119 media 84.1deg, NWS 84deg, confianza media; edge +15c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHCHI-26OCT24-B68.5",
+      "mercado": "68° to 69°",
+      "entrada": 8,
+      "p_mod": 43,
+      "edge": 35,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT24-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 37,
+      "p_mod": 59,
+      "edge": 22,
+      "motivo": "flag: BORDE-CERCANO(0.10°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT24-B59.5",
+      "mercado": "59° to 60°",
+      "entrada": 11,
+      "p_mod": 33,
+      "edge": 22,
+      "motivo": "correlacion: NO (+23c) es la unica expresion de NY",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT24-B82.5",
+      "mercado": "82° to 83°",
+      "entrada": 24,
+      "p_mod": 35,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.46°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT24-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 32,
+      "p_mod": 59,
+      "edge": 27,
+      "motivo": "flag: BORDE-CERCANO(0.46°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT24-B57.5",
+      "mercado": "57° to 58°",
+      "entrada": 13,
+      "p_mod": 79,
+      "edge": 66,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT24-B59.5",
+      "mercado": "59° to 60°",
+      "entrada": 11,
+      "p_mod": 56,
+      "edge": 45,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT24-T60",
+      "mercado": "61° or above",
+      "entrada": 1,
+      "p_mod": 20,
+      "edge": 19,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26OCT24-B72.5",
+      "lado": "NO",
+      "mercado": "72° to 73°",
+      "entrada": 73,
+      "p_mod": 92,
+      "edge": 19,
+      "tp": 89,
+      "stop": 57,
+      "max_pagable": 92,
+      "tamano": 11.81,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT24-B61.5",
+      "lado": "NO",
+      "mercado": "61° to 62°",
+      "entrada": 28,
+      "p_mod": 51,
+      "edge": 23,
+      "tp": 34,
+      "stop": 22,
+      "max_pagable": 51,
+      "tamano": 5.14,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT24-B86.5",
+      "lado": "YES",
+      "mercado": "86° to 87°",
+      "entrada": 5,
+      "p_mod": 20,
+      "edge": 15,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 20,
+      "tamano": 1.33,
+      "partido": "MIA",
+      "flags": ""
+    }
+  ]
+}
