@@ -1,0 +1,161 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-25",
+  "corrida_ts": "2026-10-25T05:02:50-0700",
+  "precios_ts": "2026-10-25T12:02:43+0000",
+  "hash_salida_motor": "06ce20f89f4134a5",
+  "archivo_predicciones": "2026-10-25-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26OCT25-B74.5",
+    "KXHIGHMIA-26OCT25-T81"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26OCT25-B74.5",
+      "lado": "NO",
+      "mercado": "74° to 75°",
+      "entrada": 69,
+      "p_mod": 86,
+      "edge": 17,
+      "tp": 84,
+      "stop": 54,
+      "max_pagable": 86,
+      "tamano": 8.89,
+      "razonamiento": "CHI maxima 2026-10-25 — NO \"74° to 75°\" a 69c; ensemble n=119 media 71.9deg, NWS 72deg, confianza alta; edge +17c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT25-T81",
+      "lado": "NO",
+      "mercado": "80° or below",
+      "entrada": 79,
+      "p_mod": 93,
+      "edge": 14,
+      "tp": 96,
+      "stop": 62,
+      "max_pagable": 93,
+      "tamano": 5.43,
+      "razonamiento": "MIA maxima 2026-10-25 — NO \"80° or below\" a 79c; ensemble n=119 media 82.6deg, NWS 83deg, confianza media; edge +14c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHCHI-26OCT25-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 9,
+      "p_mod": 37,
+      "edge": 28,
+      "motivo": "flag: BORDE-CERCANO(0.30°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26OCT25-B72.5",
+      "mercado": "72° to 73°",
+      "entrada": 45,
+      "p_mod": 56,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.30°-del-corte)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT25-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 52,
+      "p_mod": 60,
+      "edge": 8,
+      "motivo": "flag: BORDE-CERCANO(0.06°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT25-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 27,
+      "p_mod": 44,
+      "edge": 17,
+      "motivo": "flag: BORDE-CERCANO(0.06°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT25-B56.5",
+      "mercado": "56° to 57°",
+      "entrada": 79,
+      "p_mod": 100,
+      "edge": 21,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT25-B58.5",
+      "mercado": "58° to 59°",
+      "entrada": 69,
+      "p_mod": 94,
+      "edge": 25,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT25-B60.5",
+      "mercado": "60° to 61°",
+      "entrada": 24,
+      "p_mod": 36,
+      "edge": 12,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT25-B62.5",
+      "mercado": "62° to 63°",
+      "entrada": 6,
+      "p_mod": 48,
+      "edge": 42,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT25-T56",
+      "mercado": "55° or below",
+      "entrada": 88,
+      "p_mod": 100,
+      "edge": 12,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26OCT25-B74.5",
+      "lado": "NO",
+      "mercado": "74° to 75°",
+      "entrada": 69,
+      "p_mod": 86,
+      "edge": 17,
+      "tp": 84,
+      "stop": 54,
+      "max_pagable": 86,
+      "tamano": 8.89,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26OCT25-T81",
+      "lado": "NO",
+      "mercado": "80° or below",
+      "entrada": 79,
+      "p_mod": 93,
+      "edge": 14,
+      "tp": 96,
+      "stop": 62,
+      "max_pagable": 93,
+      "tamano": 5.43,
+      "partido": "MIA",
+      "flags": ""
+    }
+  ]
+}
