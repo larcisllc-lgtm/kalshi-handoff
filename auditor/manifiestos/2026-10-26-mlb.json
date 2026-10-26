@@ -1,9 +1,9 @@
 {
   "modelo": "MLB",
   "fecha": "2026-10-26",
-  "corrida_ts": "2026-10-26T12:27:04-0700",
-  "precios_ts": "2026-10-26T12:27:03-0700",
-  "hash_salida_motor": "42b70a779d073189",
+  "corrida_ts": "2026-10-26T13:23:49-0700",
+  "precios_ts": "2026-10-26T13:23:48-0700",
+  "hash_salida_motor": "0e461c09e2b07200",
   "archivo_predicciones": "2026-10-26-mlb.md",
   "tickers": [
     "KXMLBTEAMTOTAL-26OCT262000MILTB-TB3",
@@ -148,10 +148,10 @@
     {
       "ticker": "KXMLBSPREAD-26OCT262000MILTB-TB3",
       "mercado": "SPREAD TB-2.5",
-      "entrada": 23,
+      "entrada": 24,
       "p_mod": 33,
-      "edge": 10,
-      "motivo": "entrada 23¢ bajo el piso de 50¢",
+      "edge": 9,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
       "partido": "MIL@TB"
     },
     {
@@ -179,6 +179,15 @@
       "p_mod": 88,
       "edge": 7,
       "motivo": "flag: POCO-RECORRIDO",
+      "partido": "MIL@TB"
+    },
+    {
+      "ticker": "KXMLBTEAMTOTAL-26OCT262000MILTB-MIL6",
+      "mercado": "TT MIL 5.5",
+      "entrada": 24,
+      "p_mod": 29,
+      "edge": 5,
+      "motivo": "entrada 24¢ bajo el piso de 50¢",
       "partido": "MIL@TB"
     },
     {
