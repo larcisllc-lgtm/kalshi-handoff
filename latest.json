@@ -1,31 +1,6 @@
 {
-  "generado_ts": "2026-10-27T09:10:00-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-27T11:55:18-0700",
+  "motor": "MLB",
   "fecha": "2026-10-27",
-  "tickets": [
-    {
-      "ticker": "KXHIGHLAX-26OCT27-B76.5",
-      "mercado": "76° to 77°",
-      "lado": "NO",
-      "entrada_sugerida_c": 55,
-      "prob_modelo": 77,
-      "edge_c": 22,
-      "max_pagable_c": 77,
-      "partido": "LAX",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHPHIL-26OCT27-B64.5",
-      "mercado": "64° to 65°",
-      "lado": "YES",
-      "entrada_sugerida_c": 4,
-      "prob_modelo": 15,
-      "edge_c": 11,
-      "max_pagable_c": 15,
-      "partido": "PHIL",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
