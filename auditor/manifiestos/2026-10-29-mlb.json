@@ -1,0 +1,12 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-10-29",
+  "corrida_ts": "2026-10-29T08:42:37-0700",
+  "precios_ts": null,
+  "hash_salida_motor": "0b387526112b75f6",
+  "archivo_predicciones": "2026-10-29-mlb.md",
+  "tickers": [],
+  "picks": [],
+  "descartados": [],
+  "candidatos_limpios": []
+}
