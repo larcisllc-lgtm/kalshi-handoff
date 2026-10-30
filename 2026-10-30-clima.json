@@ -1,17 +1,29 @@
 {
-  "generado_ts": "2026-10-30T05:07:51-0700",
+  "generado_ts": "2026-10-30T09:55:31-0700",
   "motor": "CLIMA",
   "fecha": "2026-10-30",
   "tickets": [
     {
-      "ticker": "KXHIGHMIA-26OCT30-B88.5",
-      "mercado": "88° to 89°",
+      "ticker": "KXHIGHLAX-26OCT30-B69.5",
+      "mercado": "69° to 70°",
+      "lado": "YES",
+      "entrada_sugerida_c": 14,
+      "prob_modelo": 35,
+      "edge_c": 21,
+      "max_pagable_c": 35,
+      "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26OCT30-B71.5",
+      "mercado": "71° to 72°",
       "lado": "NO",
-      "entrada_sugerida_c": 58,
-      "prob_modelo": 83,
-      "edge_c": 25,
-      "max_pagable_c": 83,
-      "partido": "MIA",
+      "entrada_sugerida_c": 82,
+      "prob_modelo": 96,
+      "edge_c": 14,
+      "max_pagable_c": 96,
+      "partido": "NY",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
