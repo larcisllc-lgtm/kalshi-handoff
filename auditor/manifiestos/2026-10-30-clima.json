@@ -1,0 +1,102 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-30",
+  "corrida_ts": "2026-10-30T05:07:51-0700",
+  "precios_ts": "2026-10-30T12:07:46+0000",
+  "hash_salida_motor": "bdad9e0df5efc24f",
+  "archivo_predicciones": "2026-10-30-clima.md",
+  "tickers": [
+    "KXHIGHMIA-26OCT30-B88.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHMIA-26OCT30-B88.5",
+      "lado": "NO",
+      "mercado": "88° to 89°",
+      "entrada": 58,
+      "p_mod": 83,
+      "edge": 25,
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 83,
+      "tamano": 4.93,
+      "razonamiento": "MIA maxima 2026-10-30 — NO \"88° to 89°\" a 58c; ensemble n=119 media 86.4deg, NWS 86deg, confianza media; edge +25c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHMIA-26OCT30-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 15,
+      "p_mod": 27,
+      "edge": 12,
+      "motivo": "flag: BORDE-CERCANO(0.66°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT30-B61.5",
+      "mercado": "61° to 62°",
+      "entrada": 85,
+      "p_mod": 100,
+      "edge": 15,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT30-B63.5",
+      "mercado": "63° to 64°",
+      "entrada": 61,
+      "p_mod": 87,
+      "edge": 26,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT30-B65.5",
+      "mercado": "65° to 66°",
+      "entrada": 36,
+      "p_mod": 44,
+      "edge": 8,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT30-B67.5",
+      "mercado": "67° to 68°",
+      "entrada": 6,
+      "p_mod": 40,
+      "edge": 34,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT30-T61",
+      "mercado": "60° or below",
+      "entrada": 93,
+      "p_mod": 100,
+      "edge": 7,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHMIA-26OCT30-B88.5",
+      "lado": "NO",
+      "mercado": "88° to 89°",
+      "entrada": 58,
+      "p_mod": 83,
+      "edge": 25,
+      "tp": 71,
+      "stop": 45,
+      "max_pagable": 83,
+      "tamano": 4.93,
+      "partido": "MIA",
+      "flags": ""
+    }
+  ]
+}
