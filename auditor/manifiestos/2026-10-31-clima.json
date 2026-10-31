@@ -1,0 +1,161 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-10-31",
+  "corrida_ts": "2026-10-31T06:25:26-0700",
+  "precios_ts": "2026-10-31T13:25:18+0000",
+  "hash_salida_motor": "650d63d32d6d4eca",
+  "archivo_predicciones": "2026-10-31-clima.md",
+  "tickers": [
+    "KXHIGHAUS-26OCT31-B77.5",
+    "KXHIGHPHIL-26OCT31-T61"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHAUS-26OCT31-B77.5",
+      "lado": "NO",
+      "mercado": "77° to 78°",
+      "entrada": 78,
+      "p_mod": 97,
+      "edge": 19,
+      "tp": 95,
+      "stop": 61,
+      "max_pagable": 97,
+      "tamano": 14.21,
+      "razonamiento": "AUS maxima 2026-10-31 — NO \"77° to 78°\" a 78c; ensemble n=119 media 81.4deg, NWS 80deg, confianza alta; edge +19c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT31-T61",
+      "lado": "YES",
+      "mercado": "60° or below",
+      "entrada": 5,
+      "p_mod": 17,
+      "edge": 12,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 17,
+      "tamano": 1.0,
+      "razonamiento": "PHIL maxima 2026-10-31 — YES \"60° or below\" a 5c; ensemble n=119 media 61.9deg, NWS 61deg, confianza media; edge +12c",
+      "partido": "PHIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26OCT31-B67.5",
+      "mercado": "67° to 68°",
+      "entrada": 3,
+      "p_mod": 33,
+      "edge": 30,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT31-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 24,
+      "p_mod": 41,
+      "edge": 17,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26OCT31-T70",
+      "mercado": "71° or above",
+      "entrada": 25,
+      "p_mod": 75,
+      "edge": 50,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT31-B58.5",
+      "mercado": "58° to 59°",
+      "entrada": 90,
+      "p_mod": 100,
+      "edge": 10,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26OCT31-B64.5",
+      "mercado": "64° to 65°",
+      "entrada": 6,
+      "p_mod": 21,
+      "edge": 15,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT31-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 27,
+      "p_mod": 38,
+      "edge": 11,
+      "motivo": "flag: BORDE-CERCANO(0.44°-del-corte)",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT31-B83.5",
+      "mercado": "83° to 84°",
+      "entrada": 3,
+      "p_mod": 20,
+      "edge": 17,
+      "motivo": "correlacion: NO (+19c) es la unica expresion de AUS",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHAUS-26OCT31-T77",
+      "mercado": "76° or below",
+      "entrada": 92,
+      "p_mod": 100,
+      "edge": 8,
+      "motivo": "correlacion: NO (+19c) es la unica expresion de AUS",
+      "partido": "AUS"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT31-B61.5",
+      "mercado": "61° to 62°",
+      "entrada": 36,
+      "p_mod": 51,
+      "edge": 15,
+      "motivo": "flag: BORDE-CERCANO(0.73°-del-corte)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHAUS-26OCT31-B77.5",
+      "lado": "NO",
+      "mercado": "77° to 78°",
+      "entrada": 78,
+      "p_mod": 97,
+      "edge": 19,
+      "tp": 95,
+      "stop": 61,
+      "max_pagable": 97,
+      "tamano": 14.21,
+      "partido": "AUS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT31-T61",
+      "lado": "YES",
+      "mercado": "60° or below",
+      "entrada": 5,
+      "p_mod": 17,
+      "edge": 12,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 17,
+      "tamano": 1.0,
+      "partido": "PHIL",
+      "flags": ""
+    }
+  ]
+}

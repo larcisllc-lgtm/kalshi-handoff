@@ -1,6 +1,31 @@
 {
-  "generado_ts": "2026-10-30T15:52:00-0700",
-  "motor": "MLB",
-  "fecha": "2026-10-30",
-  "tickets": []
+  "generado_ts": "2026-10-31T06:25:26-0700",
+  "motor": "CLIMA",
+  "fecha": "2026-10-31",
+  "tickets": [
+    {
+      "ticker": "KXHIGHAUS-26OCT31-B77.5",
+      "mercado": "77° to 78°",
+      "lado": "NO",
+      "entrada_sugerida_c": 78,
+      "prob_modelo": 97,
+      "edge_c": 19,
+      "max_pagable_c": 97,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26OCT31-T61",
+      "mercado": "60° or below",
+      "lado": "YES",
+      "entrada_sugerida_c": 5,
+      "prob_modelo": 17,
+      "edge_c": 12,
+      "max_pagable_c": 17,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
