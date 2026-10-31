@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-10-31T08:56:11-0700",
-  "motor": "CLIMA",
+  "generado_ts": "2026-10-31T10:50:22-0700",
+  "motor": "MLB",
   "fecha": "2026-10-31",
-  "tickets": [
-    {
-      "ticker": "KXHIGHAUS-26OCT31-B77.5",
-      "mercado": "77° to 78°",
-      "lado": "NO",
-      "entrada_sugerida_c": 76,
-      "prob_modelo": 99,
-      "edge_c": 23,
-      "max_pagable_c": 99,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
