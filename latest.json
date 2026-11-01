@@ -1,17 +1,29 @@
 {
-  "generado_ts": "2026-11-01T08:26:43-0800",
+  "generado_ts": "2026-11-01T08:58:55-0800",
   "motor": "CLIMA",
   "fecha": "2026-11-01",
   "tickets": [
     {
-      "ticker": "KXHIGHLAX-26NOV01-B67.5",
-      "mercado": "67° to 68°",
-      "lado": "YES",
-      "entrada_sugerida_c": 4,
-      "prob_modelo": 26,
-      "edge_c": 22,
-      "max_pagable_c": 26,
+      "ticker": "KXHIGHLAX-26NOV01-T70",
+      "mercado": "71° or above",
+      "lado": "NO",
+      "entrada_sugerida_c": 55,
+      "prob_modelo": 80,
+      "edge_c": 25,
+      "max_pagable_c": 80,
       "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV01-B60.5",
+      "mercado": "60° to 61°",
+      "lado": "NO",
+      "entrada_sugerida_c": 62,
+      "prob_modelo": 70,
+      "edge_c": 8,
+      "max_pagable_c": 70,
+      "partido": "NY",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
