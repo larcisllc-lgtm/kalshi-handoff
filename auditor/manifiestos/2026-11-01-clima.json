@@ -1,0 +1,129 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-01",
+  "corrida_ts": "2026-11-01T08:26:43-0800",
+  "precios_ts": "2026-11-01T16:25:33+0000",
+  "hash_salida_motor": "d6b955a83ab18b8d",
+  "archivo_predicciones": "2026-11-01-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26NOV01-B67.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26NOV01-B67.5",
+      "lado": "YES",
+      "mercado": "67° to 68°",
+      "entrada": 4,
+      "p_mod": 26,
+      "edge": 22,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 26,
+      "tamano": 3.84,
+      "razonamiento": "LAX maxima 2026-11-01 — YES \"67° to 68°\" a 4c; ensemble n=119 media 69.2deg, NWS 69deg, confianza alta; edge +22c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26NOV01-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 48,
+      "p_mod": 58,
+      "edge": 10,
+      "motivo": "correlacion: YES (+22c) es la unica expresion de LAX",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV01-T70",
+      "mercado": "71° or above",
+      "entrada": 55,
+      "p_mod": 76,
+      "edge": 21,
+      "motivo": "correlacion: YES (+22c) es la unica expresion de LAX",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV01-B64.5",
+      "mercado": "64° to 65°",
+      "entrada": 18,
+      "p_mod": 56,
+      "edge": 38,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV01-B66.5",
+      "mercado": "66° to 67°",
+      "entrada": 6,
+      "p_mod": 21,
+      "edge": 15,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV01-T64",
+      "mercado": "63° or below",
+      "entrada": 27,
+      "p_mod": 80,
+      "edge": 53,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV01-B60.5",
+      "mercado": "60° to 61°",
+      "entrada": 87,
+      "p_mod": 100,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV01-B62.5",
+      "mercado": "62° to 63°",
+      "entrada": 67,
+      "p_mod": 80,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV01-B64.5",
+      "mercado": "64° to 65°",
+      "entrada": 30,
+      "p_mod": 40,
+      "edge": 10,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV01-T65",
+      "mercado": "66° or above",
+      "entrada": 15,
+      "p_mod": 39,
+      "edge": 24,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26NOV01-B67.5",
+      "lado": "YES",
+      "mercado": "67° to 68°",
+      "entrada": 4,
+      "p_mod": 26,
+      "edge": 22,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 26,
+      "tamano": 3.84,
+      "partido": "LAX",
+      "flags": ""
+    }
+  ]
+}
