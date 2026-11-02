@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-11-02T12:37:01-0800",
-  "motor": "CLIMA",
+  "generado_ts": "2026-11-02T12:47:19-0800",
+  "motor": "MLB",
   "fecha": "2026-11-02",
-  "tickets": [
-    {
-      "ticker": "KXHIGHDEN-26NOV02-B50.5",
-      "mercado": "50° to 51°",
-      "lado": "NO",
-      "entrada_sugerida_c": 67,
-      "prob_modelo": 78,
-      "edge_c": 11,
-      "max_pagable_c": 78,
-      "partido": "DEN",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
