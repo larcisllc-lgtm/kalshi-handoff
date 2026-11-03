@@ -1,6 +1,43 @@
 {
-  "generado_ts": "2026-11-03T09:44:00-0800",
-  "motor": "MLB",
+  "generado_ts": "2026-11-03T10:12:58-0800",
+  "motor": "CLIMA",
   "fecha": "2026-11-03",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHCHI-26NOV03-B73.5",
+      "mercado": "73° to 74°",
+      "lado": "NO",
+      "entrada_sugerida_c": 30,
+      "prob_modelo": 44,
+      "edge_c": 14,
+      "max_pagable_c": 44,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV03-B57.5",
+      "mercado": "57° to 58°",
+      "lado": "NO",
+      "entrada_sugerida_c": 78,
+      "prob_modelo": 90,
+      "edge_c": 12,
+      "max_pagable_c": 90,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHAUS-26NOV03-B77.5",
+      "mercado": "77° to 78°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 16,
+      "edge_c": 12,
+      "max_pagable_c": 16,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
