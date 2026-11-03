@@ -1,31 +1,6 @@
 {
-  "generado_ts": "2026-11-03T02:03:13-0800",
-  "motor": "CLIMA",
+  "generado_ts": "2026-11-03T09:44:00-0800",
+  "motor": "MLB",
   "fecha": "2026-11-03",
-  "tickets": [
-    {
-      "ticker": "KXHIGHLAX-26NOV03-B75.5",
-      "mercado": "75° to 76°",
-      "lado": "NO",
-      "entrada_sugerida_c": 78,
-      "prob_modelo": 92,
-      "edge_c": 14,
-      "max_pagable_c": 92,
-      "partido": "LAX",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHPHIL-26NOV03-B73.5",
-      "mercado": "73° to 74°",
-      "lado": "YES",
-      "entrada_sugerida_c": 6,
-      "prob_modelo": 15,
-      "edge_c": 9,
-      "max_pagable_c": 15,
-      "partido": "PHIL",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
