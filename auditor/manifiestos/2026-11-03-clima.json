@@ -1,0 +1,152 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-03",
+  "corrida_ts": "2026-11-03T02:03:13-0800",
+  "precios_ts": "2026-11-03T10:02:04+0000",
+  "hash_salida_motor": "0473c98e36747f98",
+  "archivo_predicciones": "2026-11-03-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26NOV03-B75.5",
+    "KXHIGHPHIL-26NOV03-B73.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26NOV03-B75.5",
+      "lado": "NO",
+      "mercado": "75° to 76°",
+      "entrada": 78,
+      "p_mod": 92,
+      "edge": 14,
+      "tp": 95,
+      "stop": 61,
+      "max_pagable": 92,
+      "tamano": 10.44,
+      "razonamiento": "LAX maxima 2026-11-03 — NO \"75° to 76°\" a 78c; ensemble n=119 media 72.1deg, NWS 73deg, confianza alta; edge +14c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV03-B73.5",
+      "lado": "YES",
+      "mercado": "73° to 74°",
+      "entrada": 6,
+      "p_mod": 15,
+      "edge": 9,
+      "tp": 7,
+      "stop": 5,
+      "max_pagable": 15,
+      "tamano": 0.83,
+      "razonamiento": "PHIL maxima 2026-11-03 — YES \"73° to 74°\" a 6c; ensemble n=119 media 71.1deg, NWS 71deg, confianza media; edge +9c",
+      "partido": "PHIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26NOV03-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 1,
+      "p_mod": 18,
+      "edge": 17,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV03-B71.5",
+      "mercado": "71° to 72°",
+      "entrada": 11,
+      "p_mod": 37,
+      "edge": 26,
+      "motivo": "flag: BORDE-CERCANO(0.21°-del-corte)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV03-B73.5",
+      "mercado": "73° to 74°",
+      "entrada": 35,
+      "p_mod": 65,
+      "edge": 30,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV03-B66.5",
+      "mercado": "66° to 67°",
+      "entrada": 27,
+      "p_mod": 51,
+      "edge": 24,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV03-B68.5",
+      "mercado": "68° to 69°",
+      "entrada": 38,
+      "p_mod": 67,
+      "edge": 29,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV03-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 91,
+      "p_mod": 100,
+      "edge": 9,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV03-T66",
+      "mercado": "65° or below",
+      "entrada": 2,
+      "p_mod": 15,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV03-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 57,
+      "p_mod": 70,
+      "edge": 13,
+      "motivo": "flag: BORDE-CERCANO(0.47°-del-corte)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26NOV03-B75.5",
+      "lado": "NO",
+      "mercado": "75° to 76°",
+      "entrada": 78,
+      "p_mod": 92,
+      "edge": 14,
+      "tp": 95,
+      "stop": 61,
+      "max_pagable": 92,
+      "tamano": 10.44,
+      "partido": "LAX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV03-B73.5",
+      "lado": "YES",
+      "mercado": "73° to 74°",
+      "entrada": 6,
+      "p_mod": 15,
+      "edge": 9,
+      "tp": 7,
+      "stop": 5,
+      "max_pagable": 15,
+      "tamano": 0.83,
+      "partido": "PHIL",
+      "flags": ""
+    }
+  ]
+}
