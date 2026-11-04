@@ -1,6 +1,43 @@
 {
-  "generado_ts": "2026-11-03T15:53:53-0800",
-  "motor": "MLB",
-  "fecha": "2026-11-03",
-  "tickets": []
+  "generado_ts": "2026-11-04T09:36:16-0800",
+  "motor": "CLIMA",
+  "fecha": "2026-11-04",
+  "tickets": [
+    {
+      "ticker": "KXHIGHMIA-26NOV04-B81.5",
+      "mercado": "81° to 82°",
+      "lado": "NO",
+      "entrada_sugerida_c": 69,
+      "prob_modelo": 82,
+      "edge_c": 13,
+      "max_pagable_c": 82,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV04-T54",
+      "mercado": "53° or below",
+      "lado": "YES",
+      "entrada_sugerida_c": 19,
+      "prob_modelo": 29,
+      "edge_c": 10,
+      "max_pagable_c": 29,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV04-B72.5",
+      "mercado": "72° to 73°",
+      "lado": "YES",
+      "entrada_sugerida_c": 8,
+      "prob_modelo": 15,
+      "edge_c": 7,
+      "max_pagable_c": 15,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
