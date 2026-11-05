@@ -1,0 +1,93 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-05",
+  "corrida_ts": "2026-11-05T02:10:52-0800",
+  "precios_ts": "2026-11-05T10:10:47+0000",
+  "hash_salida_motor": "78ca02f929ebc1f5",
+  "archivo_predicciones": "2026-11-05-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26NOV05-B75.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26NOV05-B75.5",
+      "lado": "YES",
+      "mercado": "75° to 76°",
+      "entrada": 7,
+      "p_mod": 35,
+      "edge": 28,
+      "tp": 9,
+      "stop": 5,
+      "max_pagable": 35,
+      "tamano": 4.87,
+      "razonamiento": "LAX maxima 2026-11-05 — YES \"75° to 76°\" a 7c; ensemble n=119 media 77.8deg, NWS 77deg, confianza alta; edge +28c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26NOV05-B77.5",
+      "mercado": "77° to 78°",
+      "entrada": 60,
+      "p_mod": 75,
+      "edge": 15,
+      "motivo": "correlacion: YES (+28c) es la unica expresion de LAX",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV05-B79.5",
+      "mercado": "79° to 80°",
+      "entrada": 48,
+      "p_mod": 64,
+      "edge": 16,
+      "motivo": "correlacion: YES (+28c) es la unica expresion de LAX",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV05-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 60,
+      "p_mod": 71,
+      "edge": 11,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV05-B72.5",
+      "mercado": "72° to 73°",
+      "entrada": 83,
+      "p_mod": 98,
+      "edge": 15,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV05-T70",
+      "mercado": "69° or below",
+      "entrada": 44,
+      "p_mod": 69,
+      "edge": 25,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26NOV05-B75.5",
+      "lado": "YES",
+      "mercado": "75° to 76°",
+      "entrada": 7,
+      "p_mod": 35,
+      "edge": 28,
+      "tp": 9,
+      "stop": 5,
+      "max_pagable": 35,
+      "tamano": 4.87,
+      "partido": "LAX",
+      "flags": ""
+    }
+  ]
+}
