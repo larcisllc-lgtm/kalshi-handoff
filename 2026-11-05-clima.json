@@ -1,17 +1,41 @@
 {
-  "generado_ts": "2026-11-05T02:10:52-0800",
+  "generado_ts": "2026-11-05T10:28:06-0800",
   "motor": "CLIMA",
   "fecha": "2026-11-05",
   "tickets": [
     {
-      "ticker": "KXHIGHLAX-26NOV05-B75.5",
-      "mercado": "75° to 76°",
-      "lado": "YES",
-      "entrada_sugerida_c": 7,
-      "prob_modelo": 35,
-      "edge_c": 28,
-      "max_pagable_c": 35,
+      "ticker": "KXHIGHLAX-26NOV05-B79.5",
+      "mercado": "79° to 80°",
+      "lado": "NO",
+      "entrada_sugerida_c": 58,
+      "prob_modelo": 71,
+      "edge_c": 13,
+      "max_pagable_c": 71,
       "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV05-B54.5",
+      "mercado": "54° to 55°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 12,
+      "edge_c": 9,
+      "max_pagable_c": 12,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV05-B78.5",
+      "mercado": "78° to 79°",
+      "lado": "YES",
+      "entrada_sugerida_c": 6,
+      "prob_modelo": 20,
+      "edge_c": 14,
+      "max_pagable_c": 20,
+      "partido": "PHIL",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
