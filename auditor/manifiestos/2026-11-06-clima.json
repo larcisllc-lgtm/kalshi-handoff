@@ -1,0 +1,216 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-06",
+  "corrida_ts": "2026-11-06T03:26:16-0800",
+  "precios_ts": "2026-11-06T11:26:09+0000",
+  "hash_salida_motor": "307399ca74cce5bf",
+  "archivo_predicciones": "2026-11-06-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26NOV06-B79.5",
+    "KXHIGHNY-26NOV06-B71.5",
+    "KXHIGHMIA-26NOV06-B88.5",
+    "KXHIGHDEN-26NOV06-B60.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26NOV06-B79.5",
+      "lado": "YES",
+      "mercado": "79° to 80°",
+      "entrada": 9,
+      "p_mod": 30,
+      "edge": 21,
+      "tp": 11,
+      "stop": 7,
+      "max_pagable": 30,
+      "tamano": 3.83,
+      "razonamiento": "LAX maxima 2026-11-06 — YES \"79° to 80°\" a 9c; ensemble n=119 media 81.5deg, NWS 81deg, confianza alta; edge +21c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV06-B71.5",
+      "lado": "NO",
+      "mercado": "71° to 72°",
+      "entrada": 86,
+      "p_mod": 98,
+      "edge": 12,
+      "tp": 97,
+      "stop": 67,
+      "max_pagable": 98,
+      "tamano": 14.4,
+      "razonamiento": "NY maxima 2026-11-06 — NO \"71° to 72°\" a 86c; ensemble n=119 media 67.0deg, NWS 67deg, confianza alta; edge +12c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV06-B88.5",
+      "lado": "YES",
+      "mercado": "88° to 89°",
+      "entrada": 6,
+      "p_mod": 19,
+      "edge": 13,
+      "tp": 7,
+      "stop": 5,
+      "max_pagable": 19,
+      "tamano": 1.13,
+      "razonamiento": "MIA maxima 2026-11-06 — YES \"88° to 89°\" a 6c; ensemble n=119 media 86.0deg, NWS 86deg, confianza media; edge +13c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV06-B60.5",
+      "lado": "NO",
+      "mercado": "60° to 61°",
+      "entrada": 83,
+      "p_mod": 94,
+      "edge": 11,
+      "tp": 97,
+      "stop": 65,
+      "max_pagable": 94,
+      "tamano": 10.9,
+      "razonamiento": "DEN maxima 2026-11-06 — NO \"60° to 61°\" a 83c; ensemble n=119 media 57.4deg, NWS 57deg, confianza alta; edge +11c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 4
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26NOV06-B81.5",
+      "mercado": "81° to 82°",
+      "entrada": 54,
+      "p_mod": 71,
+      "edge": 17,
+      "motivo": "flag: BORDE-CERCANO(0.61°-del-corte)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV06-B67.5",
+      "mercado": "67° to 68°",
+      "entrada": 1,
+      "p_mod": 48,
+      "edge": 47,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV06-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 19,
+      "p_mod": 88,
+      "edge": 69,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV06-T67",
+      "mercado": "66° or below",
+      "entrada": 1,
+      "p_mod": 38,
+      "edge": 37,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV06-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 24,
+      "p_mod": 44,
+      "edge": 20,
+      "motivo": "flag: BORDE-CERCANO(0.06°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV06-B86.5",
+      "mercado": "86° to 87°",
+      "entrada": 31,
+      "p_mod": 65,
+      "edge": 34,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV06-B56.5",
+      "mercado": "56° to 57°",
+      "entrada": 26,
+      "p_mod": 43,
+      "edge": 17,
+      "motivo": "flag: BORDE-CERCANO(0.04°-del-corte)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV06-B58.5",
+      "mercado": "58° to 59°",
+      "entrada": 44,
+      "p_mod": 57,
+      "edge": 13,
+      "motivo": "flag: BORDE-CERCANO(0.04°-del-corte)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26NOV06-B79.5",
+      "lado": "YES",
+      "mercado": "79° to 80°",
+      "entrada": 9,
+      "p_mod": 30,
+      "edge": 21,
+      "tp": 11,
+      "stop": 7,
+      "max_pagable": 30,
+      "tamano": 3.83,
+      "partido": "LAX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV06-B71.5",
+      "lado": "NO",
+      "mercado": "71° to 72°",
+      "entrada": 86,
+      "p_mod": 98,
+      "edge": 12,
+      "tp": 97,
+      "stop": 67,
+      "max_pagable": 98,
+      "tamano": 14.4,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV06-B88.5",
+      "lado": "YES",
+      "mercado": "88° to 89°",
+      "entrada": 6,
+      "p_mod": 19,
+      "edge": 13,
+      "tp": 7,
+      "stop": 5,
+      "max_pagable": 19,
+      "tamano": 1.13,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV06-B60.5",
+      "lado": "NO",
+      "mercado": "60° to 61°",
+      "entrada": 83,
+      "p_mod": 94,
+      "edge": 11,
+      "tp": 97,
+      "stop": 65,
+      "max_pagable": 94,
+      "tamano": 10.9,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
