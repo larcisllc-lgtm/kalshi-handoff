@@ -1,0 +1,31 @@
+{
+  "generado_ts": "2026-11-07T07:41:35-0800",
+  "motor": "CLIMA",
+  "fecha": "2026-11-07",
+  "tickets": [
+    {
+      "ticker": "KXHIGHLAX-26NOV07-B85.5",
+      "mercado": "85° to 86°",
+      "lado": "NO",
+      "entrada_sugerida_c": 53,
+      "prob_modelo": 82,
+      "edge_c": 29,
+      "max_pagable_c": 82,
+      "partido": "LAX",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV07-B65.5",
+      "mercado": "65° to 66°",
+      "lado": "NO",
+      "entrada_sugerida_c": 70,
+      "prob_modelo": 93,
+      "edge_c": 23,
+      "max_pagable_c": 93,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
