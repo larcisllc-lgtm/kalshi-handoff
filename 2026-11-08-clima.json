@@ -1,0 +1,43 @@
+{
+  "generado_ts": "2026-11-08T07:36:19-0800",
+  "motor": "CLIMA",
+  "fecha": "2026-11-08",
+  "tickets": [
+    {
+      "ticker": "KXHIGHNY-26NOV08-B61.5",
+      "mercado": "61° to 62°",
+      "lado": "NO",
+      "entrada_sugerida_c": 66,
+      "prob_modelo": 88,
+      "edge_c": 22,
+      "max_pagable_c": 88,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV08-B67.5",
+      "mercado": "67° to 68°",
+      "lado": "YES",
+      "entrada_sugerida_c": 23,
+      "prob_modelo": 52,
+      "edge_c": 29,
+      "max_pagable_c": 52,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV08-B62.5",
+      "mercado": "62° to 63°",
+      "lado": "NO",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 83,
+      "edge_c": 26,
+      "max_pagable_c": 83,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
