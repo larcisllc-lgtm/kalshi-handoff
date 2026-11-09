@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-11-09T13:17:11-0800",
-  "motor": "CLIMA",
+  "generado_ts": "2026-11-09T15:44:18-0800",
+  "motor": "MLB",
   "fecha": "2026-11-09",
-  "tickets": [
-    {
-      "ticker": "KXHIGHPHIL-26NOV09-B63.5",
-      "mercado": "63° to 64°",
-      "lado": "YES",
-      "entrada_sugerida_c": 5,
-      "prob_modelo": 14,
-      "edge_c": 9,
-      "max_pagable_c": 14,
-      "partido": "PHIL",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
