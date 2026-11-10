@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-11-10T10:27:08-0800",
-  "motor": "CLIMA",
+  "generado_ts": "2026-11-10T10:29:56-0800",
+  "motor": "MLB",
   "fecha": "2026-11-10",
-  "tickets": [
-    {
-      "ticker": "KXHIGHCHI-26NOV10-T65",
-      "mercado": "66° or above",
-      "lado": "NO",
-      "entrada_sugerida_c": 75,
-      "prob_modelo": 90,
-      "edge_c": 15,
-      "max_pagable_c": 90,
-      "partido": "CHI",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
