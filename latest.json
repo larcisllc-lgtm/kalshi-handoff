@@ -1,6 +1,31 @@
 {
-  "generado_ts": "2026-11-09T15:44:18-0800",
-  "motor": "MLB",
-  "fecha": "2026-11-09",
-  "tickets": []
+  "generado_ts": "2026-11-10T02:59:57-0800",
+  "motor": "CLIMA",
+  "fecha": "2026-11-10",
+  "tickets": [
+    {
+      "ticker": "KXHIGHMIA-26NOV10-B82.5",
+      "mercado": "82° to 83°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 19,
+      "edge_c": 16,
+      "max_pagable_c": 19,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV10-B71.5",
+      "mercado": "71° to 72°",
+      "lado": "NO",
+      "entrada_sugerida_c": 80,
+      "prob_modelo": 99,
+      "edge_c": 19,
+      "max_pagable_c": 99,
+      "partido": "DEN",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
