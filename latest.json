@@ -1,6 +1,31 @@
 {
-  "generado_ts": "2026-11-11T09:57:20-0800",
-  "motor": "MLB",
+  "generado_ts": "2026-11-11T10:18:50-0800",
+  "motor": "CLIMA",
   "fecha": "2026-11-11",
-  "tickets": []
+  "tickets": [
+    {
+      "ticker": "KXHIGHAUS-26NOV11-B79.5",
+      "mercado": "79° to 80°",
+      "lado": "YES",
+      "entrada_sugerida_c": 7,
+      "prob_modelo": 20,
+      "edge_c": 13,
+      "max_pagable_c": 20,
+      "partido": "AUS",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV11-B68.5",
+      "mercado": "68° to 69°",
+      "lado": "YES",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 15,
+      "edge_c": 12,
+      "max_pagable_c": 15,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }
