@@ -1,17 +1,17 @@
 {
-  "generado_ts": "2026-11-14T07:49:45-0800",
+  "generado_ts": "2026-11-14T08:49:28-0800",
   "motor": "CLIMA",
   "fecha": "2026-11-14",
   "tickets": [
     {
-      "ticker": "KXHIGHLAX-26NOV14-B69.5",
-      "mercado": "69° to 70°",
+      "ticker": "KXHIGHCHI-26NOV14-B44.5",
+      "mercado": "44° to 45°",
       "lado": "YES",
-      "entrada_sugerida_c": 16,
-      "prob_modelo": 41,
-      "edge_c": 25,
-      "max_pagable_c": 41,
-      "partido": "LAX",
+      "entrada_sugerida_c": 3,
+      "prob_modelo": 15,
+      "edge_c": 12,
+      "max_pagable_c": 15,
+      "partido": "CHI",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
     }
