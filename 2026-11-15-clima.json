@@ -1,0 +1,55 @@
+{
+  "generado_ts": "2026-11-15T03:28:23-0800",
+  "motor": "CLIMA",
+  "fecha": "2026-11-15",
+  "tickets": [
+    {
+      "ticker": "KXHIGHCHI-26NOV15-B52.5",
+      "mercado": "52° to 53°",
+      "lado": "NO",
+      "entrada_sugerida_c": 76,
+      "prob_modelo": 88,
+      "edge_c": 12,
+      "max_pagable_c": 88,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV15-B51.5",
+      "mercado": "51° to 52°",
+      "lado": "NO",
+      "entrada_sugerida_c": 71,
+      "prob_modelo": 97,
+      "edge_c": 26,
+      "max_pagable_c": 97,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV15-B76.5",
+      "mercado": "76° to 77°",
+      "lado": "YES",
+      "entrada_sugerida_c": 4,
+      "prob_modelo": 14,
+      "edge_c": 10,
+      "max_pagable_c": 14,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV15-B49.5",
+      "mercado": "49° to 50°",
+      "lado": "YES",
+      "entrada_sugerida_c": 6,
+      "prob_modelo": 22,
+      "edge_c": 16,
+      "max_pagable_c": 22,
+      "partido": "PHIL",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
+}
