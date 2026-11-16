@@ -1,0 +1,161 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-16",
+  "corrida_ts": "2026-11-16T11:52:56-0800",
+  "precios_ts": "2026-11-16T19:52:47+0000",
+  "hash_salida_motor": "1c7864cbf3093786",
+  "archivo_predicciones": "2026-11-16-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26NOV16-B55.5",
+    "KXHIGHDEN-26NOV16-B60.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26NOV16-B55.5",
+      "lado": "NO",
+      "mercado": "55° to 56°",
+      "entrada": 85,
+      "p_mod": 97,
+      "edge": 12,
+      "tp": 97,
+      "stop": 66,
+      "max_pagable": 97,
+      "tamano": 12.6,
+      "razonamiento": "CHI maxima 2026-11-16 — NO \"55° to 56°\" a 85c; ensemble n=119 media 51.7deg, NWS 53deg, confianza alta; edge +12c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV16-B60.5",
+      "lado": "YES",
+      "mercado": "60° to 61°",
+      "entrada": 4,
+      "p_mod": 14,
+      "edge": 10,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 14,
+      "tamano": 1.65,
+      "razonamiento": "DEN maxima 2026-11-16 — YES \"60° to 61°\" a 4c; ensemble n=119 media 62.8deg, NWS 62deg, confianza alta; edge +10c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHCHI-26NOV16-B49.5",
+      "mercado": "49° to 50°",
+      "entrada": 1,
+      "p_mod": 18,
+      "edge": 17,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV16-B51.5",
+      "mercado": "51° to 52°",
+      "entrada": 1,
+      "p_mod": 54,
+      "edge": 53,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV16-B53.5",
+      "mercado": "53° to 54°",
+      "entrada": 18,
+      "p_mod": 76,
+      "edge": 58,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV16-B52.5",
+      "mercado": "52° to 53°",
+      "entrada": 1,
+      "p_mod": 45,
+      "edge": 44,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV16-B54.5",
+      "mercado": "54° to 55°",
+      "entrada": 40,
+      "p_mod": 93,
+      "edge": 53,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV16-B56.5",
+      "mercado": "56° to 57°",
+      "entrada": 73,
+      "p_mod": 100,
+      "edge": 27,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV16-T52",
+      "mercado": "51° or below",
+      "entrada": 1,
+      "p_mod": 48,
+      "edge": 47,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV16-B62.5",
+      "mercado": "62° to 63°",
+      "entrada": 40,
+      "p_mod": 59,
+      "edge": 19,
+      "motivo": "flag: BORDE-CERCANO(0.06°-del-corte)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV16-B64.5",
+      "mercado": "64° to 65°",
+      "entrada": 34,
+      "p_mod": 44,
+      "edge": 10,
+      "motivo": "flag: BORDE-CERCANO(0.06°-del-corte)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26NOV16-B55.5",
+      "lado": "NO",
+      "mercado": "55° to 56°",
+      "entrada": 85,
+      "p_mod": 97,
+      "edge": 12,
+      "tp": 97,
+      "stop": 66,
+      "max_pagable": 97,
+      "tamano": 12.6,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV16-B60.5",
+      "lado": "YES",
+      "mercado": "60° to 61°",
+      "entrada": 4,
+      "p_mod": 14,
+      "edge": 10,
+      "tp": 5,
+      "stop": 3,
+      "max_pagable": 14,
+      "tamano": 1.65,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
