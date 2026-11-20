@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-11-20T10:56:45-0800",
-  "motor": "CLIMA",
+  "generado_ts": "2026-11-20T12:44:59-0800",
+  "motor": "MLB",
   "fecha": "2026-11-20",
-  "tickets": [
-    {
-      "ticker": "KXHIGHLAX-26NOV20-B68.5",
-      "mercado": "68° to 69°",
-      "lado": "NO",
-      "entrada_sugerida_c": 89,
-      "prob_modelo": 99,
-      "edge_c": 10,
-      "max_pagable_c": 99,
-      "partido": "LAX",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
