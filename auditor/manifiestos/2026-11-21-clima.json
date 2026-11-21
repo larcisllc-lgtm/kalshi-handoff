@@ -1,0 +1,270 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-21",
+  "corrida_ts": "2026-11-21T08:24:39-0800",
+  "precios_ts": "2026-11-21T16:24:32+0000",
+  "hash_salida_motor": "99a00ee413139974",
+  "archivo_predicciones": "2026-11-21-clima.md",
+  "tickers": [
+    "KXHIGHLAX-26NOV21-B67.5",
+    "KXHIGHMIA-26NOV21-B80.5",
+    "KXHIGHAUS-26NOV21-T74",
+    "KXHIGHPHIL-26NOV21-B65.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHLAX-26NOV21-B67.5",
+      "lado": "NO",
+      "mercado": "67° to 68°",
+      "entrada": 60,
+      "p_mod": 74,
+      "edge": 14,
+      "tp": 73,
+      "stop": 47,
+      "max_pagable": 74,
+      "tamano": 5.77,
+      "razonamiento": "LAX maxima 2026-11-21 — NO \"67° to 68°\" a 60c; ensemble n=119 media 65.8deg, NWS 66deg, confianza alta; edge +14c",
+      "partido": "LAX",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV21-B80.5",
+      "lado": "NO",
+      "mercado": "80° to 81°",
+      "entrada": 61,
+      "p_mod": 85,
+      "edge": 24,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 85,
+      "tamano": 5.01,
+      "razonamiento": "MIA maxima 2026-11-21 — NO \"80° to 81°\" a 61c; ensemble n=119 media 83.1deg, NWS 84deg, confianza media; edge +24c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHAUS-26NOV21-T74",
+      "lado": "NO",
+      "mercado": "73° or below",
+      "entrada": 62,
+      "p_mod": 73,
+      "edge": 11,
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 73,
+      "tamano": 4.79,
+      "razonamiento": "AUS maxima 2026-11-21 — NO \"73° or below\" a 62c; ensemble n=119 media 74.6deg, NWS 75deg, confianza alta; edge +11c",
+      "partido": "AUS",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV21-B65.5",
+      "lado": "NO",
+      "mercado": "65° to 66°",
+      "entrada": 61,
+      "p_mod": 76,
+      "edge": 15,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 76,
+      "tamano": 3.17,
+      "razonamiento": "PHIL maxima 2026-11-21 — NO \"65° to 66°\" a 61c; ensemble n=119 media 67.6deg, NWS 67deg, confianza media; edge +15c",
+      "partido": "PHIL",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 4
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHLAX-26NOV21-B63.5",
+      "mercado": "63° to 64°",
+      "entrada": 1,
+      "p_mod": 23,
+      "edge": 22,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV21-B65.5",
+      "mercado": "65° to 66°",
+      "entrada": 3,
+      "p_mod": 41,
+      "edge": 38,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV21-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 49,
+      "p_mod": 93,
+      "edge": 44,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV21-B66.5",
+      "mercado": "66° to 67°",
+      "entrada": 3,
+      "p_mod": 41,
+      "edge": 38,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV21-B68.5",
+      "mercado": "68° to 69°",
+      "entrada": 61,
+      "p_mod": 74,
+      "edge": 13,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV21-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 48,
+      "p_mod": 99,
+      "edge": 51,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV21-T66",
+      "mercado": "65° or below",
+      "entrada": 2,
+      "p_mod": 32,
+      "edge": 30,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV21-B58.5",
+      "mercado": "58° to 59°",
+      "entrada": 1,
+      "p_mod": 12,
+      "edge": 11,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV21-B60.5",
+      "mercado": "60° to 61°",
+      "entrada": 1,
+      "p_mod": 58,
+      "edge": 57,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV21-B62.5",
+      "mercado": "62° to 63°",
+      "entrada": 63,
+      "p_mod": 74,
+      "edge": 11,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV21-B64.5",
+      "mercado": "64° to 65°",
+      "entrada": 45,
+      "p_mod": 96,
+      "edge": 51,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV21-B84.5",
+      "mercado": "84° to 85°",
+      "entrada": 10,
+      "p_mod": 38,
+      "edge": 28,
+      "motivo": "flag: BORDE-CERCANO(0.44°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV21-T80",
+      "mercado": "79° or below",
+      "entrada": 91,
+      "p_mod": 99,
+      "edge": 8,
+      "motivo": "correlacion: NO (+24c) es la unica expresion de MIA",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV21-B69.5",
+      "mercado": "69° to 70°",
+      "entrada": 6,
+      "p_mod": 25,
+      "edge": 19,
+      "motivo": "flag: BORDE-CERCANO(0.83°-del-corte)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHLAX-26NOV21-B67.5",
+      "lado": "NO",
+      "mercado": "67° to 68°",
+      "entrada": 60,
+      "p_mod": 74,
+      "edge": 14,
+      "tp": 73,
+      "stop": 47,
+      "max_pagable": 74,
+      "tamano": 5.77,
+      "partido": "LAX",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV21-B80.5",
+      "lado": "NO",
+      "mercado": "80° to 81°",
+      "entrada": 61,
+      "p_mod": 85,
+      "edge": 24,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 85,
+      "tamano": 5.01,
+      "partido": "MIA",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHAUS-26NOV21-T74",
+      "lado": "NO",
+      "mercado": "73° or below",
+      "entrada": 62,
+      "p_mod": 73,
+      "edge": 11,
+      "tp": 76,
+      "stop": 48,
+      "max_pagable": 73,
+      "tamano": 4.79,
+      "partido": "AUS",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV21-B65.5",
+      "lado": "NO",
+      "mercado": "65° to 66°",
+      "entrada": 61,
+      "p_mod": 76,
+      "edge": 15,
+      "tp": 74,
+      "stop": 48,
+      "max_pagable": 76,
+      "tamano": 3.17,
+      "partido": "PHIL",
+      "flags": ""
+    }
+  ]
+}
