@@ -1,19 +1,6 @@
 {
-  "generado_ts": "2026-11-22T10:11:45-0800",
-  "motor": "CLIMA",
+  "generado_ts": "2026-11-22T12:58:45-0800",
+  "motor": "MLB",
   "fecha": "2026-11-22",
-  "tickets": [
-    {
-      "ticker": "KXHIGHAUS-26NOV22-B75.5",
-      "mercado": "75° to 76°",
-      "lado": "NO",
-      "entrada_sugerida_c": 72,
-      "prob_modelo": 89,
-      "edge_c": 17,
-      "max_pagable_c": 89,
-      "partido": "AUS",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    }
-  ]
+  "tickets": []
 }
