@@ -1,6 +1,43 @@
 {
-  "generado_ts": "2026-11-22T12:58:45-0800",
-  "motor": "MLB",
-  "fecha": "2026-11-22",
-  "tickets": []
+  "generado_ts": "2026-11-23T02:57:47-0800",
+  "motor": "CLIMA",
+  "fecha": "2026-11-23",
+  "tickets": [
+    {
+      "ticker": "KXHIGHCHI-26NOV23-B40.5",
+      "mercado": "40° to 41°",
+      "lado": "NO",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 78,
+      "edge_c": 21,
+      "max_pagable_c": 78,
+      "partido": "CHI",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-B66.5",
+      "mercado": "66° to 67°",
+      "lado": "NO",
+      "entrada_sugerida_c": 57,
+      "prob_modelo": 69,
+      "edge_c": 12,
+      "max_pagable_c": 69,
+      "partido": "NY",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV23-B81.5",
+      "mercado": "81° to 82°",
+      "lado": "NO",
+      "entrada_sugerida_c": 77,
+      "prob_modelo": 86,
+      "edge_c": 9,
+      "max_pagable_c": 86,
+      "partido": "MIA",
+      "sharp_ok": true,
+      "sharp_nota": "sin sharp aplicable (clima)"
+    }
+  ]
 }

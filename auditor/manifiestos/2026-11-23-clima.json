@@ -1,0 +1,193 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-23",
+  "corrida_ts": "2026-11-23T02:57:47-0800",
+  "precios_ts": "2026-11-23T10:57:40+0000",
+  "hash_salida_motor": "c2bd3c66ceb2049a",
+  "archivo_predicciones": "2026-11-23-clima.md",
+  "tickers": [
+    "KXHIGHCHI-26NOV23-B40.5",
+    "KXHIGHNY-26NOV23-B66.5",
+    "KXHIGHMIA-26NOV23-B81.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHCHI-26NOV23-B40.5",
+      "lado": "NO",
+      "mercado": "40° to 41°",
+      "entrada": 57,
+      "p_mod": 78,
+      "edge": 21,
+      "tp": 70,
+      "stop": 44,
+      "max_pagable": 78,
+      "tamano": 8.14,
+      "razonamiento": "CHI maxima 2026-11-23 — NO \"40° to 41°\" a 57c; ensemble n=119 media 42.5deg, NWS 42deg, confianza alta; edge +21c",
+      "partido": "CHI",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-B66.5",
+      "lado": "NO",
+      "mercado": "66° to 67°",
+      "entrada": 57,
+      "p_mod": 69,
+      "edge": 12,
+      "tp": 70,
+      "stop": 44,
+      "max_pagable": 69,
+      "tamano": 4.71,
+      "razonamiento": "NY maxima 2026-11-23 — NO \"66° to 67°\" a 57c; ensemble n=119 media 64.7deg, NWS 67deg, confianza alta; edge +12c",
+      "partido": "NY",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 2
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV23-B81.5",
+      "lado": "NO",
+      "mercado": "81° to 82°",
+      "entrada": 77,
+      "p_mod": 86,
+      "edge": 9,
+      "tp": 94,
+      "stop": 60,
+      "max_pagable": 86,
+      "tamano": 3.04,
+      "razonamiento": "MIA maxima 2026-11-23 — NO \"81° to 82°\" a 77c; ensemble n=119 media 79.1deg, NWS 80deg, confianza media; edge +9c",
+      "partido": "MIA",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 3
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHCHI-26NOV23-B42.5",
+      "mercado": "42° to 43°",
+      "entrada": 44,
+      "p_mod": 52,
+      "edge": 8,
+      "motivo": "correlacion: NO (+21c) es la unica expresion de CHI",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHCHI-26NOV23-B44.5",
+      "mercado": "44° to 45°",
+      "entrada": 10,
+      "p_mod": 23,
+      "edge": 13,
+      "motivo": "correlacion: NO (+21c) es la unica expresion de CHI",
+      "partido": "CHI"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-B64.5",
+      "mercado": "64° to 65°",
+      "entrada": 7,
+      "p_mod": 51,
+      "edge": 44,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-B68.5",
+      "mercado": "68° to 69°",
+      "entrada": 57,
+      "p_mod": 99,
+      "edge": 42,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 93,
+      "p_mod": 100,
+      "edge": 7,
+      "motivo": "correlacion: NO (+12c) es la unica expresion de NY",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-T64",
+      "mercado": "63° or below",
+      "entrada": 1,
+      "p_mod": 17,
+      "edge": 16,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "NY"
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV23-B77.5",
+      "mercado": "77° to 78°",
+      "entrada": 22,
+      "p_mod": 29,
+      "edge": 7,
+      "motivo": "flag: BORDE-CERCANO(0.66°-del-corte)",
+      "partido": "MIA"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV23-B40.5",
+      "mercado": "40° to 41°",
+      "entrada": 22,
+      "p_mod": 57,
+      "edge": 35,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV23-T40",
+      "mercado": "39° or below",
+      "entrada": 33,
+      "p_mod": 67,
+      "edge": 34,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "DEN"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHCHI-26NOV23-B40.5",
+      "lado": "NO",
+      "mercado": "40° to 41°",
+      "entrada": 57,
+      "p_mod": 78,
+      "edge": 21,
+      "tp": 70,
+      "stop": 44,
+      "max_pagable": 78,
+      "tamano": 8.14,
+      "partido": "CHI",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHNY-26NOV23-B66.5",
+      "lado": "NO",
+      "mercado": "66° to 67°",
+      "entrada": 57,
+      "p_mod": 69,
+      "edge": 12,
+      "tp": 70,
+      "stop": 44,
+      "max_pagable": 69,
+      "tamano": 4.71,
+      "partido": "NY",
+      "flags": ""
+    },
+    {
+      "ticker": "KXHIGHMIA-26NOV23-B81.5",
+      "lado": "NO",
+      "mercado": "81° to 82°",
+      "entrada": 77,
+      "p_mod": 86,
+      "edge": 9,
+      "tp": 94,
+      "stop": 60,
+      "max_pagable": 86,
+      "tamano": 3.04,
+      "partido": "MIA",
+      "flags": ""
+    }
+  ]
+}
