@@ -1,0 +1,93 @@
+{
+  "modelo": "CLIMA",
+  "fecha": "2026-11-24",
+  "corrida_ts": "2026-11-24T09:47:21-0800",
+  "precios_ts": "2026-11-24T17:47:15+0000",
+  "hash_salida_motor": "dd9d07704be9f920",
+  "archivo_predicciones": "2026-11-24-clima.md",
+  "tickers": [
+    "KXHIGHDEN-26NOV24-B48.5"
+  ],
+  "picks": [
+    {
+      "ticker": "KXHIGHDEN-26NOV24-B48.5",
+      "lado": "YES",
+      "mercado": "48° to 49°",
+      "entrada": 3,
+      "p_mod": 13,
+      "edge": 10,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 13,
+      "tamano": 1.72,
+      "razonamiento": "DEN maxima 2026-11-24 — YES \"48° to 49°\" a 3c; ensemble n=119 media 51.0deg, NWS 51deg, confianza alta; edge +10c",
+      "partido": "DEN",
+      "flags": "",
+      "motivo_seleccion": "edge",
+      "idx": 1
+    }
+  ],
+  "descartados": [
+    {
+      "ticker": "KXHIGHDEN-26NOV24-B50.5",
+      "mercado": "50° to 51°",
+      "entrada": 39,
+      "p_mod": 51,
+      "edge": 12,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHDEN-26NOV24-B52.5",
+      "mercado": "52° to 53°",
+      "entrada": 43,
+      "p_mod": 68,
+      "edge": 25,
+      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
+      "partido": "DEN"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV24-B53.5",
+      "mercado": "53° to 54°",
+      "entrada": 1,
+      "p_mod": 86,
+      "edge": 85,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV24-B55.5",
+      "mercado": "55° to 56°",
+      "entrada": 1,
+      "p_mod": 48,
+      "edge": 47,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    },
+    {
+      "ticker": "KXHIGHPHIL-26NOV24-T56",
+      "mercado": "57° or above",
+      "entrada": 1,
+      "p_mod": 38,
+      "edge": 37,
+      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
+      "partido": "PHIL"
+    }
+  ],
+  "candidatos_limpios": [
+    {
+      "ticker": "KXHIGHDEN-26NOV24-B48.5",
+      "lado": "YES",
+      "mercado": "48° to 49°",
+      "entrada": 3,
+      "p_mod": 13,
+      "edge": 10,
+      "tp": 4,
+      "stop": 2,
+      "max_pagable": 13,
+      "tamano": 1.72,
+      "partido": "DEN",
+      "flags": ""
+    }
+  ]
+}
