@@ -1,27 +1,27 @@
 {
   "modelo": "CLIMA",
   "fecha": "2026-11-24",
-  "corrida_ts": "2026-11-24T09:47:21-0800",
-  "precios_ts": "2026-11-24T17:47:15+0000",
-  "hash_salida_motor": "dd9d07704be9f920",
+  "corrida_ts": "2026-11-24T12:58:25-0800",
+  "precios_ts": "2026-11-24T20:58:17+0000",
+  "hash_salida_motor": "5ed154e244767607",
   "archivo_predicciones": "2026-11-24-clima.md",
   "tickers": [
-    "KXHIGHDEN-26NOV24-B48.5"
+    "KXHIGHLAX-26NOV24-B74.5"
   ],
   "picks": [
     {
-      "ticker": "KXHIGHDEN-26NOV24-B48.5",
-      "lado": "YES",
-      "mercado": "48° to 49°",
-      "entrada": 3,
-      "p_mod": 13,
-      "edge": 10,
-      "tp": 4,
-      "stop": 2,
-      "max_pagable": 13,
-      "tamano": 1.72,
-      "razonamiento": "DEN maxima 2026-11-24 — YES \"48° to 49°\" a 3c; ensemble n=119 media 51.0deg, NWS 51deg, confianza alta; edge +10c",
-      "partido": "DEN",
+      "ticker": "KXHIGHLAX-26NOV24-B74.5",
+      "lado": "NO",
+      "mercado": "74° to 75°",
+      "entrada": 82,
+      "p_mod": 91,
+      "edge": 9,
+      "tp": 97,
+      "stop": 64,
+      "max_pagable": 91,
+      "tamano": 8.46,
+      "razonamiento": "LAX maxima 2026-11-24 — NO \"74° to 75°\" a 82c; ensemble n=119 media 71.2deg, NWS 72deg, confianza alta; edge +9c",
+      "partido": "LAX",
       "flags": "",
       "motivo_seleccion": "edge",
       "idx": 1
@@ -29,22 +29,31 @@
   ],
   "descartados": [
     {
-      "ticker": "KXHIGHDEN-26NOV24-B50.5",
-      "mercado": "50° to 51°",
-      "entrada": 39,
-      "p_mod": 51,
-      "edge": 12,
-      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
-      "partido": "DEN"
+      "ticker": "KXHIGHLAX-26NOV24-B68.5",
+      "mercado": "68° to 69°",
+      "entrada": 1,
+      "p_mod": 17,
+      "edge": 16,
+      "motivo": "flag: SIN-RECORRIDO(TP 1¢ = entrada 1¢)",
+      "partido": "LAX"
     },
     {
-      "ticker": "KXHIGHDEN-26NOV24-B52.5",
-      "mercado": "52° to 53°",
-      "entrada": 43,
-      "p_mod": 68,
-      "edge": 25,
-      "motivo": "flag: BORDE-CERCANO(0.36°-del-corte)",
-      "partido": "DEN"
+      "ticker": "KXHIGHLAX-26NOV24-B70.5",
+      "mercado": "70° to 71°",
+      "entrada": 1,
+      "p_mod": 33,
+      "edge": 32,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
+    },
+    {
+      "ticker": "KXHIGHLAX-26NOV24-B72.5",
+      "mercado": "72° to 73°",
+      "entrada": 19,
+      "p_mod": 62,
+      "edge": 43,
+      "motivo": "flag: SOSPECHOSO(revisar-a-mano)",
+      "partido": "LAX"
     },
     {
       "ticker": "KXHIGHPHIL-26NOV24-B53.5",
@@ -76,17 +85,17 @@
   ],
   "candidatos_limpios": [
     {
-      "ticker": "KXHIGHDEN-26NOV24-B48.5",
-      "lado": "YES",
-      "mercado": "48° to 49°",
-      "entrada": 3,
-      "p_mod": 13,
-      "edge": 10,
-      "tp": 4,
-      "stop": 2,
-      "max_pagable": 13,
-      "tamano": 1.72,
-      "partido": "DEN",
+      "ticker": "KXHIGHLAX-26NOV24-B74.5",
+      "lado": "NO",
+      "mercado": "74° to 75°",
+      "entrada": 82,
+      "p_mod": 91,
+      "edge": 9,
+      "tp": 97,
+      "stop": 64,
+      "max_pagable": 91,
+      "tamano": 8.46,
+      "partido": "LAX",
       "flags": ""
     }
   ]
