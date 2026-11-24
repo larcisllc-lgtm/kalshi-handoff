@@ -1,0 +1,12 @@
+{
+  "modelo": "MLB",
+  "fecha": "2026-11-24",
+  "corrida_ts": "2026-11-24T09:47:22-0800",
+  "precios_ts": null,
+  "hash_salida_motor": "dfcdccde8c2b41c7",
+  "archivo_predicciones": "2026-11-24-mlb.md",
+  "tickers": [],
+  "picks": [],
+  "descartados": [],
+  "candidatos_limpios": []
+}
