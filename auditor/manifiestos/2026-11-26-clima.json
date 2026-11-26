@@ -1,137 +1,56 @@
 {
   "modelo": "CLIMA",
   "fecha": "2026-11-26",
-  "corrida_ts": "2026-11-26T03:31:29-0800",
-  "precios_ts": "2026-11-26T11:30:19+0000",
-  "hash_salida_motor": "003727b0e5eb3e8b",
+  "corrida_ts": "2026-11-26T11:57:26-0800",
+  "precios_ts": "2026-11-26T19:57:21+0000",
+  "hash_salida_motor": "43831bdb8b447a2e",
   "archivo_predicciones": "2026-11-26-clima.md",
   "tickers": [
-    "KXHIGHCHI-26NOV26-B42.5",
-    "KXHIGHDEN-26NOV26-T61"
+    "KXHIGHDEN-26NOV26-B56.5"
   ],
   "picks": [
     {
-      "ticker": "KXHIGHCHI-26NOV26-B42.5",
+      "ticker": "KXHIGHDEN-26NOV26-B56.5",
       "lado": "YES",
-      "mercado": "42° to 43°",
-      "entrada": 4,
-      "p_mod": 14,
-      "edge": 10,
-      "tp": 5,
-      "stop": 3,
-      "max_pagable": 14,
-      "tamano": 1.63,
-      "razonamiento": "CHI maxima 2026-11-26 — YES \"42° to 43°\" a 4c; ensemble n=119 media 45.1deg, NWS 45deg, confianza alta; edge +10c",
-      "partido": "CHI",
-      "flags": "",
-      "motivo_seleccion": "edge",
-      "idx": 1
-    },
-    {
-      "ticker": "KXHIGHDEN-26NOV26-T61",
-      "lado": "NO",
-      "mercado": "62° or above",
-      "entrada": 79,
-      "p_mod": 95,
-      "edge": 16,
-      "tp": 96,
-      "stop": 62,
-      "max_pagable": 95,
-      "tamano": 12.51,
-      "razonamiento": "DEN maxima 2026-11-26 — NO \"62° or above\" a 79c; ensemble n=119 media 59.3deg, NWS 59deg, confianza alta; edge +16c",
+      "mercado": "56° to 57°",
+      "entrada": 5,
+      "p_mod": 16,
+      "edge": 11,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 16,
+      "tamano": 1.94,
+      "razonamiento": "DEN maxima 2026-11-26 — YES \"56° to 57°\" a 5c; ensemble n=119 media 58.7deg, NWS 59deg, confianza alta; edge +11c",
       "partido": "DEN",
       "flags": "",
       "motivo_seleccion": "edge",
-      "idx": 2
+      "idx": 1
     }
   ],
   "descartados": [
     {
-      "ticker": "KXHIGHLAX-26NOV26-B78.5",
-      "mercado": "78° to 79°",
-      "entrada": 11,
-      "p_mod": 32,
-      "edge": 21,
-      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
-      "partido": "LAX"
-    },
-    {
-      "ticker": "KXHIGHLAX-26NOV26-B80.5",
-      "mercado": "80° to 81°",
-      "entrada": 48,
-      "p_mod": 69,
-      "edge": 21,
-      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
-      "partido": "LAX"
-    },
-    {
-      "ticker": "KXHIGHLAX-26NOV26-B82.5",
-      "mercado": "82° to 83°",
-      "entrada": 72,
-      "p_mod": 88,
-      "edge": 16,
-      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
-      "partido": "LAX"
-    },
-    {
-      "ticker": "KXHIGHLAX-26NOV26-T78",
-      "mercado": "77° or below",
-      "entrada": 2,
-      "p_mod": 25,
-      "edge": 23,
-      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
-      "partido": "LAX"
-    },
-    {
-      "ticker": "KXHIGHCHI-26NOV26-B44.5",
-      "mercado": "44° to 45°",
-      "entrada": 45,
-      "p_mod": 52,
-      "edge": 7,
-      "motivo": "flag: BORDE-CERCANO(0.30°-del-corte)",
-      "partido": "CHI"
-    },
-    {
-      "ticker": "KXHIGHNY-26NOV26-B56.5",
-      "mercado": "56° to 57°",
-      "entrada": 91,
-      "p_mod": 100,
-      "edge": 9,
-      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
-      "partido": "NY"
-    },
-    {
-      "ticker": "KXHIGHNY-26NOV26-T56",
-      "mercado": "55° or below",
-      "entrada": 84,
-      "p_mod": 100,
-      "edge": 16,
-      "motivo": "flag: CONFIANZA-BAJA (edges capados)",
-      "partido": "NY"
-    },
-    {
       "ticker": "KXHIGHDEN-26NOV26-B58.5",
       "mercado": "58° to 59°",
       "entrada": 29,
-      "p_mod": 49,
-      "edge": 20,
-      "motivo": "flag: BORDE-CERCANO(0.26°-del-corte)",
+      "p_mod": 51,
+      "edge": 22,
+      "motivo": "flag: BORDE-CERCANO(0.56°-del-corte)",
       "partido": "DEN"
     },
     {
       "ticker": "KXHIGHDEN-26NOV26-B60.5",
       "mercado": "60° to 61°",
-      "entrada": 55,
-      "p_mod": 62,
-      "edge": 7,
-      "motivo": "flag: BORDE-CERCANO(0.26°-del-corte)",
+      "entrada": 20,
+      "p_mod": 33,
+      "edge": 13,
+      "motivo": "flag: BORDE-CERCANO(0.56°-del-corte)",
       "partido": "DEN"
     },
     {
       "ticker": "KXHIGHPHIL-26NOV26-B57.5",
       "mercado": "57° to 58°",
-      "entrada": 9,
-      "p_mod": 35,
+      "entrada": 20,
+      "p_mod": 46,
       "edge": 26,
       "motivo": "flag: CONFIANZA-BAJA (edges capados)",
       "partido": "PHIL"
@@ -139,57 +58,43 @@
     {
       "ticker": "KXHIGHPHIL-26NOV26-B59.5",
       "mercado": "59° to 60°",
-      "entrada": 3,
-      "p_mod": 40,
-      "edge": 37,
+      "entrada": 4,
+      "p_mod": 36,
+      "edge": 32,
       "motivo": "flag: CONFIANZA-BAJA (edges capados)",
       "partido": "PHIL"
     },
     {
       "ticker": "KXHIGHPHIL-26NOV26-B61.5",
       "mercado": "61° to 62°",
-      "entrada": 3,
-      "p_mod": 23,
-      "edge": 20,
+      "entrada": 1,
+      "p_mod": 12,
+      "edge": 11,
       "motivo": "flag: CONFIANZA-BAJA (edges capados)",
       "partido": "PHIL"
     },
     {
       "ticker": "KXHIGHPHIL-26NOV26-T57",
       "mercado": "56° or below",
-      "entrada": 14,
-      "p_mod": 98,
-      "edge": 84,
+      "entrada": 30,
+      "p_mod": 94,
+      "edge": 64,
       "motivo": "flag: CONFIANZA-BAJA (edges capados)",
       "partido": "PHIL"
     }
   ],
   "candidatos_limpios": [
     {
-      "ticker": "KXHIGHCHI-26NOV26-B42.5",
+      "ticker": "KXHIGHDEN-26NOV26-B56.5",
       "lado": "YES",
-      "mercado": "42° to 43°",
-      "entrada": 4,
-      "p_mod": 14,
-      "edge": 10,
-      "tp": 5,
-      "stop": 3,
-      "max_pagable": 14,
-      "tamano": 1.63,
-      "partido": "CHI",
-      "flags": ""
-    },
-    {
-      "ticker": "KXHIGHDEN-26NOV26-T61",
-      "lado": "NO",
-      "mercado": "62° or above",
-      "entrada": 79,
-      "p_mod": 95,
-      "edge": 16,
-      "tp": 96,
-      "stop": 62,
-      "max_pagable": 95,
-      "tamano": 12.51,
+      "mercado": "56° to 57°",
+      "entrada": 5,
+      "p_mod": 16,
+      "edge": 11,
+      "tp": 6,
+      "stop": 4,
+      "max_pagable": 16,
+      "tamano": 1.94,
       "partido": "DEN",
       "flags": ""
     }
