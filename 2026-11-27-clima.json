@@ -1,52 +1,16 @@
 {
-  "generado_ts": "2026-11-27T04:00:41-0800",
+  "generado_ts": "2026-11-27T11:46:08-0800",
   "motor": "CLIMA",
   "fecha": "2026-11-27",
   "tickets": [
     {
-      "ticker": "KXHIGHLAX-26NOV27-B79.5",
-      "mercado": "79° to 80°",
+      "ticker": "KXHIGHAUS-26NOV27-B68.5",
+      "mercado": "68° to 69°",
       "lado": "YES",
-      "entrada_sugerida_c": 11,
-      "prob_modelo": 25,
-      "edge_c": 14,
-      "max_pagable_c": 25,
-      "partido": "LAX",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHCHI-26NOV27-B43.5",
-      "mercado": "43° to 44°",
-      "lado": "YES",
-      "entrada_sugerida_c": 10,
-      "prob_modelo": 17,
+      "entrada_sugerida_c": 37,
+      "prob_modelo": 44,
       "edge_c": 7,
-      "max_pagable_c": 17,
-      "partido": "CHI",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHDEN-26NOV27-B64.5",
-      "mercado": "64° to 65°",
-      "lado": "NO",
-      "entrada_sugerida_c": 66,
-      "prob_modelo": 85,
-      "edge_c": 19,
-      "max_pagable_c": 85,
-      "partido": "DEN",
-      "sharp_ok": true,
-      "sharp_nota": "sin sharp aplicable (clima)"
-    },
-    {
-      "ticker": "KXHIGHAUS-26NOV27-B70.5",
-      "mercado": "70° to 71°",
-      "lado": "NO",
-      "entrada_sugerida_c": 48,
-      "prob_modelo": 76,
-      "edge_c": 28,
-      "max_pagable_c": 76,
+      "max_pagable_c": 44,
       "partido": "AUS",
       "sharp_ok": true,
       "sharp_nota": "sin sharp aplicable (clima)"
